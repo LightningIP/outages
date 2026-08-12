@@ -8,12 +8,12 @@
 	"lifecycle": {
 		"created_at": "2026-08-11T00:35:15.849Z",
 		"opened_at": "2026-07-22T01:24:44.992Z",
-		"scheduled_start": "2026-08-07T14:00:00.000Z",
-		"scheduled_end": "2026-08-07T16:00:00.000Z",
-		"estimated_restoration_at": "2026-08-07T16:00:00.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-11T00:35:15.849Z"
+		"updated_at": "2026-08-12T04:26:12.107Z"
 	},
 	"impact": {
 		"customer_impact": true,
@@ -38,7 +38,7 @@
 		"count": 1
 	},
 	"cause": {
-		"high_level": "maintenance activity",
+		"high_level": null,
 		"detailed_cause": null,
 		"root_cause": null,
 		"weather_related": null,
@@ -46,12 +46,18 @@
 		"power_related": null,
 		"root_cause_confirmed": null
 	},
-	"current_summary": "Planned works on our core network will move NBN services connected via the Ringwood (3RWO) and Lilydale (3LIL) POIs in Melbourne to a new router at Exhibition Exchange. The maintenance window is Friday 8 August from 12:00 AM to 2:00 AM AEST. Services on these POIs may experience one or more interruptions, with total disruption of up to 2 hours during the window.",
+	"current_summary": null,
 	"updates": [
 		{
 			"update_time": "2026-07-28T11:59:25.675+10:00",
 			"update_type": "initial_update",
 			"content": "We will be performing planned maintenance affecting some NBN services connected via the Ringwood (3RWO) and Lilydale (3LIL) Points of Interconnect in Melbourne. This work is scheduled for Friday 8 August from 12:00 AM to 2:00 AM AEST. During this window, services may experience one or more interruptions, with total impact of up to 2 hours while we move services to a new router at Exhibition Exchange. No action is required from you. We’ll work to keep any disruption as brief as possible and will provide an update once the work is complete.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-12T13:50:03.711+10:00",
+			"update_type": "vendor_update",
+			"content": "The vendor posted additional updates during the scheduled maintenance window on 2026-08-08 (00:00–02:00 AEST). These updates do not change the scheduled window or the previously published estimated restoration time. No cancellation or resolution has been reported.",
 			"material_change": true
 		}
 	]
