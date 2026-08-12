@@ -1,1 +1,61 @@
-{"outage_reference":"MNT-1KZNSX1RJ","title":"NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair","outage_type":"maintenance","status":"scheduled","severity":null,"planned":true,"lifecycle":{"created_at":"2026-08-10T12:21:02.898Z","opened_at":"2026-08-04T05:59:37.100Z","scheduled_start":"2026-08-18T13:00:00.000Z","scheduled_end":"2026-08-18T21:00:00.000Z","estimated_restoration_at":"2026-08-18T21:00:00.000Z","actual_restoration_at":null,"resolved_at":null,"updated_at":"2026-08-10T12:21:02.898Z"},"impact":{"customer_impact":true,"operational_impact":true,"impact_scope":"state"},"geography":{"states":["QLD"],"suburbs":["PELICAN WATERS","WAVELL HEIGHTS"],"postcodes":["4012","4551"]},"services":{"service_types":["NBN - FTTP","NBN - HFC"],"count":1},"cause":{"high_level":"maintenance activity","detailed_cause":null,"root_cause":null,"weather_related":null,"third_party_damage":null,"power_related":null,"root_cause_confirmed":null},"current_summary":"An upstream provider will be repairing a fibre splice enclosure that supports backhaul to several QLD nbn POIs (Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie, Toowoomba, Aspley Depot). This work is scheduled from 11:00 PM AEST on 18 August to 7:00 AM AEST on 19 August. nbn services at these POIs may experience interruptions for up to 8 hours within this window. We will monitor progress and work to minimise impact. Services are expected to be restored by 7:00 AM AEST.","updates":[{"update_time":"2026-08-04T15:59:37.115+10:00","update_type":"initial_update","content":"We will be carrying out planned works with a network partner affecting nbn services at several QLD POIs: Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie, Toowoomba and Aspley Depot. The maintenance window is from 11:00 PM AEST on 18 August to 7:00 AM AEST on 19 August.\n\nDuring this window, services at the listed locations may be interrupted for up to 8 hours while a fibre splice enclosure is repaired. We will monitor the work closely and aim to minimise any downtime. We expect services to be back to normal by 7:00 AM AEST.\n\nWe know service interruptions can be frustrating and we appreciate your patience.","material_change":true}]}
+{
+	"outage_reference": "MNT-1KZNSX1RJ",
+	"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-10T12:21:02.898Z",
+		"opened_at": "2026-08-04T05:59:37.100Z",
+		"scheduled_start": "2026-08-18T13:00:00.000Z",
+		"scheduled_end": "2026-08-18T21:00:00.000Z",
+		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-10T12:21:02.898Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": true,
+		"impact_scope": "state"
+	},
+	"geography": {
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"PELICAN WATERS",
+			"WAVELL HEIGHTS"
+		],
+		"postcodes": [
+			"4012",
+			"4551"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
+		"count": 1
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "An upstream provider will be repairing a fibre splice enclosure that supports backhaul to several QLD nbn POIs (Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie, Toowoomba, Aspley Depot). This work is scheduled from 11:00 PM AEST on 18 August to 7:00 AM AEST on 19 August. nbn services at these POIs may experience interruptions for up to 8 hours within this window. We will monitor progress and work to minimise impact. Services are expected to be restored by 7:00 AM AEST.",
+	"updates": [
+		{
+			"update_time": "2026-08-04T15:59:37.115+10:00",
+			"update_type": "initial_update",
+			"content": "We will be carrying out planned works with a network partner affecting nbn services at several QLD POIs: Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie, Toowoomba and Aspley Depot. The maintenance window is from 11:00 PM AEST on 18 August to 7:00 AM AEST on 19 August.\n\nDuring this window, services at the listed locations may be interrupted for up to 8 hours while a fibre splice enclosure is repaired. We will monitor the work closely and aim to minimise any downtime. We expect services to be back to normal by 7:00 AM AEST.\n\nWe know service interruptions can be frustrating and we appreciate your patience.",
+			"material_change": true
+		}
+	]
+}
