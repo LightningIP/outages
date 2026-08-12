@@ -1,1 +1,43 @@
-{"outage_reference":"MNT-1KZQ4E02Q","title":"Young  NSW - Maintain the Network","outage_type":"maintenance","status":"scheduled","severity":null,"planned":true,"lifecycle":{"created_at":"2026-08-11T00:44:18.412Z","opened_at":"2026-08-08T20:37:10.442Z","scheduled_start":"2026-08-10T14:00:00.000Z","scheduled_end":"2026-08-10T20:00:00.000Z","estimated_restoration_at":"2026-08-10T20:00:00.000Z","actual_restoration_at":null,"resolved_at":null,"updated_at":"2026-08-11T00:44:18.412Z"},"impact":{"customer_impact":true,"operational_impact":false,"impact_scope":"local"},"geography":{"states":null,"suburbs":null,"postcodes":null},"services":{"service_types":null,"count":1},"cause":{"high_level":"maintenance activity","detailed_cause":null,"root_cause":null,"weather_related":null,"third_party_damage":null,"power_related":null,"root_cause_confirmed":null},"current_summary":"Planned maintenance on the access network in Young, NSW is scheduled between 12:00 AM and 6:00 AM AEST on 11 August 2026. Customers in the area may lose connection during this window (up to 3 hours of interruption expected). Works involve relocating and splicing fibre cables.","updates":null}
+{
+	"outage_reference": "MNT-1KZQ4E02Q",
+	"title": "Young  NSW - Maintain the Network",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-11T00:44:18.412Z",
+		"opened_at": "2026-08-08T20:37:10.442Z",
+		"scheduled_start": "2026-08-10T14:00:00.000Z",
+		"scheduled_end": "2026-08-10T20:00:00.000Z",
+		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-11T00:44:18.412Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"services": {
+		"service_types": null,
+		"count": 1
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "Planned maintenance on the access network in Young, NSW is scheduled between 12:00 AM and 6:00 AM AEST on 11 August 2026. Customers in the area may lose connection during this window (up to 3 hours of interruption expected). Works involve relocating and splicing fibre cables.",
+	"updates": null
+}
