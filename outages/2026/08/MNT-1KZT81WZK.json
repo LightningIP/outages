@@ -1,0 +1,58 @@
+{
+	"outage_reference": "MNT-1KZT81WZK",
+	"title": "NBN POI 4CAB (CABOOLTURE) 4IPS (Ipswich) NNI Rehoming",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-12T05:45:19.626Z",
+		"opened_at": "2026-07-22T01:48:08.305Z",
+		"scheduled_start": "2026-08-12T14:00:00.000Z",
+		"scheduled_end": "2026-08-12T16:00:00.000Z",
+		"estimated_restoration_at": "2026-08-12T16:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-12T05:45:19.626Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "regional"
+	},
+	"geography": {
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"PELICAN WATERS"
+		],
+		"postcodes": [
+			"4551"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"count": 1
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "Planned works will move NBN services on the Caboolture (4CAB) and Ipswich (4IPS) POIs in Brisbane to a new router between 12:00 AM and 2:00 AM AEST on Thursday, 13 August 2026. Some NBN customers served by these POIs may experience brief interruptions during the window. Our team will monitor throughout and work to restore services quickly, with all activity expected to be complete by 2:00 AM AEST.",
+	"updates": [
+		{
+			"update_time": "2026-07-28T12:03:14.693+10:00",
+			"update_type": "initial_update",
+			"content": "We have scheduled maintenance affecting NBN services delivered via the Caboolture (4CAB) and Ipswich (4IPS) POIs in Brisbane. This work will take place on Thursday, 13 August, between 12:00 AM and 2:00 AM AEST. Some customers on these POIs may experience brief interruptions while we move connections to a new router. We will monitor closely and aim to keep any downtime to a minimum. Services are expected to be fully restored by 2:00 AM AEST. Note: these works have been rescheduled to this time.",
+			"material_change": true
+		}
+	]
+}
