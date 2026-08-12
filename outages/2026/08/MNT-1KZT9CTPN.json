@@ -1,0 +1,58 @@
+{
+	"outage_reference": "MNT-1KZT9CTPN",
+	"title": "Young  NSW - Maintain the Network",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-12T06:08:46.307Z",
+		"opened_at": "2026-08-08T20:37:10.442Z",
+		"scheduled_start": "2026-08-10T14:00:00.000Z",
+		"scheduled_end": "2026-08-10T20:00:00.000Z",
+		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-12T06:08:46.307Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YOUNG"
+		],
+		"postcodes": [
+			"2594"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTN"
+		],
+		"count": 1
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "Planned works on the access network in Young, NSW are scheduled for 12:00 AM–6:00 AM AEST on 11 August 2026. Services in this area may lose connection during the window. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor progress and confirm once services are back. Services are expected to be restored by 6:00 AM AEST.",
+	"updates": [
+		{
+			"update_time": "2026-08-09T06:37:10.446+10:00",
+			"update_type": "initial_update",
+			"content": "Planned works on the access network in Young, NSW are scheduled for 11 August 2026 between 12:00 AM and 6:00 AM AEST. During this window, some services may go offline. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor the works and provide an update once services are restored. If you need to stay online, consider using mobile data where available. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
