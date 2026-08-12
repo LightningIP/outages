@@ -1,0 +1,61 @@
+{
+	"outage_reference": "MNT-1KZT7VXMV",
+	"title": "NBN POI 2MYF (Mayfield) Splice Relocation",
+	"outage_type": "maintenance",
+	"status": "resolved",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-12T05:42:03.680Z",
+		"opened_at": "2026-07-27T03:52:03.247Z",
+		"scheduled_start": "2026-08-09T14:00:00.000Z",
+		"scheduled_end": "2026-08-09T21:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-12T05:42:03.680Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BENDOLBA",
+			"SMITHS LAKE"
+		],
+		"postcodes": [
+			"2420",
+			"2428"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTN",
+			"NBN - Fixed Wireless"
+		],
+		"count": 2
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "Planned works at the NBN Mayfield (2MYF) POI are complete. Customers with NBN services connected via this POI in NSW may have experienced interruptions between 12:00 AM and 7:00 AM AEST on 10 August 2026. Services are now operating normally and we are monitoring.",
+	"updates": [
+		{
+			"update_time": "2026-08-10T07:00:00.000+10:00",
+			"update_type": "initial_update",
+			"content": "Planned works at the NBN Mayfield (2MYF) Point of Interconnect have finished. Some NBN services connected via this POI may have been interrupted during the 12:00 AM to 7:00 AM AEST window on 10 August 2026. Services are now operating normally and we are monitoring. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
