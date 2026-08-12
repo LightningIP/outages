@@ -1,10 +1,10 @@
 [
 	{
-		"outage_reference": "MNT-1KZQ3SDC1",
+		"outage_reference": "MNT-1KZT7T660",
 		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
 		"outage_type": "maintenance",
 		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZQ3SDC1.json",
+		"record_path": "outages/2026/08/MNT-1KZT7T660.json",
 		"opened_at": "2026-08-09T08:38:20.699Z",
 		"estimated_restoration_at": "2026-09-07T16:00:00.000Z",
 		"states": [
@@ -20,45 +20,64 @@
 			"NBN - FTTP"
 		],
 		"service_count": 1,
-		"current_summary": "Planned maintenance will move nbn services connected to the Hawthorn (3HAW) POI in Melbourne to a new router at Exhibition Exchange. Work is scheduled from 12:00 AM to 2:00 AM AEST on 8 September. Customers with nbn services on this POI may experience interruptions during the window, for up to 2 hours. Our team will complete the change and monitor services to restore connectivity as soon as the work is finished."
+		"current_summary": "Planned maintenance will occur at the NBN Hawthorn (3HAW) POI in Melbourne on Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. NBN services served by this POI may be disrupted during the window (up to 2 hours) while services are moved to new network equipment. Services should restore automatically after the window."
 	},
 	{
-		"outage_reference": "MNT-1KZNT1C5D",
-		"title": "NBN POI 4NER (Nerang) Cable Replacement Works",
+		"outage_reference": "MNT-1KZT7ZZ4F",
+		"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
 		"outage_type": "maintenance",
 		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZNT1C5D.json",
-		"opened_at": "2026-07-27T03:55:20.124Z",
-		"estimated_restoration_at": null,
+		"record_path": "outages/2026/08/MNT-1KZT7ZZ4F.json",
+		"opened_at": "2026-08-04T05:59:37.100Z",
+		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
 		"states": [
-			"NSW",
 			"QLD"
 		],
 		"suburbs": [
-			"COOMERA",
-			"LAVINGTON",
-			"MUDGEERABA",
-			"PIMPAMA"
+			"WAVELL HEIGHTS"
 		],
 		"postcodes": [
-			"2641",
-			"4209",
-			"4213"
+			"4012"
 		],
 		"service_types": [
-			"NBN - FTTC",
-			"NBN - FTTP"
+			"NBN - HFC"
 		],
-		"service_count": 3,
-		"current_summary": "The planned backhaul cable replacement at the Nerang (4NER) POI has been rescheduled. Upstream notifications now show the maintenance occurring from 2026-09-02T14:00:00Z to 2026-09-02T20:00:00Z (00:00–06:00 AEST on 3 September 2026). One upstream notification for the earlier August window was removed; we are monitoring and will advise of any further changes."
+		"service_count": 1,
+		"current_summary": "Planned works by an upstream provider will replace a splice enclosure serving multiple Queensland NBN Points of Interconnect. The maintenance window is Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time). Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during the window. Our team will monitor the network and work with our partner to minimise impact. Services are expected to be restored by 7:00 AM AEST."
 	},
 	{
-		"outage_reference": "MNT-1KZQ5V5KX",
+		"outage_reference": "MNT-1KZT840F3",
+		"title": "NBN POI 4CAB (Caboolture), 4APL (Aspley) - Cable Relocation and Replacement",
+		"outage_type": "maintenance",
+		"status": "scheduled",
+		"record_path": "outages/2026/08/MNT-1KZT840F3.json",
+		"opened_at": "2026-08-04T06:03:14.536Z",
+		"estimated_restoration_at": "2026-08-16T21:00:00.000Z",
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"PELICAN WATERS",
+			"WAVELL HEIGHTS"
+		],
+		"postcodes": [
+			"4012",
+			"4551"
+		],
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
+		"service_count": 2,
+		"current_summary": "An upstream provider will relocate and replace a cable affecting backhaul to the NBN 4CAB (Caboolture) and 4APL (Aspley) POIs. NBN services in these areas may be affected for up to 8 hours during the window: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST. We will monitor the works and aim to minimise impact. Services are expected to restore once the maintenance is complete."
+	},
+	{
+		"outage_reference": "MNT-1KZT9FA2D",
 		"title": "National - Maintain the Network",
 		"outage_type": "maintenance",
 		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZQ5V5KX.json",
-		"opened_at": "2026-08-11T00:25:57.304Z",
+		"record_path": "outages/2026/08/MNT-1KZT9FA2D.json",
+		"opened_at": "2026-08-12T05:28:16.684Z",
 		"estimated_restoration_at": null,
 		"states": [
 			"NSW",
@@ -66,20 +85,63 @@
 		],
 		"suburbs": [
 			"CORRYONG",
-			"SPRINGSIDE",
-			"YAMBA"
+			"SPRINGSIDE"
 		],
 		"postcodes": [
-			"2464",
 			"2800",
 			"3707"
 		],
 		"service_types": [
-			"NBN - FTTC",
-			"NBN - FTTP",
 			"NBN - Fixed Wireless"
 		],
 		"service_count": 2,
-		"current_summary": "Planned maintenance by an upstream access network provider will now occur on 14 August 2026 from 12:00 AM to 6:00 AM AEST. Some services may lose connectivity during this window. Our team will monitor progress and work with network partners to minimise impact."
+		"current_summary": "Urgent maintenance by an upstream provider is scheduled from 2:00 AM to 6:00 AM AEST on Friday 14 August 2026. A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST. Some services may lose connectivity during this window. We are monitoring and will provide updates if details change."
+	},
+	{
+		"outage_reference": "MNT-1KZT9MAE2",
+		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"status": "scheduled",
+		"record_path": "outages/2026/08/MNT-1KZT9MAE2.json",
+		"opened_at": "2026-08-12T05:28:16.669Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		],
+		"service_types": [
+			"NBN - FTTC",
+			"NBN - FTTP"
+		],
+		"service_count": 3,
+		"current_summary": "An upstream provider has scheduled network upgrade works affecting services in River St, Maclean NSW. The maintenance window is 12:00 AM to 6:00 AM local time on 14 August. One interruption of up to 5 hours is expected during this window, causing a temporary loss of connectivity for impacted services. The event is scheduled and we will monitor throughout."
+	},
+	{
+		"outage_reference": "MNT-1KZT9PN4P",
+		"title": " - Upgrade the Network",
+		"outage_type": "maintenance",
+		"status": "scheduled",
+		"record_path": "outages/2026/08/MNT-1KZT9PN4P.json",
+		"opened_at": "2026-08-12T05:28:16.695Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LAVINGTON"
+		],
+		"postcodes": [
+			"2641"
+		],
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"service_count": 2,
+		"current_summary": "An upstream provider will perform upgrade work on the access network. Some broadband services will briefly go offline during the maintenance window, with a single interruption of up to 45 minutes expected. Order processing and service changes may be delayed during and shortly after the work. Our team will monitor progress and update this notice when the activity is complete."
 	}
 ]
