@@ -1,1 +1,61 @@
-{"outage_reference":"MNT-1KZQ4A2CW","title":"NBN POI 4ROT (Rockhampton) NNI Rehoming","outage_type":"maintenance","status":"scheduled","severity":null,"planned":true,"lifecycle":{"created_at":"2026-08-11T00:42:09.708Z","opened_at":"2026-07-22T01:39:58.768Z","scheduled_start":"2026-08-04T14:00:00.000Z","scheduled_end":"2026-08-04T16:00:00.000Z","estimated_restoration_at":"2026-08-04T16:00:00.000Z","actual_restoration_at":null,"resolved_at":null,"updated_at":"2026-08-11T00:42:09.708Z"},"impact":{"customer_impact":true,"operational_impact":true,"impact_scope":null},"geography":{"states":["QLD"],"suburbs":["ALPHA","THE GAP"],"postcodes":["4724","4825"]},"services":{"service_types":["NBN - FTTN","NBN - FTTP"],"count":2},"cause":{"high_level":"maintenance activity","detailed_cause":null,"root_cause":null,"weather_related":null,"third_party_damage":null,"power_related":null,"root_cause_confirmed":null},"current_summary":"Scheduled maintenance will move nbn services off the Rockhampton (4ROT) POI to a new router. Customers with services on this POI may experience brief interruptions during the window: 12:00 AM to 2:00 AM AEST on 5 August 2026. Our team will monitor and restore services as works complete.","updates":[{"update_time":"2026-07-22T11:39:58.804+10:00","update_type":"initial_update","content":"We will be performing planned maintenance on our network affecting some nbn services delivered via the Rockhampton (4ROT) POI. The maintenance window is from 12:00 AM to 2:00 AM AEST on 5 August 2026. During this time, services may briefly drop as we move connections to a new router. We will work to keep any interruption as short as possible and will monitor throughout the window.","material_change":true}]}
+{
+	"outage_reference": "MNT-1KZQ4A2CW",
+	"title": "NBN POI 4ROT (Rockhampton) NNI Rehoming",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-11T00:42:09.708Z",
+		"opened_at": "2026-07-22T01:39:58.768Z",
+		"scheduled_start": "2026-08-04T14:00:00.000Z",
+		"scheduled_end": "2026-08-04T16:00:00.000Z",
+		"estimated_restoration_at": "2026-08-04T16:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-11T00:42:09.708Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": true,
+		"impact_scope": null
+	},
+	"geography": {
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"ALPHA",
+			"THE GAP"
+		],
+		"postcodes": [
+			"4724",
+			"4825"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTN",
+			"NBN - FTTP"
+		],
+		"count": 2
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "Scheduled maintenance will move nbn services off the Rockhampton (4ROT) POI to a new router. Customers with services on this POI may experience brief interruptions during the window: 12:00 AM to 2:00 AM AEST on 5 August 2026. Our team will monitor and restore services as works complete.",
+	"updates": [
+		{
+			"update_time": "2026-07-22T11:39:58.804+10:00",
+			"update_type": "initial_update",
+			"content": "We will be performing planned maintenance on our network affecting some nbn services delivered via the Rockhampton (4ROT) POI. The maintenance window is from 12:00 AM to 2:00 AM AEST on 5 August 2026. During this time, services may briefly drop as we move connections to a new router. We will work to keep any interruption as short as possible and will monitor throughout the window.",
+			"material_change": true
+		}
+	]
+}
