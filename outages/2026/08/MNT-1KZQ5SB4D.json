@@ -1,1 +1,58 @@
-{"outage_reference":"MNT-1KZQ5SB4D","title":"Lavington NSW - Remediate the Network","outage_type":"maintenance","status":"scheduled","severity":null,"planned":true,"lifecycle":{"created_at":"2026-08-11T01:07:58.761Z","opened_at":"2026-08-02T22:00:19.903Z","scheduled_start":"2026-08-02T23:00:00.000Z","scheduled_end":"2026-08-03T07:00:00.000Z","estimated_restoration_at":null,"actual_restoration_at":null,"resolved_at":null,"updated_at":"2026-08-11T01:07:58.761Z"},"impact":{"customer_impact":true,"operational_impact":false,"impact_scope":"local"},"geography":{"states":["NSW"],"suburbs":["LAVINGTON"],"postcodes":["2641"]},"services":{"service_types":["NBN - FTTP"],"count":1},"cause":{"high_level":"maintenance activity","detailed_cause":null,"root_cause":null,"weather_related":null,"third_party_damage":null,"power_related":null,"root_cause_confirmed":null},"current_summary":"Planned works by an upstream provider will replace access network hardware in Lavington, NSW on 3 August between 9:00 AM and 5:00 PM local time. Services may be offline during the window, with an interruption of up to 3 hours expected. We are coordinating the activity and will monitor progress throughout.","updates":[{"update_time":"2026-08-11T11:07:58.873+10:00","update_type":"initial_update","content":"We will be carrying out planned works with our network partner in Lavington, NSW on 3 August between 9:00 AM and 5:00 PM local time to replace access network hardware. Internet services in the area may drop offline during this window, with an interruption of up to 3 hours expected. We are working to complete this safely and as quickly as possible. If you rely on connectivity, please plan ahead—downloading what you need and using mobile data where available can help. Thank you for your patience.","material_change":true}]}
+{
+	"outage_reference": "MNT-1KZQ5SB4D",
+	"title": "Lavington NSW - Remediate the Network",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-11T01:07:58.761Z",
+		"opened_at": "2026-08-02T22:00:19.903Z",
+		"scheduled_start": "2026-08-02T23:00:00.000Z",
+		"scheduled_end": "2026-08-03T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-11T01:07:58.761Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LAVINGTON"
+		],
+		"postcodes": [
+			"2641"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"count": 1
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "Planned works by an upstream provider will replace access network hardware in Lavington, NSW on 3 August between 9:00 AM and 5:00 PM local time. Services may be offline during the window, with an interruption of up to 3 hours expected. We are coordinating the activity and will monitor progress throughout.",
+	"updates": [
+		{
+			"update_time": "2026-08-11T11:07:58.873+10:00",
+			"update_type": "initial_update",
+			"content": "We will be carrying out planned works with our network partner in Lavington, NSW on 3 August between 9:00 AM and 5:00 PM local time to replace access network hardware. Internet services in the area may drop offline during this window, with an interruption of up to 3 hours expected. We are working to complete this safely and as quickly as possible. If you rely on connectivity, please plan ahead—downloading what you need and using mobile data where available can help. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
