@@ -1,31 +1,5 @@
 [
 	{
-		"outage_reference": "MNT-1KZNSX1RJ",
-		"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZNSX1RJ.json",
-		"opened_at": "2026-08-04T05:59:37.100Z",
-		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"PELICAN WATERS",
-			"WAVELL HEIGHTS"
-		],
-		"postcodes": [
-			"4012",
-			"4551"
-		],
-		"service_types": [
-			"NBN - FTTP",
-			"NBN - HFC"
-		],
-		"service_count": 1,
-		"current_summary": "An upstream provider will be repairing a fibre splice enclosure that supports backhaul to several QLD nbn POIs (Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie, Toowoomba, Aspley Depot). This work is scheduled from 11:00 PM AEST on 18 August to 7:00 AM AEST on 19 August. nbn services at these POIs may experience interruptions for up to 8 hours within this window. We will monitor progress and work to minimise impact. Services are expected to be restored by 7:00 AM AEST."
-	},
-	{
 		"outage_reference": "MNT-1KZQ3SDC1",
 		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
 		"outage_type": "maintenance",
@@ -47,6 +21,36 @@
 		],
 		"service_count": 1,
 		"current_summary": "Planned maintenance will move nbn services connected to the Hawthorn (3HAW) POI in Melbourne to a new router at Exhibition Exchange. Work is scheduled from 12:00 AM to 2:00 AM AEST on 8 September. Customers with nbn services on this POI may experience interruptions during the window, for up to 2 hours. Our team will complete the change and monitor services to restore connectivity as soon as the work is finished."
+	},
+	{
+		"outage_reference": "MNT-1KZNT1C5D",
+		"title": "NBN POI 4NER (Nerang) Cable Replacement Works",
+		"outage_type": "maintenance",
+		"status": "scheduled",
+		"record_path": "outages/2026/08/MNT-1KZNT1C5D.json",
+		"opened_at": "2026-07-27T03:55:20.124Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW",
+			"QLD"
+		],
+		"suburbs": [
+			"COOMERA",
+			"LAVINGTON",
+			"MUDGEERABA",
+			"PIMPAMA"
+		],
+		"postcodes": [
+			"2641",
+			"4209",
+			"4213"
+		],
+		"service_types": [
+			"NBN - FTTC",
+			"NBN - FTTP"
+		],
+		"service_count": 3,
+		"current_summary": "The planned backhaul cable replacement at the Nerang (4NER) POI has been rescheduled. Upstream notifications now show the maintenance occurring from 2026-09-02T14:00:00Z to 2026-09-02T20:00:00Z (00:00–06:00 AEST on 3 September 2026). One upstream notification for the earlier August window was removed; we are monitoring and will advise of any further changes."
 	},
 	{
 		"outage_reference": "MNT-1KZQ5V5KX",
@@ -76,6 +80,6 @@
 			"NBN - Fixed Wireless"
 		],
 		"service_count": 2,
-		"current_summary": "Urgent planned maintenance by an upstream access network provider is scheduled nationwide on Friday 14 August 2026 from 2:00 AM to 6:00 AM AEST. Some services may lose connectivity during the window, with a single interruption of up to 3 hours per service expected. Our team will monitor closely and work with network partners to minimise impact. No separate restoration time has been provided beyond the maintenance window."
+		"current_summary": "Planned maintenance by an upstream access network provider will now occur on 14 August 2026 from 12:00 AM to 6:00 AM AEST. Some services may lose connectivity during this window. Our team will monitor progress and work with network partners to minimise impact."
 	}
 ]
