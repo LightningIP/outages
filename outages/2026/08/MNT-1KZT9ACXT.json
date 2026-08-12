@@ -1,0 +1,58 @@
+{
+	"outage_reference": "MNT-1KZT9ACXT",
+	"title": " - Upgrade the Network",
+	"outage_type": "maintenance",
+	"status": "scheduled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-12T06:07:26.662Z",
+		"opened_at": "2026-08-08T20:37:10.367Z",
+		"scheduled_start": "2026-08-10T14:00:00.000Z",
+		"scheduled_end": "2026-08-10T20:00:00.000Z",
+		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-12T06:07:26.662Z"
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": true,
+		"impact_scope": null
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LAVINGTON"
+		],
+		"postcodes": [
+			"2641"
+		]
+	},
+	"services": {
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"count": 2
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null,
+		"root_cause_confirmed": null
+	},
+	"current_summary": "An upstream access network provider has scheduled upgrade works. Some services will experience a brief loss of connection (up to 45 minutes) during the maintenance window. We are monitoring the activity and affected services should restore automatically once the work is complete. Order processing may be delayed during and shortly after the window, but orders can still be submitted.",
+	"updates": [
+		{
+			"update_time": "2026-08-09T06:37:10.373+10:00",
+			"update_type": "initial_update",
+			"content": "Planned upgrade work on the access network is scheduled. A small number of services may briefly go offline (up to 45 minutes) during the maintenance window. Services should reconnect automatically when the work is complete. Our team will monitor progress and provide updates if anything changes. You can continue to place orders during this time, though processing may be delayed. No action is required; if needed, you can use mobile data during the brief interruption.",
+			"material_change": true
+		}
+	]
+}
