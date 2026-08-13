@@ -13,7 +13,8 @@
 		"estimated_restoration_at": "2026-09-07T16:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:41:06.887Z"
+		"updated_at": "2026-08-12T05:41:06.887Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -32,10 +33,10 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 1,
+		"types": [
 			"NBN - FTTP"
-		],
-		"count": 1
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -43,16 +44,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Planned maintenance will occur at the NBN Hawthorn (3HAW) POI in Melbourne on Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. NBN services served by this POI may be disrupted during the window (up to 2 hours) while services are moved to new network equipment. Services should restore automatically after the window.",
 	"updates": [
 		{
-			"update_time": "2026-08-09T18:38:20.712+10:00",
+			"id": "91184ab3-ce21-49c1-a6ae-0f57c1268f3e",
+			"outage_id": "3e8ce6f7-cd42-4ede-93f3-4b02c1589c68",
+			"update_time": "2026-08-09T08:38:20.712Z",
 			"update_type": "initial_update",
 			"content": "We will be performing planned maintenance affecting some NBN services served by the Hawthorn (3HAW) POI in Melbourne.\n\nWhen:\nTuesday 8 September 2026, 12:00 AM–2:00 AM AEST.\n\nWhat you may experience:\n- Interruption to NBN connectivity during the window (up to 2 hours).\n- Brief dropouts as services are moved to new network equipment.\n\nWhat we’re doing:\nOur team will rehome services at this POI to improve network capacity and resilience. We’ll work to keep any interruption as short as possible.\n\nWhat you can do:\nNo action is needed. Services should restore automatically after the window. If your service remains offline after 2:00 AM, please restart your modem/router. If issues persist, contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T05:41:07.157Z"
 		}
 	]
 }
