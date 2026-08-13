@@ -976,5 +976,89 @@
 		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned maintenance in Young, NSW has been completed. Services were affected during the scheduled window on 11 August 2026 between 12:00 AM and 6:00 AM AEST. All works are now finished and normal connectivity has resumed."
+	},
+	{
+		"outage_reference": "INC-1KZX5Z0VX",
+		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
+		"outage_type": "incident",
+		"status": "investigating",
+		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json",
+		"opened_at": "2026-08-13T08:19:45.000Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"NORTH ALBURY"
+		],
+		"postcodes": [
+			"2640"
+		],
+		"service_types": null,
+		"service_count": 1,
+		"current_summary": "We are aware of an issue with an upstream provider affecting some broadband services in Coolum Beach, QLD. Impacted customers may have no connectivity or intermittent service. Engineers are troubleshooting a hardware alarm on a network switch in the area. We are working with our network partner to restore services as quickly as possible. No estimated restoration time is available yet."
+	},
+	{
+		"outage_reference": "INC-1KZX60KBT",
+		"title": "RESERVOIR,VIC-3073 - Infrastructure Restoration",
+		"outage_type": "incident",
+		"status": "resolved",
+		"record_path": "outages/2026/08/INC-1KZX60KBT.json",
+		"opened_at": "2026-07-28T10:51:50.000Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"RESERVOIR"
+		],
+		"postcodes": [
+			"3073"
+		],
+		"service_types": null,
+		"service_count": 1,
+		"current_summary": "An earlier power outage affected network equipment in Reservoir, VIC 3073, causing a loss of service for some customers. Power has been restored and services are back online. We are monitoring the area. If your connection has not returned, please restart your modem/router and connection box (if you have one)."
+	},
+	{
+		"outage_reference": "INC-1KZX62732",
+		"title": "CHARLEVILLE,QLD-4470 - Infrastructure Restoration",
+		"outage_type": "incident",
+		"status": "resolved",
+		"record_path": "outages/2026/08/INC-1KZX62732.json",
+		"opened_at": "2026-07-29T02:20:46.000Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"THURGOONA"
+		],
+		"postcodes": [
+			"2640"
+		],
+		"service_types": null,
+		"service_count": 1,
+		"current_summary": "Services in Charleville (QLD 4470) experienced an unplanned access network outage caused by a local power issue. All affected services were restored at 2:31 PM AEST on 29 July 2026. If any services remain offline, restarting the modem/router and connection box may help. We are monitoring for stability."
+	},
+	{
+		"outage_reference": "INC-1KZX63W0G",
+		"title": "Berridale, NSW - Infrastructure Restoration",
+		"outage_type": "incident",
+		"status": "resolved",
+		"record_path": "outages/2026/08/INC-1KZX63W0G.json",
+		"opened_at": "2026-07-29T18:09:46.000Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BERRIDALE"
+		],
+		"postcodes": [
+			"2628"
+		],
+		"service_types": null,
+		"service_count": 1,
+		"current_summary": "An upstream access network issue in Berridale, NSW has been resolved. Network hardware was replaced and services were restored at approximately 12:37 PM AEST on 30 July 2026. If your service has not reconnected, please restart your modem/router and any connection box."
 	}
 ]
