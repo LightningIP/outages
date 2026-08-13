@@ -13,13 +13,13 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-13T09:06:31.434Z",
+		"updated_at": "2026-08-13T09:30:47.858Z",
 		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
 		"operational_impact": false,
-		"impact_scope": "local"
+		"impact_scope": null
 	},
 	"geography": {
 		"states": [
@@ -46,7 +46,7 @@
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "We are aware of an issue with an upstream provider affecting some broadband services in Coolum Beach, QLD. Impacted customers may have no connectivity or intermittent service. Engineers are troubleshooting a hardware alarm on a network switch in the area. We are working with our network partner to restore services as quickly as possible. No estimated restoration time is available yet.",
+	"current_summary": null,
 	"updates": [
 		{
 			"id": "6f0f8384-196d-45a6-91c6-a202a09523a6",
@@ -56,6 +56,15 @@
 			"content": "We’re investigating a service disruption affecting some customers in Coolum Beach, QLD. You may experience no connectivity or intermittent service. Our team, together with our network partner, is troubleshooting a hardware alarm on a local network switch. We’re working to restore services as quickly as possible. We don’t have an estimated restoration time yet. If available, using mobile data can help you stay connected during the interruption. Thank you for your patience.",
 			"material_change": true,
 			"created_at": "2026-08-13T09:06:31.721Z"
+		},
+		{
+			"id": "04e33137-9d22-4f5c-98cc-40ab0cc92c1e",
+			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
+			"update_time": "2026-08-13T09:30:41.273Z",
+			"update_type": "status_change",
+			"content": "A technician has now been dispatched to the Coolum Beach area to investigate and address the ongoing network issue. Some customers may continue to experience no connectivity or intermittent service while work is underway. We are working with our network partner and will provide an estimated restoration time as soon as it becomes available. Thank you for your patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T09:30:47.936Z"
 		}
 	]
 }
