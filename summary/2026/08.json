@@ -344,31 +344,6 @@
 		"path": "outages/2026/08/MNT-1KZT7ZZ4F.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT81WZK",
-		"title": "NBN POI 4CAB (CABOOLTURE) 4IPS (Ipswich) NNI Rehoming",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-08-12T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned works will move NBN services on the Caboolture (4CAB) and Ipswich (4IPS) POIs in Brisbane to a new router between 12:00 AM and 2:00 AM AEST on Thursday, 13 August 2026. Some NBN customers served by these POIs may experience brief interruptions during the window. Our team will monitor throughout and work to restore services quickly, with all activity expected to be complete by 2:00 AM AEST.",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"PELICAN WATERS"
-		],
-		"postcodes": [
-			"4551"
-		],
-		"path": "outages/2026/08/MNT-1KZT81WZK.json"
-	},
-	{
 		"outage_reference": "MNT-1KZT840F3",
 		"title": "NBN POI 4CAB (Caboolture), 4APL (Aspley) - Cable Relocation and Replacement",
 		"outage_type": "maintenance",
@@ -394,56 +369,6 @@
 			"4551"
 		],
 		"path": "outages/2026/08/MNT-1KZT840F3.json"
-	},
-	{
-		"outage_reference": "MNT-1KZT9ACXT",
-		"title": " - Upgrade the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-08-10T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": true,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "An upstream access network provider has scheduled upgrade works. Some services will experience a brief loss of connection (up to 45 minutes) during the maintenance window. We are monitoring the activity and affected services should restore automatically once the work is complete. Order processing may be delayed during and shortly after the window, but orders can still be submitted.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LAVINGTON"
-		],
-		"postcodes": [
-			"2641"
-		],
-		"path": "outages/2026/08/MNT-1KZT9ACXT.json"
-	},
-	{
-		"outage_reference": "MNT-1KZT9CTPN",
-		"title": "Young  NSW - Maintain the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-08-10T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned works on the access network in Young, NSW are scheduled for 12:00 AM–6:00 AM AEST on 11 August 2026. Services in this area may lose connection during the window. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor progress and confirm once services are back. Services are expected to be restored by 6:00 AM AEST.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"YOUNG"
-		],
-		"postcodes": [
-			"2594"
-		],
-		"path": "outages/2026/08/MNT-1KZT9CTPN.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT9FA2D",
@@ -472,31 +397,6 @@
 			"3707"
 		],
 		"path": "outages/2026/08/MNT-1KZT9FA2D.json"
-	},
-	{
-		"outage_reference": "MNT-1KZT9HBW4",
-		"title": "Lavington NSW - Remediate the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-08-02T23:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned work by an upstream network provider will replace access network hardware in Lavington, NSW. The maintenance window is Monday 3 August, 9:00 AM–5:00 PM AEST, with a single interruption of up to 3 hours expected from 9:00 AM. Affected services in Lavington may briefly lose connection. We are monitoring and will update if timings change.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LAVINGTON"
-		],
-		"postcodes": [
-			"2641"
-		],
-		"path": "outages/2026/08/MNT-1KZT9HBW4.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT9MAE2",
@@ -576,5 +476,130 @@
 			"2464"
 		],
 		"path": "outages/2026/08/MNT-1KZT7015J.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWPV24V",
+		"title": "Lavington NSW 2641 - Remediate the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-08-03T05:55:00.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 2,
+		"cause": "maintenance activity",
+		"current_summary": "Emergency maintenance in Lavington NSW 2641 has been completed. Some customers in the area may have experienced a temporary loss of connectivity between 3:55 PM and 6:50 PM AEST on 3 August 2026. Services are now operating normally.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"THURGOONA"
+		],
+		"postcodes": [
+			"2640"
+		],
+		"path": "outages/2026/08/MNT-1KZWPV24V.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWPWFG1",
+		"title": "Harrison ACT - Remediate the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "cancelled",
+		"severity": null,
+		"start_at": "2026-08-06T23:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": false,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "maintenance activity",
+		"current_summary": "Planned access network maintenance in Harrison, ACT scheduled for 9:00 AM to 5:00 PM local time on 7 August 2026 has been cancelled by an upstream provider. No customer impact is expected. If the work is rescheduled, we will publish a new notice.",
+		"states": [
+			"ACT"
+		],
+		"suburbs": [
+			"GUNGAHLIN"
+		],
+		"postcodes": [
+			"2912"
+		],
+		"path": "outages/2026/08/MNT-1KZWPWFG1.json"
+	},
+	{
+		"outage_reference": "MNT-1KZT9ACXT",
+		"title": " - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "completed",
+		"severity": null,
+		"start_at": "2026-08-10T14:00:00.000Z",
+		"resolved_at": "2026-08-13T04:00:54.406Z",
+		"customer_impact": true,
+		"operational_impact": true,
+		"service_count": 2,
+		"cause": "maintenance activity",
+		"current_summary": "Scheduled network upgrade maintenance has now completed. Services in the affected area may have experienced a brief outage of up to 45 minutes during the maintenance window. Order processing delays are now resolved. No further disruption is expected.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LAVINGTON"
+		],
+		"postcodes": [
+			"2641"
+		],
+		"path": "outages/2026/08/MNT-1KZT9ACXT.json"
+	},
+	{
+		"outage_reference": "MNT-1KZT9HBW4",
+		"title": "Lavington NSW - Remediate the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "completed",
+		"severity": "Standard",
+		"start_at": "2026-08-02T23:00:00.000Z",
+		"resolved_at": "2026-08-13T04:24:13.466Z",
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "maintenance activity",
+		"current_summary": "Planned maintenance in Lavington, NSW to replace access network hardware has now been completed. Services may have experienced a brief interruption during the window. The maintenance window was Monday 3 August, 9:00 AM–5:00 PM AEST. Service has now been restored.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LAVINGTON"
+		],
+		"postcodes": [
+			"2641"
+		],
+		"path": "outages/2026/08/MNT-1KZT9HBW4.json"
+	},
+	{
+		"outage_reference": "MNT-1KZT9CTPN",
+		"title": "Young  NSW - Maintain the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "completed",
+		"severity": null,
+		"start_at": "2026-08-10T14:00:00.000Z",
+		"resolved_at": "2026-08-13T04:00:54.392Z",
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "maintenance activity",
+		"current_summary": "Planned maintenance in Young, NSW has been completed. Services were affected during the scheduled window on 11 August 2026 between 12:00 AM and 6:00 AM AEST. All works are now finished and normal connectivity has resumed.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YOUNG"
+		],
+		"postcodes": [
+			"2594"
+		],
+		"path": "outages/2026/08/MNT-1KZT9CTPN.json"
 	}
 ]
