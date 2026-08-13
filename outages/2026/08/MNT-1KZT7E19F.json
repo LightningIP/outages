@@ -13,7 +13,8 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:34:28.658Z"
+		"updated_at": "2026-08-12T05:34:28.658Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -34,11 +35,11 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 2,
+		"types": [
 			"NBN - FTTN",
 			"NBN - FTTP"
-		],
-		"count": 2
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -46,16 +47,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Scheduled maintenance on the NBN Rockhampton (4ROT) POI was carried out between 12:00 AM and 2:00 AM AEST on 5 August 2026. Some NBN services in the Rockhampton area may have experienced brief interruptions during the window. The work is complete and services are operating normally.",
 	"updates": [
 		{
-			"update_time": "2026-08-05T02:00:00.000+10:00",
+			"id": "56546934-ee06-4d83-8f59-2fbd3d6bed0d",
+			"outage_id": "e5b74f5f-2fb7-49a4-a0a1-c1a9fc40ca37",
+			"update_time": "2026-08-04T16:00:00.000Z",
 			"update_type": "initial_update",
 			"content": "Scheduled maintenance on the NBN Rockhampton (4ROT) POI is complete. The work ran from 12:00 AM to 2:00 AM AEST on 5 August 2026. Some NBN services in the Rockhampton area may have experienced brief interruptions during the window. No further impact is expected. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T05:34:28.769Z"
 		}
 	]
 }
