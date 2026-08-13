@@ -2,18 +2,18 @@
 	"outage_reference": "MNT-1KZT9HBW4",
 	"title": "Lavington NSW - Remediate the Network",
 	"outage_type": "maintenance",
-	"status": "scheduled",
-	"severity": null,
+	"status": "completed",
+	"severity": "Standard",
 	"planned": true,
 	"lifecycle": {
 		"created_at": "2026-08-12T06:11:14.963Z",
 		"opened_at": "2026-08-02T22:00:19.903Z",
 		"scheduled_start": "2026-08-02T23:00:00.000Z",
 		"scheduled_end": "2026-08-03T07:00:00.000Z",
-		"estimated_restoration_at": "2026-08-03T02:00:00.000Z",
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T06:11:14.963Z",
+		"resolved_at": "2026-08-13T04:24:13.466Z",
+		"updated_at": "2026-08-13T05:00:03.126Z",
 		"closed_at": null
 	},
 	"impact": {
@@ -40,13 +40,13 @@
 	},
 	"cause": {
 		"high_level": "maintenance activity",
-		"detailed_cause": null,
+		"detailed_cause": "Proactive replacement of network hardware to ensure continued service reliability. Maintenance performed during daylight hours due to local requirements.",
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned work by an upstream network provider will replace access network hardware in Lavington, NSW. The maintenance window is Monday 3 August, 9:00 AM–5:00 PM AEST, with a single interruption of up to 3 hours expected from 9:00 AM. Affected services in Lavington may briefly lose connection. We are monitoring and will update if timings change.",
+	"current_summary": "Planned maintenance in Lavington, NSW to replace access network hardware has now been completed. Services may have experienced a brief interruption during the window. The maintenance window was Monday 3 August, 9:00 AM–5:00 PM AEST. Service has now been restored.",
 	"updates": [
 		{
 			"id": "f2e55f7d-6830-494f-b696-4d612251197a",
@@ -56,6 +56,15 @@
 			"content": "We’re preparing for planned maintenance affecting some services in Lavington, NSW. An upstream network provider will replace access network hardware. The work window is Monday 3 August, 9:00 AM–5:00 PM AEST. A single interruption of up to 3 hours is expected from 9:00 AM, during which services may be offline.\n\nIf you rely on your connection, you may wish to download any needed files beforehand or use mobile data during the interruption. We’ll monitor progress and share updates if anything changes. Thank you for your patience.",
 			"material_change": true,
 			"created_at": "2026-08-12T06:11:15.149Z"
+		},
+		{
+			"id": "c3fcede4-5623-4814-8560-646f6cd922f5",
+			"outage_id": "a5a8f339-bcce-4f1a-ba7f-81df02d296e6",
+			"update_time": "2026-08-13T04:24:13.463Z",
+			"update_type": "maintenance_completed",
+			"content": "Planned maintenance in Lavington, NSW has been completed. All activities to upgrade access network hardware are now finished, and services have been restored. No further interruptions are expected.",
+			"material_change": true,
+			"created_at": "2026-08-13T05:00:03.242Z"
 		}
 	]
 }
