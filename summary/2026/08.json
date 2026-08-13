@@ -601,5 +601,30 @@
 			"2594"
 		],
 		"path": "outages/2026/08/MNT-1KZT9CTPN.json"
+	},
+	{
+		"outage_reference": "INC-1KZX5Z0VX",
+		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
+		"outage_type": "incident",
+		"planned": false,
+		"status": "investigating",
+		"severity": null,
+		"start_at": "2026-08-13T08:19:45.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": null,
+		"current_summary": "We are aware of an issue with an upstream provider affecting some broadband services in Coolum Beach, QLD. Impacted customers may have no connectivity or intermittent service. Engineers are troubleshooting a hardware alarm on a network switch in the area. We are working with our network partner to restore services as quickly as possible. No estimated restoration time is available yet.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"NORTH ALBURY"
+		],
+		"postcodes": [
+			"2640"
+		],
+		"path": "outages/2026/08/INC-1KZX5Z0VX.json"
 	}
 ]
