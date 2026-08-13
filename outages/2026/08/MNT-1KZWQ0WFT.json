@@ -1,0 +1,62 @@
+{
+	"outage_reference": "MNT-1KZWQ0WFT",
+	"title": "MACLEAN NSW - Upgrade the Network",
+	"outage_type": "maintenance",
+	"status": "cancelled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:45:23.846Z",
+		"opened_at": "2026-06-18T00:00:49.000Z",
+		"scheduled_start": "2026-07-10T14:00:00.000Z",
+		"scheduled_end": "2026-07-10T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:45:23.846Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": false,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		]
+	},
+	"services": {
+		"count": 3,
+		"types": [
+			"NBN - FTTC",
+			"NBN - FTTP"
+		]
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "Planned network maintenance in Maclean, NSW has been cancelled by an upstream provider. No service impact is expected. The previously advised window was 11 July 2026 between 12:00 AM and 6:00 AM AEST. No action is required.",
+	"updates": [
+		{
+			"id": "7c299c72-4321-4936-b307-b14754c3496b",
+			"outage_id": "fa43f3a2-c37a-4fde-8978-7bfc7d9caf13",
+			"update_time": "2026-08-13T04:23:46.784Z",
+			"update_type": "initial_update",
+			"content": "Planned maintenance affecting some services in Maclean, NSW has been cancelled by an upstream provider. No downtime is expected. The previously scheduled window was 11 July 2026 from 12:00 AM to 6:00 AM AEST. No action is required.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:45:24.379Z"
+		}
+	]
+}
