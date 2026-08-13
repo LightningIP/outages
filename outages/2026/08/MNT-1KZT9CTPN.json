@@ -2,7 +2,7 @@
 	"outage_reference": "MNT-1KZT9CTPN",
 	"title": "Young  NSW - Maintain the Network",
 	"outage_type": "maintenance",
-	"status": "scheduled",
+	"status": "completed",
 	"severity": null,
 	"planned": true,
 	"lifecycle": {
@@ -10,10 +10,10 @@
 		"opened_at": "2026-08-08T20:37:10.442Z",
 		"scheduled_start": "2026-08-10T14:00:00.000Z",
 		"scheduled_end": "2026-08-10T20:00:00.000Z",
-		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T06:08:46.307Z",
+		"resolved_at": "2026-08-13T04:00:54.392Z",
+		"updated_at": "2026-08-13T05:00:03.142Z",
 		"closed_at": null
 	},
 	"impact": {
@@ -40,13 +40,13 @@
 	},
 	"cause": {
 		"high_level": "maintenance activity",
-		"detailed_cause": null,
+		"detailed_cause": "nbn technicians relocated and spliced fibre cables. Temporary outage occurred during the cutover.",
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned works on the access network in Young, NSW are scheduled for 12:00 AM–6:00 AM AEST on 11 August 2026. Services in this area may lose connection during the window. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor progress and confirm once services are back. Services are expected to be restored by 6:00 AM AEST.",
+	"current_summary": "Planned maintenance in Young, NSW has been completed. Services were affected during the scheduled window on 11 August 2026 between 12:00 AM and 6:00 AM AEST. All works are now finished and normal connectivity has resumed.",
 	"updates": [
 		{
 			"id": "5caa7cca-7f52-401b-a7b4-5d9096f956e8",
@@ -56,6 +56,15 @@
 			"content": "Planned works on the access network in Young, NSW are scheduled for 11 August 2026 between 12:00 AM and 6:00 AM AEST. During this window, some services may go offline. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor the works and provide an update once services are restored. If you need to stay online, consider using mobile data where available. Thank you for your patience.",
 			"material_change": true,
 			"created_at": "2026-08-12T06:08:46.425Z"
+		},
+		{
+			"id": "de46c26b-4423-445e-9579-4c793697dcbb",
+			"outage_id": "51287f1e-9e20-451b-b44c-fe6703ab12b2",
+			"update_time": "2026-08-13T04:00:54.392Z",
+			"update_type": "status_change",
+			"content": "The scheduled maintenance works in Young, NSW have been completed. Services in the area returned to normal after the maintenance window on 11 August 2026 (12:00 AM–6:00 AM AEST). Thank you for your patience while these improvements were carried out.",
+			"material_change": true,
+			"created_at": "2026-08-13T05:00:03.242Z"
 		}
 	]
 }
