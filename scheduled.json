@@ -16,9 +16,7 @@
 		"postcodes": [
 			"3121"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned maintenance will occur at the NBN Hawthorn (3HAW) POI in Melbourne on Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. NBN services served by this POI may be disrupted during the window (up to 2 hours) while services are moved to new network equipment. Services should restore automatically after the window."
 	},
@@ -39,9 +37,7 @@
 		"postcodes": [
 			"4012"
 		],
-		"service_types": [
-			"NBN - HFC"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned works by an upstream provider will replace a splice enclosure serving multiple Queensland NBN Points of Interconnect. The maintenance window is Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time). Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during the window. Our team will monitor the network and work with our partner to minimise impact. Services are expected to be restored by 7:00 AM AEST."
 	},
@@ -64,62 +60,9 @@
 			"4012",
 			"4551"
 		],
-		"service_types": [
-			"NBN - FTTP",
-			"NBN - HFC"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "An upstream provider will relocate and replace a cable affecting backhaul to the NBN 4CAB (Caboolture) and 4APL (Aspley) POIs. NBN services in these areas may be affected for up to 8 hours during the window: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST. We will monitor the works and aim to minimise impact. Services are expected to restore once the maintenance is complete."
-	},
-	{
-		"outage_reference": "MNT-1KZT9FA2D",
-		"title": "National - Maintain the Network",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZT9FA2D.json",
-		"opened_at": "2026-08-12T05:28:16.684Z",
-		"estimated_restoration_at": null,
-		"states": [
-			"NSW",
-			"VIC"
-		],
-		"suburbs": [
-			"CORRYONG",
-			"SPRINGSIDE"
-		],
-		"postcodes": [
-			"2800",
-			"3707"
-		],
-		"service_types": [
-			"NBN - Fixed Wireless"
-		],
-		"service_count": 2,
-		"current_summary": "Urgent maintenance by an upstream provider is scheduled from 2:00 AM to 6:00 AM AEST on Friday 14 August 2026. A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST. Some services may lose connectivity during this window. We are monitoring and will provide updates if details change."
-	},
-	{
-		"outage_reference": "MNT-1KZT9MAE2",
-		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZT9MAE2.json",
-		"opened_at": "2026-08-12T05:28:16.669Z",
-		"estimated_restoration_at": null,
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"YAMBA"
-		],
-		"postcodes": [
-			"2464"
-		],
-		"service_types": [
-			"NBN - FTTC",
-			"NBN - FTTP"
-		],
-		"service_count": 3,
-		"current_summary": "An upstream provider has scheduled network upgrade works affecting services in River St, Maclean NSW. The maintenance window is 12:00 AM to 6:00 AM local time on 14 August. One interruption of up to 5 hours is expected during this window, causing a temporary loss of connectivity for impacted services. The event is scheduled and we will monitor throughout."
 	},
 	{
 		"outage_reference": "MNT-1KZT9PN4P",
@@ -138,9 +81,7 @@
 		"postcodes": [
 			"2641"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "An upstream provider will perform upgrade work on the access network. Some broadband services will briefly go offline during the maintenance window, with a single interruption of up to 45 minutes expected. Order processing and service changes may be delayed during and shortly after the work. Our team will monitor progress and update this notice when the activity is complete."
 	}
