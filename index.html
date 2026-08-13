@@ -158,6 +158,20 @@
 
     /* ── Outage card ── */
     .outage-list { display: flex; flex-direction: column; gap: 0.875rem; }
+    .outage-group + .outage-group { margin-top: 1.5rem; }
+    .outage-group-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--cp-text-muted);
+      margin-bottom: 0.625rem;
+      font-weight: 700;
+    }
+    .outage-group-divider {
+      border: 0;
+      border-top: 1px solid var(--cp-border);
+      margin: 1.25rem 0;
+    }
 
     .outage-card {
       background: var(--cp-surface);
@@ -192,6 +206,7 @@
       gap: 0.375rem;
       align-items: center;
       margin-top: 0.25rem;
+      margin-bottom: 0.625rem;
     }
     .badge {
       display: inline-flex;
@@ -213,10 +228,30 @@
     .badge-type               { background: var(--cp-accent-soft); color: var(--cp-accent); }
     .badge-state              { background: var(--cp-surface-soft); color: var(--cp-text-muted); }
 
-    .card-reference {
-      font-size: 0.75rem;
+    .card-quick-dates {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.625rem;
+      margin-top: 0.125rem;
+    }
+    .quick-date-item {
+      background: var(--cp-surface-soft);
+      border: 1px solid var(--cp-border);
+      border-radius: 0.625rem;
+      padding: 0.5rem 0.625rem;
+    }
+    .quick-date-item label {
+      display: block;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
       color: var(--cp-text-muted);
-      font-family: Consolas, "Courier New", Courier, monospace;
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    .quick-date-item span {
+      font-size: 0.8rem;
+      color: var(--cp-text);
     }
     .chevron {
       color: var(--cp-text-muted);
@@ -239,11 +274,24 @@
       margin-bottom: 0.875rem;
     }
 
+    .detail-row {
+      margin-bottom: 0.875rem;
+    }
+    .detail-row:last-child {
+      margin-bottom: 0;
+    }
+    .detail-row-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--cp-text-muted);
+      font-weight: 700;
+      margin-bottom: 0.45rem;
+    }
     .detail-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 0.75rem;
-      margin-bottom: 0.875rem;
     }
     .detail-item label {
       display: block;
@@ -333,14 +381,36 @@
       <div v-else-if="currentOutages.length === 0" class="state-placeholder">
         <p>No current outages found.</p>
       </div>
-      <div v-else class="outage-list">
-        <outage-card
-          v-for="o in currentOutages"
-          :key="o.outage_reference"
-          :summary="o"
-          :full-data="fullData[o.outage_reference]"
-          :loading-full="loadingFull[o.outage_reference]"
-        ></outage-card>
+      <div v-else>
+        <section class="outage-group">
+          <p class="outage-group-title">Active</p>
+          <div v-if="currentActiveOutages.length === 0" class="state-placeholder" style="padding: 1.25rem 1rem;">
+            <p>No active outages.</p>
+          </div>
+          <div v-else class="outage-list">
+            <outage-card
+              v-for="o in currentActiveOutages"
+              :key="o.outage_reference"
+              :summary="o"
+              :full-data="fullData[o.outage_reference]"
+              :loading-full="loadingFull[o.outage_reference]"
+              :default-expanded="isDefaultExpanded(o)"
+            ></outage-card>
+          </div>
+        </section>
+        <hr v-if="currentClosedOutages.length" class="outage-group-divider" />
+        <section v-if="currentClosedOutages.length" class="outage-group">
+          <p class="outage-group-title">Recently Closed</p>
+          <div class="outage-list">
+            <outage-card
+              v-for="o in currentClosedOutages"
+              :key="o.outage_reference"
+              :summary="o"
+              :full-data="fullData[o.outage_reference]"
+              :loading-full="loadingFull[o.outage_reference]"
+            ></outage-card>
+          </div>
+        </section>
       </div>
     </div>
 
@@ -421,6 +491,11 @@ function statusClass(status) {
   return 'badge-status-investigating';
 }
 
+function isClosedStatus(status) {
+  const s = (status || '').toLowerCase();
+  return s === 'resolved' || s === 'cancelled' || s === 'closed';
+}
+
 function capitalise(s) {
   if (!s) return '';
   return s.charAt(0).toUpperCase() + s.slice(1);
@@ -437,37 +512,84 @@ const OutageCard = defineComponent({
     summary: { type: Object, required: true },
     fullData: { type: Object, default: null },
     loadingFull: { type: Boolean, default: false },
+    defaultExpanded: { type: Boolean, default: false },
   },
   emits: ['expand'],
   setup(props) {
-    const expanded = ref(false);
-
-    // summary may come from current.json (record_path) or summary/*.json (path)
-    const recordPath = computed(() => props.summary.record_path || props.summary.path || null);
+    const expanded = ref(props.defaultExpanded);
 
     const statusBadge = computed(() => statusClass(props.summary.status));
     const statesList  = computed(() => (props.summary.states || []).join(', ') || '—');
     const suburbsList = computed(() => (props.summary.suburbs || []).join(', ') || '—');
     const postcodes   = computed(() => (props.summary.postcodes || []).join(', ') || '—');
+    const serviceTypesFromSummary = computed(() =>
+      Array.isArray(props.summary.service_types) ? props.summary.service_types : []);
+    const quickStartLabel = computed(() => {
+      if (props.fullData?.lifecycle?.scheduled_start) return 'Scheduled Start';
+      return props.summary.opened_at ? 'Opened' : 'Start';
+    });
+    const quickStartValue = computed(() => {
+      return fmtDate(
+        props.fullData?.lifecycle?.scheduled_start ||
+        props.summary.opened_at ||
+        props.summary.start_at
+      );
+    });
+    const quickEnd = computed(() => {
+      const lifecycle = props.fullData?.lifecycle || {};
+      if (lifecycle.scheduled_end) return { label: 'Scheduled End', value: fmtDate(lifecycle.scheduled_end) };
+      if (lifecycle.resolved_at || props.summary.resolved_at) {
+        return { label: 'Resolved At', value: fmtDate(lifecycle.resolved_at || props.summary.resolved_at) };
+      }
+      if (lifecycle.estimated_restoration_at || props.summary.estimated_restoration_at) {
+        return {
+          label: 'Estimated Restoration',
+          value: fmtDate(lifecycle.estimated_restoration_at || props.summary.estimated_restoration_at),
+        };
+      }
+      return null;
+    });
 
-    // Dates: current.json uses opened_at; summary files use start_at
-    const openedAt = computed(() =>
-      fmtDate(props.summary.opened_at || props.summary.start_at));
-    const etaAt = computed(() =>
-      fmtDate(props.summary.estimated_restoration_at));
+    const causeHighLevel = computed(() =>
+      props.fullData?.cause?.high_level || props.summary.cause || null);
+    const causeDetailed = computed(() =>
+      props.fullData?.cause?.detailed_cause || null);
 
-    return { expanded, recordPath, statusBadge, statesList, suburbsList, postcodes, openedAt, etaAt, capitalise, fmtDate };
+    return {
+      expanded,
+      statusBadge,
+      statesList,
+      suburbsList,
+      postcodes,
+      serviceTypesFromSummary,
+      quickStartLabel,
+      quickStartValue,
+      quickEnd,
+      causeHighLevel,
+      causeDetailed,
+      capitalise,
+      fmtDate,
+    };
   },
   template: `
     <div class="outage-card" :class="{ expanded }" @click="expanded = !expanded">
       <div class="card-header">
         <div class="card-title-group">
-          <div class="card-title">{{ summary.title || summary.outage_reference }}</div>
-          <div class="card-reference">{{ summary.outage_reference }}</div>
+          <div class="card-title">{{ summary.outage_reference }}: {{ summary.title || 'Untitled outage' }}</div>
           <div class="card-meta">
             <span class="badge" :class="statusBadge">{{ capitalise(summary.status) }}</span>
             <span class="badge badge-type">{{ capitalise(summary.outage_type || 'outage') }}</span>
             <span v-for="s in (summary.states || [])" :key="s" class="badge badge-state">{{ s }}</span>
+          </div>
+          <div class="card-quick-dates">
+            <div class="quick-date-item">
+              <label>{{ quickStartLabel }}</label>
+              <span>{{ quickStartValue }}</span>
+            </div>
+            <div class="quick-date-item" v-if="quickEnd">
+              <label>{{ quickEnd.label }}</label>
+              <span>{{ quickEnd.value }}</span>
+            </div>
           </div>
         </div>
         <svg class="chevron" :class="{ open: expanded }" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -478,30 +600,87 @@ const OutageCard = defineComponent({
       <div v-if="expanded" class="card-body" @click.stop>
         <p class="summary-text">{{ summary.current_summary }}</p>
 
-        <div class="detail-grid">
-          <div class="detail-item">
-            <label>Opened</label>
-            <span>{{ openedAt }}</span>
+        <div class="detail-row">
+          <p class="detail-row-title">Dates</p>
+          <div class="detail-grid">
+            <div class="detail-item" v-if="summary.opened_at">
+              <label>Opened</label>
+              <span>{{ fmtDate(summary.opened_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.start_at">
+              <label>Start</label>
+              <span>{{ fmtDate(summary.start_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.scheduled_start">
+              <label>Scheduled Start</label>
+              <span>{{ fmtDate(fullData.lifecycle.scheduled_start) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.scheduled_end">
+              <label>Scheduled End</label>
+              <span>{{ fmtDate(fullData.lifecycle.scheduled_end) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.resolved_at || summary.resolved_at">
+              <label>Resolved At</label>
+              <span>{{ fmtDate(fullData?.lifecycle?.resolved_at || summary.resolved_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.estimated_restoration_at || summary.estimated_restoration_at">
+              <label>Estimated Restoration</label>
+              <span>{{ fmtDate(fullData?.lifecycle?.estimated_restoration_at || summary.estimated_restoration_at) }}</span>
+            </div>
           </div>
-          <div class="detail-item" v-if="summary.estimated_restoration_at">
-            <label>Est. Restoration</label>
-            <span>{{ etaAt }}</span>
+        </div>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Geography</p>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <label>States</label>
+              <span>{{ statesList }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Suburbs</label>
+              <span>{{ suburbsList }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Postcodes</label>
+              <span>{{ postcodes }}</span>
+            </div>
           </div>
-          <div class="detail-item">
-            <label>States</label>
-            <span>{{ statesList }}</span>
+        </div>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Services</p>
+          <div class="detail-grid">
+            <div class="detail-item" v-if="summary.service_count != null || fullData?.services?.count != null">
+              <label>Services Affected</label>
+              <span>{{ fullData?.services?.count ?? summary.service_count }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.services?.types?.length || serviceTypesFromSummary.length">
+              <label>Service Types</label>
+              <span>{{ (fullData?.services?.types || serviceTypesFromSummary).join(', ') }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.customer_impact != null || fullData?.impact?.customer_impact != null">
+              <label>Customer Impact</label>
+              <span>{{ (fullData?.impact?.customer_impact ?? summary.customer_impact) ? 'Yes' : 'No' }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.operational_impact != null || fullData?.impact?.operational_impact != null">
+              <label>Operational Impact</label>
+              <span>{{ (fullData?.impact?.operational_impact ?? summary.operational_impact) ? 'Yes' : 'No' }}</span>
+            </div>
           </div>
-          <div class="detail-item">
-            <label>Suburbs</label>
-            <span>{{ suburbsList }}</span>
-          </div>
-          <div class="detail-item">
-            <label>Postcodes</label>
-            <span>{{ postcodes }}</span>
-          </div>
-          <div class="detail-item" v-if="summary.service_count != null">
-            <label>Services Affected</label>
-            <span>{{ summary.service_count }}</span>
+        </div>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Cause</p>
+          <div class="detail-grid">
+            <div class="detail-item" v-if="causeHighLevel">
+              <label>High-level Cause</label>
+              <span>{{ capitalise(causeHighLevel) }}</span>
+            </div>
+            <div class="detail-item" v-if="causeDetailed">
+              <label>Detailed Cause</label>
+              <span>{{ causeDetailed }}</span>
+            </div>
           </div>
         </div>
 
@@ -511,35 +690,8 @@ const OutageCard = defineComponent({
           <span>Loading full details…</span>
         </div>
 
-        <!-- Full detail from individual JSON -->
+        <!-- Full detail updates -->
         <div v-else-if="fullData" class="detail-full">
-          <div class="detail-grid">
-            <div class="detail-item" v-if="fullData.lifecycle?.scheduled_start">
-              <label>Scheduled Start</label>
-              <span>{{ fmtDate(fullData.lifecycle.scheduled_start) }}</span>
-            </div>
-            <div class="detail-item" v-if="fullData.lifecycle?.scheduled_end">
-              <label>Scheduled End</label>
-              <span>{{ fmtDate(fullData.lifecycle.scheduled_end) }}</span>
-            </div>
-            <div class="detail-item" v-if="fullData.lifecycle?.resolved_at">
-              <label>Resolved</label>
-              <span>{{ fmtDate(fullData.lifecycle.resolved_at) }}</span>
-            </div>
-            <div class="detail-item" v-if="fullData.services?.types?.length">
-              <label>Service Types</label>
-              <span>{{ fullData.services.types.join(', ') }}</span>
-            </div>
-            <div class="detail-item" v-if="fullData.cause?.high_level">
-              <label>Cause</label>
-              <span>{{ capitalise(fullData.cause.high_level) }}</span>
-            </div>
-            <div class="detail-item" v-if="fullData.cause?.detailed_cause">
-              <label>Detailed Cause</label>
-              <span>{{ fullData.cause.detailed_cause }}</span>
-            </div>
-          </div>
-
           <div v-if="fullData.updates?.length">
             <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--cp-text-muted);margin-bottom:0.375rem;">Updates</p>
             <div class="updates-list">
@@ -570,6 +722,10 @@ createApp({
     const currentOutages  = ref([]);
     const upcomingOutages = ref([]);
     const historyOutages  = ref([]);
+    const currentActiveOutages = computed(() =>
+      currentOutages.value.filter((o) => !isClosedStatus(o.status)));
+    const currentClosedOutages = computed(() =>
+      currentOutages.value.filter((o) => isClosedStatus(o.status)));
 
     // Map of ref → full data object
     const fullData    = ref({});
@@ -589,6 +745,10 @@ createApp({
     function toggleTheme() {
       isDark.value = !isDark.value;
       document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
+    }
+
+    function isDefaultExpanded(outage) {
+      return !isClosedStatus(outage.status) && (outage.outage_type || '').toLowerCase() !== 'maintenance';
     }
 
     // ── Fetch helpers ──
@@ -625,7 +785,9 @@ createApp({
       loadingCurrent.value = true;
       try {
         const data = await fetchJSON('current.json');
-        currentOutages.value = data;
+        const active = data.filter((o) => !isClosedStatus(o.status));
+        const closed = data.filter((o) => isClosedStatus(o.status));
+        currentOutages.value = [...active, ...closed];
         prefetchFull(data);
       } catch (e) {
         console.error('Failed to load current.json', e);
@@ -741,6 +903,8 @@ createApp({
       tab, isDark, toggleTheme,
       loadingCurrent, loadingUpcoming, loadingHistory,
       currentOutages, upcomingOutages, historyOutages,
+      currentActiveOutages, currentClosedOutages,
+      isDefaultExpanded,
       fullData, loadingFull,
       availableYears, availableMonths, selectedYear, selectedMonth,
       onYearChange, loadHistoryMonth, monthLabel,
