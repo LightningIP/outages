@@ -723,9 +723,13 @@ createApp({
     const upcomingOutages = ref([]);
     const historyOutages  = ref([]);
     const currentActiveOutages = computed(() =>
-      currentOutages.value.filter((o) => !isClosedStatus(o.status)));
+      currentOutages.value
+        .filter((o) => !isClosedStatus(o.status))
+        .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b)));
     const currentClosedOutages = computed(() =>
-      currentOutages.value.filter((o) => isClosedStatus(o.status)));
+      currentOutages.value
+        .filter((o) => isClosedStatus(o.status))
+        .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b)));
 
     // Map of ref → full data object
     const fullData    = ref({});
@@ -749,6 +753,15 @@ createApp({
 
     function isDefaultExpanded(outage) {
       return !isClosedStatus(outage.status) && (outage.outage_type || '').toLowerCase() !== 'maintenance';
+    }
+
+    function getSortTimestamp(outage) {
+      const ref = outage?.outage_reference;
+      const full = ref ? fullData.value[ref] : null;
+      const scheduledStart = full?.lifecycle?.scheduled_start || outage?.lifecycle?.scheduled_start || outage?.scheduled_start || outage?.start_at;
+      const openedAt = full?.lifecycle?.opened_at || outage?.opened_at || outage?.lifecycle?.opened_at;
+      const time = new Date(scheduledStart || openedAt || 0).getTime();
+      return Number.isFinite(time) ? time : Number.MAX_SAFE_INTEGER;
     }
 
     // ── Fetch helpers ──
@@ -785,8 +798,12 @@ createApp({
       loadingCurrent.value = true;
       try {
         const data = await fetchJSON('current.json');
-        const active = data.filter((o) => !isClosedStatus(o.status));
-        const closed = data.filter((o) => isClosedStatus(o.status));
+        const active = data
+          .filter((o) => !isClosedStatus(o.status))
+          .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
+        const closed = data
+          .filter((o) => isClosedStatus(o.status))
+          .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
         currentOutages.value = [...active, ...closed];
         prefetchFull(data);
       } catch (e) {
@@ -914,3 +931,4 @@ createApp({
 </script>
 </body>
 </html>
+
