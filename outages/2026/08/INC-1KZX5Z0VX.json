@@ -1,0 +1,61 @@
+{
+	"outage_reference": "INC-1KZX5Z0VX",
+	"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
+	"outage_type": "incident",
+	"status": "investigating",
+	"severity": null,
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T09:06:31.434Z",
+		"opened_at": "2026-08-13T08:19:45.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T09:06:31.434Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"NORTH ALBURY"
+		],
+		"postcodes": [
+			"2640"
+		]
+	},
+	"services": {
+		"count": 1,
+		"types": [
+			"NBN - FTTN"
+		]
+	},
+	"cause": {
+		"high_level": null,
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "We are aware of an issue with an upstream provider affecting some broadband services in Coolum Beach, QLD. Impacted customers may have no connectivity or intermittent service. Engineers are troubleshooting a hardware alarm on a network switch in the area. We are working with our network partner to restore services as quickly as possible. No estimated restoration time is available yet.",
+	"updates": [
+		{
+			"id": "6f0f8384-196d-45a6-91c6-a202a09523a6",
+			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
+			"update_time": "2026-08-13T08:54:13.000Z",
+			"update_type": "initial_update",
+			"content": "We’re investigating a service disruption affecting some customers in Coolum Beach, QLD. You may experience no connectivity or intermittent service. Our team, together with our network partner, is troubleshooting a hardware alarm on a local network switch. We’re working to restore services as quickly as possible. We don’t have an estimated restoration time yet. If available, using mobile data can help you stay connected during the interruption. Thank you for your patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T09:06:31.721Z"
+		}
+	]
+}
