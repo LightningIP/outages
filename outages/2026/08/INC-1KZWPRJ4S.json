@@ -1,0 +1,61 @@
+{
+	"outage_reference": "INC-1KZWPRJ4S",
+	"title": "Lavington, NSW - Infrastructure Restoration",
+	"outage_type": "incident",
+	"status": "resolved",
+	"severity": null,
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:40:51.108Z",
+		"opened_at": "2026-07-07T01:18:29.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:40:51.108Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"SPRINGDALE HEIGHTS"
+		],
+		"postcodes": [
+			"2641"
+		]
+	},
+	"services": {
+		"count": 2,
+		"types": [
+			"NBN - FTTP"
+		]
+	},
+	"cause": {
+		"high_level": "network hardware fault",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "An unplanned access network outage affecting some services in Lavington, NSW has been resolved. Field technicians replaced faulty network hardware. Services were restored at 2:30 AM AEST on 8 July 2026.",
+	"updates": [
+		{
+			"id": "a10e2843-8053-4c25-bccc-2b585ff6e1c1",
+			"outage_id": "59732298-ce6a-4d9a-a5d8-2483e95ecd0c",
+			"update_time": "2026-07-07T16:30:29.000Z",
+			"update_type": "initial_update",
+			"content": "Resolved: Some customers in Lavington, NSW experienced a service interruption. Our network partner replaced faulty hardware and services were restored at 2:30 AM AEST on 8 July 2026. If your connection is still not working, please restart your modem/router and contact our support team. Thank you for your patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:40:51.560Z"
+		}
+	]
+}
