@@ -1,0 +1,61 @@
+{
+	"outage_reference": "INC-1KZWPMER3",
+	"title": "Temora, NSW - Infrastructure Restoration",
+	"outage_type": "incident",
+	"status": "resolved",
+	"severity": null,
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:38:36.557Z",
+		"opened_at": "2026-07-03T08:13:49.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:38:36.557Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"TEMORA"
+		],
+		"postcodes": [
+			"2666"
+		]
+	},
+	"services": {
+		"count": 1,
+		"types": [
+			"NBN - FTTC"
+		]
+	},
+	"cause": {
+		"high_level": null,
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "An upstream provider has resolved an unplanned outage that affected some services in Temora, NSW. Impacted customers may have experienced a loss of connectivity. Services were restored by 7:00 pm AEST on 3 July 2026. If you are still experiencing issues, please restart your modem/router and contact us if the problem continues.",
+	"updates": [
+		{
+			"id": "e900d59c-dcc6-471b-b583-0c8532e3f596",
+			"outage_id": "26ec5af4-8bd1-4819-bb27-8aedc0c2f7dd",
+			"update_time": "2026-07-03T09:00:14.000Z",
+			"update_type": "initial_update",
+			"content": "An unplanned outage affecting some services in Temora, NSW has been resolved. Services were restored by 7:00 pm AEST on 3 July 2026. If you remain offline, please restart your modem/router. If the issue persists, get in touch and we’ll help. Thank you for your patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:38:36.809Z"
+		}
+	]
+}
