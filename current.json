@@ -16,9 +16,7 @@
 		"postcodes": [
 			"3934"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned maintenance at the NBN Mt Eliza (3MTE) Point of Interconnect was completed at 3:00 AM AEST on 7 August 2026. Some NBN services served by this POI may have experienced brief interruptions of up to 2 hours during the window. No further impact is expected."
 	},
@@ -41,9 +39,7 @@
 			"3015",
 			"3020"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "Planned maintenance on NBN links serving the Footscray (3FSR) and St Kilda (3STK) Points of Interconnect took place from 12:00 AM to 6:00 AM AEST on 5 August 2026. Some NBN services on these POIs may have experienced brief interruptions during the window. The work is complete and services are operating normally. If you are still experiencing issues, please restart your modem/router and contact our support team."
 	},
@@ -66,9 +62,7 @@
 			"3015",
 			"3020"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "Scheduled maintenance to upgrade network infrastructure at NBN Points of Interconnect serving Footscray and St Kilda (VIC) and Miranda (NSW) was carried out between 12:00 AM and 7:00 AM AEST on 10 August 2026. Some NBN services in these areas may have experienced brief interruptions during the window. The work is complete and services are operating normally."
 	},
@@ -93,10 +87,7 @@
 			"4352",
 			"4362"
 		],
-		"service_types": [
-			"NBN - FTTP",
-			"NBN - Fixed Wireless"
-		],
+		"service_types": null,
 		"service_count": 3,
 		"current_summary": "Scheduled works to rehome NBN services for the Toowoomba (4TOB) and Woolloongabba (4WOB) POIs in QLD were carried out between 12:00 AM and 2:00 AM AEST on 12 August 2026. Some services on these POIs may have experienced brief interruptions during the window. The maintenance is complete and services are operating normally."
 	},
@@ -119,10 +110,7 @@
 			"4724",
 			"4825"
 		],
-		"service_types": [
-			"NBN - FTTN",
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "Scheduled maintenance on the NBN Rockhampton (4ROT) POI was carried out between 12:00 AM and 2:00 AM AEST on 5 August 2026. Some NBN services in the Rockhampton area may have experienced brief interruptions during the window. The work is complete and services are operating normally."
 	},
@@ -146,10 +134,7 @@
 			"4209",
 			"4213"
 		],
-		"service_types": [
-			"NBN - FTTC",
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 3,
 		"current_summary": "Planned cable replacement at the Nerang (4NER) NBN Point of Interconnect was completed during the scheduled window between 11:00 PM and 6:00 AM AEST on 10–11 August. The work was performed by an upstream provider. NBN services delivered via the Nerang POI are operating normally and we will continue to monitor."
 	},
@@ -172,10 +157,7 @@
 			"4012",
 			"4551"
 		],
-		"service_types": [
-			"NBN - FTTP",
-			"NBN - HFC"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "Planned NBN maintenance at POIs 4KLG (Petrie), 4CAB (Caboolture) and 4APL (Aspley), scheduled for 13 August 2026 11:00 PM to 14 August 2026 6:00 AM AEST, has been cancelled. No customer impact is expected."
 	},
@@ -198,9 +180,7 @@
 			"3015",
 			"3020"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "Scheduled maintenance on NBN infrastructure at the Footscray (3FSR) and St Kilda (3STK) POIs has been completed. The work ran from 12:00 AM to 6:00 AM AEST on 6 August 2026. Some NBN services in areas served by these POIs may have experienced brief interruptions during the window. Services are now operating normally and no further impact is expected."
 	},
@@ -221,9 +201,7 @@
 		"postcodes": [
 			"4012"
 		],
-		"service_types": [
-			"NBN - HFC"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned NBN works at the Aspley (4APL) and Aspley Depot (4BNB) POIs in Brisbane have concluded. Services in the area may have experienced brief interruptions between 12:00 AM and 2:00 AM AEST on 11 August 2026 while services were moved to a new router. No further impact is expected."
 	},
@@ -246,10 +224,7 @@
 			"2420",
 			"2428"
 		],
-		"service_types": [
-			"NBN - FTTN",
-			"NBN - Fixed Wireless"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "Planned works at the NBN Mayfield (2MYF) POI are complete. Customers with NBN services connected via this POI in NSW may have experienced interruptions between 12:00 AM and 7:00 AM AEST on 10 August 2026. Services are now operating normally and we are monitoring."
 	},
@@ -270,9 +245,7 @@
 		"postcodes": [
 			"3153"
 		],
-		"service_types": [
-			"NBN - HFC"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Scheduled maintenance on NBN services at the Ringwood (3RWO) and Lilydale (3LIL) POIs in Melbourne to migrate services to a new router at Exhibition Exchange. Short interruptions of up to 2 hours were expected during the window 12:00 AM–2:00 AM AEST on Saturday, 8 August 2026. The maintenance window has concluded; no further impact is expected."
 	},
@@ -293,9 +266,7 @@
 		"postcodes": [
 			"4551"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned works will move NBN services on the Caboolture (4CAB) and Ipswich (4IPS) POIs in Brisbane to a new router between 12:00 AM and 2:00 AM AEST on Thursday, 13 August 2026. Some NBN customers served by these POIs may experience brief interruptions during the window. Our team will monitor throughout and work to restore services quickly, with all activity expected to be complete by 2:00 AM AEST."
 	},
@@ -316,9 +287,7 @@
 		"postcodes": [
 			"2641"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 2,
 		"current_summary": "An upstream access network provider has scheduled upgrade works. Some services will experience a brief loss of connection (up to 45 minutes) during the maintenance window. We are monitoring the activity and affected services should restore automatically once the work is complete. Order processing may be delayed during and shortly after the window, but orders can still be submitted."
 	},
@@ -339,11 +308,33 @@
 		"postcodes": [
 			"2594"
 		],
-		"service_types": [
-			"NBN - FTTN"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned works on the access network in Young, NSW are scheduled for 12:00 AM–6:00 AM AEST on 11 August 2026. Services in this area may lose connection during the window. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor progress and confirm once services are back. Services are expected to be restored by 6:00 AM AEST."
+	},
+	{
+		"outage_reference": "MNT-1KZT9FA2D",
+		"title": "National - Maintain the Network",
+		"outage_type": "maintenance",
+		"status": "scheduled",
+		"record_path": "outages/2026/08/MNT-1KZT9FA2D.json",
+		"opened_at": "2026-08-12T05:28:16.684Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW",
+			"VIC"
+		],
+		"suburbs": [
+			"CORRYONG",
+			"SPRINGSIDE"
+		],
+		"postcodes": [
+			"2800",
+			"3707"
+		],
+		"service_types": null,
+		"service_count": 2,
+		"current_summary": "Urgent maintenance by an upstream provider is scheduled from 2:00 AM to 6:00 AM AEST on Friday 14 August 2026. A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST. Some services may lose connectivity during this window. We are monitoring and will provide updates if details change."
 	},
 	{
 		"outage_reference": "MNT-1KZT9HBW4",
@@ -362,11 +353,30 @@
 		"postcodes": [
 			"2641"
 		],
-		"service_types": [
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 1,
 		"current_summary": "Planned work by an upstream network provider will replace access network hardware in Lavington, NSW. The maintenance window is Monday 3 August, 9:00 AM–5:00 PM AEST, with a single interruption of up to 3 hours expected from 9:00 AM. Affected services in Lavington may briefly lose connection. We are monitoring and will update if timings change."
+	},
+	{
+		"outage_reference": "MNT-1KZT9MAE2",
+		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"status": "scheduled",
+		"record_path": "outages/2026/08/MNT-1KZT9MAE2.json",
+		"opened_at": "2026-08-12T05:28:16.669Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		],
+		"service_types": null,
+		"service_count": 3,
+		"current_summary": "An upstream provider has scheduled network upgrade works affecting services in River St, Maclean NSW. The maintenance window is 12:00 AM to 6:00 AM local time on 14 August. One interruption of up to 5 hours is expected during this window, causing a temporary loss of connectivity for impacted services. The event is scheduled and we will monitor throughout."
 	},
 	{
 		"outage_reference": "MNT-1KZT7015J",
@@ -389,11 +399,7 @@
 			"2450",
 			"2464"
 		],
-		"service_types": [
-			"NBN - FTTC",
-			"NBN - FTTN",
-			"NBN - FTTP"
-		],
+		"service_types": null,
 		"service_count": 6,
 		"current_summary": "Planned fibre splicing work is scheduled to take place affecting some NBN services in Coffs Harbour, Miranda, and Grafton (POIs 2CFS, 2MIR, 2GRN). The maintenance window will run from Thursday, 13 August at 11:00 PM to Friday, 14 August at 7:00 AM AEST. During this time, services in the affected areas may experience service interruptions for up to 8 hours within the window."
 	}
