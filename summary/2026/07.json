@@ -22,7 +22,7 @@
 		"postcodes": [
 			"3934"
 		],
-		"path": "outage/2026/08/MNT-1KZT7BM0R.json"
+		"path": "outages/2026/08/MNT-1KZT7BM0R.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT6NZJA",
@@ -49,7 +49,7 @@
 			"3015",
 			"3020"
 		],
-		"path": "outage/2026/08/MNT-1KZT6NZJA.json"
+		"path": "outages/2026/08/MNT-1KZT6NZJA.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT76N9F",
@@ -76,7 +76,7 @@
 			"3015",
 			"3020"
 		],
-		"path": "outage/2026/08/MNT-1KZT76N9F.json"
+		"path": "outages/2026/08/MNT-1KZT76N9F.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT794YD",
@@ -105,7 +105,7 @@
 			"4352",
 			"4362"
 		],
-		"path": "outage/2026/08/MNT-1KZT794YD.json"
+		"path": "outages/2026/08/MNT-1KZT794YD.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7E19F",
@@ -132,7 +132,7 @@
 			"4724",
 			"4825"
 		],
-		"path": "outage/2026/08/MNT-1KZT7E19F.json"
+		"path": "outages/2026/08/MNT-1KZT7E19F.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7GPRC",
@@ -160,7 +160,7 @@
 			"4209",
 			"4213"
 		],
-		"path": "outage/2026/08/MNT-1KZT7GPRC.json"
+		"path": "outages/2026/08/MNT-1KZT7GPRC.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7KSVN",
@@ -187,7 +187,7 @@
 			"4012",
 			"4551"
 		],
-		"path": "outage/2026/08/MNT-1KZT7KSVN.json"
+		"path": "outages/2026/08/MNT-1KZT7KSVN.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7NRJ2",
@@ -214,7 +214,7 @@
 			"3015",
 			"3020"
 		],
-		"path": "outage/2026/08/MNT-1KZT7NRJ2.json"
+		"path": "outages/2026/08/MNT-1KZT7NRJ2.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7QV8B",
@@ -239,7 +239,7 @@
 		"postcodes": [
 			"4012"
 		],
-		"path": "outage/2026/08/MNT-1KZT7QV8B.json"
+		"path": "outages/2026/08/MNT-1KZT7QV8B.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7VXMV",
@@ -266,7 +266,7 @@
 			"2420",
 			"2428"
 		],
-		"path": "outage/2026/08/MNT-1KZT7VXMV.json"
+		"path": "outages/2026/08/MNT-1KZT7VXMV.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7Y1FF",
@@ -291,7 +291,7 @@
 		"postcodes": [
 			"3153"
 		],
-		"path": "outage/2026/08/MNT-1KZT7Y1FF.json"
+		"path": "outages/2026/08/MNT-1KZT7Y1FF.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT81WZK",
@@ -316,6 +316,6 @@
 		"postcodes": [
 			"4551"
 		],
-		"path": "outage/2026/08/MNT-1KZT81WZK.json"
+		"path": "outages/2026/08/MNT-1KZT81WZK.json"
 	}
 ]
