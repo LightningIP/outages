@@ -13,7 +13,8 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:33:09.541Z"
+		"updated_at": "2026-08-12T05:33:09.541Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -32,10 +33,10 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 1,
+		"types": [
 			"NBN - FTTP"
-		],
-		"count": 1
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -43,16 +44,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Planned maintenance at the NBN Mt Eliza (3MTE) Point of Interconnect was completed at 3:00 AM AEST on 7 August 2026. Some NBN services served by this POI may have experienced brief interruptions of up to 2 hours during the window. No further impact is expected.",
 	"updates": [
 		{
-			"update_time": "2026-08-07T03:00:00.000+10:00",
+			"id": "136601e6-2ecc-43b8-9b4c-e82f160e9da4",
+			"outage_id": "49edd4e9-5eba-4385-a63c-25debfadfbef",
+			"update_time": "2026-08-06T17:00:00.000Z",
 			"update_type": "initial_update",
 			"content": "We completed planned work on the NBN Mt Eliza (3MTE) POI between 12:00 AM and 3:00 AM AEST on 7 August 2026. Some services in the area may have briefly dropped during the window while traffic was moved to new network equipment. Services are now operating normally. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T05:33:09.657Z"
 		}
 	]
 }
