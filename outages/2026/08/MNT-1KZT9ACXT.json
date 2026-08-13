@@ -2,7 +2,7 @@
 	"outage_reference": "MNT-1KZT9ACXT",
 	"title": " - Upgrade the Network",
 	"outage_type": "maintenance",
-	"status": "scheduled",
+	"status": "completed",
 	"severity": null,
 	"planned": true,
 	"lifecycle": {
@@ -12,8 +12,8 @@
 		"scheduled_end": "2026-08-10T20:00:00.000Z",
 		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T06:07:26.662Z",
+		"resolved_at": "2026-08-13T04:00:54.406Z",
+		"updated_at": "2026-08-13T05:00:03.112Z",
 		"closed_at": null
 	},
 	"impact": {
@@ -46,7 +46,7 @@
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "An upstream access network provider has scheduled upgrade works. Some services will experience a brief loss of connection (up to 45 minutes) during the maintenance window. We are monitoring the activity and affected services should restore automatically once the work is complete. Order processing may be delayed during and shortly after the window, but orders can still be submitted.",
+	"current_summary": "Scheduled network upgrade maintenance has now completed. Services in the affected area may have experienced a brief outage of up to 45 minutes during the maintenance window. Order processing delays are now resolved. No further disruption is expected.",
 	"updates": [
 		{
 			"id": "de6d61fa-d69a-4aef-8b96-40e369c8cb50",
@@ -56,6 +56,15 @@
 			"content": "Planned upgrade work on the access network is scheduled. A small number of services may briefly go offline (up to 45 minutes) during the maintenance window. Services should reconnect automatically when the work is complete. Our team will monitor progress and provide updates if anything changes. You can continue to place orders during this time, though processing may be delayed. No action is required; if needed, you can use mobile data during the brief interruption.",
 			"material_change": true,
 			"created_at": "2026-08-12T06:07:26.752Z"
+		},
+		{
+			"id": "2fc05a61-6320-4419-96b6-1c4415bcceb5",
+			"outage_id": "d7cc2751-3a9b-4fb0-912a-e7744d522d3f",
+			"update_time": "2026-08-13T04:00:54.406Z",
+			"update_type": "status_change",
+			"content": "The scheduled network upgrade maintenance has been completed. Services in the affected area may have briefly gone offline during the maintenance window but should now be operating normally. Order processing delays related to the maintenance are now cleared. No further disruptions are anticipated.",
+			"material_change": true,
+			"created_at": "2026-08-13T05:00:03.242Z"
 		}
 	]
 }
