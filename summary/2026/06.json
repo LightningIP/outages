@@ -1,0 +1,171 @@
+[
+	{
+		"outage_reference": "MNT-1KZWP70BN",
+		"title": "NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-01T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 3,
+		"cause": "maintenance activity",
+		"current_summary": "Planned works by an upstream provider in NSW were carried out between 12:00 AM and 8:00 AM AEST on Thursday, 2 July 2026. A small number of services experienced one interruption of up to 2 hours around 1:00 AM AEST. The maintenance is complete and services are operating normally. No further impact is expected.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LOVEDALE",
+			"RUTHERFORD"
+		],
+		"postcodes": [
+			"2320",
+			"2325"
+		],
+		"path": "outages/2026/08/MNT-1KZWP70BN.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWPD5HY",
+		"title": "Campsie \r\n NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-14T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": true,
+		"service_count": 1,
+		"cause": "maintenance activity",
+		"current_summary": "Planned upgrade works were completed by an upstream provider in Campsie, NSW. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 15 July 2026, with a single planned interruption of up to 60 minutes around 12:30 AM. Some services in the area may have briefly lost connection, and service orders or changes may have been delayed during and shortly after the window. The activity is complete and services are expected to be operating normally.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"ASHFIELD"
+		],
+		"postcodes": [
+			"2131"
+		],
+		"path": "outages/2026/08/MNT-1KZWPD5HY.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWPK4ED",
+		"title": "CANN RIVER VIC - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-20T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 66,
+		"cause": "maintenance activity",
+		"current_summary": "Planned works by an upstream provider to upgrade network infrastructure in Cann River, VIC were completed. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 21 July 2026, with a single interruption of up to 60 minutes expected for some services. Services are now expected to be online.",
+		"states": [
+			"NSW",
+			"VIC"
+		],
+		"suburbs": [
+			"ALLANS FLAT",
+			"BARANDUDA",
+			"BARNAWARTHA",
+			"BARNAWARTHA NORTH",
+			"BEECHWORTH",
+			"BELLBRIDGE",
+			"BETHANGA",
+			"BRUARONG",
+			"CHILTERN VALLEY",
+			"CORRYONG",
+			"EAST ALBURY",
+			"EBDEN",
+			"FINLEY",
+			"GRIFFITH",
+			"KERGUNYAH",
+			"KERGUNYAH SOUTH",
+			"KIEWA",
+			"LAKE HUME VILLAGE",
+			"LENEVA",
+			"MYRTLEFORD",
+			"OAKLANDS",
+			"RUTHERGLEN",
+			"STAGHORN FLAT",
+			"TALGARNO",
+			"TANGAMBALANGA",
+			"TOCUMWAL",
+			"WHITTON",
+			"WIRLINGA",
+			"YACKANDANDAH"
+		],
+		"postcodes": [
+			"2640",
+			"2646",
+			"2680",
+			"2705",
+			"2713",
+			"2714",
+			"3683",
+			"3685",
+			"3688",
+			"3691",
+			"3707",
+			"3737",
+			"3747",
+			"3749"
+		],
+		"path": "outages/2026/08/MNT-1KZWPK4ED.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWPSPMK",
+		"title": "VIC, NSW & QLD - Maintain the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-30T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "maintenance activity",
+		"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LOCKHART"
+		],
+		"postcodes": [
+			"2656"
+		],
+		"path": "outages/2026/08/MNT-1KZWPSPMK.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWQ0WFT",
+		"title": "MACLEAN NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "cancelled",
+		"severity": null,
+		"start_at": "2026-07-10T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": false,
+		"operational_impact": false,
+		"service_count": 3,
+		"cause": "maintenance activity",
+		"current_summary": "Planned network maintenance in Maclean, NSW has been cancelled by an upstream provider. No service impact is expected. The previously advised window was 11 July 2026 between 12:00 AM and 6:00 AM AEST. No action is required.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		],
+		"path": "outages/2026/08/MNT-1KZWQ0WFT.json"
+	}
+]
