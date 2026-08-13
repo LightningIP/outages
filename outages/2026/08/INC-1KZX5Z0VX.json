@@ -3,17 +3,17 @@
 	"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
 	"outage_type": "incident",
 	"status": "investigating",
-	"severity": null,
+	"severity": "High",
 	"planned": false,
 	"lifecycle": {
 		"created_at": "2026-08-13T09:06:31.434Z",
 		"opened_at": "2026-08-13T08:19:45.000Z",
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": null,
+		"estimated_restoration_at": "2026-08-13T06:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-13T09:59:47.179Z",
+		"updated_at": "2026-08-13T13:30:52.125Z",
 		"closed_at": null
 	},
 	"impact": {
@@ -40,13 +40,13 @@
 	},
 	"cause": {
 		"high_level": null,
-		"detailed_cause": null,
+		"detailed_cause": "Attending technician is expected onsite by 2AM with required spare parts to address a hardware failure affecting local network equipment.",
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "A technician is being sent to investigate a network issue in Coolum Beach, QLD, affecting some nbn services. Additional users may be impacted while urgent repairs are carried out. Spare parts are being arranged and customers may experience ongoing service interruptions until the work is completed.",
+	"current_summary": "Technicians are en route to the Coolum Beach area and are expected onsite by 2AM (AEST) to repair a hardware fault affecting some nbn services. Service interruptions will continue while spare parts are sourced and repairs are underway. We will provide further updates if restoration is achieved earlier or once work is complete.",
 	"updates": [
 		{
 			"id": "6f0f8384-196d-45a6-91c6-a202a09523a6",
@@ -74,6 +74,15 @@
 			"content": "An attending technician will need to arrange spare parts before arriving in Coolum Beach, QLD to work on local network hardware. Urgent repair work may temporarily impact additional users. Service interruptions are expected to continue until repairs are completed. We will share more information as it becomes available. Thank you for your continued patience.",
 			"material_change": true,
 			"created_at": "2026-08-13T09:59:47.238Z"
+		},
+		{
+			"id": "358b9ae7-dd8f-4984-bd62-c47e00eb717a",
+			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
+			"update_time": "2026-08-13T13:26:35.000Z",
+			"update_type": "restoration_estimate",
+			"content": "Technicians are expected to arrive onsite at Coolum Beach by 2AM (AEST) with spare parts to address a hardware failure affecting local nbn network services. Service interruptions will continue while repairs are underway. We will share further updates or an earlier restoration time if available.",
+			"material_change": true,
+			"created_at": "2026-08-13T13:30:52.202Z"
 		}
 	]
 }
