@@ -1,0 +1,61 @@
+{
+	"outage_reference": "MNT-1KZWPG8NF",
+	"title": "Coffs Harbour NSW - Remediate the Network",
+	"outage_type": "maintenance",
+	"status": "resolved",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:36:19.327Z",
+		"opened_at": "2026-07-08T08:37:20.000Z",
+		"scheduled_start": "2026-07-22T22:00:00.000Z",
+		"scheduled_end": "2026-07-23T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:36:19.327Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "regional"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"COFFS HARBOUR"
+		],
+		"postcodes": [
+			"2450"
+		]
+	},
+	"services": {
+		"count": 1,
+		"types": [
+			"NBN - FTTP"
+		]
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "Scheduled access network works were carried out in Coffs Harbour, NSW on 23 July 2026 between 8:00 AM and 5:00 PM AEST. Customers in this area may have experienced brief loss of service during the maintenance window. The work is complete and services are expected to be operating normally.",
+	"updates": [
+		{
+			"id": "0384e90b-090d-4ad8-9649-216af2320bd3",
+			"outage_id": "6599f1b9-daf3-4caf-8e77-c7413815c4bf",
+			"update_time": "2026-08-13T04:24:55.397Z",
+			"update_type": "initial_update",
+			"content": "Our network partner completed scheduled maintenance in Coffs Harbour, NSW on 23 July 2026 between 8:00 AM and 5:00 PM AEST. Some services in the area may have briefly gone offline during this window. The maintenance is now complete and services should be operating normally. If you are still offline, please restart your modem or router. If issues persist, contact our support team. We appreciate your patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:36:19.739Z"
+		}
+	]
+}
