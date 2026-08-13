@@ -13,7 +13,8 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T06:12:51.798Z"
+		"updated_at": "2026-08-12T06:12:51.798Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -32,11 +33,11 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 3,
+		"types": [
 			"NBN - FTTC",
 			"NBN - FTTP"
-		],
-		"count": 3
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -44,16 +45,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "An upstream provider has scheduled network upgrade works affecting services in River St, Maclean NSW. The maintenance window is 12:00 AM to 6:00 AM local time on 14 August. One interruption of up to 5 hours is expected during this window, causing a temporary loss of connectivity for impacted services. The event is scheduled and we will monitor throughout.",
 	"updates": [
 		{
-			"update_time": "2026-08-12T16:12:51.974+10:00",
+			"id": "b0161411-d147-4cd7-8489-a4bd609773c1",
+			"outage_id": "5d56aab2-6c02-43c3-b55d-9fb0c69cc76a",
+			"update_time": "2026-08-12T06:12:51.974Z",
 			"update_type": "initial_update",
 			"content": "We will be supporting planned network works affecting some services in River St, Maclean NSW. The window is scheduled for 12:00 AM to 6:00 AM AEST on 14 August. During this time, a single interruption of up to 5 hours is expected, and impacted customers may lose connectivity. Services should restore automatically once the work is complete. We will monitor the activity and provide updates if anything changes. If you need to stay online, consider using mobile data where available during the window. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T06:12:51.979Z"
 		}
 	]
 }
