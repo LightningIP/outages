@@ -13,7 +13,8 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T06:10:07.582Z"
+		"updated_at": "2026-08-12T06:10:07.582Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -35,10 +36,10 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 2,
+		"types": [
 			"NBN - Fixed Wireless"
-		],
-		"count": 2
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -46,16 +47,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Urgent maintenance by an upstream provider is scheduled from 2:00 AM to 6:00 AM AEST on Friday 14 August 2026. A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST. Some services may lose connectivity during this window. We are monitoring and will provide updates if details change.",
 	"updates": [
 		{
-			"update_time": "2026-08-12T15:28:16.688+10:00",
+			"id": "3e350562-044f-42a5-a22e-f19b3a9ed6b8",
+			"outage_id": "ad857dab-76ae-43d1-b428-8f685f306a87",
+			"update_time": "2026-08-12T05:28:16.688Z",
 			"update_type": "initial_update",
 			"content": "We are aware of urgent maintenance by one of our network providers to resolve a network issue. This work may cause a temporary loss of connectivity for some services.\n\nWhen:\n- Friday 14 August, 2:00 AM–6:00 AM AEST (maintenance window)\n- A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST\n\nWhat we’re doing:\n- We are monitoring the work and will provide updates if details change. Services should restore automatically when the work is complete.\n\nIf you need to stay online during the window, using mobile data where available may help. We appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T06:10:07.738Z"
 		}
 	]
 }
