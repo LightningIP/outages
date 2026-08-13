@@ -22,7 +22,7 @@
 		"postcodes": [
 			"3121"
 		],
-		"path": "outage/2026/08/MNT-1KZT7T660.json"
+		"path": "outages/2026/08/MNT-1KZT7T660.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT9PN4P",
@@ -47,6 +47,6 @@
 		"postcodes": [
 			"2641"
 		],
-		"path": "outage/2026/08/MNT-1KZT9PN4P.json"
+		"path": "outages/2026/08/MNT-1KZT9PN4P.json"
 	}
 ]
