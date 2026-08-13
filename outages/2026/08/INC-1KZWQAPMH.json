@@ -1,0 +1,61 @@
+{
+	"outage_reference": "INC-1KZWQAPMH",
+	"title": "Thurgoona, NSW 2640 - Infrastructure Restoration",
+	"outage_type": "incident",
+	"status": "resolved",
+	"severity": "minor",
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:50:45.538Z",
+		"opened_at": "2026-07-24T00:16:45.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:50:45.538Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"THURGOONA"
+		],
+		"postcodes": [
+			"2640"
+		]
+	},
+	"services": {
+		"count": 1,
+		"types": [
+			"NBN - FTTP"
+		]
+	},
+	"cause": {
+		"high_level": "network fault",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "Services in Thurgoona (NSW 2640) were interrupted due to an unexpected network issue. Field works were completed to repair network cabling and services were restored at 2:57 PM AEST on 24 July 2026. If you are still offline, please restart your modem/router and connection box, then contact us if the issue continues.",
+	"updates": [
+		{
+			"id": "bea538fc-a6ca-4afc-aad8-958266b03448",
+			"outage_id": "7591fa0b-b3d3-4fff-8f00-6c6514141a3d",
+			"update_time": "2026-07-24T04:57:47.000Z",
+			"update_type": "initial_update",
+			"content": "We’re aware of an earlier service interruption affecting some customers in Thurgoona (NSW 2640). The issue has been resolved following field repairs to network cabling, and services were restored at 2:57 PM AEST on 24 July 2026.\n\nIf your service has not come back online, please restart your modem/router and any connection box you have. If you’re still experiencing issues after restarting, contact our support team and we’ll help get you back online.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:50:46.317Z"
+		}
+	]
+}
