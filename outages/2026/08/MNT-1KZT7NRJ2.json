@@ -13,7 +13,8 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:38:41.870Z"
+		"updated_at": "2026-08-12T05:38:41.870Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -34,10 +35,10 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 2,
+		"types": [
 			"NBN - FTTP"
-		],
-		"count": 2
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -45,16 +46,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Scheduled maintenance on NBN infrastructure at the Footscray (3FSR) and St Kilda (3STK) POIs has been completed. The work ran from 12:00 AM to 6:00 AM AEST on 6 August 2026. Some NBN services in areas served by these POIs may have experienced brief interruptions during the window. Services are now operating normally and no further impact is expected.",
 	"updates": [
 		{
-			"update_time": "2026-08-06T06:00:00.000+10:00",
+			"id": "664da05a-8590-44e8-bdec-0b78636683c4",
+			"outage_id": "1905c84f-4ac7-4038-8dc9-cabf1415ae2b",
+			"update_time": "2026-08-05T20:00:00.000Z",
 			"update_type": "initial_update",
 			"content": "Planned maintenance affecting NBN services at the Footscray (3FSR) and St Kilda (3STK) Points of Interconnect is complete. The window ran from 12:00 AM to 6:00 AM AEST on 6 August 2026. Some customers may have experienced short interruptions during this time. Services are now operating normally. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T05:38:42.040Z"
 		}
 	]
 }
