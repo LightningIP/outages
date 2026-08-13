@@ -1,0 +1,63 @@
+{
+	"outage_reference": "INC-1KZWPEM05",
+	"title": "Murringo, NSW - Infrastructure Restoration",
+	"outage_type": "incident",
+	"status": "resolved",
+	"severity": "minor",
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:35:25.327Z",
+		"opened_at": "2026-07-02T14:08:45.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:35:25.327Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": null
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"MURRINGO",
+			"YOUNG"
+		],
+		"postcodes": [
+			"2586",
+			"2594"
+		]
+	},
+	"services": {
+		"count": 2,
+		"types": [
+			"NBN - Fixed Wireless"
+		]
+	},
+	"cause": {
+		"high_level": "network hardware fault",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "An upstream provider reported an unplanned access network outage affecting some services in Murringo, NSW. The issue has been resolved after network hardware was replaced. Services were restored at 6:12 PM AEST on 3 July 2026.",
+	"updates": [
+		{
+			"id": "483c3637-b13c-4dbc-aa6b-2b5681993e80",
+			"outage_id": "73494d6e-dd98-425e-9307-999ddb9ed0cd",
+			"update_time": "2026-07-03T08:12:18.000Z",
+			"update_type": "initial_update",
+			"content": "We’re aware of an unplanned interruption that affected some services in Murringo, NSW. The issue was within the access network used to deliver connectivity. Our network partner has replaced faulty hardware and service was restored at 6:12 PM AEST on 3 July 2026.\n\nIf you’re still offline, please restart your modem and router. If the issue continues, contact our support team and we’ll help get you back online.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:35:25.587Z"
+		}
+	]
+}
