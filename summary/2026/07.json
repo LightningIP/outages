@@ -958,5 +958,80 @@
 			"2640"
 		],
 		"path": "outages/2026/08/INC-1KZWQAPMH.json"
+	},
+	{
+		"outage_reference": "INC-1KZX60KBT",
+		"title": "RESERVOIR,VIC-3073 - Infrastructure Restoration",
+		"outage_type": "incident",
+		"planned": false,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-28T10:51:50.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "power outage",
+		"current_summary": "An earlier power outage affected network equipment in Reservoir, VIC 3073, causing a loss of service for some customers. Power has been restored and services are back online. We are monitoring the area. If your connection has not returned, please restart your modem/router and connection box (if you have one).",
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"RESERVOIR"
+		],
+		"postcodes": [
+			"3073"
+		],
+		"path": "outages/2026/08/INC-1KZX60KBT.json"
+	},
+	{
+		"outage_reference": "INC-1KZX62732",
+		"title": "CHARLEVILLE,QLD-4470 - Infrastructure Restoration",
+		"outage_type": "incident",
+		"planned": false,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-29T02:20:46.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "Power issue",
+		"current_summary": "Services in Charleville (QLD 4470) experienced an unplanned access network outage caused by a local power issue. All affected services were restored at 2:31 PM AEST on 29 July 2026. If any services remain offline, restarting the modem/router and connection box may help. We are monitoring for stability.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"THURGOONA"
+		],
+		"postcodes": [
+			"2640"
+		],
+		"path": "outages/2026/08/INC-1KZX62732.json"
+	},
+	{
+		"outage_reference": "INC-1KZX63W0G",
+		"title": "Berridale, NSW - Infrastructure Restoration",
+		"outage_type": "incident",
+		"planned": false,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-29T18:09:46.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "network hardware failure",
+		"current_summary": "An upstream access network issue in Berridale, NSW has been resolved. Network hardware was replaced and services were restored at approximately 12:37 PM AEST on 30 July 2026. If your service has not reconnected, please restart your modem/router and any connection box.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BERRIDALE"
+		],
+		"postcodes": [
+			"2628"
+		],
+		"path": "outages/2026/08/INC-1KZX63W0G.json"
 	}
 ]
