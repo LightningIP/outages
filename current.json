@@ -978,27 +978,6 @@
 		"current_summary": "Planned maintenance in Young, NSW has been completed. Services were affected during the scheduled window on 11 August 2026 between 12:00 AM and 6:00 AM AEST. All works are now finished and normal connectivity has resumed."
 	},
 	{
-		"outage_reference": "INC-1KZX5Z0VX",
-		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
-		"outage_type": "incident",
-		"status": "investigating",
-		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json",
-		"opened_at": "2026-08-13T08:19:45.000Z",
-		"estimated_restoration_at": null,
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"NORTH ALBURY"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"service_types": null,
-		"service_count": 1,
-		"current_summary": "We are aware of an issue with an upstream provider affecting some broadband services in Coolum Beach, QLD. Impacted customers may have no connectivity or intermittent service. Engineers are troubleshooting a hardware alarm on a network switch in the area. We are working with our network partner to restore services as quickly as possible. No estimated restoration time is available yet."
-	},
-	{
 		"outage_reference": "INC-1KZX60KBT",
 		"title": "RESERVOIR,VIC-3073 - Infrastructure Restoration",
 		"outage_type": "incident",
@@ -1060,5 +1039,26 @@
 		"service_types": null,
 		"service_count": 1,
 		"current_summary": "An upstream access network issue in Berridale, NSW has been resolved. Network hardware was replaced and services were restored at approximately 12:37 PM AEST on 30 July 2026. If your service has not reconnected, please restart your modem/router and any connection box."
+	},
+	{
+		"outage_reference": "INC-1KZX5Z0VX",
+		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
+		"outage_type": "incident",
+		"status": "investigating",
+		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json",
+		"opened_at": "2026-08-13T08:19:45.000Z",
+		"estimated_restoration_at": null,
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"NORTH ALBURY"
+		],
+		"postcodes": [
+			"2640"
+		],
+		"service_types": null,
+		"service_count": 1,
+		"current_summary": null
 	}
 ]
