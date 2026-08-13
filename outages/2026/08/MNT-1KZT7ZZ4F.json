@@ -13,7 +13,8 @@
 		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:44:16.283Z"
+		"updated_at": "2026-08-12T05:44:16.283Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -32,10 +33,10 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 1,
+		"types": [
 			"NBN - HFC"
-		],
-		"count": 1
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -43,16 +44,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Planned works by an upstream provider will replace a splice enclosure serving multiple Queensland NBN Points of Interconnect. The maintenance window is Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time). Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during the window. Our team will monitor the network and work with our partner to minimise impact. Services are expected to be restored by 7:00 AM AEST.",
 	"updates": [
 		{
-			"update_time": "2026-08-04T15:59:37.115+10:00",
+			"id": "a0b7b1d7-70de-4aa6-9e39-14d881f0c07d",
+			"outage_id": "ad4e611b-a3bb-4423-911f-8082ac3211c4",
+			"update_time": "2026-08-04T05:59:37.115Z",
 			"update_type": "initial_update",
 			"content": "We will be undertaking planned network works with one of our network partners overnight.\n\nWindow: Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time).\n\nImpact: Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during this window. Not all services will be affected.\n\nWhat we’re doing: Our engineers will be monitoring throughout and will work to restore any affected services as quickly as possible. Services are expected to be restored by 7:00 AM AEST.\n\nWe know service interruptions can be frustrating and we appreciate your patience while this essential work is completed.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T05:44:16.509Z"
 		}
 	]
 }
