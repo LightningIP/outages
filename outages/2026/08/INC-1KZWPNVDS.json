@@ -1,0 +1,61 @@
+{
+	"outage_reference": "INC-1KZWPNVDS",
+	"title": "Albury, NSW - Infrastructure Restoration",
+	"outage_type": "incident",
+	"status": "resolved",
+	"severity": null,
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:39:22.300Z",
+		"opened_at": "2026-07-06T23:59:46.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:39:22.300Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"ALBURY"
+		],
+		"postcodes": [
+			"2640"
+		]
+	},
+	"services": {
+		"count": 1,
+		"types": [
+			"NBN - FTTN"
+		]
+	},
+	"cause": {
+		"high_level": null,
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "An upstream provider has resolved an unplanned access network outage affecting some services in Albury, NSW. Services were restored as of 6:25 PM AEST on 7 July 2026. We are monitoring. If you are still offline, please restart your modem or router and contact our support team if the issue continues.",
+	"updates": [
+		{
+			"id": "31921e80-5967-40f4-a0f7-c2aa48ddc44f",
+			"outage_id": "7083b21b-daa2-4c7b-86ee-99871b438bc5",
+			"update_time": "2026-07-07T08:25:30.000Z",
+			"update_type": "initial_update",
+			"content": "We’re aware of an earlier unplanned interruption affecting some services in Albury, NSW. The issue within an upstream access network has been resolved, and services were restored as of 6:25 PM AEST on 7 July 2026. If your connection is still impacted, please restart your modem or router. If issues persist, contact our support team and we’ll help get you back online.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:39:22.536Z"
+		}
+	]
+}
