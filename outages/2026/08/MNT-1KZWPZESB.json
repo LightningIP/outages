@@ -1,0 +1,104 @@
+{
+	"outage_reference": "MNT-1KZWPZESB",
+	"title": "Cann River VIC - Upgrade the Network",
+	"outage_type": "maintenance",
+	"status": "cancelled",
+	"severity": null,
+	"planned": true,
+	"lifecycle": {
+		"created_at": "2026-08-13T04:44:37.052Z",
+		"opened_at": "2026-07-02T23:42:50.000Z",
+		"scheduled_start": "2026-07-24T14:00:00.000Z",
+		"scheduled_end": "2026-07-24T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T04:44:37.052Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": false,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW",
+			"VIC"
+		],
+		"suburbs": [
+			"ALLANS FLAT",
+			"BARANDUDA",
+			"BARNAWARTHA",
+			"BARNAWARTHA NORTH",
+			"BEECHWORTH",
+			"BELLBRIDGE",
+			"BETHANGA",
+			"BRUARONG",
+			"CHILTERN VALLEY",
+			"CORRYONG",
+			"EAST ALBURY",
+			"EBDEN",
+			"FINLEY",
+			"GRIFFITH",
+			"KERGUNYAH",
+			"KERGUNYAH SOUTH",
+			"KIEWA",
+			"LAKE HUME VILLAGE",
+			"LENEVA",
+			"MYRTLEFORD",
+			"OAKLANDS",
+			"RUTHERGLEN",
+			"STAGHORN FLAT",
+			"TALGARNO",
+			"TANGAMBALANGA",
+			"TOCUMWAL",
+			"WHITTON",
+			"WIRLINGA",
+			"YACKANDANDAH"
+		],
+		"postcodes": [
+			"2640",
+			"2646",
+			"2680",
+			"2705",
+			"2713",
+			"2714",
+			"3683",
+			"3685",
+			"3688",
+			"3691",
+			"3707",
+			"3737",
+			"3747",
+			"3749"
+		]
+	},
+	"services": {
+		"count": 66,
+		"types": [
+			"NBN - FTTC",
+			"NBN - Fixed Wireless"
+		]
+	},
+	"cause": {
+		"high_level": "maintenance activity",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "Planned maintenance affecting services in Cann River, VIC scheduled for Saturday 25 July 2026 between 12:00 AM and 6:00 AM local time has been cancelled. No customer impact is expected.",
+	"updates": [
+		{
+			"id": "21e20065-5647-43cd-abc5-2d5ba72a1ffb",
+			"outage_id": "b7360189-8499-49fb-ac2c-de874f4a28ea",
+			"update_time": "2026-08-13T04:24:56.917Z",
+			"update_type": "initial_update",
+			"content": "Planned network works affecting some services in Cann River, VIC scheduled for Saturday 25 July between 12:00 AM and 6:00 AM local time have been cancelled. No customer impact is expected and no action is required. If you do notice any unexpected issues, please restart your modem or router and contact our support team.",
+			"material_change": true,
+			"created_at": "2026-08-13T04:44:37.534Z"
+		}
+	]
+}
