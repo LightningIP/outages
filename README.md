@@ -156,8 +156,8 @@ For example:
 ```json
 {
   "severity": null,
-  "postcodes": \[],
-  "actual\_restoration\_at": null
+  "postcodes": [],
+  "actual_restoration_at": null
 }
 ```
 
@@ -170,12 +170,12 @@ Where available, the count may also be broken down by service type:
 ```json
 {
   "services": {
-    "service\_count": 181,
-    "service\_types": \[
+    "service_count": 181,
+    "service_types": [
       "NBN - FTTN",
       "NBN - FTTP"
     ],
-    "services\_by\_type": {
+    "services_by_type": {
       "NBN - FTTN": 124,
       "NBN - FTTP": 57
     }
@@ -214,11 +214,11 @@ A public update may contain:
 
 ```json
 {
-  "update\_id": "8e945553-5fa5-4651-b510-6282ce5d211c",
-  "update\_time": "2026-07-27T03:52:03.261Z",
-  "update\_type": "initial\_update",
+  "update_id": "8e945553-5fa5-4651-b510-6282ce5d211c",
+  "update_time": "2026-07-27T03:52:03.261Z",
+  "update_type": "initial_update",
   "content": "We are investigating an interruption affecting services in the listed areas.",
-  "material\_change": true
+  "material_change": true
 }
 ```
 
@@ -356,8 +356,6 @@ Otherwise, a later automated publication may overwrite the manual change.
 
 If you identify information that appears to be incorrect, incomplete, or inaccessible, please raise an issue in this repository or contact the organisation through its official support channels.
 
-
-
 When reporting a possible data issue, include:
 
 * The outage reference.
@@ -366,21 +364,13 @@ When reporting a possible data issue, include:
 * The information believed to be incorrect.
 * Any publicly verifiable supporting information.
 
-
-
 Do not include customer details, service identifiers, account information, credentials, or other sensitive information in a public issue.
 
-
-
 Repository issues are intended for corrections to published information and technical problems with the public data. They must not be used for urgent service restoration requests or customer-specific support.
-
-
 
 ContriContributions
 
 This repository does not accept external contributions.
-
-
 
 ## Disclaimer
 
@@ -408,11 +398,7 @@ In an emergency, contact the appropriate emergency service or authority.
 
 Unless otherwise stated, the public outage and maintenance data in this repository is made available under the licence contained in the repository's LICENSE file.
 
-
-
 Before publishing the repository, the repository owner should select and include an explicit licence covering:
-
-
 
 Reuse of the published data.
 
@@ -426,17 +412,12 @@ Any applicable warranty and liability limitations.
 
 Software source code, website assets, documentation, and published outage data may require different licence terms. Where separate terms apply, they should be identified clearly.
 
-
-
 ## Contact and Support
 
 For service-specific assistance, use the organisation's official customer support channels.
-
-
 
 For questions about the public dataset, JSON structure, accessibility, or repository operation, use the contact details published by the organisation or raise a GitHub issue that does not contain sensitive information.
 
 ## Repository Status
 
 This repository is a public transparency and historical publication mechanism. It contains published outage and maintenance records and is not the internal source system used to ingest vendor events, correlate services, or manage operational response.
-
