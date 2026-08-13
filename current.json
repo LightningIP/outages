@@ -1047,7 +1047,7 @@
 		"status": "investigating",
 		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json",
 		"opened_at": "2026-08-13T08:19:45.000Z",
-		"estimated_restoration_at": null,
+		"estimated_restoration_at": "2026-08-13T06:00:00.000Z",
 		"states": [
 			"NSW"
 		],
@@ -1059,6 +1059,6 @@
 		],
 		"service_types": null,
 		"service_count": 1,
-		"current_summary": "A technician is being sent to investigate a network issue in Coolum Beach, QLD, affecting some nbn services. Additional users may be impacted while urgent repairs are carried out. Spare parts are being arranged and customers may experience ongoing service interruptions until the work is completed."
+		"current_summary": "Technicians are en route to the Coolum Beach area and are expected onsite by 2AM (AEST) to repair a hardware fault affecting some nbn services. Service interruptions will continue while spare parts are sourced and repairs are underway. We will provide further updates if restoration is achieved earlier or once work is complete."
 	}
 ]
