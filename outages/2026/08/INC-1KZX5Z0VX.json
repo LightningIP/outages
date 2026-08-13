@@ -13,7 +13,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-13T09:30:47.858Z",
+		"updated_at": "2026-08-13T09:59:47.179Z",
 		"closed_at": null
 	},
 	"impact": {
@@ -46,7 +46,7 @@
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": null,
+	"current_summary": "A technician is being sent to investigate a network issue in Coolum Beach, QLD, affecting some nbn services. Additional users may be impacted while urgent repairs are carried out. Spare parts are being arranged and customers may experience ongoing service interruptions until the work is completed.",
 	"updates": [
 		{
 			"id": "6f0f8384-196d-45a6-91c6-a202a09523a6",
@@ -65,6 +65,15 @@
 			"content": "A technician has now been dispatched to the Coolum Beach area to investigate and address the ongoing network issue. Some customers may continue to experience no connectivity or intermittent service while work is underway. We are working with our network partner and will provide an estimated restoration time as soon as it becomes available. Thank you for your patience.",
 			"material_change": true,
 			"created_at": "2026-08-13T09:30:47.936Z"
+		},
+		{
+			"id": "b212c706-af6b-4082-8d38-60a2fb3db41b",
+			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
+			"update_time": "2026-08-13T09:54:51.000Z",
+			"update_type": "status_change",
+			"content": "An attending technician will need to arrange spare parts before arriving in Coolum Beach, QLD to work on local network hardware. Urgent repair work may temporarily impact additional users. Service interruptions are expected to continue until repairs are completed. We will share more information as it becomes available. Thank you for your continued patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T09:59:47.238Z"
 		}
 	]
 }
