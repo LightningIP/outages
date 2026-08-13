@@ -8,18 +8,18 @@
 	"lifecycle": {
 		"created_at": "2026-08-12T05:45:19.626Z",
 		"opened_at": "2026-07-22T01:48:08.305Z",
-		"scheduled_start": "2026-08-12T14:00:00.000Z",
-		"scheduled_end": "2026-08-12T16:00:00.000Z",
-		"estimated_restoration_at": "2026-08-12T16:00:00.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:45:19.626Z",
+		"updated_at": "2026-08-13T05:00:03.092Z",
 		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
 		"operational_impact": false,
-		"impact_scope": "regional"
+		"impact_scope": null
 	},
 	"geography": {
 		"states": [
@@ -39,14 +39,14 @@
 		]
 	},
 	"cause": {
-		"high_level": "maintenance activity",
+		"high_level": null,
 		"detailed_cause": null,
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned works will move NBN services on the Caboolture (4CAB) and Ipswich (4IPS) POIs in Brisbane to a new router between 12:00 AM and 2:00 AM AEST on Thursday, 13 August 2026. Some NBN customers served by these POIs may experience brief interruptions during the window. Our team will monitor throughout and work to restore services quickly, with all activity expected to be complete by 2:00 AM AEST.",
+	"current_summary": null,
 	"updates": [
 		{
 			"id": "04fc90b2-a5bd-4635-ada9-3d093d5108f4",
@@ -56,6 +56,15 @@
 			"content": "We have scheduled maintenance affecting NBN services delivered via the Caboolture (4CAB) and Ipswich (4IPS) POIs in Brisbane. This work will take place on Thursday, 13 August, between 12:00 AM and 2:00 AM AEST. Some customers on these POIs may experience brief interruptions while we move connections to a new router. We will monitor closely and aim to keep any downtime to a minimum. Services are expected to be fully restored by 2:00 AM AEST. Note: these works have been rescheduled to this time.",
 			"material_change": true,
 			"created_at": "2026-08-12T05:45:19.879Z"
+		},
+		{
+			"id": "65841020-e8a3-489a-8adb-765e7c7180ff",
+			"outage_id": "08ea6f97-6ea2-4c26-942b-c703a0f9ed70",
+			"update_time": "2026-08-13T01:59:48.674Z",
+			"update_type": "informational",
+			"content": "The previously advised maintenance window for NBN services in the Caboolture (4CAB) and Ipswich (4IPS) areas remains unchanged. Planned works are still scheduled between 12:00 AM and 2:00 AM AEST on Thursday, 13 August 2026. No additional updates at this time.",
+			"material_change": false,
+			"created_at": "2026-08-13T05:00:03.242Z"
 		}
 	]
 }
