@@ -13,7 +13,8 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"updated_at": "2026-08-12T05:31:48.561Z"
+		"updated_at": "2026-08-12T05:31:48.561Z",
+		"closed_at": null
 	},
 	"impact": {
 		"customer_impact": true,
@@ -36,11 +37,11 @@
 		]
 	},
 	"services": {
-		"service_types": [
+		"count": 3,
+		"types": [
 			"NBN - FTTP",
 			"NBN - Fixed Wireless"
-		],
-		"count": 3
+		]
 	},
 	"cause": {
 		"high_level": "maintenance activity",
@@ -48,16 +49,18 @@
 		"root_cause": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null,
-		"root_cause_confirmed": null
+		"power_related": null
 	},
 	"current_summary": "Scheduled works to rehome NBN services for the Toowoomba (4TOB) and Woolloongabba (4WOB) POIs in QLD were carried out between 12:00 AM and 2:00 AM AEST on 12 August 2026. Some services on these POIs may have experienced brief interruptions during the window. The maintenance is complete and services are operating normally.",
 	"updates": [
 		{
-			"update_time": "2026-08-12T02:00:00.000+10:00",
+			"id": "dfbf9cbf-bfcf-485e-8478-745d8fc2016e",
+			"outage_id": "ce82d1fe-571a-4098-9daa-1c3a8bb6aace",
+			"update_time": "2026-08-11T16:00:00.000Z",
 			"update_type": "initial_update",
 			"content": "We completed scheduled maintenance on NBN connectivity at the Toowoomba (4TOB) and Woolloongabba (4WOB) POIs in QLD between 12:00 AM and 2:00 AM AEST on 12 August 2026. During the window, some NBN services in these areas may have briefly dropped. All services are expected to be operating normally now. If your service is still offline, please power-cycle your modem/router and contact our support team if the issue persists. We appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"created_at": "2026-08-12T05:31:48.680Z"
 		}
 	]
 }
