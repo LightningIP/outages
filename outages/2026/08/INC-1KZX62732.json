@@ -1,0 +1,61 @@
+{
+	"outage_reference": "INC-1KZX62732",
+	"title": "CHARLEVILLE,QLD-4470 - Infrastructure Restoration",
+	"outage_type": "incident",
+	"status": "resolved",
+	"severity": null,
+	"planned": false,
+	"lifecycle": {
+		"created_at": "2026-08-13T09:08:16.117Z",
+		"opened_at": "2026-07-29T02:20:46.000Z",
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"updated_at": "2026-08-13T09:08:16.117Z",
+		"closed_at": null
+	},
+	"impact": {
+		"customer_impact": true,
+		"operational_impact": false,
+		"impact_scope": "local"
+	},
+	"geography": {
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"THURGOONA"
+		],
+		"postcodes": [
+			"2640"
+		]
+	},
+	"services": {
+		"count": 1,
+		"types": [
+			"NBN - FTTN"
+		]
+	},
+	"cause": {
+		"high_level": "Power issue",
+		"detailed_cause": null,
+		"root_cause": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"current_summary": "Services in Charleville (QLD 4470) experienced an unplanned access network outage caused by a local power issue. All affected services were restored at 2:31 PM AEST on 29 July 2026. If any services remain offline, restarting the modem/router and connection box may help. We are monitoring for stability.",
+	"updates": [
+		{
+			"id": "a6cf8bdb-867b-4064-b0c4-2eacb6ba3b7c",
+			"outage_id": "8494012f-7c54-4e8b-ba07-1608a2651aa3",
+			"update_time": "2026-07-29T04:31:00.000Z",
+			"update_type": "initial_update",
+			"content": "Resolved: Some customers in Charleville (QLD 4470) experienced a loss of service due to a local power issue in the access network. Services were restored at 2:31 PM AEST on 29 July. If your connection hasn’t come back online, please restart your modem/router and connection box (if present). We’re monitoring the area and appreciate your patience.",
+			"material_change": true,
+			"created_at": "2026-08-13T09:08:16.286Z"
+		}
+	]
+}
