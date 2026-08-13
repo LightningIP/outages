@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outages</title>
+  <script>
+    (() => {
+      const param = new URLSearchParams(window.location.search).get("scoutTheme");
+      const theme = param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --cp-bg: #f7f4ef;
+      --cp-bg-elevated: #fcfbf8;
+      --cp-surface: #ffffff;
+      --cp-surface-soft: #f5f5f5;
+      --cp-border: #dedede;
+      --cp-border-strong: #919191;
+      --cp-text: #242424;
+      --cp-text-muted: #5c5c5c;
+      --cp-text-soft: #6f6f6f;
+      --cp-accent: #b11f4b;
+      --cp-accent-hover: #9a1a41;
+      --cp-accent-soft: rgba(177, 31, 75, 0.08);
+      --cp-accent-fg: #ffffff;
+      --cp-success: #16a34a;
+      --cp-danger: #dc2626;
+      --cp-warning: #f59e0b;
+      --cp-link: #0078d4;
+      --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+      --cp-overlay: rgba(255, 255, 255, 0.8);
+      --cp-panel: rgba(255, 255, 255, 0.86);
+      --cp-panel-strong: rgba(255, 255, 255, 0.96);
+      --cp-sheen: rgba(255, 255, 255, 0.55);
+      --cp-highlight: rgba(177, 31, 75, 0.12);
+    }
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --cp-bg: #3d3b3a;
+      --cp-bg-elevated: #343231;
+      --cp-surface: #292929;
+      --cp-surface-soft: #2e2e2e;
+      --cp-border: #474747;
+      --cp-border-strong: #5f5f5f;
+      --cp-text: #dedede;
+      --cp-text-muted: #919191;
+      --cp-text-soft: #b0b0b0;
+      --cp-accent: #fd8ea1;
+      --cp-accent-hover: #fb7b91;
+      --cp-accent-soft: rgba(253, 142, 161, 0.14);
+      --cp-accent-fg: #1a1a1a;
+      --cp-success: #4ade80;
+      --cp-danger: #f87171;
+      --cp-warning: #fbbf24;
+      --cp-link: #4da6ff;
+      --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+      --cp-overlay: rgba(41, 41, 41, 0.88);
+      --cp-panel: rgba(41, 41, 41, 0.72);
+      --cp-panel-strong: rgba(41, 41, 41, 0.96);
+      --cp-sheen: rgba(255, 255, 255, 0.04);
+      --cp-highlight: rgba(253, 142, 161, 0.12);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--cp-bg);
+      color: var(--cp-text);
+      min-height: 100vh;
+    }
+
+    /* ── Layout ── */
+    .app-header {
+      background: var(--cp-surface);
+      border-bottom: 1px solid var(--cp-border);
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .app-header h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--cp-accent);
+      letter-spacing: -0.01em;
+    }
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--cp-border);
+      border-radius: 0.625rem;
+      padding: 0.25rem 0.625rem;
+      cursor: pointer;
+      color: var(--cp-text-muted);
+      font-size: 0.8rem;
+      font-family: inherit;
+      transition: border-color 0.15s;
+    }
+    .theme-toggle:hover { border-color: var(--cp-border-strong); color: var(--cp-text); }
+
+    .main-container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 2px solid var(--cp-border);
+      margin-bottom: 1.5rem;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      padding: 0.625rem 1.125rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      font-weight: 500;
+      color: var(--cp-text-muted);
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--cp-text); }
+    .tab-btn.active { color: var(--cp-accent); border-bottom-color: var(--cp-accent); }
+
+    /* ── History toolbar ── */
+    .history-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .history-toolbar label { font-size: 0.85rem; color: var(--cp-text-muted); }
+    .history-toolbar select {
+      background: var(--cp-surface);
+      border: 1px solid var(--cp-border);
+      border-radius: 0.625rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.875rem;
+      font-family: inherit;
+      color: var(--cp-text);
+      cursor: pointer;
+    }
+    .history-toolbar select:focus { outline: 2px solid var(--cp-accent); outline-offset: 1px; }
+
+    /* ── Outage card ── */
+    .outage-list { display: flex; flex-direction: column; gap: 0.875rem; }
+    .outage-group + .outage-group { margin-top: 1.5rem; }
+    .outage-group-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--cp-text-muted);
+      margin-bottom: 0.625rem;
+      font-weight: 700;
+    }
+    .outage-group-divider {
+      border: 0;
+      border-top: 1px solid var(--cp-border);
+      margin: 1.25rem 0;
+    }
+
+    .outage-card {
+      background: var(--cp-surface);
+      border: 1px solid var(--cp-border);
+      border-radius: 16px;
+      padding: 1rem 1.25rem;
+      box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+      cursor: pointer;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .outage-card:hover {
+      border-color: var(--cp-border-strong);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .outage-card.expanded { border-color: var(--cp-accent); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    .card-title-group { flex: 1; min-width: 0; }
+    .card-title {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      line-height: 1.35;
+      margin-bottom: 0.25rem;
+    }
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.375rem;
+      align-items: center;
+      margin-top: 0.25rem;
+      margin-bottom: 0.625rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .badge-status-resolved    { background: rgba(22,163,74,0.12);  color: var(--cp-success); }
+    .badge-status-scheduled   { background: rgba(245,158,11,0.12); color: var(--cp-warning); }
+    .badge-status-active      { background: rgba(220,38,38,0.12);  color: var(--cp-danger); }
+    .badge-status-cancelled   { background: var(--cp-surface-soft); color: var(--cp-text-muted); }
+    .badge-status-investigating { background: rgba(220,38,38,0.12); color: var(--cp-danger); }
+    .badge-type               { background: var(--cp-accent-soft); color: var(--cp-accent); }
+    .badge-state              { background: var(--cp-surface-soft); color: var(--cp-text-muted); }
+
+    .card-quick-dates {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.625rem;
+      margin-top: 0.125rem;
+    }
+    .quick-date-item {
+      background: var(--cp-surface-soft);
+      border: 1px solid var(--cp-border);
+      border-radius: 0.625rem;
+      padding: 0.5rem 0.625rem;
+    }
+    .quick-date-item label {
+      display: block;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--cp-text-muted);
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    .quick-date-item span {
+      font-size: 0.8rem;
+      color: var(--cp-text);
+    }
+    .chevron {
+      color: var(--cp-text-muted);
+      transition: transform 0.2s;
+      flex-shrink: 0;
+      margin-top: 0.125rem;
+    }
+    .chevron.open { transform: rotate(180deg); }
+
+    .card-body {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--cp-border);
+    }
+
+    .summary-text {
+      font-size: 0.875rem;
+      line-height: 1.6;
+      color: var(--cp-text-soft);
+      margin-bottom: 0.875rem;
+    }
+
+    .detail-row {
+      margin-bottom: 0.875rem;
+    }
+    .detail-row:last-child {
+      margin-bottom: 0;
+    }
+    .detail-row-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--cp-text-muted);
+      font-weight: 700;
+      margin-bottom: 0.45rem;
+    }
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+    }
+    .detail-item label {
+      display: block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--cp-text-muted);
+      margin-bottom: 0.2rem;
+      font-weight: 600;
+    }
+    .detail-item span {
+      font-size: 0.8rem;
+      color: var(--cp-text);
+    }
+
+    /* Full detail (from individual JSON) */
+    .detail-full { margin-top: 0.75rem; }
+    .updates-list { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+    .update-item {
+      background: var(--cp-surface-soft);
+      border-radius: 0.625rem;
+      padding: 0.625rem 0.875rem;
+      font-size: 0.8rem;
+      line-height: 1.55;
+    }
+    .update-item time { display: block; font-size: 0.7rem; color: var(--cp-text-muted); margin-bottom: 0.25rem; }
+
+    .loading-inline {
+      font-size: 0.78rem;
+      color: var(--cp-text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+    }
+    .spinner {
+      width: 14px; height: 14px;
+      border: 2px solid var(--cp-border);
+      border-top-color: var(--cp-accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Empty / Loading states */
+    .state-placeholder {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--cp-text-muted);
+    }
+    .state-placeholder .spinner { width: 28px; height: 28px; border-width: 3px; margin: 0 auto 0.75rem; }
+
+    /* Section heading */
+    .section-heading {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-weight: 700;
+      color: var(--cp-text-muted);
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <header class="app-header">
+    <h1>⚡ Outage Tracker</h1>
+    <button class="theme-toggle" @click="toggleTheme">{{ isDark ? '☀ Light' : '☾ Dark' }}</button>
+  </header>
+
+  <main class="main-container">
+    <!-- Tabs -->
+    <nav class="tabs">
+      <button class="tab-btn" :class="{ active: tab === 'current' }"   @click="tab = 'current'">Current</button>
+      <button class="tab-btn" :class="{ active: tab === 'upcoming' }"  @click="tab = 'upcoming'">Upcoming</button>
+      <button class="tab-btn" :class="{ active: tab === 'history' }"   @click="tab = 'history'">History</button>
+    </nav>
+
+    <!-- Current tab -->
+    <div v-if="tab === 'current'">
+      <p class="section-heading">Active &amp; Recent Outages</p>
+      <div v-if="loadingCurrent" class="state-placeholder">
+        <div class="spinner"></div>
+        <p>Loading current outages…</p>
+      </div>
+      <div v-else-if="currentOutages.length === 0" class="state-placeholder">
+        <p>No current outages found.</p>
+      </div>
+      <div v-else>
+        <section class="outage-group">
+          <p class="outage-group-title">Active</p>
+          <div v-if="currentActiveOutages.length === 0" class="state-placeholder" style="padding: 1.25rem 1rem;">
+            <p>No active outages.</p>
+          </div>
+          <div v-else class="outage-list">
+            <outage-card
+              v-for="o in currentActiveOutages"
+              :key="o.outage_reference"
+              :summary="o"
+              :full-data="fullData[o.outage_reference]"
+              :loading-full="loadingFull[o.outage_reference]"
+              :default-expanded="isDefaultExpanded(o)"
+            ></outage-card>
+          </div>
+        </section>
+        <hr v-if="currentClosedOutages.length" class="outage-group-divider" />
+        <section v-if="currentClosedOutages.length" class="outage-group">
+          <p class="outage-group-title">Recently Closed</p>
+          <div class="outage-list">
+            <outage-card
+              v-for="o in currentClosedOutages"
+              :key="o.outage_reference"
+              :summary="o"
+              :full-data="fullData[o.outage_reference]"
+              :loading-full="loadingFull[o.outage_reference]"
+            ></outage-card>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Upcoming tab -->
+    <div v-if="tab === 'upcoming'">
+      <p class="section-heading">Upcoming Scheduled Maintenance</p>
+      <div v-if="loadingUpcoming" class="state-placeholder">
+        <div class="spinner"></div>
+        <p>Loading upcoming outages…</p>
+      </div>
+      <div v-else-if="upcomingOutages.length === 0" class="state-placeholder">
+        <p>No upcoming outages found.</p>
+      </div>
+      <div v-else class="outage-list">
+        <outage-card
+          v-for="o in upcomingOutages"
+          :key="o.outage_reference"
+          :summary="o"
+          :full-data="fullData[o.outage_reference]"
+          :loading-full="loadingFull[o.outage_reference]"
+        ></outage-card>
+      </div>
+    </div>
+
+    <!-- History tab -->
+    <div v-if="tab === 'history'">
+      <div class="history-toolbar">
+        <label for="sel-year">Year</label>
+        <select id="sel-year" v-model="selectedYear" @change="onYearChange">
+          <option v-for="y in availableYears" :key="y" :value="y">{{ y }}</option>
+        </select>
+        <label for="sel-month">Month</label>
+        <select id="sel-month" v-model="selectedMonth" @change="loadHistoryMonth">
+          <option v-for="m in availableMonths" :key="m.value" :value="m.value">{{ m.label }}</option>
+        </select>
+      </div>
+      <p class="section-heading">{{ monthLabel(selectedMonth) }} {{ selectedYear }}</p>
+      <div v-if="loadingHistory" class="state-placeholder">
+        <div class="spinner"></div>
+        <p>Loading history…</p>
+      </div>
+      <div v-else-if="historyOutages.length === 0" class="state-placeholder">
+        <p>No outages found for this period.</p>
+      </div>
+      <div v-else class="outage-list">
+        <outage-card
+          v-for="o in historyOutages"
+          :key="o.outage_reference"
+          :summary="o"
+          :full-data="fullData[o.outage_reference]"
+          :loading-full="loadingFull[o.outage_reference]"
+        ></outage-card>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script>
+const { createApp, defineComponent, ref, computed, onMounted, watch } = Vue;
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  return new Date(iso).toLocaleString('en-AU', {
+    day: '2-digit', month: 'short', year: 'numeric',
+    hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+  });
+}
+
+function statusClass(status) {
+  const s = (status || '').toLowerCase();
+  if (s === 'resolved') return 'badge-status-resolved';
+  if (s === 'scheduled') return 'badge-status-scheduled';
+  if (s === 'cancelled') return 'badge-status-cancelled';
+  if (s === 'active' || s === 'ongoing') return 'badge-status-active';
+  return 'badge-status-investigating';
+}
+
+function isClosedStatus(status) {
+  const s = (status || '').toLowerCase();
+  return s === 'resolved' || s === 'cancelled' || s === 'closed';
+}
+
+function capitalise(s) {
+  if (!s) return '';
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+const MONTH_NAMES = ['January','February','March','April','May','June',
+                     'July','August','September','October','November','December'];
+
+// ── OutageCard component ──────────────────────────────────────────────────────
+
+const OutageCard = defineComponent({
+  name: 'OutageCard',
+  props: {
+    summary: { type: Object, required: true },
+    fullData: { type: Object, default: null },
+    loadingFull: { type: Boolean, default: false },
+    defaultExpanded: { type: Boolean, default: false },
+  },
+  emits: ['expand'],
+  setup(props) {
+    const expanded = ref(props.defaultExpanded);
+
+    const statusBadge = computed(() => statusClass(props.summary.status));
+    const statesList  = computed(() => (props.summary.states || []).join(', ') || '—');
+    const suburbsList = computed(() => (props.summary.suburbs || []).join(', ') || '—');
+    const postcodes   = computed(() => (props.summary.postcodes || []).join(', ') || '—');
+    const serviceTypesFromSummary = computed(() =>
+      Array.isArray(props.summary.service_types) ? props.summary.service_types : []);
+    const quickStartLabel = computed(() => {
+      if (props.fullData?.lifecycle?.scheduled_start) return 'Scheduled Start';
+      return props.summary.opened_at ? 'Opened' : 'Start';
+    });
+    const quickStartValue = computed(() => {
+      return fmtDate(
+        props.fullData?.lifecycle?.scheduled_start ||
+        props.summary.opened_at ||
+        props.summary.start_at
+      );
+    });
+    const quickEnd = computed(() => {
+      const lifecycle = props.fullData?.lifecycle || {};
+      if (lifecycle.scheduled_end) return { label: 'Scheduled End', value: fmtDate(lifecycle.scheduled_end) };
+      if (lifecycle.resolved_at || props.summary.resolved_at) {
+        return { label: 'Resolved At', value: fmtDate(lifecycle.resolved_at || props.summary.resolved_at) };
+      }
+      if (lifecycle.estimated_restoration_at || props.summary.estimated_restoration_at) {
+        return {
+          label: 'Estimated Restoration',
+          value: fmtDate(lifecycle.estimated_restoration_at || props.summary.estimated_restoration_at),
+        };
+      }
+      return null;
+    });
+
+    const causeHighLevel = computed(() =>
+      props.fullData?.cause?.high_level || props.summary.cause || null);
+    const causeDetailed = computed(() =>
+      props.fullData?.cause?.detailed_cause || null);
+
+    return {
+      expanded,
+      statusBadge,
+      statesList,
+      suburbsList,
+      postcodes,
+      serviceTypesFromSummary,
+      quickStartLabel,
+      quickStartValue,
+      quickEnd,
+      causeHighLevel,
+      causeDetailed,
+      capitalise,
+      fmtDate,
+    };
+  },
+  template: `
+    <div class="outage-card" :class="{ expanded }" @click="expanded = !expanded">
+      <div class="card-header">
+        <div class="card-title-group">
+          <div class="card-title">{{ summary.outage_reference }}: {{ summary.title || 'Untitled outage' }}</div>
+          <div class="card-meta">
+            <span class="badge" :class="statusBadge">{{ capitalise(summary.status) }}</span>
+            <span class="badge badge-type">{{ capitalise(summary.outage_type || 'outage') }}</span>
+            <span v-for="s in (summary.states || [])" :key="s" class="badge badge-state">{{ s }}</span>
+          </div>
+          <div class="card-quick-dates">
+            <div class="quick-date-item">
+              <label>{{ quickStartLabel }}</label>
+              <span>{{ quickStartValue }}</span>
+            </div>
+            <div class="quick-date-item" v-if="quickEnd">
+              <label>{{ quickEnd.label }}</label>
+              <span>{{ quickEnd.value }}</span>
+            </div>
+          </div>
+        </div>
+        <svg class="chevron" :class="{ open: expanded }" width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <div v-if="expanded" class="card-body" @click.stop>
+        <p class="summary-text">{{ summary.current_summary }}</p>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Dates</p>
+          <div class="detail-grid">
+            <div class="detail-item" v-if="summary.opened_at">
+              <label>Opened</label>
+              <span>{{ fmtDate(summary.opened_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.start_at">
+              <label>Start</label>
+              <span>{{ fmtDate(summary.start_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.scheduled_start">
+              <label>Scheduled Start</label>
+              <span>{{ fmtDate(fullData.lifecycle.scheduled_start) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.scheduled_end">
+              <label>Scheduled End</label>
+              <span>{{ fmtDate(fullData.lifecycle.scheduled_end) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.resolved_at || summary.resolved_at">
+              <label>Resolved At</label>
+              <span>{{ fmtDate(fullData?.lifecycle?.resolved_at || summary.resolved_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.estimated_restoration_at || summary.estimated_restoration_at">
+              <label>Estimated Restoration</label>
+              <span>{{ fmtDate(fullData?.lifecycle?.estimated_restoration_at || summary.estimated_restoration_at) }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Geography</p>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <label>States</label>
+              <span>{{ statesList }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Suburbs</label>
+              <span>{{ suburbsList }}</span>
+            </div>
+            <div class="detail-item">
+              <label>Postcodes</label>
+              <span>{{ postcodes }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Services</p>
+          <div class="detail-grid">
+            <div class="detail-item" v-if="summary.service_count != null || fullData?.services?.count != null">
+              <label>Services Affected</label>
+              <span>{{ fullData?.services?.count ?? summary.service_count }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.services?.types?.length || serviceTypesFromSummary.length">
+              <label>Service Types</label>
+              <span>{{ (fullData?.services?.types || serviceTypesFromSummary).join(', ') }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.customer_impact != null || fullData?.impact?.customer_impact != null">
+              <label>Customer Impact</label>
+              <span>{{ (fullData?.impact?.customer_impact ?? summary.customer_impact) ? 'Yes' : 'No' }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.operational_impact != null || fullData?.impact?.operational_impact != null">
+              <label>Operational Impact</label>
+              <span>{{ (fullData?.impact?.operational_impact ?? summary.operational_impact) ? 'Yes' : 'No' }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-row">
+          <p class="detail-row-title">Cause</p>
+          <div class="detail-grid">
+            <div class="detail-item" v-if="causeHighLevel">
+              <label>High-level Cause</label>
+              <span>{{ capitalise(causeHighLevel) }}</span>
+            </div>
+            <div class="detail-item" v-if="causeDetailed">
+              <label>Detailed Cause</label>
+              <span>{{ causeDetailed }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Loading full detail -->
+        <div v-if="loadingFull" class="loading-inline">
+          <div class="spinner"></div>
+          <span>Loading full details…</span>
+        </div>
+
+        <!-- Full detail updates -->
+        <div v-else-if="fullData" class="detail-full">
+          <div v-if="fullData.updates?.length">
+            <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--cp-text-muted);margin-bottom:0.375rem;">Updates</p>
+            <div class="updates-list">
+              <div v-for="u in fullData.updates" :key="u.id" class="update-item">
+                <time>{{ fmtDate(u.update_time) }}</time>
+                {{ u.content }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `
+});
+
+// ── Root app ──────────────────────────────────────────────────────────────────
+
+createApp({
+  components: { OutageCard },
+  setup() {
+    const tab            = ref('current');
+    const isDark         = ref(document.documentElement.getAttribute('data-theme') === 'dark');
+
+    const loadingCurrent  = ref(true);
+    const loadingUpcoming = ref(true);
+    const loadingHistory  = ref(false);
+
+    const currentOutages  = ref([]);
+    const upcomingOutages = ref([]);
+    const historyOutages  = ref([]);
+    const currentActiveOutages = computed(() =>
+      currentOutages.value
+        .filter((o) => !isClosedStatus(o.status))
+        .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b)));
+    const currentClosedOutages = computed(() =>
+      currentOutages.value
+        .filter((o) => isClosedStatus(o.status))
+        .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b)));
+
+    // Map of ref → full data object
+    const fullData    = ref({});
+    // Map of ref → boolean
+    const loadingFull = ref({});
+
+    // History navigation state
+    // Discover available year/month combos from the summary folder structure.
+    // We don't have a directory listing API; use a known-years heuristic and
+    // probe summary/{year}/{month}.json for the range 01–12.
+    const availableYears  = ref([]);
+    const availableMonths = ref([]);
+    const selectedYear    = ref(null);
+    const selectedMonth   = ref(null);
+
+    // ── Theme ──
+    function toggleTheme() {
+      isDark.value = !isDark.value;
+      document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
+    }
+
+    function isDefaultExpanded(outage) {
+      return !isClosedStatus(outage.status) && (outage.outage_type || '').toLowerCase() !== 'maintenance';
+    }
+
+    function getSortTimestamp(outage) {
+      const ref = outage?.outage_reference;
+      const full = ref ? fullData.value[ref] : null;
+      const scheduledStart = full?.lifecycle?.scheduled_start || outage?.lifecycle?.scheduled_start || outage?.scheduled_start || outage?.start_at;
+      const openedAt = full?.lifecycle?.opened_at || outage?.opened_at || outage?.lifecycle?.opened_at;
+      const time = new Date(scheduledStart || openedAt || 0).getTime();
+      return Number.isFinite(time) ? time : Number.MAX_SAFE_INTEGER;
+    }
+
+    // ── Fetch helpers ──
+    async function fetchJSON(url) {
+      const r = await fetch(url);
+      if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
+      return r.json();
+    }
+
+    // Fetch individual outage file and cache it
+    async function fetchFull(ref, path) {
+      if (fullData.value[ref] || loadingFull.value[ref]) return;
+      loadingFull.value = { ...loadingFull.value, [ref]: true };
+      try {
+        const data = await fetchJSON(path);
+        fullData.value = { ...fullData.value, [ref]: data };
+      } catch (e) {
+        console.warn('Could not load full data for', ref, e);
+      } finally {
+        loadingFull.value = { ...loadingFull.value, [ref]: false };
+      }
+    }
+
+    // Kick off full-data fetches for a list of summaries
+    function prefetchFull(list) {
+      for (const o of list) {
+        const path = o.record_path || o.path;
+        if (path) fetchFull(o.outage_reference, path);
+      }
+    }
+
+    // ── Load current ──
+    async function loadCurrent() {
+      loadingCurrent.value = true;
+      try {
+        const data = await fetchJSON('current.json');
+        const active = data
+          .filter((o) => !isClosedStatus(o.status))
+          .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
+        const closed = data
+          .filter((o) => isClosedStatus(o.status))
+          .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
+        currentOutages.value = [...active, ...closed];
+        prefetchFull(data);
+      } catch (e) {
+        console.error('Failed to load current.json', e);
+      } finally {
+        loadingCurrent.value = false;
+      }
+    }
+
+    // ── Load upcoming ──
+    async function loadUpcoming() {
+      loadingUpcoming.value = true;
+      try {
+        const data = await fetchJSON('scheduled.json');
+        upcomingOutages.value = data;
+        prefetchFull(data);
+      } catch (e) {
+        console.error('Failed to load scheduled.json', e);
+      } finally {
+        loadingUpcoming.value = false;
+      }
+    }
+
+    // ── Discover available summary months ──
+    // Probe summary/{year}/{mm}.json for a set of candidate years.
+    // We look at the current year and a few previous ones.
+    async function discoverSummaries() {
+      const now = new Date();
+      const currentYear = now.getFullYear();
+      // Check up to 5 years back
+      const yearsToCheck = Array.from({ length: 5 }, (_, i) => currentYear - i);
+
+      const found = {}; // { year: [mm, ...] }
+
+      await Promise.all(yearsToCheck.map(async (year) => {
+        const months = [];
+        await Promise.all(
+          Array.from({ length: 12 }, (_, i) => i + 1).map(async (m) => {
+            const mm = String(m).padStart(2, '0');
+            try {
+              const r = await fetch(`summary/${year}/${mm}.json`, { method: 'HEAD' });
+              if (r.ok) months.push(mm);
+            } catch {}
+          })
+        );
+        if (months.length) {
+          months.sort();
+          found[year] = months;
+        }
+      }));
+
+      const years = Object.keys(found).map(Number).sort((a, b) => b - a);
+      availableYears.value = years;
+
+      if (years.length) {
+        selectedYear.value = years[0];
+        buildMonthOptions(found[years[0]]);
+        // Default to latest month
+        const lastMonth = found[years[0]][found[years[0]].length - 1];
+        selectedMonth.value = lastMonth;
+      }
+
+      // Store full map for when year changes
+      window._summaryMap = found;
+    }
+
+    function buildMonthOptions(months) {
+      availableMonths.value = months.map(mm => ({
+        value: mm,
+        label: MONTH_NAMES[parseInt(mm, 10) - 1]
+      }));
+    }
+
+    function onYearChange() {
+      const found = window._summaryMap || {};
+      const months = found[selectedYear.value] || [];
+      buildMonthOptions(months);
+      selectedMonth.value = months[months.length - 1] || null;
+      loadHistoryMonth();
+    }
+
+    function monthLabel(mm) {
+      if (!mm) return '';
+      return MONTH_NAMES[parseInt(mm, 10) - 1] || mm;
+    }
+
+    async function loadHistoryMonth() {
+      if (!selectedYear.value || !selectedMonth.value) return;
+      loadingHistory.value = true;
+      historyOutages.value = [];
+      try {
+        const data = await fetchJSON(`summary/${selectedYear.value}/${selectedMonth.value}.json`);
+        historyOutages.value = data;
+        prefetchFull(data);
+      } catch (e) {
+        console.error('Failed to load history', e);
+      } finally {
+        loadingHistory.value = false;
+      }
+    }
+
+    // Load history when switching to that tab for the first time
+    watch(tab, (newTab) => {
+      if (newTab === 'history' && historyOutages.value.length === 0 && !loadingHistory.value) {
+        loadHistoryMonth();
+      }
+    });
+
+    onMounted(async () => {
+      await Promise.all([loadCurrent(), loadUpcoming(), discoverSummaries()]);
+    });
+
+    return {
+      tab, isDark, toggleTheme,
+      loadingCurrent, loadingUpcoming, loadingHistory,
+      currentOutages, upcomingOutages, historyOutages,
+      currentActiveOutages, currentClosedOutages,
+      isDefaultExpanded,
+      fullData, loadingFull,
+      availableYears, availableMonths, selectedYear, selectedMonth,
+      onYearChange, loadHistoryMonth, monthLabel,
+    };
+  }
+}).mount('#app');
+</script>
+</body>
+</html>
+
