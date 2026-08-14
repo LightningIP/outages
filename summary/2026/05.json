@@ -1,54 +1,32 @@
 [
 	{
-		"outage_reference": "MNT-1KZWP70BN",
+		"reference": "MNT-1KZWP70BN",
 		"title": "NSW - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-01T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "Planned works by an upstream provider in NSW were carried out between 12:00 AM and 8:00 AM AEST on Thursday, 2 July 2026. A small number of services experienced one interruption of up to 2 hours around 1:00 AM AEST. The maintenance is complete and services are operating normally. No further impact is expected.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LOVEDALE",
-			"RUTHERFORD"
-		],
-		"postcodes": [
-			"2320",
-			"2325"
-		],
-		"path": "outages/2026/08/MNT-1KZWP70BN.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-07-01T14:00:00.000Z",
+			"end_date": "2026-07-01T22:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWP70BN.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPSPMK",
+		"reference": "MNT-1KZWPSPMK",
 		"title": "VIC, NSW & QLD - Maintain the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-30T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LOCKHART"
-		],
-		"postcodes": [
-			"2656"
-		],
-		"path": "outages/2026/08/MNT-1KZWPSPMK.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-30T14:00:00.000Z",
+			"end_date": "2026-07-30T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPSPMK.json"
 	}
 ]
