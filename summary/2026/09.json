@@ -1,52 +1,32 @@
 [
 	{
-		"outage_reference": "MNT-1KZT7T660",
+		"reference": "MNT-1KZT7T660",
 		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-09-07T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance will occur at the NBN Hawthorn (3HAW) POI in Melbourne on Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. NBN services served by this POI may be disrupted during the window (up to 2 hours) while services are moved to new network equipment. Services should restore automatically after the window.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"CREMORNE"
-		],
-		"postcodes": [
-			"3121"
-		],
-		"path": "outages/2026/08/MNT-1KZT7T660.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-07T14:00:00.000Z",
+			"end_date": "2026-09-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7T660.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT9PN4P",
+		"reference": "MNT-1KZT9PN4P",
 		"title": " - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-09-02T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": true,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "An upstream provider will perform upgrade work on the access network. Some broadband services will briefly go offline during the maintenance window, with a single interruption of up to 45 minutes expected. Order processing and service changes may be delayed during and shortly after the work. Our team will monitor progress and update this notice when the activity is complete.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LAVINGTON"
-		],
-		"postcodes": [
-			"2641"
-		],
-		"path": "outages/2026/08/MNT-1KZT9PN4P.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-02T14:00:00.000Z",
+			"end_date": "2026-09-02T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT9PN4P.json"
 	}
 ]
