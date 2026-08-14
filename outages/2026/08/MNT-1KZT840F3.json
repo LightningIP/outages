@@ -1,27 +1,20 @@
 {
-	"outage_reference": "MNT-1KZT840F3",
+	"reference": "MNT-1KZT840F3",
 	"title": "NBN POI 4CAB (Caboolture), 4APL (Aspley) - Cable Relocation and Replacement",
-	"outage_type": "maintenance",
-	"status": "scheduled",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T05:46:28.714Z",
-		"opened_at": "2026-08-04T06:03:14.536Z",
-		"scheduled_start": "2026-08-16T13:00:00.000Z",
-		"scheduled_end": "2026-08-16T21:00:00.000Z",
-		"estimated_restoration_at": "2026-08-16T21:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T05:46:28.714Z",
-		"closed_at": null
-	},
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "An upstream provider will relocate and replace a cable affecting backhaul to the NBN 4CAB (Caboolture) and 4APL (Aspley) POIs. NBN services in these areas may be affected for up to 8 hours during the window: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST. We will monitor the works and aim to minimise impact. Services are expected to restore once the maintenance is complete.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "regional"
-	},
-	"geography": {
+		"impact_scope": "regional",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
 		"states": [
 			"QLD"
 		],
@@ -34,31 +27,29 @@
 			"4551"
 		]
 	},
-	"services": {
-		"count": 2,
-		"types": [
-			"NBN - FTTP",
-			"NBN - HFC"
-		]
+	"lifecycle": {
+		"opened_at": "2026-08-04T06:03:14.536Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-16T13:00:00.000Z",
+		"scheduled_end": "2026-08-16T21:00:00.000Z",
+		"estimated_restoration_at": "2026-08-16T21:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "An upstream provider will relocate and replace a cable affecting backhaul to the NBN 4CAB (Caboolture) and 4APL (Aspley) POIs. NBN services in these areas may be affected for up to 8 hours during the window: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST. We will monitor the works and aim to minimise impact. Services are expected to restore once the maintenance is complete.",
 	"updates": [
 		{
-			"id": "49d015e9-040a-4915-b3e6-57804fcf012d",
-			"outage_id": "42db8c49-f05c-4b4f-96c1-3dde87142fc3",
 			"update_time": "2026-08-04T06:03:14.580Z",
-			"update_type": "initial_update",
 			"content": "Planned maintenance is scheduled on backhaul links serving the NBN Caboolture (4CAB) and Aspley (4APL) POIs. An upstream provider will be relocating and replacing a cable. Some NBN services in these areas may be affected for up to 8 hours within the maintenance window.\n\nWindow: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST.\n\nOur team will monitor throughout and work to minimise disruption. No action is required from customers; services should restore automatically once the work is complete. We appreciate your patience.",
-			"material_change": true,
-			"created_at": "2026-08-12T05:46:28.968Z"
+			"material_change": true
 		}
 	]
 }
