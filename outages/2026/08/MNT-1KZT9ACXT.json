@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZT9ACXT",
+	"reference": "MNT-1KZT9ACXT",
 	"title": " - Upgrade the Network",
-	"outage_type": "maintenance",
-	"status": "completed",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T06:07:26.662Z",
-		"opened_at": "2026-08-08T20:37:10.367Z",
-		"scheduled_start": "2026-08-10T14:00:00.000Z",
-		"scheduled_end": "2026-08-10T20:00:00.000Z",
-		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": "2026-08-13T04:00:54.406Z",
-		"updated_at": "2026-08-13T05:00:03.112Z",
-		"closed_at": "2026-08-13T08:44:06.025Z"
-	},
+	"category": null,
+	"status": "completed",
+	"current_summary": "Scheduled network upgrade maintenance has now completed. Services in the affected area may have experienced a brief outage of up to 45 minutes during the maintenance window. Order processing delays are now resolved. No further disruption is expected.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": true,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP"
+		],
 		"states": [
 			"NSW"
 		],
@@ -32,39 +24,34 @@
 			"2641"
 		]
 	},
-	"services": {
-		"count": 2,
-		"types": [
-			"NBN - FTTP"
-		]
+	"lifecycle": {
+		"opened_at": "2026-08-08T20:37:10.367Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-10T14:00:00.000Z",
+		"scheduled_end": "2026-08-10T20:00:00.000Z",
+		"estimated_restoration_at": "2026-08-10T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": "2026-08-13T04:00:54.406Z",
+		"closed_at": "2026-08-13T08:44:06.025Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Scheduled network upgrade maintenance has now completed. Services in the affected area may have experienced a brief outage of up to 45 minutes during the maintenance window. Order processing delays are now resolved. No further disruption is expected.",
 	"updates": [
 		{
-			"id": "de6d61fa-d69a-4aef-8b96-40e369c8cb50",
-			"outage_id": "d7cc2751-3a9b-4fb0-912a-e7744d522d3f",
 			"update_time": "2026-08-08T20:37:10.373Z",
-			"update_type": "initial_update",
 			"content": "Planned upgrade work on the access network is scheduled. A small number of services may briefly go offline (up to 45 minutes) during the maintenance window. Services should reconnect automatically when the work is complete. Our team will monitor progress and provide updates if anything changes. You can continue to place orders during this time, though processing may be delayed. No action is required; if needed, you can use mobile data during the brief interruption.",
-			"material_change": true,
-			"created_at": "2026-08-12T06:07:26.752Z"
+			"material_change": true
 		},
 		{
-			"id": "2fc05a61-6320-4419-96b6-1c4415bcceb5",
-			"outage_id": "d7cc2751-3a9b-4fb0-912a-e7744d522d3f",
 			"update_time": "2026-08-13T04:00:54.406Z",
-			"update_type": "status_change",
 			"content": "The scheduled network upgrade maintenance has been completed. Services in the affected area may have briefly gone offline during the maintenance window but should now be operating normally. Order processing delays related to the maintenance are now cleared. No further disruptions are anticipated.",
-			"material_change": true,
-			"created_at": "2026-08-13T05:00:03.242Z"
+			"material_change": true
 		}
 	]
 }
