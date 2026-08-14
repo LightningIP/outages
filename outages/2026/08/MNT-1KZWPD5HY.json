@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZWPD5HY",
+	"reference": "MNT-1KZWPD5HY",
 	"title": "Campsie \r\n NSW - Upgrade the Network",
-	"outage_type": "maintenance",
-	"status": "resolved",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-13T04:34:37.826Z",
-		"opened_at": "2026-06-09T01:00:10.000Z",
-		"scheduled_start": "2026-07-14T14:00:00.000Z",
-		"scheduled_end": "2026-07-14T20:00:00.000Z",
-		"estimated_restoration_at": "2026-07-14T20:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-13T04:34:37.826Z",
-		"closed_at": "2026-08-13T04:24:11.780Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Planned upgrade works were completed by an upstream provider in Campsie, NSW. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 15 July 2026, with a single planned interruption of up to 60 minutes around 12:30 AM. Some services in the area may have briefly lost connection, and service orders or changes may have been delayed during and shortly after the window. The activity is complete and services are expected to be operating normally.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": true,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
 		"states": [
 			"NSW"
 		],
@@ -32,30 +24,29 @@
 			"2131"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - HFC"
-		]
+	"lifecycle": {
+		"opened_at": "2026-06-09T01:00:10.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-07-14T14:00:00.000Z",
+		"scheduled_end": "2026-07-14T20:00:00.000Z",
+		"estimated_restoration_at": "2026-07-14T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-08-13T04:24:11.780Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned upgrade works were completed by an upstream provider in Campsie, NSW. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 15 July 2026, with a single planned interruption of up to 60 minutes around 12:30 AM. Some services in the area may have briefly lost connection, and service orders or changes may have been delayed during and shortly after the window. The activity is complete and services are expected to be operating normally.",
 	"updates": [
 		{
-			"id": "3b4621e8-042e-4ffd-9920-5ec1ef824d86",
-			"outage_id": "f0b68c16-0e60-4cf2-9439-2e01c6d6e63b",
 			"update_time": "2026-08-13T04:24:11.780Z",
-			"update_type": "initial_update",
 			"content": "We have completed planned upgrade work with one of our network partners in Campsie, NSW. The maintenance took place from 12:00 AM to 6:00 AM AEST on 15 July 2026. Some services may have briefly lost connection during a single interruption of up to 60 minutes around 12:30 AM. Service orders and changes may also have been delayed during and shortly after the window. This maintenance is now complete and services should be operating normally. If you’re still experiencing issues, please restart your modem/router and contact our support team.",
-			"material_change": true,
-			"created_at": "2026-08-13T04:34:38.084Z"
+			"material_change": true
 		}
 	]
 }
