@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZWPWFG1",
+	"reference": "MNT-1KZWPWFG1",
 	"title": "Harrison ACT - Remediate the Network",
-	"outage_type": "maintenance",
-	"status": "cancelled",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-13T04:42:59.466Z",
-		"opened_at": "2026-07-17T06:41:37.000Z",
-		"scheduled_start": "2026-08-06T23:00:00.000Z",
-		"scheduled_end": "2026-08-07T07:00:00.000Z",
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-13T04:42:59.466Z",
-		"closed_at": "2026-08-13T04:24:16.879Z"
-	},
+	"category": null,
+	"status": "cancelled",
+	"current_summary": "Planned access network maintenance in Harrison, ACT scheduled for 9:00 AM to 5:00 PM local time on 7 August 2026 has been cancelled by an upstream provider. No customer impact is expected. If the work is rescheduled, we will publish a new notice.",
 	"impact": {
-		"customer_impact": false,
+		"customer": false,
 		"operational_impact": false,
-		"impact_scope": "local"
-	},
-	"geography": {
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
 		"states": [
 			"ACT"
 		],
@@ -32,30 +24,29 @@
 			"2912"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - FTTP"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-17T06:41:37.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-06T23:00:00.000Z",
+		"scheduled_end": "2026-08-07T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-08-13T04:24:16.879Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned access network maintenance in Harrison, ACT scheduled for 9:00 AM to 5:00 PM local time on 7 August 2026 has been cancelled by an upstream provider. No customer impact is expected. If the work is rescheduled, we will publish a new notice.",
 	"updates": [
 		{
-			"id": "629e713a-c92a-4315-9d8b-d05c57035dd9",
-			"outage_id": "16e43039-40ed-43ba-8dab-83cb61221304",
 			"update_time": "2026-08-13T04:24:16.878Z",
-			"update_type": "initial_update",
 			"content": "Planned network works in Harrison, ACT that were scheduled for 9:00 AM to 5:00 PM AEST on 7 August 2026 have been cancelled. No service interruption will occur and no action is required. If this maintenance is rebooked, we will share the new schedule here.",
-			"material_change": true,
-			"created_at": "2026-08-13T04:42:59.991Z"
+			"material_change": true
 		}
 	]
 }
