@@ -1,1037 +1,557 @@
 [
 	{
-		"outage_reference": "MNT-1KZT7KSVN",
+		"reference": "MNT-1KZT7KSVN",
 		"title": "NBN POI 4KLG (Petrie), 4CAB (Caboolture), 4APL (Aspley) - Infrastructure Upgrades",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "cancelled",
-		"severity": null,
-		"start_at": "2026-08-13T13:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": false,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": null,
-		"current_summary": "Planned NBN maintenance at POIs 4KLG (Petrie), 4CAB (Caboolture) and 4APL (Aspley), scheduled for 13 August 2026 11:00 PM to 14 August 2026 6:00 AM AEST, has been cancelled. No customer impact is expected.",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"PELICAN WATERS",
-			"WAVELL HEIGHTS"
-		],
-		"postcodes": [
-			"4012",
-			"4551"
-		],
-		"path": "outages/2026/08/MNT-1KZT7KSVN.json"
+		"impact": {
+			"customer": false,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-13T13:00:00.000Z",
+			"end_date": "2026-08-13T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7KSVN.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7QV8B",
+		"reference": "MNT-1KZT7QV8B",
 		"title": "NBN POI 4APL (ASPLEY) 4BNB (ASPLEY DEPOT) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-10T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned NBN works at the Aspley (4APL) and Aspley Depot (4BNB) POIs in Brisbane have concluded. Services in the area may have experienced brief interruptions between 12:00 AM and 2:00 AM AEST on 11 August 2026 while services were moved to a new router. No further impact is expected.",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"WAVELL HEIGHTS"
-		],
-		"postcodes": [
-			"4012"
-		],
-		"path": "outages/2026/08/MNT-1KZT7QV8B.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-10T14:00:00.000Z",
+			"end_date": "2026-08-10T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7QV8B.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWP70BN",
+		"reference": "MNT-1KZWP70BN",
 		"title": "NSW - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-01T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "Planned works by an upstream provider in NSW were carried out between 12:00 AM and 8:00 AM AEST on Thursday, 2 July 2026. A small number of services experienced one interruption of up to 2 hours around 1:00 AM AEST. The maintenance is complete and services are operating normally. No further impact is expected.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LOVEDALE",
-			"RUTHERFORD"
-		],
-		"postcodes": [
-			"2320",
-			"2325"
-		],
-		"path": "outages/2026/08/MNT-1KZWP70BN.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-07-01T14:00:00.000Z",
+			"end_date": "2026-07-01T22:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWP70BN.json"
 	},
 	{
-		"outage_reference": "INC-1KZWPAXQW",
+		"reference": "INC-1KZWPAXQW",
 		"title": "Yackandandah North, VIC - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-02T21:44:08.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 15,
-		"cause": "Planned works by an upstream provider",
-		"current_summary": "An upstream provider experienced an unplanned access network outage affecting some services in Yackandandah North, VIC. The interruption began at 7:44 AM and services were restored by 10:14 AM AEST on 3 July 2026. The outage was linked to planned works by an upstream provider. Services are stable and we are monitoring.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"YACKANDANDAH"
-		],
-		"postcodes": [
-			"3749"
-		],
-		"path": "outages/2026/08/INC-1KZWPAXQW.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 15
+		},
+		"lifecycle": {
+			"start_date": "2026-07-02T21:44:08.000Z",
+			"end_date": "2026-07-03T00:14:46.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPAXQW.json"
 	},
 	{
-		"outage_reference": "INC-1KZWP97X7",
+		"reference": "INC-1KZWP97X7",
 		"title": "Yackandandah, VIC - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-02T19:31:19.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 5,
-		"cause": "third-party provider planned works",
-		"current_summary": "An upstream access network incident affected services in Yackandandah, VIC. Services were restored at 10:07 AM AEST on 3 July 2026. We are monitoring and no further impact is expected.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"BRUARONG",
-			"YACKANDANDAH"
-		],
-		"postcodes": [
-			"3749"
-		],
-		"path": "outages/2026/08/INC-1KZWP97X7.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-07-02T19:31:19.000Z",
+			"end_date": "2026-07-03T00:07:15.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWP97X7.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT81WZK",
+		"reference": "MNT-1KZT81WZK",
 		"title": "NBN POI 4CAB (CABOOLTURE) 4IPS (Ipswich) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-07-22T01:48:08.305Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": null,
-		"current_summary": null,
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"PELICAN WATERS"
-		],
-		"postcodes": [
-			"4551"
-		],
-		"path": "outages/2026/08/MNT-1KZT81WZK.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-22T01:48:08.305Z",
+			"end_date": "2026-08-12T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPG8NF",
+		"reference": "MNT-1KZWPG8NF",
 		"title": "Coffs Harbour NSW - Remediate the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-22T22:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Scheduled access network works were carried out in Coffs Harbour, NSW on 23 July 2026 between 8:00 AM and 5:00 PM AEST. Customers in this area may have experienced brief loss of service during the maintenance window. The work is complete and services are expected to be operating normally.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"COFFS HARBOUR"
-		],
-		"postcodes": [
-			"2450"
-		],
-		"path": "outages/2026/08/MNT-1KZWPG8NF.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-22T22:00:00.000Z",
+			"end_date": "2026-07-23T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPG8NF.json"
 	},
 	{
-		"outage_reference": "INC-1KZWPRJ4S",
+		"reference": "INC-1KZWPRJ4S",
 		"title": "Lavington, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-07T01:18:29.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "network hardware fault",
-		"current_summary": "An unplanned access network outage affecting some services in Lavington, NSW has been resolved. Field technicians replaced faulty network hardware. Services were restored at 2:30 AM AEST on 8 July 2026.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"SPRINGDALE HEIGHTS"
-		],
-		"postcodes": [
-			"2641"
-		],
-		"path": "outages/2026/08/INC-1KZWPRJ4S.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-07-07T01:18:29.000Z",
+			"end_date": "2026-07-07T16:30:29.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPRJ4S.json"
 	},
 	{
-		"outage_reference": "INC-1KZWPNVDS",
+		"reference": "INC-1KZWPNVDS",
 		"title": "Albury, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-06T23:59:46.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": null,
-		"current_summary": "An upstream provider has resolved an unplanned access network outage affecting some services in Albury, NSW. Services were restored as of 6:25 PM AEST on 7 July 2026. We are monitoring. If you are still offline, please restart your modem or router and contact our support team if the issue continues.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"ALBURY"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZWPNVDS.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-06T23:59:46.000Z",
+			"end_date": "2026-07-07T08:25:30.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPNVDS.json"
 	},
 	{
-		"outage_reference": "INC-1KZX63W0G",
+		"reference": "INC-1KZX63W0G",
 		"title": "Berridale, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-29T18:09:46.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "network hardware failure",
-		"current_summary": "An upstream access network issue in Berridale, NSW has been resolved. Network hardware was replaced and services were restored at approximately 12:37 PM AEST on 30 July 2026. If your service has not reconnected, please restart your modem/router and any connection box.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"BERRIDALE"
-		],
-		"postcodes": [
-			"2628"
-		],
-		"path": "outages/2026/08/INC-1KZX63W0G.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-29T18:09:46.000Z",
+			"end_date": "2026-07-30T02:37:39.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZX63W0G.json"
 	},
 	{
-		"outage_reference": "INC-1KZWPMER3",
+		"reference": "INC-1KZWPMER3",
 		"title": "Temora, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-03T08:13:49.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": null,
-		"current_summary": "An upstream provider has resolved an unplanned outage that affected some services in Temora, NSW. Impacted customers may have experienced a loss of connectivity. Services were restored by 7:00 pm AEST on 3 July 2026. If you are still experiencing issues, please restart your modem/router and contact us if the problem continues.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"TEMORA"
-		],
-		"postcodes": [
-			"2666"
-		],
-		"path": "outages/2026/08/INC-1KZWPMER3.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-03T08:13:49.000Z",
+			"end_date": "2026-07-03T09:00:14.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPMER3.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPQ8RX",
+		"reference": "MNT-1KZWPQ8RX",
 		"title": "BAYSWATER,VIC-3153 - Remediate the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-26T05:47:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Emergency maintenance to remediate a network issue in Bayswater (VIC 3153) was carried out by an upstream provider. The planned window was 26 July 2026 from 3:47 PM to 6:47 PM AEST, during which services in the area may have experienced a temporary loss of connectivity. The work is complete.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"BAYSWATER"
-		],
-		"postcodes": [
-			"3153"
-		],
-		"path": "outages/2026/08/MNT-1KZWPQ8RX.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-26T05:47:00.000Z",
+			"end_date": "2026-07-26T08:47:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPQ8RX.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7BM0R",
+		"reference": "MNT-1KZT7BM0R",
 		"title": "NBN POI 3MTE (Mt Eliza) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-06T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance at the NBN Mt Eliza (3MTE) Point of Interconnect was completed at 3:00 AM AEST on 7 August 2026. Some NBN services served by this POI may have experienced brief interruptions of up to 2 hours during the window. No further impact is expected.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"MOUNT MARTHA"
-		],
-		"postcodes": [
-			"3934"
-		],
-		"path": "outages/2026/08/MNT-1KZT7BM0R.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-06T14:00:00.000Z",
+			"end_date": "2026-08-06T17:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7BM0R.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPZESB",
+		"reference": "MNT-1KZWPZESB",
 		"title": "Cann River VIC - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "cancelled",
-		"severity": null,
-		"start_at": "2026-07-24T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": false,
-		"operational_impact": false,
-		"service_count": 66,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance affecting services in Cann River, VIC scheduled for Saturday 25 July 2026 between 12:00 AM and 6:00 AM local time has been cancelled. No customer impact is expected.",
-		"states": [
-			"NSW",
-			"VIC"
-		],
-		"suburbs": [
-			"ALLANS FLAT",
-			"BARANDUDA",
-			"BARNAWARTHA",
-			"BARNAWARTHA NORTH",
-			"BEECHWORTH",
-			"BELLBRIDGE",
-			"BETHANGA",
-			"BRUARONG",
-			"CHILTERN VALLEY",
-			"CORRYONG",
-			"EAST ALBURY",
-			"EBDEN",
-			"FINLEY",
-			"GRIFFITH",
-			"KERGUNYAH",
-			"KERGUNYAH SOUTH",
-			"KIEWA",
-			"LAKE HUME VILLAGE",
-			"LENEVA",
-			"MYRTLEFORD",
-			"OAKLANDS",
-			"RUTHERGLEN",
-			"STAGHORN FLAT",
-			"TALGARNO",
-			"TANGAMBALANGA",
-			"TOCUMWAL",
-			"WHITTON",
-			"WIRLINGA",
-			"YACKANDANDAH"
-		],
-		"postcodes": [
-			"2640",
-			"2646",
-			"2680",
-			"2705",
-			"2713",
-			"2714",
-			"3683",
-			"3685",
-			"3688",
-			"3691",
-			"3707",
-			"3737",
-			"3747",
-			"3749"
-		],
-		"path": "outages/2026/08/MNT-1KZWPZESB.json"
+		"impact": {
+			"customer": false,
+			"impact_scope": "local",
+			"service_count": 66
+		},
+		"lifecycle": {
+			"start_date": "2026-07-24T14:00:00.000Z",
+			"end_date": "2026-07-24T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPZESB.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPWFG1",
+		"reference": "MNT-1KZWPWFG1",
 		"title": "Harrison ACT - Remediate the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "cancelled",
-		"severity": null,
-		"start_at": "2026-08-06T23:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": false,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned access network maintenance in Harrison, ACT scheduled for 9:00 AM to 5:00 PM local time on 7 August 2026 has been cancelled by an upstream provider. No customer impact is expected. If the work is rescheduled, we will publish a new notice.",
-		"states": [
-			"ACT"
-		],
-		"suburbs": [
-			"GUNGAHLIN"
-		],
-		"postcodes": [
-			"2912"
-		],
-		"path": "outages/2026/08/MNT-1KZWPWFG1.json"
+		"impact": {
+			"customer": false,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-06T23:00:00.000Z",
+			"end_date": "2026-08-07T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPWFG1.json"
 	},
 	{
-		"outage_reference": "INC-1KZX62732",
+		"reference": "INC-1KZX62732",
 		"title": "CHARLEVILLE,QLD-4470 - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-29T02:20:46.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "Power issue",
-		"current_summary": "Services in Charleville (QLD 4470) experienced an unplanned access network outage caused by a local power issue. All affected services were restored at 2:31 PM AEST on 29 July 2026. If any services remain offline, restarting the modem/router and connection box may help. We are monitoring for stability.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"THURGOONA"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZX62732.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-29T02:20:46.000Z",
+			"end_date": "2026-07-29T04:31:00.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZX62732.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7Y1FF",
+		"reference": "MNT-1KZT7Y1FF",
 		"title": "NBN POI 3RWO (Ringwood) 3LIL (Lilydale) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-07T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Scheduled maintenance on NBN services at the Ringwood (3RWO) and Lilydale (3LIL) POIs in Melbourne to migrate services to a new router at Exhibition Exchange. Short interruptions of up to 2 hours were expected during the window 12:00 AM–2:00 AM AEST on Saturday, 8 August 2026. The maintenance window has concluded; no further impact is expected.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"BAYSWATER"
-		],
-		"postcodes": [
-			"3153"
-		],
-		"path": "outages/2026/08/MNT-1KZT7Y1FF.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-07T14:00:00.000Z",
+			"end_date": "2026-08-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7Y1FF.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWQ0WFT",
+		"reference": "MNT-1KZWQ0WFT",
 		"title": "MACLEAN NSW - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "cancelled",
-		"severity": null,
-		"start_at": "2026-07-10T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": false,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "Planned network maintenance in Maclean, NSW has been cancelled by an upstream provider. No service impact is expected. The previously advised window was 11 July 2026 between 12:00 AM and 6:00 AM AEST. No action is required.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"YAMBA"
-		],
-		"postcodes": [
-			"2464"
-		],
-		"path": "outages/2026/08/MNT-1KZWQ0WFT.json"
+		"impact": {
+			"customer": false,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-07-10T14:00:00.000Z",
+			"end_date": "2026-07-10T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWQ0WFT.json"
 	},
 	{
-		"outage_reference": "INC-1KZWPY0AT",
+		"reference": "INC-1KZWPY0AT",
 		"title": "Albury, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-08T04:55:22.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": null,
-		"current_summary": "An upstream access network outage affected some services in Albury, NSW. Services have been restored. If your connection is still impacted, please restart your modem or router and contact us for help.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"ALBURY"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZWPY0AT.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-08T04:55:22.000Z",
+			"end_date": "2026-07-08T14:10:12.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPY0AT.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPSPMK",
+		"reference": "MNT-1KZWPSPMK",
 		"title": "VIC, NSW & QLD - Maintain the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-30T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LOCKHART"
-		],
-		"postcodes": [
-			"2656"
-		],
-		"path": "outages/2026/08/MNT-1KZWPSPMK.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-30T14:00:00.000Z",
+			"end_date": "2026-07-30T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPSPMK.json"
 	},
 	{
-		"outage_reference": "INC-1KZWQAPMH",
+		"reference": "INC-1KZWQAPMH",
 		"title": "Thurgoona, NSW 2640 - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": "minor",
-		"start_at": "2026-07-24T00:16:45.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "network fault",
-		"current_summary": "Services in Thurgoona (NSW 2640) were interrupted due to an unexpected network issue. Field works were completed to repair network cabling and services were restored at 2:57 PM AEST on 24 July 2026. If you are still offline, please restart your modem/router and connection box, then contact us if the issue continues.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"THURGOONA"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZWQAPMH.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-24T00:16:45.000Z",
+			"end_date": "2026-07-24T04:57:47.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQAPMH.json"
 	},
 	{
-		"outage_reference": "INC-1KZX60KBT",
+		"reference": "INC-1KZX60KBT",
 		"title": "RESERVOIR,VIC-3073 - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-28T10:51:50.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "power outage",
-		"current_summary": "An earlier power outage affected network equipment in Reservoir, VIC 3073, causing a loss of service for some customers. Power has been restored and services are back online. We are monitoring the area. If your connection has not returned, please restart your modem/router and connection box (if you have one).",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"RESERVOIR"
-		],
-		"postcodes": [
-			"3073"
-		],
-		"path": "outages/2026/08/INC-1KZX60KBT.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-28T10:51:50.000Z",
+			"end_date": "2026-07-28T13:00:13.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZX60KBT.json"
 	},
 	{
-		"outage_reference": "INC-1KZWPEM05",
+		"reference": "INC-1KZWPEM05",
 		"title": "Murringo, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": "minor",
-		"start_at": "2026-07-02T14:08:45.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "network hardware fault",
-		"current_summary": "An upstream provider reported an unplanned access network outage affecting some services in Murringo, NSW. The issue has been resolved after network hardware was replaced. Services were restored at 6:12 PM AEST on 3 July 2026.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"MURRINGO",
-			"YOUNG"
-		],
-		"postcodes": [
-			"2586",
-			"2594"
-		],
-		"path": "outages/2026/08/INC-1KZWPEM05.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-07-02T14:08:45.000Z",
+			"end_date": "2026-07-03T08:12:18.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPEM05.json"
 	},
 	{
-		"outage_reference": "INC-1KZWQ3S6S",
+		"reference": "INC-1KZWQ3S6S",
 		"title": "Walla_Walla, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-12T00:32:11.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 4,
-		"cause": "power outage",
-		"current_summary": "Services for some customers in Walla Walla, NSW were interrupted due to a local power outage affecting an upstream access site. Service was restored at 11:36 AM AEST on 12 July 2026. We are monitoring. If your connection has not come back online, please restart your modem/router and any connection box (if you have one), or contact us for help.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"WALLA WALLA"
-		],
-		"postcodes": [
-			"2659"
-		],
-		"path": "outages/2026/08/INC-1KZWQ3S6S.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 4
+		},
+		"lifecycle": {
+			"start_date": "2026-07-12T00:32:11.000Z",
+			"end_date": "2026-07-12T01:36:52.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQ3S6S.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7GPRC",
+		"reference": "MNT-1KZT7GPRC",
 		"title": "NBN POI 4NER (Nerang) Cable Replacement Works",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-10T13:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "Planned cable replacement at the Nerang (4NER) NBN Point of Interconnect was completed during the scheduled window between 11:00 PM and 6:00 AM AEST on 10–11 August. The work was performed by an upstream provider. NBN services delivered via the Nerang POI are operating normally and we will continue to monitor.",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"COOMERA",
-			"MUDGEERABA",
-			"PIMPAMA"
-		],
-		"postcodes": [
-			"4209",
-			"4213"
-		],
-		"path": "outages/2026/08/MNT-1KZT7GPRC.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-08-10T13:00:00.000Z",
+			"end_date": "2026-08-10T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7GPRC.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7NRJ2",
+		"reference": "MNT-1KZT7NRJ2",
 		"title": "NBN POI 3FSR (Footscray), 3STK (St Kilda) Card replacement",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-05T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "Scheduled maintenance on NBN infrastructure at the Footscray (3FSR) and St Kilda (3STK) POIs has been completed. The work ran from 12:00 AM to 6:00 AM AEST on 6 August 2026. Some NBN services in areas served by these POIs may have experienced brief interruptions during the window. Services are now operating normally and no further impact is expected.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"SOUTH KINGSVILLE",
-			"SUNSHINE WEST"
-		],
-		"postcodes": [
-			"3015",
-			"3020"
-		],
-		"path": "outages/2026/08/MNT-1KZT7NRJ2.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-05T14:00:00.000Z",
+			"end_date": "2026-08-05T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7NRJ2.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT794YD",
+		"reference": "MNT-1KZT794YD",
 		"title": "NBN POI 4TOB (Toowoomba) 4WOB (Woolloongabba) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-11T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "Scheduled works to rehome NBN services for the Toowoomba (4TOB) and Woolloongabba (4WOB) POIs in QLD were carried out between 12:00 AM and 2:00 AM AEST on 12 August 2026. Some services on these POIs may have experienced brief interruptions during the window. The maintenance is complete and services are operating normally.",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"ALLORA",
-			"CABARLAH",
-			"EAST TOOWOOMBA"
-		],
-		"postcodes": [
-			"4350",
-			"4352",
-			"4362"
-		],
-		"path": "outages/2026/08/MNT-1KZT794YD.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-08-11T14:00:00.000Z",
+			"end_date": "2026-08-11T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT794YD.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT76N9F",
+		"reference": "MNT-1KZT76N9F",
 		"title": "NBN POI 3FSR (Footscray), 3STK (St Kilda), 2MIR (Miranda) - Upgrade Existing Infrastructure",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-09T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "Scheduled maintenance to upgrade network infrastructure at NBN Points of Interconnect serving Footscray and St Kilda (VIC) and Miranda (NSW) was carried out between 12:00 AM and 7:00 AM AEST on 10 August 2026. Some NBN services in these areas may have experienced brief interruptions during the window. The work is complete and services are operating normally.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"SOUTH KINGSVILLE",
-			"SUNSHINE WEST"
-		],
-		"postcodes": [
-			"3015",
-			"3020"
-		],
-		"path": "outages/2026/08/MNT-1KZT76N9F.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-09T14:00:00.000Z",
+			"end_date": "2026-08-09T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT76N9F.json"
 	},
 	{
-		"outage_reference": "INC-1KZWQ5E1D",
+		"reference": "INC-1KZWQ5E1D",
 		"title": "Albury, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-12T03:40:29.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": null,
-		"current_summary": "An upstream network incident affected some services in Albury, NSW. The network was reconfigured and services have been restored. We are monitoring and do not expect further impact. If your service is still offline, please restart your modem/router and any connection box, then contact us if the issue continues.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"ALBURY"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZWQ5E1D.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-12T03:40:29.000Z",
+			"end_date": "2026-07-12T06:20:35.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQ5E1D.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7E19F",
+		"reference": "MNT-1KZT7E19F",
 		"title": "NBN POI 4ROT (Rockhampton) NNI Rehoming",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-04T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "Scheduled maintenance on the NBN Rockhampton (4ROT) POI was carried out between 12:00 AM and 2:00 AM AEST on 5 August 2026. Some NBN services in the Rockhampton area may have experienced brief interruptions during the window. The work is complete and services are operating normally.",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"ALPHA",
-			"THE GAP"
-		],
-		"postcodes": [
-			"4724",
-			"4825"
-		],
-		"path": "outages/2026/08/MNT-1KZT7E19F.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-04T14:00:00.000Z",
+			"end_date": "2026-08-04T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7E19F.json"
 	},
 	{
-		"outage_reference": "INC-1KZWQ2CQX",
+		"reference": "INC-1KZWQ2CQX",
 		"title": "Albury, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-09T15:05:03.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "power outage",
-		"current_summary": "An unplanned access network outage affected some services in Albury, NSW. A loss of mains power at a network site was identified. Services were restored at 9:20 AM AEST on 10 July 2026.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"ALBURY"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZWQ2CQX.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-09T15:05:03.000Z",
+			"end_date": "2026-07-09T23:20:41.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQ2CQX.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT6NZJA",
+		"reference": "MNT-1KZT6NZJA",
 		"title": "NBN POI 3FSR (Footscray), 3STK (St Kilda) Card replacement",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-04T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance on NBN links serving the Footscray (3FSR) and St Kilda (3STK) Points of Interconnect took place from 12:00 AM to 6:00 AM AEST on 5 August 2026. Some NBN services on these POIs may have experienced brief interruptions during the window. The work is complete and services are operating normally. If you are still experiencing issues, please restart your modem/router and contact our support team.",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"SOUTH KINGSVILLE",
-			"SUNSHINE WEST"
-		],
-		"postcodes": [
-			"3015",
-			"3020"
-		],
-		"path": "outages/2026/08/MNT-1KZT6NZJA.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-04T14:00:00.000Z",
+			"end_date": "2026-08-04T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT6NZJA.json"
 	},
 	{
-		"outage_reference": "INC-1KZWQ73BZ",
+		"reference": "INC-1KZWQ73BZ",
 		"title": "Lavington, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-14T01:26:14.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "power outage",
-		"current_summary": "Services in Lavington, NSW were impacted by an unplanned access network issue caused by a power outage. Services were restored at approximately 3:15 PM AEST on 14 July 2026. If your service has not reconnected, please restart your modem/router and any network connection box, then test again. We are monitoring and no further impact is expected.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"GLENROY"
-		],
-		"postcodes": [
-			"2640"
-		],
-		"path": "outages/2026/08/INC-1KZWQ73BZ.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-14T01:26:14.000Z",
+			"end_date": "2026-07-14T05:15:56.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQ73BZ.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPD5HY",
+		"reference": "MNT-1KZWPD5HY",
 		"title": "Campsie \r\n NSW - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-14T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": true,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned upgrade works were completed by an upstream provider in Campsie, NSW. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 15 July 2026, with a single planned interruption of up to 60 minutes around 12:30 AM. Some services in the area may have briefly lost connection, and service orders or changes may have been delayed during and shortly after the window. The activity is complete and services are expected to be operating normally.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"ASHFIELD"
-		],
-		"postcodes": [
-			"2131"
-		],
-		"path": "outages/2026/08/MNT-1KZWPD5HY.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-14T14:00:00.000Z",
+			"end_date": "2026-07-14T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPD5HY.json"
 	},
 	{
-		"outage_reference": "INC-1KZWQ8S99",
+		"reference": "INC-1KZWQ8S99",
 		"title": "Sawyers gully, NSW - Infrastructure Restoration",
-		"outage_type": "incident",
 		"planned": false,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-17T20:13:19.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": null,
-		"current_summary": "Fixed Wireless services around Sawyers Gully, NSW experienced an unexpected network interruption. Field teams attended site and services were restored at approximately 6:08 pm AEST on 18 July 2026. We are monitoring. If your service has not reconnected, please restart your modem/router and connection box.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LOVEDALE",
-			"RUTHERFORD"
-		],
-		"postcodes": [
-			"2320",
-			"2325"
-		],
-		"path": "outages/2026/08/INC-1KZWQ8S99.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-07-17T20:13:19.000Z",
+			"end_date": "2026-07-18T08:08:03.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQ8S99.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7VXMV",
+		"reference": "MNT-1KZT7VXMV",
 		"title": "NBN POI 2MYF (Mayfield) Splice Relocation",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-08-09T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "Planned works at the NBN Mayfield (2MYF) POI are complete. Customers with NBN services connected via this POI in NSW may have experienced interruptions between 12:00 AM and 7:00 AM AEST on 10 August 2026. Services are now operating normally and we are monitoring.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"BENDOLBA",
-			"SMITHS LAKE"
-		],
-		"postcodes": [
-			"2420",
-			"2428"
-		],
-		"path": "outages/2026/08/MNT-1KZT7VXMV.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-09T14:00:00.000Z",
+			"end_date": "2026-08-09T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7VXMV.json"
 	},
 	{
-		"outage_reference": "MNT-1KZWPK4ED",
+		"reference": "MNT-1KZWPK4ED",
 		"title": "CANN RIVER VIC - Upgrade the Network",
-		"outage_type": "maintenance",
 		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-20T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 66,
-		"cause": "maintenance activity",
-		"current_summary": "Planned works by an upstream provider to upgrade network infrastructure in Cann River, VIC were completed. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 21 July 2026, with a single interruption of up to 60 minutes expected for some services. Services are now expected to be online.",
-		"states": [
-			"NSW",
-			"VIC"
-		],
-		"suburbs": [
-			"ALLANS FLAT",
-			"BARANDUDA",
-			"BARNAWARTHA",
-			"BARNAWARTHA NORTH",
-			"BEECHWORTH",
-			"BELLBRIDGE",
-			"BETHANGA",
-			"BRUARONG",
-			"CHILTERN VALLEY",
-			"CORRYONG",
-			"EAST ALBURY",
-			"EBDEN",
-			"FINLEY",
-			"GRIFFITH",
-			"KERGUNYAH",
-			"KERGUNYAH SOUTH",
-			"KIEWA",
-			"LAKE HUME VILLAGE",
-			"LENEVA",
-			"MYRTLEFORD",
-			"OAKLANDS",
-			"RUTHERGLEN",
-			"STAGHORN FLAT",
-			"TALGARNO",
-			"TANGAMBALANGA",
-			"TOCUMWAL",
-			"WHITTON",
-			"WIRLINGA",
-			"YACKANDANDAH"
-		],
-		"postcodes": [
-			"2640",
-			"2646",
-			"2680",
-			"2705",
-			"2713",
-			"2714",
-			"3683",
-			"3685",
-			"3688",
-			"3691",
-			"3707",
-			"3737",
-			"3747",
-			"3749"
-		],
-		"path": "outages/2026/08/MNT-1KZWPK4ED.json"
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 66
+		},
+		"lifecycle": {
+			"start_date": "2026-07-20T14:00:00.000Z",
+			"end_date": "2026-07-20T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZWPK4ED.json"
 	}
 ]
