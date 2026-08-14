@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZT76N9F",
+	"reference": "MNT-1KZT76N9F",
 	"title": "NBN POI 3FSR (Footscray), 3STK (St Kilda), 2MIR (Miranda) - Upgrade Existing Infrastructure",
-	"outage_type": "maintenance",
-	"status": "resolved",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T05:30:27.007Z",
-		"opened_at": "2026-07-24T05:03:30.251Z",
-		"scheduled_start": "2026-08-09T14:00:00.000Z",
-		"scheduled_end": "2026-08-09T21:00:00.000Z",
-		"estimated_restoration_at": "2026-08-09T21:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T05:30:27.007Z",
-		"closed_at": "2026-08-09T21:00:00.000Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Scheduled maintenance to upgrade network infrastructure at NBN Points of Interconnect serving Footscray and St Kilda (VIC) and Miranda (NSW) was carried out between 12:00 AM and 7:00 AM AEST on 10 August 2026. Some NBN services in these areas may have experienced brief interruptions during the window. The work is complete and services are operating normally.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "regional"
-	},
-	"geography": {
+		"impact_scope": "regional",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP"
+		],
 		"states": [
 			"VIC"
 		],
@@ -34,30 +26,29 @@
 			"3020"
 		]
 	},
-	"services": {
-		"count": 2,
-		"types": [
-			"NBN - FTTP"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-24T05:03:30.251Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-09T14:00:00.000Z",
+		"scheduled_end": "2026-08-09T21:00:00.000Z",
+		"estimated_restoration_at": "2026-08-09T21:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-08-09T21:00:00.000Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Scheduled maintenance to upgrade network infrastructure at NBN Points of Interconnect serving Footscray and St Kilda (VIC) and Miranda (NSW) was carried out between 12:00 AM and 7:00 AM AEST on 10 August 2026. Some NBN services in these areas may have experienced brief interruptions during the window. The work is complete and services are operating normally.",
 	"updates": [
 		{
-			"id": "1523f10d-20f6-43c8-ac2d-75e270e19061",
-			"outage_id": "d7ebc28c-6612-4111-a2bf-b60fb4c8ca19",
 			"update_time": "2026-08-09T21:00:00.000Z",
-			"update_type": "initial_update",
 			"content": "Planned maintenance on our NBN network in Footscray and St Kilda (VIC) and Miranda (NSW) has been completed. The work ran from 12:00 AM to 7:00 AM AEST on 10 August 2026. Some services in these areas may have experienced brief interruptions during the window. Services are now operating normally. If you’re still having trouble, please restart your modem/router and contact our support team.",
-			"material_change": true,
-			"created_at": "2026-08-12T05:30:27.115Z"
+			"material_change": true
 		}
 	]
 }
