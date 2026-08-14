@@ -35,7 +35,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"closed_at": null
+		"closed_at": "2026-08-13T13:00:00.000Z"
 	},
 	"cause": {
 		"reason": null,
