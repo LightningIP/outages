@@ -1,27 +1,20 @@
 {
-	"outage_reference": "MNT-1KZT9MAE2",
+	"reference": "MNT-1KZT9MAE2",
 	"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
-	"outage_type": "maintenance",
-	"status": "completed",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T06:12:51.798Z",
-		"opened_at": "2026-08-12T05:28:16.669Z",
-		"scheduled_start": "2026-08-13T14:00:00.000Z",
-		"scheduled_end": "2026-08-13T20:00:00.000Z",
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": "2026-08-14T01:57:03.829Z",
-		"updated_at": "2026-08-14T01:59:54.226Z",
-		"closed_at": "2026-08-14T01:57:03.829Z"
-	},
+	"category": null,
+	"status": "completed",
+	"current_summary": "Scheduled network upgrade works affecting services in River St, Maclean NSW have now been completed. Services in the area should now be operating as normal. Thank you for your patience during this planned work.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "local"
-	},
-	"geography": {
+		"impact_scope": "local",
+		"service_count": 3,
+		"service_types": [
+			"NBN - FTTC",
+			"NBN - FTTP"
+		],
 		"states": [
 			"NSW"
 		],
@@ -32,40 +25,34 @@
 			"2464"
 		]
 	},
-	"services": {
-		"count": 3,
-		"types": [
-			"NBN - FTTC",
-			"NBN - FTTP"
-		]
+	"lifecycle": {
+		"opened_at": "2026-08-12T05:28:16.669Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-13T14:00:00.000Z",
+		"scheduled_end": "2026-08-13T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": "2026-08-14T01:57:03.829Z",
+		"closed_at": "2026-08-14T01:57:03.829Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Scheduled network upgrade works affecting services in River St, Maclean NSW have now been completed. Services in the area should now be operating as normal. Thank you for your patience during this planned work.",
 	"updates": [
 		{
-			"id": "b0161411-d147-4cd7-8489-a4bd609773c1",
-			"outage_id": "5d56aab2-6c02-43c3-b55d-9fb0c69cc76a",
 			"update_time": "2026-08-12T06:12:51.974Z",
-			"update_type": "initial_update",
 			"content": "We will be supporting planned network works affecting some services in River St, Maclean NSW. The window is scheduled for 12:00 AM to 6:00 AM AEST on 14 August. During this time, a single interruption of up to 5 hours is expected, and impacted customers may lose connectivity. Services should restore automatically once the work is complete. We will monitor the activity and provide updates if anything changes. If you need to stay online, consider using mobile data where available during the window. Thank you for your patience.",
-			"material_change": true,
-			"created_at": "2026-08-12T06:12:51.979Z"
+			"material_change": true
 		},
 		{
-			"id": "0bbcad2b-063f-43d3-abb5-c3336547a460",
-			"outage_id": "5d56aab2-6c02-43c3-b55d-9fb0c69cc76a",
 			"update_time": "2026-08-14T01:57:03.826Z",
-			"update_type": "maintenance_completed",
 			"content": "Planned maintenance in River St, Maclean NSW has now been completed. Services in the affected area should be operating as normal. Thank you for your patience while this work was carried out.",
-			"material_change": true,
-			"created_at": "2026-08-14T01:59:56.102Z"
+			"material_change": true
 		}
 	]
 }
