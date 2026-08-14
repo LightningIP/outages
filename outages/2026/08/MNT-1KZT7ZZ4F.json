@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZT7ZZ4F",
+	"reference": "MNT-1KZT7ZZ4F",
 	"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
-	"outage_type": "maintenance",
-	"status": "scheduled",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T05:44:16.283Z",
-		"opened_at": "2026-08-04T05:59:37.100Z",
-		"scheduled_start": "2026-08-18T13:00:00.000Z",
-		"scheduled_end": "2026-08-18T21:00:00.000Z",
-		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T05:44:16.283Z",
-		"closed_at": null
-	},
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned works by an upstream provider will replace a splice enclosure serving multiple Queensland NBN Points of Interconnect. The maintenance window is Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time). Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during the window. Our team will monitor the network and work with our partner to minimise impact. Services are expected to be restored by 7:00 AM AEST.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "state"
-	},
-	"geography": {
+		"impact_scope": "state",
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
 		"states": [
 			"QLD"
 		],
@@ -32,30 +24,29 @@
 			"4012"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - HFC"
-		]
+	"lifecycle": {
+		"opened_at": "2026-08-04T05:59:37.100Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-18T13:00:00.000Z",
+		"scheduled_end": "2026-08-18T21:00:00.000Z",
+		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned works by an upstream provider will replace a splice enclosure serving multiple Queensland NBN Points of Interconnect. The maintenance window is Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time). Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during the window. Our team will monitor the network and work with our partner to minimise impact. Services are expected to be restored by 7:00 AM AEST.",
 	"updates": [
 		{
-			"id": "a0b7b1d7-70de-4aa6-9e39-14d881f0c07d",
-			"outage_id": "ad4e611b-a3bb-4423-911f-8082ac3211c4",
 			"update_time": "2026-08-04T05:59:37.115Z",
-			"update_type": "initial_update",
 			"content": "We will be undertaking planned network works with one of our network partners overnight.\n\nWindow: Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time).\n\nImpact: Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during this window. Not all services will be affected.\n\nWhat we’re doing: Our engineers will be monitoring throughout and will work to restore any affected services as quickly as possible. Services are expected to be restored by 7:00 AM AEST.\n\nWe know service interruptions can be frustrating and we appreciate your patience while this essential work is completed.",
-			"material_change": true,
-			"created_at": "2026-08-12T05:44:16.509Z"
+			"material_change": true
 		}
 	]
 }
