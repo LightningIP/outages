@@ -1,27 +1,20 @@
 {
-	"outage_reference": "MNT-1KZT7KSVN",
+	"reference": "MNT-1KZT7KSVN",
 	"title": "NBN POI 4KLG (Petrie), 4CAB (Caboolture), 4APL (Aspley) - Infrastructure Upgrades",
-	"outage_type": "maintenance",
-	"status": "cancelled",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T05:37:37.688Z",
-		"opened_at": "2026-07-30T23:18:11.580Z",
-		"scheduled_start": "2026-08-13T13:00:00.000Z",
-		"scheduled_end": "2026-08-13T20:00:00.000Z",
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T05:37:37.688Z",
-		"closed_at": null
-	},
+	"category": null,
+	"status": "cancelled",
+	"current_summary": "Planned NBN maintenance at POIs 4KLG (Petrie), 4CAB (Caboolture) and 4APL (Aspley), scheduled for 13 August 2026 11:00 PM to 14 August 2026 6:00 AM AEST, has been cancelled. No customer impact is expected.",
 	"impact": {
-		"customer_impact": false,
+		"customer": false,
 		"operational_impact": false,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
 		"states": [
 			"QLD"
 		],
@@ -34,31 +27,29 @@
 			"4551"
 		]
 	},
-	"services": {
-		"count": 2,
-		"types": [
-			"NBN - FTTP",
-			"NBN - HFC"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-30T23:18:11.580Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-13T13:00:00.000Z",
+		"scheduled_end": "2026-08-13T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
 	},
 	"cause": {
-		"high_level": null,
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": null,
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned NBN maintenance at POIs 4KLG (Petrie), 4CAB (Caboolture) and 4APL (Aspley), scheduled for 13 August 2026 11:00 PM to 14 August 2026 6:00 AM AEST, has been cancelled. No customer impact is expected.",
 	"updates": [
 		{
-			"id": "09e71650-d884-48e1-b814-cf6c6c6418a5",
-			"outage_id": "fd9f7789-1981-4420-b251-2da1f1bc9886",
 			"update_time": "2026-08-12T02:24:59.208Z",
-			"update_type": "initial_update",
 			"content": "The planned NBN maintenance for the Petrie, Caboolture and Aspley POIs, previously scheduled for Thursday 13 August from 11:00 PM to Friday 14 August 6:00 AM AEST, has been cancelled. There will be no impact to services during this time. Thank you for your understanding.",
-			"material_change": true,
-			"created_at": "2026-08-12T05:37:37.899Z"
+			"material_change": true
 		}
 	]
 }
