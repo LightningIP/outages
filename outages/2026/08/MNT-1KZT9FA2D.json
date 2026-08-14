@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZT9FA2D",
+	"reference": "MNT-1KZT9FA2D",
 	"title": "National - Maintain the Network",
-	"outage_type": "maintenance",
-	"status": "completed",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T06:10:07.582Z",
-		"opened_at": "2026-08-12T05:28:16.684Z",
-		"scheduled_start": "2026-08-13T16:00:00.000Z",
-		"scheduled_end": "2026-08-13T20:00:00.000Z",
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": "2026-08-14T01:57:03.840Z",
-		"updated_at": "2026-08-14T01:59:54.303Z",
-		"closed_at": "2026-08-14T01:57:03.840Z"
-	},
+	"category": null,
+	"status": "completed",
+	"current_summary": "Scheduled maintenance by an upstream provider has been completed. Services that were impacted during the maintenance window should now be restored. Please restart your equipment if you are still experiencing any issues.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
 		"states": [
 			"NSW",
 			"VIC"
@@ -35,39 +27,34 @@
 			"3707"
 		]
 	},
-	"services": {
-		"count": 2,
-		"types": [
-			"NBN - Fixed Wireless"
-		]
+	"lifecycle": {
+		"opened_at": "2026-08-12T05:28:16.684Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-13T16:00:00.000Z",
+		"scheduled_end": "2026-08-13T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": "2026-08-14T01:57:03.840Z",
+		"closed_at": "2026-08-14T01:57:03.840Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Scheduled maintenance by an upstream provider has been completed. Services that were impacted during the maintenance window should now be restored. Please restart your equipment if you are still experiencing any issues.",
 	"updates": [
 		{
-			"id": "3e350562-044f-42a5-a22e-f19b3a9ed6b8",
-			"outage_id": "ad857dab-76ae-43d1-b428-8f685f306a87",
 			"update_time": "2026-08-12T05:28:16.688Z",
-			"update_type": "initial_update",
 			"content": "We are aware of urgent maintenance by one of our network providers to resolve a network issue. This work may cause a temporary loss of connectivity for some services.\n\nWhen:\n- Friday 14 August, 2:00 AM–6:00 AM AEST (maintenance window)\n- A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST\n\nWhat we’re doing:\n- We are monitoring the work and will provide updates if details change. Services should restore automatically when the work is complete.\n\nIf you need to stay online during the window, using mobile data where available may help. We appreciate your patience.",
-			"material_change": true,
-			"created_at": "2026-08-12T06:10:07.738Z"
+			"material_change": true
 		},
 		{
-			"id": "a9e2c962-95c0-4d90-aaf0-0ab9046b12dc",
-			"outage_id": "ad857dab-76ae-43d1-b428-8f685f306a87",
 			"update_time": "2026-08-14T01:57:03.839Z",
-			"update_type": "status_change",
 			"content": "Scheduled maintenance work has been completed as planned. Impacted services should now be restored. If you continue to experience issues, please restart your equipment.",
-			"material_change": true,
-			"created_at": "2026-08-14T01:59:56.102Z"
+			"material_change": true
 		}
 	]
 }
