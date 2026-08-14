@@ -135,6 +135,25 @@
     .tab-btn:hover { color: var(--cp-text); }
     .tab-btn.active { color: var(--cp-accent); border-bottom-color: var(--cp-accent); }
 
+    .home-section + .home-section { margin-top: 1rem; }
+    .section-toggle {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.75rem 0;
+      background: none;
+      border: 0;
+      color: var(--cp-text);
+      font: inherit;
+      cursor: pointer;
+      text-align: left;
+    }
+    .section-toggle h2 { font-size: 1rem; font-weight: 650; }
+    .section-count { color: var(--cp-text-muted); font-size: 0.8rem; font-weight: 500; }
+    .section-content { padding-top: 0.375rem; }
+
     /* ── History toolbar ── */
     .history-toolbar {
       display: flex;
@@ -366,71 +385,75 @@
   <main class="main-container">
     <!-- Tabs -->
     <nav class="tabs">
-      <button class="tab-btn" :class="{ active: tab === 'current' }"   @click="tab = 'current'">Current</button>
-      <button class="tab-btn" :class="{ active: tab === 'upcoming' }"  @click="tab = 'upcoming'">Upcoming</button>
+      <button class="tab-btn" :class="{ active: tab === 'home' }" @click="tab = 'home'">Home</button>
+      <button class="tab-btn" :class="{ active: tab === 'upcoming' }" @click="tab = 'upcoming'">Upcoming</button>
       <button class="tab-btn" :class="{ active: tab === 'history' }"   @click="tab = 'history'">History</button>
     </nav>
 
-    <!-- Current tab -->
-    <div v-if="tab === 'current'">
-      <p class="section-heading">Active &amp; Recent Outages</p>
-      <div v-if="loadingCurrent" class="state-placeholder">
-        <div class="spinner"></div>
-        <p>Loading current outages…</p>
-      </div>
-      <div v-else-if="currentOutages.length === 0" class="state-placeholder">
-        <p>No current outages found.</p>
-      </div>
-      <div v-else>
-        <section class="outage-group">
-          <p class="outage-group-title">Active</p>
-          <div v-if="currentActiveOutages.length === 0" class="state-placeholder" style="padding: 1.25rem 1rem;">
-            <p>No active outages.</p>
-          </div>
+    <!-- Home tab -->
+    <div v-if="tab === 'home'">
+      <section class="home-section">
+        <button class="section-toggle" @click="sections.current = !sections.current" :aria-expanded="sections.current">
+          <h2>Current Outages <span class="section-count">{{ currentOutages.length }}</span></h2>
+          <span class="chevron" :class="{ open: sections.current }">⌄</span>
+        </button>
+        <div v-if="sections.current" class="section-content">
+          <div v-if="loadingCurrent" class="state-placeholder"><div class="spinner"></div><p>Loading current outages…</p></div>
+          <div v-else-if="currentOutages.length === 0" class="state-placeholder"><p>No current outages found.</p></div>
           <div v-else class="outage-list">
             <outage-card
-              v-for="o in currentActiveOutages"
-              :key="o.outage_reference"
+              v-for="o in currentOutages"
+              :key="o.reference"
               :summary="o"
-              :full-data="fullData[o.outage_reference]"
-              :loading-full="loadingFull[o.outage_reference]"
-              :default-expanded="isDefaultExpanded(o)"
+              :full-data="fullData[o.reference]"
+              :loading-full="loadingFull[o.reference]"
+              :default-expanded="shouldDefaultExpand(o)"
             ></outage-card>
           </div>
-        </section>
-        <hr v-if="currentClosedOutages.length" class="outage-group-divider" />
-        <section v-if="currentClosedOutages.length" class="outage-group">
-          <p class="outage-group-title">Recently Closed</p>
+        </div>
+      </section>
+
+      <section class="home-section">
+        <button class="section-toggle" @click="sections.recent = !sections.recent" :aria-expanded="sections.recent">
+          <h2>Recently Closed <span class="section-count">{{ recentOutages.length }}</span></h2>
+          <span class="chevron" :class="{ open: sections.recent }">⌄</span>
+        </button>
+        <div v-if="sections.recent" class="section-content">
+          <div v-if="loadingRecent" class="state-placeholder"><div class="spinner"></div><p>Loading recently closed outages…</p></div>
+          <div v-else-if="recentOutages.length === 0" class="state-placeholder"><p>No recently closed outages found.</p></div>
           <div class="outage-list">
             <outage-card
-              v-for="o in currentClosedOutages"
-              :key="o.outage_reference"
+              v-for="o in recentOutages"
+              :key="o.reference"
               :summary="o"
-              :full-data="fullData[o.outage_reference]"
-              :loading-full="loadingFull[o.outage_reference]"
+              :full-data="fullData[o.reference]"
+              :loading-full="loadingFull[o.reference]"
+              :default-expanded="shouldDefaultExpand(o)"
             ></outage-card>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
     </div>
 
     <!-- Upcoming tab -->
     <div v-if="tab === 'upcoming'">
       <p class="section-heading">Upcoming Scheduled Maintenance</p>
-      <div v-if="loadingUpcoming" class="state-placeholder">
+      <div v-if="loadingScheduled" class="state-placeholder">
         <div class="spinner"></div>
-        <p>Loading upcoming outages…</p>
+        <p>Loading scheduled outages…</p>
       </div>
-      <div v-else-if="upcomingOutages.length === 0" class="state-placeholder">
-        <p>No upcoming outages found.</p>
+      <div v-else-if="scheduledOutages.length === 0" class="state-placeholder">
+        <p>No scheduled outages found.</p>
       </div>
       <div v-else class="outage-list">
         <outage-card
-          v-for="o in upcomingOutages"
-          :key="o.outage_reference"
+          v-for="o in scheduledOutages"
+          :key="o.reference"
           :summary="o"
-          :full-data="fullData[o.outage_reference]"
-          :loading-full="loadingFull[o.outage_reference]"
+          :full-data="fullData[o.reference]"
+          :loading-full="loadingFull[o.reference]"
+          :default-expanded="shouldDefaultExpand(o)"
         ></outage-card>
       </div>
     </div>
@@ -458,10 +481,11 @@
       <div v-else class="outage-list">
         <outage-card
           v-for="o in historyOutages"
-          :key="o.outage_reference"
+          :key="o.reference"
           :summary="o"
-          :full-data="fullData[o.outage_reference]"
-          :loading-full="loadingFull[o.outage_reference]"
+          :full-data="fullData[o.reference]"
+          :loading-full="loadingFull[o.reference]"
+          :default-expanded="shouldDefaultExpand(o)"
         ></outage-card>
       </div>
     </div>
@@ -518,50 +542,58 @@ const OutageCard = defineComponent({
   setup(props) {
     const expanded = ref(props.defaultExpanded);
 
-    const statusBadge = computed(() => statusClass(props.summary.status));
-    const statesList  = computed(() => (props.summary.states || []).join(', ') || '—');
-    const suburbsList = computed(() => (props.summary.suburbs || []).join(', ') || '—');
-    const postcodes   = computed(() => (props.summary.postcodes || []).join(', ') || '—');
-    const serviceTypesFromSummary = computed(() =>
-      Array.isArray(props.summary.service_types) ? props.summary.service_types : []);
+    watch(() => props.defaultExpanded, (value) => {
+      if (value) expanded.value = true;
+    });
+
+    const status = computed(() => props.fullData?.status || (props.summary.planned ? 'scheduled' : 'active'));
+    const outageType = computed(() => props.fullData?.type || (props.summary.planned ? 'maintenance' : 'incident'));
+    const statusBadge = computed(() => statusClass(status.value));
+    const statesList  = computed(() => (props.fullData?.impact?.states || []).join(', ') || '—');
+    const suburbsList = computed(() => (props.fullData?.impact?.suburbs || []).join(', ') || '—');
+    const postcodes   = computed(() => (props.fullData?.impact?.postcodes || []).join(', ') || '—');
+    const serviceTypes = computed(() => props.fullData?.impact?.service_types || []);
     const quickStartLabel = computed(() => {
-      if (props.fullData?.lifecycle?.scheduled_start) return 'Scheduled Start';
-      return props.summary.opened_at ? 'Opened' : 'Start';
+      if (props.summary.planned || props.fullData?.lifecycle?.scheduled_start) return 'Scheduled Start';
+      return props.fullData?.lifecycle?.opened_at ? 'Opened' : 'Start';
     });
     const quickStartValue = computed(() => {
       return fmtDate(
         props.fullData?.lifecycle?.scheduled_start ||
-        props.summary.opened_at ||
-        props.summary.start_at
+        props.fullData?.lifecycle?.opened_at ||
+        props.summary.lifecycle?.start_date
       );
     });
     const quickEnd = computed(() => {
       const lifecycle = props.fullData?.lifecycle || {};
-      if (lifecycle.scheduled_end) return { label: 'Scheduled End', value: fmtDate(lifecycle.scheduled_end) };
-      if (lifecycle.resolved_at || props.summary.resolved_at) {
-        return { label: 'Resolved At', value: fmtDate(lifecycle.resolved_at || props.summary.resolved_at) };
+      if (lifecycle.resolved_at || lifecycle.closed_at) {
+        return { label: lifecycle.closed_at ? 'Closed At' : 'Resolved At', value: fmtDate(lifecycle.closed_at || lifecycle.resolved_at) };
       }
-      if (lifecycle.estimated_restoration_at || props.summary.estimated_restoration_at) {
+      if (lifecycle.estimated_restoration_at) {
         return {
           label: 'Estimated Restoration',
-          value: fmtDate(lifecycle.estimated_restoration_at || props.summary.estimated_restoration_at),
+          value: fmtDate(lifecycle.estimated_restoration_at),
         };
       }
+      const end = lifecycle.scheduled_end || props.summary.lifecycle?.end_date;
+      if (end) return { label: 'Scheduled End', value: fmtDate(end) };
       return null;
     });
 
     const causeHighLevel = computed(() =>
-      props.fullData?.cause?.high_level || props.summary.cause || null);
+      props.fullData?.cause?.reason || null);
     const causeDetailed = computed(() =>
-      props.fullData?.cause?.detailed_cause || null);
+      props.fullData?.cause?.detailed || null);
 
     return {
       expanded,
+      status,
+      outageType,
       statusBadge,
       statesList,
       suburbsList,
       postcodes,
-      serviceTypesFromSummary,
+      serviceTypes,
       quickStartLabel,
       quickStartValue,
       quickEnd,
@@ -575,11 +607,11 @@ const OutageCard = defineComponent({
     <div class="outage-card" :class="{ expanded }" @click="expanded = !expanded">
       <div class="card-header">
         <div class="card-title-group">
-          <div class="card-title">{{ summary.outage_reference }}: {{ summary.title || 'Untitled outage' }}</div>
+          <div class="card-title">{{ summary.reference }}: {{ summary.title || 'Untitled outage' }}</div>
           <div class="card-meta">
-            <span class="badge" :class="statusBadge">{{ capitalise(summary.status) }}</span>
-            <span class="badge badge-type">{{ capitalise(summary.outage_type || 'outage') }}</span>
-            <span v-for="s in (summary.states || [])" :key="s" class="badge badge-state">{{ s }}</span>
+            <span class="badge" :class="statusBadge">{{ capitalise(status) }}</span>
+            <span class="badge badge-type">{{ capitalise(outageType) }}</span>
+            <span v-for="s in (fullData?.impact?.states || [])" :key="s" class="badge badge-state">{{ s }}</span>
           </div>
           <div class="card-quick-dates">
             <div class="quick-date-item">
@@ -598,18 +630,14 @@ const OutageCard = defineComponent({
       </div>
 
       <div v-if="expanded" class="card-body" @click.stop>
-        <p class="summary-text">{{ summary.current_summary }}</p>
+        <p v-if="fullData?.current_summary" class="summary-text">{{ fullData.current_summary }}</p>
 
         <div class="detail-row">
           <p class="detail-row-title">Dates</p>
           <div class="detail-grid">
-            <div class="detail-item" v-if="summary.opened_at">
+            <div class="detail-item" v-if="fullData?.lifecycle?.opened_at">
               <label>Opened</label>
-              <span>{{ fmtDate(summary.opened_at) }}</span>
-            </div>
-            <div class="detail-item" v-if="summary.start_at">
-              <label>Start</label>
-              <span>{{ fmtDate(summary.start_at) }}</span>
+              <span>{{ fmtDate(fullData.lifecycle.opened_at) }}</span>
             </div>
             <div class="detail-item" v-if="fullData?.lifecycle?.scheduled_start">
               <label>Scheduled Start</label>
@@ -619,13 +647,17 @@ const OutageCard = defineComponent({
               <label>Scheduled End</label>
               <span>{{ fmtDate(fullData.lifecycle.scheduled_end) }}</span>
             </div>
-            <div class="detail-item" v-if="fullData?.lifecycle?.resolved_at || summary.resolved_at">
+            <div class="detail-item" v-if="fullData?.lifecycle?.resolved_at">
               <label>Resolved At</label>
-              <span>{{ fmtDate(fullData?.lifecycle?.resolved_at || summary.resolved_at) }}</span>
+              <span>{{ fmtDate(fullData.lifecycle.resolved_at) }}</span>
             </div>
-            <div class="detail-item" v-if="fullData?.lifecycle?.estimated_restoration_at || summary.estimated_restoration_at">
+            <div class="detail-item" v-if="fullData?.lifecycle?.closed_at">
+              <label>Closed At</label>
+              <span>{{ fmtDate(fullData.lifecycle.closed_at) }}</span>
+            </div>
+            <div class="detail-item" v-if="fullData?.lifecycle?.estimated_restoration_at">
               <label>Estimated Restoration</label>
-              <span>{{ fmtDate(fullData?.lifecycle?.estimated_restoration_at || summary.estimated_restoration_at) }}</span>
+              <span>{{ fmtDate(fullData.lifecycle.estimated_restoration_at) }}</span>
             </div>
           </div>
         </div>
@@ -651,21 +683,25 @@ const OutageCard = defineComponent({
         <div class="detail-row">
           <p class="detail-row-title">Services</p>
           <div class="detail-grid">
-            <div class="detail-item" v-if="summary.service_count != null || fullData?.services?.count != null">
+            <div class="detail-item" v-if="summary.impact?.service_count != null || fullData?.impact?.service_count != null">
               <label>Services Affected</label>
-              <span>{{ fullData?.services?.count ?? summary.service_count }}</span>
+              <span>{{ fullData?.impact?.service_count ?? summary.impact?.service_count }}</span>
             </div>
-            <div class="detail-item" v-if="fullData?.services?.types?.length || serviceTypesFromSummary.length">
+            <div class="detail-item" v-if="serviceTypes.length">
               <label>Service Types</label>
-              <span>{{ (fullData?.services?.types || serviceTypesFromSummary).join(', ') }}</span>
+              <span>{{ serviceTypes.join(', ') }}</span>
             </div>
-            <div class="detail-item" v-if="summary.customer_impact != null || fullData?.impact?.customer_impact != null">
+            <div class="detail-item" v-if="summary.impact?.customer != null || fullData?.impact?.customer != null">
               <label>Customer Impact</label>
-              <span>{{ (fullData?.impact?.customer_impact ?? summary.customer_impact) ? 'Yes' : 'No' }}</span>
+              <span>{{ (fullData?.impact?.customer ?? summary.impact?.customer) ? 'Yes' : 'No' }}</span>
             </div>
-            <div class="detail-item" v-if="summary.operational_impact != null || fullData?.impact?.operational_impact != null">
+            <div class="detail-item" v-if="fullData?.impact?.operational_impact != null">
               <label>Operational Impact</label>
-              <span>{{ (fullData?.impact?.operational_impact ?? summary.operational_impact) ? 'Yes' : 'No' }}</span>
+              <span>{{ fullData.impact.operational_impact ? 'Yes' : 'No' }}</span>
+            </div>
+            <div class="detail-item" v-if="summary.impact?.impact_scope || fullData?.impact?.impact_scope">
+              <label>Impact Scope</label>
+              <span>{{ capitalise(fullData?.impact?.impact_scope || summary.impact?.impact_scope) }}</span>
             </div>
           </div>
         </div>
@@ -695,7 +731,7 @@ const OutageCard = defineComponent({
           <div v-if="fullData.updates?.length">
             <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--cp-text-muted);margin-bottom:0.375rem;">Updates</p>
             <div class="updates-list">
-              <div v-for="u in fullData.updates" :key="u.id" class="update-item">
+              <div v-for="u in fullData.updates" :key="u.update_time" class="update-item">
                 <time>{{ fmtDate(u.update_time) }}</time>
                 {{ u.content }}
               </div>
@@ -712,24 +748,19 @@ const OutageCard = defineComponent({
 createApp({
   components: { OutageCard },
   setup() {
-    const tab            = ref('current');
+    const tab            = ref('home');
     const isDark         = ref(document.documentElement.getAttribute('data-theme') === 'dark');
+    const sections       = ref({ current: true, recent: false });
 
     const loadingCurrent  = ref(true);
-    const loadingUpcoming = ref(true);
+    const loadingRecent   = ref(true);
+    const loadingScheduled = ref(true);
     const loadingHistory  = ref(false);
 
     const currentOutages  = ref([]);
-    const upcomingOutages = ref([]);
+    const recentOutages   = ref([]);
+    const scheduledOutages = ref([]);
     const historyOutages  = ref([]);
-    const currentActiveOutages = computed(() =>
-      currentOutages.value
-        .filter((o) => !isClosedStatus(o.status))
-        .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b)));
-    const currentClosedOutages = computed(() =>
-      currentOutages.value
-        .filter((o) => isClosedStatus(o.status))
-        .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b)));
 
     // Map of ref → full data object
     const fullData    = ref({});
@@ -751,16 +782,15 @@ createApp({
       document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
     }
 
-    function isDefaultExpanded(outage) {
-      return !isClosedStatus(outage.status) && (outage.outage_type || '').toLowerCase() !== 'maintenance';
+    function shouldDefaultExpand(outage) {
+      const start = new Date(outage?.lifecycle?.start_date).getTime();
+      const record = fullData.value[outage?.reference];
+      return Number.isFinite(start) && start <= Date.now() &&
+        !!record && !record.lifecycle?.resolved_at && !record.lifecycle?.closed_at;
     }
 
     function getSortTimestamp(outage) {
-      const ref = outage?.outage_reference;
-      const full = ref ? fullData.value[ref] : null;
-      const scheduledStart = full?.lifecycle?.scheduled_start || outage?.lifecycle?.scheduled_start || outage?.scheduled_start || outage?.start_at;
-      const openedAt = full?.lifecycle?.opened_at || outage?.opened_at || outage?.lifecycle?.opened_at;
-      const time = new Date(scheduledStart || openedAt || 0).getTime();
+      const time = new Date(outage?.lifecycle?.start_date || 0).getTime();
       return Number.isFinite(time) ? time : Number.MAX_SAFE_INTEGER;
     }
 
@@ -789,7 +819,7 @@ createApp({
     function prefetchFull(list) {
       for (const o of list) {
         const path = o.record_path || o.path;
-        if (path) fetchFull(o.outage_reference, path);
+        if (path) fetchFull(o.reference, path);
       }
     }
 
@@ -798,13 +828,7 @@ createApp({
       loadingCurrent.value = true;
       try {
         const data = await fetchJSON('current.json');
-        const active = data
-          .filter((o) => !isClosedStatus(o.status))
-          .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
-        const closed = data
-          .filter((o) => isClosedStatus(o.status))
-          .sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
-        currentOutages.value = [...active, ...closed];
+        currentOutages.value = data.sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
         prefetchFull(data);
       } catch (e) {
         console.error('Failed to load current.json', e);
@@ -813,17 +837,31 @@ createApp({
       }
     }
 
-    // ── Load upcoming ──
-    async function loadUpcoming() {
-      loadingUpcoming.value = true;
+    // ── Load recently closed ──
+    async function loadRecent() {
+      loadingRecent.value = true;
+      try {
+        const data = await fetchJSON('recent.json');
+        recentOutages.value = data.sort((a, b) => getSortTimestamp(b) - getSortTimestamp(a));
+        prefetchFull(data);
+      } catch (e) {
+        console.error('Failed to load recent.json', e);
+      } finally {
+        loadingRecent.value = false;
+      }
+    }
+
+    // ── Load scheduled ──
+    async function loadScheduled() {
+      loadingScheduled.value = true;
       try {
         const data = await fetchJSON('scheduled.json');
-        upcomingOutages.value = data;
+        scheduledOutages.value = data.sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
         prefetchFull(data);
       } catch (e) {
         console.error('Failed to load scheduled.json', e);
       } finally {
-        loadingUpcoming.value = false;
+        loadingScheduled.value = false;
       }
     }
 
@@ -913,15 +951,14 @@ createApp({
     });
 
     onMounted(async () => {
-      await Promise.all([loadCurrent(), loadUpcoming(), discoverSummaries()]);
+      await Promise.all([loadCurrent(), loadRecent(), loadScheduled(), discoverSummaries()]);
     });
 
     return {
-      tab, isDark, toggleTheme,
-      loadingCurrent, loadingUpcoming, loadingHistory,
-      currentOutages, upcomingOutages, historyOutages,
-      currentActiveOutages, currentClosedOutages,
-      isDefaultExpanded,
+      tab, isDark, sections, toggleTheme,
+      loadingCurrent, loadingRecent, loadingScheduled, loadingHistory,
+      currentOutages, recentOutages, scheduledOutages, historyOutages,
+      shouldDefaultExpand,
       fullData, loadingFull,
       availableYears, availableMonths, selectedYear, selectedMonth,
       onYearChange, loadHistoryMonth, monthLabel,
