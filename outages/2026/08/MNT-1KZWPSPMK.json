@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZWPSPMK",
+	"reference": "MNT-1KZWPSPMK",
 	"title": "VIC, NSW & QLD - Maintain the Network",
-	"outage_type": "maintenance",
-	"status": "resolved",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-13T04:41:28.480Z",
-		"opened_at": "2026-05-27T01:40:52.000Z",
-		"scheduled_start": "2026-07-30T14:00:00.000Z",
-		"scheduled_end": "2026-07-30T20:00:00.000Z",
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-13T04:41:28.480Z",
-		"closed_at": "2026-08-13T08:43:30.218Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
 		"states": [
 			"NSW"
 		],
@@ -32,30 +24,29 @@
 			"2656"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - Fixed Wireless"
-		]
+	"lifecycle": {
+		"opened_at": "2026-05-27T01:40:52.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-07-30T14:00:00.000Z",
+		"scheduled_end": "2026-07-30T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-08-13T08:43:30.218Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
 	"updates": [
 		{
-			"id": "b4fd5418-a32f-4ab6-ab16-743e8f1200fc",
-			"outage_id": "192f838e-3c38-4c47-8811-7d66ac30986a",
 			"update_time": "2026-08-13T04:00:54.343Z",
-			"update_type": "initial_update",
 			"content": "Planned maintenance on the access network in VIC, NSW and QLD has been completed. The work took place overnight from 12:00 AM to 6:00 AM AEST on 31 July 2026. Some services may have experienced a brief interruption of up to 15 minutes during the window. Services are back online and performing as expected. We will continue to monitor. Thank you for your patience.",
-			"material_change": true,
-			"created_at": "2026-08-13T04:41:28.800Z"
+			"material_change": true
 		}
 	]
 }
