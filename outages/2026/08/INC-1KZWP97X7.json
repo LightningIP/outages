@@ -1,27 +1,19 @@
 {
-	"outage_reference": "INC-1KZWP97X7",
+	"reference": "INC-1KZWP97X7",
 	"title": "Yackandandah, VIC - Infrastructure Restoration",
-	"outage_type": "incident",
-	"status": "resolved",
-	"severity": null,
+	"type": "incident",
 	"planned": false,
-	"lifecycle": {
-		"created_at": "2026-08-13T04:32:29.113Z",
-		"opened_at": "2026-07-02T19:31:19.000Z",
-		"scheduled_start": null,
-		"scheduled_end": null,
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-13T04:32:29.113Z",
-		"closed_at": "2026-07-03T00:07:15.000Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "An upstream access network incident affected services in Yackandandah, VIC. Services were restored at 10:07 AM AEST on 3 July 2026. We are monitoring and no further impact is expected.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "local"
-	},
-	"geography": {
+		"impact_scope": "local",
+		"service_count": 5,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
 		"states": [
 			"VIC"
 		],
@@ -33,30 +25,29 @@
 			"3749"
 		]
 	},
-	"services": {
-		"count": 5,
-		"types": [
-			"NBN - Fixed Wireless"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-02T19:31:19.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-07-03T00:07:15.000Z"
 	},
 	"cause": {
-		"high_level": "third-party provider planned works",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "third-party provider planned works",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "An upstream access network incident affected services in Yackandandah, VIC. Services were restored at 10:07 AM AEST on 3 July 2026. We are monitoring and no further impact is expected.",
 	"updates": [
 		{
-			"id": "b0798d2e-ae77-4916-b190-ff231925ed7d",
-			"outage_id": "8a9e464f-d30c-47d1-90ee-885c3a0ce89e",
 			"update_time": "2026-07-03T00:07:15.000Z",
-			"update_type": "initial_update",
 			"content": "Services in Yackandandah, VIC were affected by an upstream access network issue. All services were restored at 10:07 AM AEST on 3 July 2026. If your connection is still offline, please restart your modem or router and contact our support team. We’re monitoring and appreciate your patience.",
-			"material_change": true,
-			"created_at": "2026-08-13T04:32:29.268Z"
+			"material_change": true
 		}
 	]
 }
