@@ -1,27 +1,19 @@
 {
-	"outage_reference": "INC-1KZX60KBT",
+	"reference": "INC-1KZX60KBT",
 	"title": "RESERVOIR,VIC-3073 - Infrastructure Restoration",
-	"outage_type": "incident",
-	"status": "resolved",
-	"severity": null,
+	"type": "incident",
 	"planned": false,
-	"lifecycle": {
-		"created_at": "2026-08-13T09:07:23.148Z",
-		"opened_at": "2026-07-28T10:51:50.000Z",
-		"scheduled_start": null,
-		"scheduled_end": null,
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-13T09:07:23.148Z",
-		"closed_at": "2026-07-28T13:00:13.000Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "An earlier power outage affected network equipment in Reservoir, VIC 3073, causing a loss of service for some customers. Power has been restored and services are back online. We are monitoring the area. If your connection has not returned, please restart your modem/router and connection box (if you have one).",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "local"
-	},
-	"geography": {
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
 		"states": [
 			"VIC"
 		],
@@ -32,30 +24,29 @@
 			"3073"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - HFC"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-28T10:51:50.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-07-28T13:00:13.000Z"
 	},
 	"cause": {
-		"high_level": "power outage",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "power outage",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "An earlier power outage affected network equipment in Reservoir, VIC 3073, causing a loss of service for some customers. Power has been restored and services are back online. We are monitoring the area. If your connection has not returned, please restart your modem/router and connection box (if you have one).",
 	"updates": [
 		{
-			"id": "7dac0f0a-5a76-4202-b395-b3482ab09bab",
-			"outage_id": "a0bb037e-b710-4ad5-afb7-dd4e155ed513",
 			"update_time": "2026-07-28T13:00:13.000Z",
-			"update_type": "initial_update",
 			"content": "Services in Reservoir (VIC 3073) were interrupted due to a local power outage affecting network equipment in the area. Power has been restored and services are back online. If your connection has not come back, please restart your modem/router and connection box (if you have one). We are monitoring for stability. Thank you for your patience.",
-			"material_change": true,
-			"created_at": "2026-08-13T09:07:23.276Z"
+			"material_change": true
 		}
 	]
 }
