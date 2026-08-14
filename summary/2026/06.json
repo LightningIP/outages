@@ -27,6 +27,56 @@
 		"path": "outages/2026/08/MNT-1KZWP70BN.json"
 	},
 	{
+		"outage_reference": "MNT-1KZWQ0WFT",
+		"title": "MACLEAN NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "cancelled",
+		"severity": null,
+		"start_at": "2026-07-10T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": false,
+		"operational_impact": false,
+		"service_count": 3,
+		"cause": "maintenance activity",
+		"current_summary": "Planned network maintenance in Maclean, NSW has been cancelled by an upstream provider. No service impact is expected. The previously advised window was 11 July 2026 between 12:00 AM and 6:00 AM AEST. No action is required.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		],
+		"path": "outages/2026/08/MNT-1KZWQ0WFT.json"
+	},
+	{
+		"outage_reference": "MNT-1KZWPSPMK",
+		"title": "VIC, NSW & QLD - Maintain the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "resolved",
+		"severity": null,
+		"start_at": "2026-07-30T14:00:00.000Z",
+		"resolved_at": null,
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 1,
+		"cause": "maintenance activity",
+		"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LOCKHART"
+		],
+		"postcodes": [
+			"2656"
+		],
+		"path": "outages/2026/08/MNT-1KZWPSPMK.json"
+	},
+	{
 		"outage_reference": "MNT-1KZWPD5HY",
 		"title": "Campsie \r\n NSW - Upgrade the Network",
 		"outage_type": "maintenance",
@@ -117,55 +167,5 @@
 			"3749"
 		],
 		"path": "outages/2026/08/MNT-1KZWPK4ED.json"
-	},
-	{
-		"outage_reference": "MNT-1KZWPSPMK",
-		"title": "VIC, NSW & QLD - Maintain the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "resolved",
-		"severity": null,
-		"start_at": "2026-07-30T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 1,
-		"cause": "maintenance activity",
-		"current_summary": "Planned maintenance affecting the access network in parts of VIC, NSW and QLD has been completed. Work ran from 12:00 AM to 6:00 AM AEST on 31 July 2026, with a brief interruption of up to 15 minutes for some services. Services are restored and stable. No further impact is expected.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LOCKHART"
-		],
-		"postcodes": [
-			"2656"
-		],
-		"path": "outages/2026/08/MNT-1KZWPSPMK.json"
-	},
-	{
-		"outage_reference": "MNT-1KZWQ0WFT",
-		"title": "MACLEAN NSW - Upgrade the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "cancelled",
-		"severity": null,
-		"start_at": "2026-07-10T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": false,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "Planned network maintenance in Maclean, NSW has been cancelled by an upstream provider. No service impact is expected. The previously advised window was 11 July 2026 between 12:00 AM and 6:00 AM AEST. No action is required.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"YAMBA"
-		],
-		"postcodes": [
-			"2464"
-		],
-		"path": "outages/2026/08/MNT-1KZWQ0WFT.json"
 	}
 ]
