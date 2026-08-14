@@ -1,27 +1,19 @@
 {
-	"outage_reference": "INC-1KZX5Z0VX",
+	"reference": "INC-1KZX5Z0VX",
 	"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
-	"outage_type": "incident",
-	"status": "resolved",
-	"severity": "High",
+	"type": "incident",
 	"planned": false,
-	"lifecycle": {
-		"created_at": "2026-08-13T09:06:31.434Z",
-		"opened_at": "2026-08-13T08:19:45.000Z",
-		"scheduled_start": null,
-		"scheduled_end": null,
-		"estimated_restoration_at": null,
-		"actual_restoration_at": "2026-08-13T17:40:50.000Z",
-		"resolved_at": "2026-08-13T17:40:50.000Z",
-		"updated_at": "2026-08-14T01:59:54.198Z",
-		"closed_at": "2026-08-13T17:40:50.000Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Services in Coolum Beach, QLD have been restored after network hardware was replaced. If your connection has not returned, please restart your equipment. No further impact is expected.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTN"
+		],
 		"states": [
 			"NSW"
 		],
@@ -32,66 +24,49 @@
 			"2640"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - FTTN"
-		]
+	"lifecycle": {
+		"opened_at": "2026-08-13T08:19:45.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": "2026-08-13T17:40:50.000Z",
+		"resolved_at": "2026-08-13T17:40:50.000Z",
+		"closed_at": "2026-08-13T17:40:50.000Z"
 	},
 	"cause": {
-		"high_level": "nbn Network Hardware Replaced",
-		"detailed_cause": "A hardware failure affecting local network equipment required onsite technician attendance and spare parts replacement in Coolum Beach, QLD. Services have now been restored.",
-		"root_cause": null,
+		"reason": "nbn Network Hardware Replaced",
+		"detailed": "A hardware failure affecting local network equipment required onsite technician attendance and spare parts replacement in Coolum Beach, QLD. Services have now been restored.",
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Services in Coolum Beach, QLD have been restored after network hardware was replaced. If your connection has not returned, please restart your equipment. No further impact is expected.",
 	"updates": [
 		{
-			"id": "6f0f8384-196d-45a6-91c6-a202a09523a6",
-			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
 			"update_time": "2026-08-13T08:54:13.000Z",
-			"update_type": "initial_update",
 			"content": "We’re investigating a service disruption affecting some customers in Coolum Beach, QLD. You may experience no connectivity or intermittent service. Our team, together with our network partner, is troubleshooting a hardware alarm on a local network switch. We’re working to restore services as quickly as possible. We don’t have an estimated restoration time yet. If available, using mobile data can help you stay connected during the interruption. Thank you for your patience.",
-			"material_change": true,
-			"created_at": "2026-08-13T09:06:31.721Z"
+			"material_change": true
 		},
 		{
-			"id": "04e33137-9d22-4f5c-98cc-40ab0cc92c1e",
-			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
 			"update_time": "2026-08-13T09:30:41.273Z",
-			"update_type": "status_change",
 			"content": "A technician has now been dispatched to the Coolum Beach area to investigate and address the ongoing network issue. Some customers may continue to experience no connectivity or intermittent service while work is underway. We are working with our network partner and will provide an estimated restoration time as soon as it becomes available. Thank you for your patience.",
-			"material_change": true,
-			"created_at": "2026-08-13T09:30:47.936Z"
+			"material_change": true
 		},
 		{
-			"id": "b212c706-af6b-4082-8d38-60a2fb3db41b",
-			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
 			"update_time": "2026-08-13T09:54:51.000Z",
-			"update_type": "status_change",
 			"content": "An attending technician will need to arrange spare parts before arriving in Coolum Beach, QLD to work on local network hardware. Urgent repair work may temporarily impact additional users. Service interruptions are expected to continue until repairs are completed. We will share more information as it becomes available. Thank you for your continued patience.",
-			"material_change": true,
-			"created_at": "2026-08-13T09:59:47.238Z"
+			"material_change": true
 		},
 		{
-			"id": "358b9ae7-dd8f-4984-bd62-c47e00eb717a",
-			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
 			"update_time": "2026-08-13T13:26:35.000Z",
-			"update_type": "restoration_estimate",
 			"content": "Technicians are expected to arrive onsite at Coolum Beach by 2AM (AEST) with spare parts to address a hardware failure affecting local nbn network services. Service interruptions will continue while repairs are underway. We will share further updates or an earlier restoration time if available.",
-			"material_change": true,
-			"created_at": "2026-08-13T13:30:52.202Z"
+			"material_change": true
 		},
 		{
-			"id": "ce06497e-8ea0-448a-8bd9-8abd090217f5",
-			"outage_id": "72076422-ad91-4412-ab2e-d15ac16c3a9b",
 			"update_time": "2026-08-13T17:40:50.000Z",
-			"update_type": "restoration",
 			"content": "Services in Coolum Beach, QLD have now been restored following the replacement of failed network hardware. If your service is still offline, please try restarting your nbn equipment and Wi-Fi router. No further interruptions are expected at this time.",
-			"material_change": true,
-			"created_at": "2026-08-14T01:59:56.102Z"
+			"material_change": true
 		}
 	]
 }
