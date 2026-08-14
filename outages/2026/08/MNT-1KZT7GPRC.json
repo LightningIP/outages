@@ -1,27 +1,20 @@
 {
-	"outage_reference": "MNT-1KZT7GPRC",
+	"reference": "MNT-1KZT7GPRC",
 	"title": "NBN POI 4NER (Nerang) Cable Replacement Works",
-	"outage_type": "maintenance",
-	"status": "resolved",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T05:35:56.176Z",
-		"opened_at": "2026-07-27T03:55:20.124Z",
-		"scheduled_start": "2026-08-10T13:00:00.000Z",
-		"scheduled_end": "2026-08-10T20:00:00.000Z",
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T05:35:56.176Z",
-		"closed_at": "2026-08-12T02:24:59.193Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Planned cable replacement at the Nerang (4NER) NBN Point of Interconnect was completed during the scheduled window between 11:00 PM and 6:00 AM AEST on 10–11 August. The work was performed by an upstream provider. NBN services delivered via the Nerang POI are operating normally and we will continue to monitor.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "regional"
-	},
-	"geography": {
+		"impact_scope": "regional",
+		"service_count": 3,
+		"service_types": [
+			"NBN - FTTC",
+			"NBN - FTTP"
+		],
 		"states": [
 			"QLD"
 		],
@@ -35,31 +28,29 @@
 			"4213"
 		]
 	},
-	"services": {
-		"count": 3,
-		"types": [
-			"NBN - FTTC",
-			"NBN - FTTP"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-27T03:55:20.124Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-10T13:00:00.000Z",
+		"scheduled_end": "2026-08-10T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-08-12T02:24:59.193Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned cable replacement at the Nerang (4NER) NBN Point of Interconnect was completed during the scheduled window between 11:00 PM and 6:00 AM AEST on 10–11 August. The work was performed by an upstream provider. NBN services delivered via the Nerang POI are operating normally and we will continue to monitor.",
 	"updates": [
 		{
-			"id": "9cb77960-e5f2-429a-91e8-6b8984f1ec89",
-			"outage_id": "e7e1b8dd-cc61-477e-9636-4d0376b9252e",
 			"update_time": "2026-08-12T02:24:59.193Z",
-			"update_type": "initial_update",
 			"content": "Planned works at the Nerang NBN POI have been completed. The maintenance window ran from 11:00 PM AEST on 10 August to 6:00 AM AEST on 11 August. NBN services delivered via this POI are now operating normally. We will continue to monitor to ensure stability. Thank you for your patience.",
-			"material_change": true,
-			"created_at": "2026-08-12T05:35:56.396Z"
+			"material_change": true
 		}
 	]
 }
