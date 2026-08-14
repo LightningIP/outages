@@ -1,88 +1,62 @@
 [
 	{
-		"outage_reference": "MNT-1KZT7T660",
+		"reference": "MNT-1KZT7T660",
 		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZT7T660.json",
-		"opened_at": "2026-08-09T08:38:20.699Z",
-		"estimated_restoration_at": "2026-09-07T16:00:00.000Z",
-		"states": [
-			"VIC"
-		],
-		"suburbs": [
-			"CREMORNE"
-		],
-		"postcodes": [
-			"3121"
-		],
-		"service_types": null,
-		"service_count": 1,
-		"current_summary": "Planned maintenance will occur at the NBN Hawthorn (3HAW) POI in Melbourne on Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. NBN services served by this POI may be disrupted during the window (up to 2 hours) while services are moved to new network equipment. Services should restore automatically after the window."
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-07T14:00:00.000Z",
+			"end_date": "2026-09-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7T660.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT7ZZ4F",
+		"reference": "MNT-1KZT7ZZ4F",
 		"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZT7ZZ4F.json",
-		"opened_at": "2026-08-04T05:59:37.100Z",
-		"estimated_restoration_at": "2026-08-18T21:00:00.000Z",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"WAVELL HEIGHTS"
-		],
-		"postcodes": [
-			"4012"
-		],
-		"service_types": null,
-		"service_count": 1,
-		"current_summary": "Planned works by an upstream provider will replace a splice enclosure serving multiple Queensland NBN Points of Interconnect. The maintenance window is Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time). Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during the window. Our team will monitor the network and work with our partner to minimise impact. Services are expected to be restored by 7:00 AM AEST."
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-18T13:00:00.000Z",
+			"end_date": "2026-08-18T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7ZZ4F.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT840F3",
+		"reference": "MNT-1KZT840F3",
 		"title": "NBN POI 4CAB (Caboolture), 4APL (Aspley) - Cable Relocation and Replacement",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZT840F3.json",
-		"opened_at": "2026-08-04T06:03:14.536Z",
-		"estimated_restoration_at": "2026-08-16T21:00:00.000Z",
-		"states": [
-			"QLD"
-		],
-		"suburbs": [
-			"PELICAN WATERS",
-			"WAVELL HEIGHTS"
-		],
-		"postcodes": [
-			"4012",
-			"4551"
-		],
-		"service_types": null,
-		"service_count": 2,
-		"current_summary": "An upstream provider will relocate and replace a cable affecting backhaul to the NBN 4CAB (Caboolture) and 4APL (Aspley) POIs. NBN services in these areas may be affected for up to 8 hours during the window: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST. We will monitor the works and aim to minimise impact. Services are expected to restore once the maintenance is complete."
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-16T13:00:00.000Z",
+			"end_date": "2026-08-16T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT840F3.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT9PN4P",
+		"reference": "MNT-1KZT9PN4P",
 		"title": " - Upgrade the Network",
-		"outage_type": "maintenance",
-		"status": "scheduled",
-		"record_path": "outages/2026/08/MNT-1KZT9PN4P.json",
-		"opened_at": "2026-08-12T05:28:16.695Z",
-		"estimated_restoration_at": null,
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LAVINGTON"
-		],
-		"postcodes": [
-			"2641"
-		],
-		"service_types": null,
-		"service_count": 2,
-		"current_summary": "An upstream provider will perform upgrade work on the access network. Some broadband services will briefly go offline during the maintenance window, with a single interruption of up to 45 minutes expected. Order processing and service changes may be delayed during and shortly after the work. Our team will monitor progress and update this notice when the activity is complete."
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-02T14:00:00.000Z",
+			"end_date": "2026-09-02T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT9PN4P.json"
 	}
 ]
