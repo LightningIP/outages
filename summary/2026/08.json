@@ -371,59 +371,6 @@
 		"path": "outages/2026/08/MNT-1KZT840F3.json"
 	},
 	{
-		"outage_reference": "MNT-1KZT9FA2D",
-		"title": "National - Maintain the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-08-13T16:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 2,
-		"cause": "maintenance activity",
-		"current_summary": "Urgent maintenance by an upstream provider is scheduled from 2:00 AM to 6:00 AM AEST on Friday 14 August 2026. A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST. Some services may lose connectivity during this window. We are monitoring and will provide updates if details change.",
-		"states": [
-			"NSW",
-			"VIC"
-		],
-		"suburbs": [
-			"CORRYONG",
-			"SPRINGSIDE"
-		],
-		"postcodes": [
-			"2800",
-			"3707"
-		],
-		"path": "outages/2026/08/MNT-1KZT9FA2D.json"
-	},
-	{
-		"outage_reference": "MNT-1KZT9MAE2",
-		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
-		"outage_type": "maintenance",
-		"planned": true,
-		"status": "scheduled",
-		"severity": null,
-		"start_at": "2026-08-13T14:00:00.000Z",
-		"resolved_at": null,
-		"customer_impact": true,
-		"operational_impact": false,
-		"service_count": 3,
-		"cause": "maintenance activity",
-		"current_summary": "An upstream provider has scheduled network upgrade works affecting services in River St, Maclean NSW. The maintenance window is 12:00 AM to 6:00 AM local time on 14 August. One interruption of up to 5 hours is expected during this window, causing a temporary loss of connectivity for impacted services. The event is scheduled and we will monitor throughout.",
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"YAMBA"
-		],
-		"postcodes": [
-			"2464"
-		],
-		"path": "outages/2026/08/MNT-1KZT9MAE2.json"
-	},
-	{
 		"outage_reference": "MNT-1KZT9PN4P",
 		"title": " - Upgrade the Network",
 		"outage_type": "maintenance",
@@ -447,6 +394,59 @@
 			"2641"
 		],
 		"path": "outages/2026/08/MNT-1KZT9PN4P.json"
+	},
+	{
+		"outage_reference": "MNT-1KZT9MAE2",
+		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "completed",
+		"severity": null,
+		"start_at": "2026-08-13T14:00:00.000Z",
+		"resolved_at": "2026-08-14T01:57:03.829Z",
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 3,
+		"cause": "maintenance activity",
+		"current_summary": "Scheduled network upgrade works affecting services in River St, Maclean NSW have now been completed. Services in the area should now be operating as normal. Thank you for your patience during this planned work.",
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		],
+		"path": "outages/2026/08/MNT-1KZT9MAE2.json"
+	},
+	{
+		"outage_reference": "MNT-1KZT9FA2D",
+		"title": "National - Maintain the Network",
+		"outage_type": "maintenance",
+		"planned": true,
+		"status": "completed",
+		"severity": null,
+		"start_at": "2026-08-13T16:00:00.000Z",
+		"resolved_at": "2026-08-14T01:57:03.840Z",
+		"customer_impact": true,
+		"operational_impact": false,
+		"service_count": 2,
+		"cause": "maintenance activity",
+		"current_summary": "Scheduled maintenance by an upstream provider has been completed. Services that were impacted during the maintenance window should now be restored. Please restart your equipment if you are still experiencing any issues.",
+		"states": [
+			"NSW",
+			"VIC"
+		],
+		"suburbs": [
+			"CORRYONG",
+			"SPRINGSIDE"
+		],
+		"postcodes": [
+			"2800",
+			"3707"
+		],
+		"path": "outages/2026/08/MNT-1KZT9FA2D.json"
 	},
 	{
 		"outage_reference": "MNT-1KZT7015J",
@@ -607,15 +607,15 @@
 		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
 		"outage_type": "incident",
 		"planned": false,
-		"status": "investigating",
+		"status": "resolved",
 		"severity": "High",
 		"start_at": "2026-08-13T08:19:45.000Z",
-		"resolved_at": null,
+		"resolved_at": "2026-08-13T17:40:50.000Z",
 		"customer_impact": true,
 		"operational_impact": false,
 		"service_count": 1,
-		"cause": null,
-		"current_summary": "Technicians are en route to the Coolum Beach area and are expected onsite by 2AM (AEST) to repair a hardware fault affecting some nbn services. Service interruptions will continue while spare parts are sourced and repairs are underway. We will provide further updates if restoration is achieved earlier or once work is complete.",
+		"cause": "nbn Network Hardware Replaced",
+		"current_summary": "Services in Coolum Beach, QLD have been restored after network hardware was replaced. If your connection has not returned, please restart your equipment. No further impact is expected.",
 		"states": [
 			"NSW"
 		],
