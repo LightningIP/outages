@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/08/MNT-1KZT7QV8B.json"
 	},
 	{
+		"reference": "MNT-1KZT7KSVN",
+		"title": "NBN POI 4KLG (Petrie), 4CAB (Caboolture), 4APL (Aspley) - Infrastructure Upgrades",
+		"planned": true,
+		"impact": {
+			"customer": false,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-08-13T13:00:00.000Z",
+			"end_date": "2026-08-13T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7KSVN.json"
+	},
+	{
 		"reference": "MNT-1KZT9MAE2",
 		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
 		"planned": true,
