@@ -1,27 +1,19 @@
 {
-	"outage_reference": "INC-1KZWQ73BZ",
+	"reference": "INC-1KZWQ73BZ",
 	"title": "Lavington, NSW - Infrastructure Restoration",
-	"outage_type": "incident",
-	"status": "resolved",
-	"severity": null,
+	"type": "incident",
 	"planned": false,
-	"lifecycle": {
-		"created_at": "2026-08-13T04:48:47.519Z",
-		"opened_at": "2026-07-14T01:26:14.000Z",
-		"scheduled_start": null,
-		"scheduled_end": null,
-		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-13T04:48:47.519Z",
-		"closed_at": "2026-07-14T05:15:56.000Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Services in Lavington, NSW were impacted by an unplanned access network issue caused by a power outage. Services were restored at approximately 3:15 PM AEST on 14 July 2026. If your service has not reconnected, please restart your modem/router and any network connection box, then test again. We are monitoring and no further impact is expected.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "local"
-	},
-	"geography": {
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTN"
+		],
 		"states": [
 			"NSW"
 		],
@@ -32,30 +24,29 @@
 			"2640"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - FTTN"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-14T01:26:14.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-07-14T05:15:56.000Z"
 	},
 	"cause": {
-		"high_level": "power outage",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "power outage",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Services in Lavington, NSW were impacted by an unplanned access network issue caused by a power outage. Services were restored at approximately 3:15 PM AEST on 14 July 2026. If your service has not reconnected, please restart your modem/router and any network connection box, then test again. We are monitoring and no further impact is expected.",
 	"updates": [
 		{
-			"id": "b4bb3025-89e1-45b7-95c5-3ba836584f9a",
-			"outage_id": "ea76d753-a42b-4cc0-b548-dae80be0b892",
 			"update_time": "2026-07-14T05:15:56.000Z",
-			"update_type": "initial_update",
 			"content": "Services in Lavington, NSW have been restored following a power issue affecting access network equipment. Most customers should now be back online. If your service hasn’t reconnected, please power-cycle your modem/router and any network connection box, then wait a few minutes before testing again. We’ll continue to monitor and we’re here to help if you need support.",
-			"material_change": true,
-			"created_at": "2026-08-13T04:48:48.652Z"
+			"material_change": true
 		}
 	]
 }
