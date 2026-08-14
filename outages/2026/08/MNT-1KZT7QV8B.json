@@ -1,27 +1,19 @@
 {
-	"outage_reference": "MNT-1KZT7QV8B",
+	"reference": "MNT-1KZT7QV8B",
 	"title": "NBN POI 4APL (ASPLEY) 4BNB (ASPLEY DEPOT) NNI Rehoming",
-	"outage_type": "maintenance",
-	"status": "resolved",
-	"severity": null,
+	"type": "maintenance",
 	"planned": true,
-	"lifecycle": {
-		"created_at": "2026-08-12T05:39:50.164Z",
-		"opened_at": "2026-07-22T01:51:53.801Z",
-		"scheduled_start": "2026-08-10T14:00:00.000Z",
-		"scheduled_end": "2026-08-10T16:00:00.000Z",
-		"estimated_restoration_at": "2026-08-10T16:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"updated_at": "2026-08-12T05:39:50.164Z",
-		"closed_at": "2026-08-10T16:00:00.000Z"
-	},
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Planned NBN works at the Aspley (4APL) and Aspley Depot (4BNB) POIs in Brisbane have concluded. Services in the area may have experienced brief interruptions between 12:00 AM and 2:00 AM AEST on 11 August 2026 while services were moved to a new router. No further impact is expected.",
 	"impact": {
-		"customer_impact": true,
+		"customer": true,
 		"operational_impact": false,
-		"impact_scope": null
-	},
-	"geography": {
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
 		"states": [
 			"QLD"
 		],
@@ -32,30 +24,29 @@
 			"4012"
 		]
 	},
-	"services": {
-		"count": 1,
-		"types": [
-			"NBN - HFC"
-		]
+	"lifecycle": {
+		"opened_at": "2026-07-22T01:51:53.801Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-10T14:00:00.000Z",
+		"scheduled_end": "2026-08-10T16:00:00.000Z",
+		"estimated_restoration_at": "2026-08-10T16:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-08-10T16:00:00.000Z"
 	},
 	"cause": {
-		"high_level": "maintenance activity",
-		"detailed_cause": null,
-		"root_cause": null,
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
 		"power_related": null
 	},
-	"current_summary": "Planned NBN works at the Aspley (4APL) and Aspley Depot (4BNB) POIs in Brisbane have concluded. Services in the area may have experienced brief interruptions between 12:00 AM and 2:00 AM AEST on 11 August 2026 while services were moved to a new router. No further impact is expected.",
 	"updates": [
 		{
-			"id": "a7ea6fec-13d9-4708-b086-a7a421586702",
-			"outage_id": "cafdc80e-cb1a-4dc5-848d-cca72ccc387c",
 			"update_time": "2026-08-10T15:14:00.000Z",
-			"update_type": "initial_update",
 			"content": "This planned maintenance is now complete. NBN services connected to the Aspley (4APL) and Aspley Depot (4BNB) POIs in Brisbane may have experienced short interruptions between 12:00 AM and 2:00 AM AEST on 11 August 2026 while we moved services to a new router. Services are operating normally and no further impact is expected. We appreciate your patience.",
-			"material_change": true,
-			"created_at": "2026-08-12T05:39:50.449Z"
+			"material_change": true
 		}
 	]
 }
