@@ -270,21 +270,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT794YD.json"
 	},
 	{
-		"reference": "MNT-1KZT76N9F",
-		"title": "NBN POI 3FSR (Footscray), 3STK (St Kilda), 2MIR (Miranda) - Upgrade Existing Infrastructure",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-08-09T14:00:00.000Z",
-			"end_date": "2026-08-09T21:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT76N9F.json"
-	},
-	{
 		"reference": "MNT-1KZT9FA2D",
 		"title": "National - Maintain the Network",
 		"planned": true,
@@ -328,21 +313,6 @@
 			"end_date": "2026-08-13T17:40:50.000Z"
 		},
 		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json"
-	},
-	{
-		"reference": "MNT-1KZT7VXMV",
-		"title": "NBN POI 2MYF (Mayfield) Splice Relocation",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-08-09T14:00:00.000Z",
-			"end_date": "2026-08-09T21:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7VXMV.json"
 	},
 	{
 		"reference": "MNT-1KZWPK4ED",
