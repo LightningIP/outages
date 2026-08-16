@@ -165,21 +165,6 @@
 		"record_path": "outages/2026/08/MNT-1KZWPWFG1.json"
 	},
 	{
-		"reference": "MNT-1KZT7Y1FF",
-		"title": "NBN POI 3RWO (Ringwood) 3LIL (Lilydale) NNI Rehoming",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-08-07T14:00:00.000Z",
-			"end_date": "2026-08-07T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7Y1FF.json"
-	},
-	{
 		"reference": "MNT-1KZWQ0WFT",
 		"title": "MACLEAN NSW - Upgrade the Network",
 		"planned": true,
