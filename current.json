@@ -28,5 +28,20 @@
 			"end_date": "2026-08-16T21:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZT840F3.json"
+	},
+	{
+		"reference": "INC-1M06GRPRY",
+		"title": "nbn Incident INC000022429148 - Temora, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-16T23:49:28.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/08/INC-1M06GRPRY.json"
 	}
 ]
