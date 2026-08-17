@@ -47,6 +47,11 @@
 			"update_time": "2026-08-16T23:49:28.000Z",
 			"content": "We’re aware of a service disruption affecting some services in Temora, NSW. You may experience dropouts, slow speeds, or no connection. Our team is working with our network partner to restore services as quickly as possible. If you need to stay online, using mobile data may help. We’ll share an estimated restoration time as soon as it’s available. Thank you for your patience.",
 			"material_change": true
+		},
+		{
+			"update_time": "2026-08-17T00:15:39.740Z",
+			"content": "There is no new information to report at this time. Our previous update about service disruptions in Temora, NSW remains accurate, and restoration work is still underway. We will provide more details as soon as they become available.",
+			"material_change": false
 		}
 	]
 }
