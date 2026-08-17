@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "An upstream network issue is affecting some services in Temora, NSW. Customers may experience slow speeds, dropouts, or no connectivity. Our team is working with a network partner to restore services. There is no estimated restoration time yet.",
+	"status": "resolved",
+	"current_summary": "Services in Temora, NSW have been restored after an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,13 +30,13 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-08-17T01:57:46.000Z",
+		"resolved_at": "2026-08-17T01:57:46.000Z",
+		"closed_at": "2026-08-17T01:57:46.000Z"
 	},
 	"cause": {
 		"reason": null,
-		"detailed": null,
+		"detailed": "Services in your area have been restored following an unexpected network issue.",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
@@ -52,6 +52,11 @@
 			"update_time": "2026-08-17T00:15:39.740Z",
 			"content": "There is no new information to report at this time. Our previous update about service disruptions in Temora, NSW remains accurate, and restoration work is still underway. We will provide more details as soon as they become available.",
 			"material_change": false
+		},
+		{
+			"update_time": "2026-08-17T01:57:46.000Z",
+			"content": "Services in Temora, NSW have now been restored following an unexpected network issue. If your service has not reconnected automatically, please try restarting your Wi-Fi router and nbn Connection Box. Thank you for your patience while restoration work was completed.",
+			"material_change": true
 		}
 	]
 }
