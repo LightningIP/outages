@@ -1,0 +1,52 @@
+{
+	"reference": "INC-1M06GRPRY",
+	"title": "nbn Incident INC000022429148 - Temora, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "work_underway",
+	"current_summary": "An upstream network issue is affecting some services in Temora, NSW. Customers may experience slow speeds, dropouts, or no connectivity. Our team is working with a network partner to restore services. There is no estimated restoration time yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTC"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"TEMORA"
+		],
+		"postcodes": [
+			"2666"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-16T23:49:28.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-16T23:49:28.000Z",
+			"content": "We’re aware of a service disruption affecting some services in Temora, NSW. You may experience dropouts, slow speeds, or no connection. Our team is working with our network partner to restore services as quickly as possible. If you need to stay online, using mobile data may help. We’ll share an estimated restoration time as soon as it’s available. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
