@@ -1,0 +1,64 @@
+{
+	"reference": "MNT-1M09CVF2Z",
+	"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned network maintenance to replace a splice enclosure affecting NBN services at the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in QLD. Work window: 11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August. Services at these locations may experience interruptions for up to 7 hours during the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 7,
+		"service_types": [
+			"NBN - FTTC",
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"ASHMORE",
+			"BRISBANE CITY",
+			"CEDAR VALE",
+			"MOUNT GRAVATT EAST",
+			"PULLENVALE",
+			"SOUTHPORT"
+		],
+		"postcodes": [
+			"4000",
+			"4069",
+			"4122",
+			"4214",
+			"4215",
+			"4285"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-17T00:02:55.008Z",
+		"detected_at": null,
+		"scheduled_start": "2026-08-30T13:00:00.000Z",
+		"scheduled_end": "2026-08-30T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-17T00:02:55.046Z",
+			"content": "We will be carrying out planned network maintenance that may affect some NBN services connected via the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland. The maintenance window is from 11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August. Services may be interrupted during the window, for up to 7 hours, while a splice enclosure is replaced. Our team will monitor throughout and work to restore services as soon as the works are complete. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
