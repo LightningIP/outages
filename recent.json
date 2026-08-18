@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "INC-1M09CA5YH",
+		"title": "nbn Incident INC000022433100 - Albury, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-18T02:40:49.000Z",
+			"end_date": "2026-08-18T03:20:43.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1M09CA5YH.json"
+	},
+	{
 		"reference": "MNT-1KZT7KSVN",
 		"title": "NBN POI 4KLG (Petrie), 4CAB (Caboolture), 4APL (Aspley) - Infrastructure Upgrades",
 		"planned": true,
