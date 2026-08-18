@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/08/INC-1M09CA5YH.json"
 	},
 	{
+		"reference": "MNT-1M09CVF2Z",
+		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 7
+		},
+		"lifecycle": {
+			"start_date": "2026-08-30T13:00:00.000Z",
+			"end_date": "2026-08-30T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M09CVF2Z.json"
+	},
+	{
 		"reference": "MNT-1KZT7T660",
 		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
 		"planned": true,
@@ -73,6 +88,21 @@
 			"end_date": "2026-08-13T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZT7KSVN.json"
+	},
+	{
+		"reference": "MNT-1M09CWKN5",
+		"title": "NBN POI 3CAU (Caulfield) NNI Rehoming",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-08T14:00:00.000Z",
+			"end_date": "2026-09-08T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M09CWKN5.json"
 	},
 	{
 		"reference": "MNT-1KZT840F3",
@@ -163,6 +193,21 @@
 			"end_date": "2026-08-12T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
+	},
+	{
+		"reference": "MNT-1M09CY9HC",
+		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-14T14:00:00.000Z",
+			"end_date": "2026-09-14T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M09CY9HC.json"
 	},
 	{
 		"reference": "MNT-1KZT9HBW4",
