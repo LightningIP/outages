@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "We are aware of an unexpected issue on the access network affecting some services in Albury, NSW. Customers may experience partial or total loss of connectivity. Our team is working with our network partner to restore services as quickly as possible. A restoration time is not yet available.",
+	"status": "resolved",
+	"current_summary": "Service has been restored to impacted customers in Albury, NSW after an unexpected network issue. If your connection has not returned, please try restarting your Wi-Fi router and nbn Connection Box.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,9 +30,9 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-08-18T03:20:43.000Z",
+		"resolved_at": "2026-08-18T03:20:43.000Z",
+		"closed_at": "2026-08-18T03:20:43.000Z"
 	},
 	"cause": {
 		"reason": null,
@@ -46,6 +46,11 @@
 		{
 			"update_time": "2026-08-18T02:47:49.270Z",
 			"content": "We are investigating a service disruption affecting some services in Albury, NSW. Impacted customers may see slow or no connectivity. Our team is working with our network partner to restore services as quickly as possible. We do not have an estimated restoration time yet and will share updates as soon as we learn more. If available, using mobile data may help you stay online in the meantime. Thank you for your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-18T03:20:43.000Z",
+			"content": "Services in Albury, NSW affected by the earlier network issue have now been restored. If your service is still offline, please try restarting your Wi-Fi router and nbn Connection Box. Thank you for your patience while we worked to resolve this issue.",
 			"material_change": true
 		}
 	]
