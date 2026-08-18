@@ -1,0 +1,52 @@
+{
+	"reference": "MNT-1M09CY9HC",
+	"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned NBN maintenance at the Dandenong (3DAD) Point of Interconnect to rehome the interconnect. Window: 12:00 AM–2:00 AM AEST on 15 September 2026. NBN services delivered via this POI may experience service interruptions for up to 2 hours during the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"MULGRAVE"
+		],
+		"postcodes": [
+			"3170"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-15T14:23:05.722Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-14T14:00:00.000Z",
+		"scheduled_end": "2026-09-14T16:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-15T14:23:05.758Z",
+			"content": "We will be performing scheduled maintenance on our NBN interconnect at the Dandenong (3DAD) Point of Interconnect. This work is planned between 12:00 AM and 2:00 AM AEST on 15 September 2026. Customers with NBN services delivered via this POI may experience one or more interruptions during the window, up to a total of 2 hours. Our team will work to keep any downtime to a minimum and services are expected to return to normal after the window. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
