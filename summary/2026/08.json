@@ -30,21 +30,6 @@
 		"record_path": "outages/2026/08/MNT-1M09CVF2Z.json"
 	},
 	{
-		"reference": "MNT-1KZT7T660",
-		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-09-07T14:00:00.000Z",
-			"end_date": "2026-09-07T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7T660.json"
-	},
-	{
 		"reference": "MNT-1KZT7ZZ4F",
 		"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
 		"planned": true,
@@ -58,6 +43,21 @@
 			"end_date": "2026-08-18T21:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZT7ZZ4F.json"
+	},
+	{
+		"reference": "MNT-1KZT7T660",
+		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-07T14:00:00.000Z",
+			"end_date": "2026-09-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7T660.json"
 	},
 	{
 		"reference": "MNT-1KZT7QV8B",
