@@ -255,21 +255,6 @@
 		"record_path": "outages/2026/08/MNT-1KZWPV24V.json"
 	},
 	{
-		"reference": "MNT-1KZT7GPRC",
-		"title": "NBN POI 4NER (Nerang) Cable Replacement Works",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-08-10T13:00:00.000Z",
-			"end_date": "2026-08-10T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7GPRC.json"
-	},
-	{
 		"reference": "MNT-1KZT9FA2D",
 		"title": "National - Maintain the Network",
 		"planned": true,
