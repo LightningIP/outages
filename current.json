@@ -1,17 +1,1 @@
-[
-	{
-		"reference": "MNT-1KZT7ZZ4F",
-		"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "state",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-08-18T13:00:00.000Z",
-			"end_date": "2026-08-18T21:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7ZZ4F.json"
-	}
-]
+[]
