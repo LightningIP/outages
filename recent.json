@@ -90,21 +90,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT7015J.json"
 	},
 	{
-		"reference": "MNT-1KZT81WZK",
-		"title": "NBN POI 4CAB (CABOOLTURE) 4IPS (Ipswich) NNI Rehoming",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-07-22T01:48:08.305Z",
-			"end_date": "2026-08-12T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
-	},
-	{
 		"reference": "MNT-1KZT9HBW4",
 		"title": "Lavington NSW - Remediate the Network",
 		"planned": true,
