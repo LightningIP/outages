@@ -75,21 +75,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT9MAE2.json"
 	},
 	{
-		"reference": "MNT-1KZWP70BN",
-		"title": "NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-07-01T14:00:00.000Z",
-			"end_date": "2026-07-01T22:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWP70BN.json"
-	},
-	{
 		"reference": "MNT-1KZT7015J",
 		"title": "NBN POI 2CFS (Coffs Harbour), 2MIR (Miranda), 2GRN (Grafton) - Fibre Splicing Works",
 		"planned": true,
@@ -120,21 +105,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT9HBW4.json"
 	},
 	{
-		"reference": "MNT-1KZWPG8NF",
-		"title": "Coffs Harbour NSW - Remediate the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-07-22T22:00:00.000Z",
-			"end_date": "2026-07-23T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWPG8NF.json"
-	},
-	{
 		"reference": "MNT-1KZWPQ8RX",
 		"title": "BAYSWATER,VIC-3153 - Remediate the Network",
 		"planned": true,
@@ -148,51 +118,6 @@
 			"end_date": "2026-07-26T08:47:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZWPQ8RX.json"
-	},
-	{
-		"reference": "MNT-1KZWPZESB",
-		"title": "Cann River VIC - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": false,
-			"impact_scope": "local",
-			"service_count": 66
-		},
-		"lifecycle": {
-			"start_date": "2026-07-24T14:00:00.000Z",
-			"end_date": "2026-07-24T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWPZESB.json"
-	},
-	{
-		"reference": "MNT-1KZWPWFG1",
-		"title": "Harrison ACT - Remediate the Network",
-		"planned": true,
-		"impact": {
-			"customer": false,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-08-06T23:00:00.000Z",
-			"end_date": "2026-08-07T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWPWFG1.json"
-	},
-	{
-		"reference": "MNT-1KZWQ0WFT",
-		"title": "MACLEAN NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": false,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-07-10T14:00:00.000Z",
-			"end_date": "2026-07-10T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWQ0WFT.json"
 	},
 	{
 		"reference": "MNT-1KZT9CTPN",
@@ -270,21 +195,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT9FA2D.json"
 	},
 	{
-		"reference": "MNT-1KZWPD5HY",
-		"title": "Campsie \r\n NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-07-14T14:00:00.000Z",
-			"end_date": "2026-07-14T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWPD5HY.json"
-	},
-	{
 		"reference": "INC-1KZX5Z0VX",
 		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
 		"planned": false,
@@ -298,21 +208,6 @@
 			"end_date": "2026-08-13T17:40:50.000Z"
 		},
 		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json"
-	},
-	{
-		"reference": "MNT-1KZWPK4ED",
-		"title": "CANN RIVER VIC - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 66
-		},
-		"lifecycle": {
-			"start_date": "2026-07-20T14:00:00.000Z",
-			"end_date": "2026-07-20T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZWPK4ED.json"
 	},
 	{
 		"reference": "INC-1M06GRPRY",
