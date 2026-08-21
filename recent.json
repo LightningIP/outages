@@ -30,21 +30,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT7ZZ4F.json"
 	},
 	{
-		"reference": "MNT-1KZT7KSVN",
-		"title": "NBN POI 4KLG (Petrie), 4CAB (Caboolture), 4APL (Aspley) - Infrastructure Upgrades",
-		"planned": true,
-		"impact": {
-			"customer": false,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-08-13T13:00:00.000Z",
-			"end_date": "2026-08-13T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7KSVN.json"
-	},
-	{
 		"reference": "MNT-1KZT840F3",
 		"title": "NBN POI 4CAB (Caboolture), 4APL (Aspley) - Cable Relocation and Replacement",
 		"planned": true,
@@ -58,66 +43,6 @@
 			"end_date": "2026-08-16T21:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZT840F3.json"
-	},
-	{
-		"reference": "MNT-1KZT9MAE2",
-		"title": "RIVER ST, MACLEAN NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-08-13T14:00:00.000Z",
-			"end_date": "2026-08-14T01:57:03.829Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT9MAE2.json"
-	},
-	{
-		"reference": "MNT-1KZT7015J",
-		"title": "NBN POI 2CFS (Coffs Harbour), 2MIR (Miranda), 2GRN (Grafton) - Fibre Splicing Works",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 6
-		},
-		"lifecycle": {
-			"start_date": "2026-08-13T13:00:00.000Z",
-			"end_date": "2026-08-13T21:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT7015J.json"
-	},
-	{
-		"reference": "MNT-1KZT9FA2D",
-		"title": "National - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-08-13T16:00:00.000Z",
-			"end_date": "2026-08-14T01:57:03.840Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT9FA2D.json"
-	},
-	{
-		"reference": "INC-1KZX5Z0VX",
-		"title": "nbn Incident INC000022422762 - Coolum Beach QLD",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-08-13T08:19:45.000Z",
-			"end_date": "2026-08-13T17:40:50.000Z"
-		},
-		"record_path": "outages/2026/08/INC-1KZX5Z0VX.json"
 	},
 	{
 		"reference": "INC-1M06GRPRY",
