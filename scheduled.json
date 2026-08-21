@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M0HD04J3",
+		"title": "Campsie\r\nLiverpool NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-10T14:00:00.000Z",
+			"end_date": "2026-09-10T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M0HD04J3.json"
+	},
+	{
 		"reference": "MNT-1M09CVF2Z",
 		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
 		"planned": true,
