@@ -1,0 +1,44 @@
+{
+	"reference": "INC-1M0VPTGPM",
+	"title": "nbn Incident INC000022448348 - Walla_Walla, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "work_underway",
+	"current_summary": "An upstream provider has reported an unplanned infrastructure incident affecting services in Walla Walla, NSW. Several specific services are impacted. Restoration work is in progress and there is currently no estimated restoration time.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 5,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-25T05:11:04.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-25T05:11:04.000Z",
+			"content": "We’re aware of an issue affecting some internet services in Walla Walla, NSW. Customers in this area may be offline or notice slow or intermittent connectivity. Our team is working with our network partner to restore services as quickly as possible. There is no estimated restoration time yet. We’ll share further updates as soon as we have them. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
