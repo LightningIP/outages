@@ -45,6 +45,21 @@
 		"record_path": "outages/2026/08/MNT-1M0RPSP6K.json"
 	},
 	{
+		"reference": "INC-1M0VPTGPM",
+		"title": "nbn Incident INC000022448348 - Walla_Walla, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-08-25T05:11:04.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/08/INC-1M0VPTGPM.json"
+	},
+	{
 		"reference": "MNT-1M09CVF2Z",
 		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
 		"planned": true,
