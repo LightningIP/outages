@@ -1,0 +1,52 @@
+{
+	"reference": "MNT-1M0HD04J3",
+	"title": "Campsie\r\nLiverpool NSW - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned access network upgrades are scheduled in Campsie and Liverpool (NSW). The maintenance window runs from 12:00 AM to 6:00 AM AEST on 11 September 2026, with a single expected interruption of up to 60 minutes between 1:00 AM and 2:00 AM. Some services may lose connectivity during this time. Provisioning and diagnostics for affected services may be delayed during and shortly after the window. Status: scheduled.",
+	"impact": {
+		"customer": true,
+		"operational_impact": true,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"ASHFIELD"
+		],
+		"postcodes": [
+			"2131"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-19T02:36:47.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-10T14:00:00.000Z",
+		"scheduled_end": "2026-09-10T20:00:00.000Z",
+		"estimated_restoration_at": "2026-09-10T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-21T05:33:08.983Z",
+			"content": "We are advising of planned upgrades to the access network in Campsie and Liverpool, NSW. The work is scheduled on 11 September from 12:00 AM to 6:00 AM AEST (NSW time). A single interruption of up to 60 minutes is expected between 1:00 AM and 2:00 AM.\n\nDuring the window, some services may go offline. Order processing and diagnostics for affected services may be delayed during and shortly after the change. If needed, you can use mobile data to stay connected while your service is offline.\n\nWe will monitor the work and service performance throughout the window and will provide updates if anything changes. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
