@@ -1,0 +1,55 @@
+{
+	"reference": "MNT-1M0RQNYZ2",
+	"title": "NBN POI 2MYF (Mayfield) - Permanent cable repair",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned works will affect NBN services delivered via the Mayfield (2MYF) POI. An upstream provider will perform a permanent cable repair between 12:00 AM and 7:00 AM AEST on Monday 7 September 2026. Services via this POI may be interrupted for up to 6 hours during the window. Our team will monitor and provide updates as needed.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTN",
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BENDOLBA",
+			"SMITHS LAKE"
+		],
+		"postcodes": [
+			"2420",
+			"2428"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-23T21:56:17.080Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-06T14:00:00.000Z",
+		"scheduled_end": "2026-09-06T21:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-23T21:56:17.110Z",
+			"content": "We will be carrying out scheduled maintenance with an upstream network partner between 12:00 AM and 7:00 AM AEST on Monday 7 September 2026. This is to complete a permanent cable repair. NBN services delivered via the Mayfield (POI 2MYF) Point of Interconnect may experience interruptions during this window, for up to 6 hours in total. Our team will monitor the works and update this notice if anything changes. We appreciate your patience.",
+			"material_change": true
+		}
+	]
+}
