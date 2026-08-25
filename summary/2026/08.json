@@ -60,6 +60,21 @@
 		"record_path": "outages/2026/08/INC-1M0VPTGPM.json"
 	},
 	{
+		"reference": "INC-1M0X8FXYA",
+		"title": "nbn Incident INC000022449432 - Albury, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-08-25T19:48:42.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/08/INC-1M0X8FXYA.json"
+	},
+	{
 		"reference": "MNT-1M09CVF2Z",
 		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
 		"planned": true,
