@@ -1,0 +1,52 @@
+{
+	"reference": "MNT-1M0RPSP6K",
+	"title": "NBN POI 2TAM (Tamworth) - Permanent repair due to rodent damage",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned repair work on upstream backhaul serving NBN POI 2TAM (Tamworth) is scheduled from 11:00 PM on 3 September to 6:00 AM on 4 September (AEST). NBN services delivered via this POI may experience interruptions or degraded performance for up to 6 hours within the window. We will monitor throughout and provide updates as needed.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"ARMIDALE"
+		],
+		"postcodes": [
+			"2350"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-23T21:58:16.080Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-03T13:00:00.000Z",
+		"scheduled_end": "2026-09-03T20:00:00.000Z",
+		"estimated_restoration_at": "2026-09-03T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-23T21:58:16.104Z",
+			"content": "We will be performing planned repair work on the network backhaul that serves NBN POI 2TAM (Tamworth). The maintenance window is from 11:00 PM on 3 September to 6:00 AM on 4 September (AEST). During this time, some NBN services in the Tamworth area may experience brief interruptions or slower speeds for up to 6 hours within the window. Our team will monitor closely and work with our network partners to minimise impact and restore normal service as quickly as possible. No action is required from you.",
+			"material_change": true
+		}
+	]
+}
