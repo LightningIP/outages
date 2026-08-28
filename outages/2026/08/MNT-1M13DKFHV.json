@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M13DKFHV",
+	"title": "Woolloongabba\r\n QLD - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned network upgrades by an upstream provider will occur in Woolloongabba, QLD on Tuesday 13 October from 12:00 AM to 6:00 AM AEST. Internet services in the area may go offline during the window. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST. Our team will monitor progress and services should restore once the maintenance is complete.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-07-22T08:18:51.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-12T14:00:00.000Z",
+		"scheduled_end": "2026-10-12T20:00:00.000Z",
+		"estimated_restoration_at": "2026-10-12T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-28T05:31:10.474Z",
+			"content": "We will be supporting planned network upgrades affecting customers in Woolloongabba, QLD on Tuesday 13 October between 12:00 AM and 6:00 AM AEST. During this window, your internet service may briefly go offline. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST.\n\nOur team will monitor the work closely with our network partners and restore services as soon as the maintenance is complete. If available, you may wish to use mobile data as a backup while your service is offline. New connections or changes requested during or shortly after the window may take a little longer than usual to process. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
