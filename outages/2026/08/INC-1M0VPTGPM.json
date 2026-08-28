@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "An upstream provider has reported an unplanned infrastructure incident affecting services in Walla Walla, NSW. Several specific services are impacted. Restoration work is in progress and there is currently no estimated restoration time.",
+	"status": "resolved",
+	"current_summary": "Services in Walla Walla, NSW have been restored following an unexpected network issue. If your internet has not returned, please try restarting your Wi-Fi router and nbn Connection Box.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,13 +22,13 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-08-25T06:02:57.000Z",
+		"resolved_at": "2026-08-25T06:02:57.000Z",
+		"closed_at": "2026-08-25T06:02:57.000Z"
 	},
 	"cause": {
 		"reason": null,
-		"detailed": null,
+		"detailed": "3rd party network provider reconfigured network to restore wireless service",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
@@ -38,6 +38,11 @@
 		{
 			"update_time": "2026-08-25T05:11:04.000Z",
 			"content": "We’re aware of an issue affecting some internet services in Walla Walla, NSW. Customers in this area may be offline or notice slow or intermittent connectivity. Our team is working with our network partner to restore services as quickly as possible. There is no estimated restoration time yet. We’ll share further updates as soon as we have them. Thank you for your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-25T06:02:57.000Z",
+			"content": "Restoration work is now complete and services in Walla Walla, NSW have been restored as of 4:02pm AEST. If your service has not automatically reconnected, we recommend restarting your Wi-Fi router and nbn Connection Box. Thank you for your patience.",
 			"material_change": true
 		}
 	]
