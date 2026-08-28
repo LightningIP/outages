@@ -1,0 +1,74 @@
+{
+	"reference": "INC-1M0X8FXYA",
+	"title": "nbn Incident INC000022449432 - Albury, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "resolved",
+	"current_summary": "Services in Albury, NSW have been restored following the replacement of faulty network hardware. If your connection has not returned, you may need to restart your Wi-Fi router and nbn Connection Box. Thank you for your patience while restoration works were completed.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-25T19:48:42.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": "2026-08-26T00:20:22.000Z",
+		"resolved_at": "2026-08-26T00:20:22.000Z",
+		"closed_at": "2026-08-26T00:20:22.000Z"
+	},
+	"cause": {
+		"reason": "Network hardware failure",
+		"detailed": "Faulty network hardware on a Line Termination card required replacement to restore service.",
+		"root": "nbn Network Hardware Replaced",
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-25T20:05:38.784Z",
+			"content": "We are aware of an issue affecting some fixed-line broadband services in Albury, NSW. Customers may experience dropouts, slow speeds, or no connection. Our team is working with our network partners to restore services as quickly as possible. There is no estimated restoration time yet. We will share updates as soon as more information is available. If you need to stay online, using mobile data may help in the meantime.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-25T20:30:40.843Z",
+			"content": "Restoration work is continuing on the network issue in Albury, NSW. There is no new information to report at this time. The previously advised details remain current, and an estimated restoration time is not yet available.",
+			"material_change": false
+		},
+		{
+			"update_time": "2026-08-25T20:48:37.910Z",
+			"content": "Restoration work is still ongoing for the network issue in Albury, NSW. No new information is available at this time. The previously advised details and restoration window remain current.",
+			"material_change": false
+		},
+		{
+			"update_time": "2026-08-25T20:51:08.000Z",
+			"content": "An nbn technician has been assigned and is en route to investigate and replace faulty network equipment in Albury, NSW. Restoration work is continuing, and we will share further updates as more information becomes available. An estimated restoration time is not yet available.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-25T23:46:33.923Z",
+			"content": "An estimated restoration time has been provided for the network issue in Albury, NSW. Services are expected to be restored by 1:00pm AEST on Wednesday, 26 August 2026. Restoration work is still underway and we will provide further updates if new information arises.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-25T23:51:45.642Z",
+			"content": "There are no new developments to report at this time. Restoration efforts for the network issue in Albury, NSW are still ongoing, and the previously provided estimated restoration time of 1:00pm AEST on Wednesday, 26 August 2026 remains current.",
+			"material_change": false
+		},
+		{
+			"update_time": "2026-08-26T00:20:22.000Z",
+			"content": "Services affected by the network issue in Albury, NSW have now been restored following replacement of faulty network hardware. If your service has not reconnected automatically, please try restarting your Wi-Fi router and nbn Connection Box. We appreciate your patience while restoration work was carried out.",
+			"material_change": true
+		}
+	]
+}
