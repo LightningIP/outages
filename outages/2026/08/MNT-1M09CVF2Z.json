@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned network maintenance to replace a splice enclosure affecting NBN services at the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in QLD. Work window: 11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August. Services at these locations may experience interruptions for up to 7 hours during the window.",
+	"status": "in_progress",
+	"current_summary": "Planned maintenance to replace a splice enclosure has commenced for NBN services at the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland. Maintenance is now underway and services at these locations may experience interruptions for up to 7 hours during the window from 11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -58,6 +58,11 @@
 		{
 			"update_time": "2026-08-17T00:02:55.046Z",
 			"content": "We will be carrying out planned network maintenance that may affect some NBN services connected via the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland. The maintenance window is from 11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August. Services may be interrupted during the window, for up to 7 hours, while a splice enclosure is replaced. Our team will monitor throughout and work to restore services as soon as the works are complete. Thank you for your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-08-30T13:00:02.152Z",
+			"content": "Planned maintenance has now started. Services connected via the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland may experience interruptions of up to 7 hours during the current maintenance window (11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August). Our team is monitoring progress and will provide further updates as the work continues.",
 			"material_change": true
 		}
 	]
