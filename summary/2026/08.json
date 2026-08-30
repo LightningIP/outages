@@ -90,21 +90,6 @@
 		"record_path": "outages/2026/08/INC-1M0X8FXYA.json"
 	},
 	{
-		"reference": "MNT-1M09CVF2Z",
-		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 7
-		},
-		"lifecycle": {
-			"start_date": "2026-08-30T13:00:00.000Z",
-			"end_date": "2026-08-30T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1M09CVF2Z.json"
-	},
-	{
 		"reference": "MNT-1KZT7ZZ4F",
 		"title": "NBN POI 4APL (Aspley), 4IPS (Ipswich), 4WOB (Woolloongabba), 4CAB (Caboolture), 4ROT (Rockhampton), 4BBE (Bundaberg), 4KLG (Petrie), 4TOB (Toowoomba), 4BNB (Aspley Depot) - Splice Enclosure Repair",
 		"planned": true,
@@ -133,6 +118,21 @@
 			"end_date": "2026-09-06T21:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1M0RQNYZ2.json"
+	},
+	{
+		"reference": "MNT-1M09CVF2Z",
+		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 7
+		},
+		"lifecycle": {
+			"start_date": "2026-08-30T13:00:00.000Z",
+			"end_date": "2026-08-30T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M09CVF2Z.json"
 	},
 	{
 		"reference": "MNT-1KZT7T660",
