@@ -75,6 +75,21 @@
 		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
 	},
 	{
+		"reference": "MNT-1M1BAE28R",
+		"title": "Kiewa, VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 6
+		},
+		"lifecycle": {
+			"start_date": "2026-09-14T22:00:00.000Z",
+			"end_date": "2026-09-19T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M1BAE28R.json"
+	},
+	{
 		"reference": "INC-1M0X8FXYA",
 		"title": "nbn Incident INC000022449432 - Albury, NSW",
 		"planned": false,
