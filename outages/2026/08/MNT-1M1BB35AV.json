@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M1BB35AV",
+	"title": "Baranduda, VIC - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned upgrades to the Fixed Wireless access network in Baranduda, VIC will cause short service interruptions. Two outages of up to 4 hours are scheduled at 12:00 AM–4:00 AM AEST on 21 and 22 September 2026. The overall maintenance window runs from 12:00 AM on 21 September to 6:00 AM on 25 September (AEST). Our team will monitor progress and work with our network partner to restore services after each interruption. Times may shift within the window if required.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 4,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-31T06:06:16.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-20T14:00:00.000Z",
+		"scheduled_end": "2026-09-24T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-31T07:20:27.429Z",
+			"content": "Planned network upgrades are scheduled for the Fixed Wireless access network in Baranduda, VIC. Customers in this area may experience brief loss of internet service during the maintenance window.\n\nPlanned interruptions (local time):\n- 21 September, 12:00 AM–4:00 AM AEST\n- 22 September, 12:00 AM–4:00 AM AEST\nOverall window: 21 September 12:00 AM to 25 September 6:00 AM AEST. On occasion, an interruption may move to another day within the window.\n\nWe will monitor the work and coordinate with our network partner throughout. Services should restore automatically after each interruption. If your connection does not return, please power cycle your modem/router. If issues persist, contact our support team. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
