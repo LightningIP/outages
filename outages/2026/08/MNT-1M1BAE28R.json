@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M1BAE28R",
+	"title": "Kiewa, VIC - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned network upgrades are scheduled in Kiewa, VIC and may interrupt Fixed Wireless internet services. Two service interruptions of up to 4 hours are planned for Tuesday 15 September from 8:00 AM to 12:00 PM AEST and Wednesday 16 September from 8:00 AM to 12:00 PM AEST. The broader maintenance window runs until Saturday 19 September 5:00 PM AEST and exact timings may move within this window. Our team will monitor progress and provide updates if the schedule changes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 6,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-31T06:53:56.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-14T22:00:00.000Z",
+		"scheduled_end": "2026-09-19T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-31T07:08:50.605Z",
+			"content": "We’re notifying customers in Kiewa, VIC of planned Fixed Wireless network upgrades by one of our upstream providers. During this work, some services may lose connection.\n\nPlanned interruptions:\n- Tue 15 Sep, 8:00 AM–12:00 PM AEST (up to 4 hours)\n- Wed 16 Sep, 8:00 AM–12:00 PM AEST (up to 4 hours)\n\nThe overall maintenance window runs until Sat 19 Sep, 5:00 PM AEST and timings may move within this window. If possible, please plan ahead for any critical activities and consider using mobile data as a backup during the interruptions. We’ll keep monitoring and will update you if the schedule changes. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
