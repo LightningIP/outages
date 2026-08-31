@@ -60,6 +60,21 @@
 		"record_path": "outages/2026/08/MNT-1M1BAE28R.json"
 	},
 	{
+		"reference": "MNT-1M1BB35AV",
+		"title": "Baranduda, VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 4
+		},
+		"lifecycle": {
+			"start_date": "2026-09-20T14:00:00.000Z",
+			"end_date": "2026-09-24T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M1BB35AV.json"
+	},
+	{
 		"reference": "MNT-1M0RQNYZ2",
 		"title": "NBN POI 2MYF (Mayfield) - Permanent cable repair",
 		"planned": true,
