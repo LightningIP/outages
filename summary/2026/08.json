@@ -30,21 +30,6 @@
 		"record_path": "outages/2026/08/MNT-1M0HD04J3.json"
 	},
 	{
-		"reference": "MNT-1M0RPSP6K",
-		"title": "NBN POI 2TAM (Tamworth) - Permanent repair due to rodent damage",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-09-03T13:00:00.000Z",
-			"end_date": "2026-09-03T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1M0RPSP6K.json"
-	},
-	{
 		"reference": "INC-1M0VPTGPM",
 		"title": "nbn Incident INC000022448348 - Walla_Walla, NSW",
 		"planned": false,
@@ -103,6 +88,21 @@
 			"end_date": "2026-09-24T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1M1BB35AV.json"
+	},
+	{
+		"reference": "MNT-1M0RPSP6K",
+		"title": "NBN POI 2TAM (Tamworth) - Permanent repair due to rodent damage",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-17T13:00:00.000Z",
+			"end_date": "2026-09-17T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M0RPSP6K.json"
 	},
 	{
 		"reference": "INC-1M0X8FXYA",
