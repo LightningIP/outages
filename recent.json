@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "INC-1M0VPTGPM",
-		"title": "nbn Incident INC000022448348 - Walla_Walla, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 5
-		},
-		"lifecycle": {
-			"start_date": "2026-08-25T05:11:04.000Z",
-			"end_date": "2026-08-25T06:02:57.000Z"
-		},
-		"record_path": "outages/2026/08/INC-1M0VPTGPM.json"
-	},
-	{
 		"reference": "INC-1M0X8FXYA",
 		"title": "nbn Incident INC000022449432 - Albury, NSW",
 		"planned": false,
