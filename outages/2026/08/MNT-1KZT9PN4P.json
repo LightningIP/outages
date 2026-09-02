@@ -4,25 +4,17 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "An upstream provider will perform upgrade work on the access network. Some broadband services will briefly go offline during the maintenance window, with a single interruption of up to 45 minutes expected. Order processing and service changes may be delayed during and shortly after the work. Our team will monitor progress and update this notice when the activity is complete.",
+	"status": "resolved",
+	"current_summary": "The scheduled network upgrade was successfully completed on 3 September 2026 at 6:10 am AEST. Services are now operating normally. Thank you for your patience during this maintenance window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": true,
 		"impact_scope": null,
 		"service_count": 2,
-		"service_types": [
-			"NBN - FTTP"
-		],
-		"states": [
-			"NSW"
-		],
-		"suburbs": [
-			"LAVINGTON"
-		],
-		"postcodes": [
-			"2641"
-		]
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
 	},
 	"lifecycle": {
 		"opened_at": "2026-08-12T05:28:16.695Z",
@@ -30,9 +22,9 @@
 		"scheduled_start": "2026-09-02T14:00:00.000Z",
 		"scheduled_end": "2026-09-02T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-02T20:10:43.201Z",
+		"resolved_at": "2026-09-02T20:10:43.201Z",
+		"closed_at": "2026-09-02T20:10:43.201Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -46,6 +38,11 @@
 		{
 			"update_time": "2026-08-12T05:28:16.695Z",
 			"content": "We are preparing for planned upgrade work by our network partner that will briefly interrupt some broadband services. A single outage of up to 45 minutes is expected within the maintenance window. Ordering and service changes may also take longer than usual during and shortly after the work. No action is required from you. If you have mobile data available, you may wish to use it while your service is offline. We will monitor the activity and post an update once the work is complete.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-02T20:10:43.201Z",
+			"content": "The planned network upgrade was completed as scheduled, and all affected services have been restored. No further interruptions are expected. If you experience any ongoing issues, please contact our support team.",
 			"material_change": true
 		}
 	]
