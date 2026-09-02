@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M1DKNNS3",
+	"title": "VIC QLD - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Network upgrades by an upstream provider are scheduled for Fixed Wireless services in parts of Victoria and Queensland between 12:00 AM and 6:00 AM AEST on Monday 21 September. Some services may briefly drop during the window. Two short interruptions of up to 10 minutes are expected around 12:30 AM and 1:30 AM AEST. Our team will monitor the works and confirm once complete. No action is required; services should reconnect automatically by the end of the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-20T07:08:48.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-20T14:00:00.000Z",
+		"scheduled_end": "2026-09-20T20:00:00.000Z",
+		"estimated_restoration_at": "2026-09-20T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-01T04:28:50.556Z",
+			"content": "We will be supporting planned network upgrades by an upstream provider affecting Fixed Wireless services in parts of Victoria and Queensland. The maintenance window is Monday 21 September from 12:00 AM to 6:00 AM AEST. During this time, some services may briefly go offline. Two short interruptions of up to 10 minutes are expected around 12:30 AM and 1:30 AM AEST.\n\nOur team will monitor the work and restore services as quickly as possible if any issues arise. No action is required from you—services should reconnect automatically once each interruption ends. We appreciate your patience while these improvements are completed.",
+			"material_change": true
+		}
+	]
+}
