@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M1G6DTB5",
+	"title": "GLENROY NSW - Remediate the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled in Glenroy, NSW on Monday 21 September between 9:00 AM and 5:00 PM AEST. Internet services in the area may be interrupted for up to 3 hours during this window while a network partner replaces hardware. Work is planned during daylight hours for safety. We will monitor progress and update this notice if anything changes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-02T04:28:43.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-20T23:00:00.000Z",
+		"scheduled_end": "2026-09-21T07:00:00.000Z",
+		"estimated_restoration_at": "2026-09-21T07:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-02T04:28:43.000Z",
+			"content": "We will be performing planned maintenance in Glenroy, NSW on Monday 21 September between 9:00 AM and 5:00 PM AEST. During this window, internet services in the area may go offline for up to 3 hours while hardware is replaced. This work is scheduled during daylight hours for safety. Our team will work with our network partner to keep any interruption as short as possible and restore services promptly. If you rely on your connection, please plan for an alternative during the window. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
