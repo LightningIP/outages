@@ -150,21 +150,6 @@
 		"record_path": "outages/2026/08/MNT-1M09CWKN5.json"
 	},
 	{
-		"reference": "MNT-1KZT9PN4P",
-		"title": " - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-09-02T14:00:00.000Z",
-			"end_date": "2026-09-02T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1KZT9PN4P.json"
-	},
-	{
 		"reference": "MNT-1M09CY9HC",
 		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
 		"planned": true,
