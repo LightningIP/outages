@@ -5,7 +5,7 @@
 	"planned": true,
 	"category": null,
 	"status": "scheduled",
-	"current_summary": "Planned repair work on upstream backhaul serving NBN POI 2TAM (Tamworth) is scheduled from 11:00 PM on 3 September to 6:00 AM on 4 September (AEST). NBN services delivered via this POI may experience interruptions or degraded performance for up to 6 hours within the window. We will monitor throughout and provide updates as needed.",
+	"current_summary": "Planned maintenance affecting NBN POI 2TAM (Tamworth) has been rescheduled. The updated maintenance window is now from 11:00 PM on 17 September to 6:00 AM on 18 September (AEST). During this time, NBN services delivered via this POI may experience brief interruptions or degraded performance for up to 6 hours within the window. We will continue to monitor and provide updates as needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -27,9 +27,9 @@
 	"lifecycle": {
 		"opened_at": "2026-08-23T21:58:16.080Z",
 		"detected_at": null,
-		"scheduled_start": "2026-09-03T13:00:00.000Z",
-		"scheduled_end": "2026-09-03T20:00:00.000Z",
-		"estimated_restoration_at": "2026-09-03T20:00:00.000Z",
+		"scheduled_start": "2026-09-17T13:00:00.000Z",
+		"scheduled_end": "2026-09-17T20:00:00.000Z",
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -46,6 +46,11 @@
 		{
 			"update_time": "2026-08-23T21:58:16.104Z",
 			"content": "We will be performing planned repair work on the network backhaul that serves NBN POI 2TAM (Tamworth). The maintenance window is from 11:00 PM on 3 September to 6:00 AM on 4 September (AEST). During this time, some NBN services in the Tamworth area may experience brief interruptions or slower speeds for up to 6 hours within the window. Our team will monitor closely and work with our network partners to minimise impact and restore normal service as quickly as possible. No action is required from you.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-01T02:00:08.320Z",
+			"content": "The planned maintenance for NBN POI 2TAM (Tamworth) has been rescheduled. The new maintenance window will be from 11:00 PM on 17 September to 6:00 AM on 18 September (AEST). Please note that NBN services may be interrupted or experience slower speeds for up to 6 hours within this period. No action is required from you.",
 			"material_change": true
 		}
 	]
