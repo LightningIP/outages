@@ -1,1 +1,17 @@
-[]
+[
+	{
+		"reference": "MNT-1M0RQNYZ2",
+		"title": "NBN POI 2MYF (Mayfield) - Permanent cable repair",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-06T14:00:00.000Z",
+			"end_date": "2026-09-06T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M0RQNYZ2.json"
+	}
+]
