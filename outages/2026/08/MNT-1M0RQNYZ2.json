@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned works will affect NBN services delivered via the Mayfield (2MYF) POI. An upstream provider will perform a permanent cable repair between 12:00 AM and 7:00 AM AEST on Monday 7 September 2026. Services via this POI may be interrupted for up to 6 hours during the window. Our team will monitor and provide updates as needed.",
+	"status": "in_progress",
+	"current_summary": "Scheduled maintenance is now underway and may affect NBN services delivered via the Mayfield (2MYF) POI. Work is expected to continue until 7:00 AM AEST on Monday 7 September 2026. Services may be interrupted for up to 6 hours during this window. Our team will continue to monitor the work and provide updates as required.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -49,6 +49,11 @@
 		{
 			"update_time": "2026-08-23T21:56:17.110Z",
 			"content": "We will be carrying out scheduled maintenance with an upstream network partner between 12:00 AM and 7:00 AM AEST on Monday 7 September 2026. This is to complete a permanent cable repair. NBN services delivered via the Mayfield (POI 2MYF) Point of Interconnect may experience interruptions during this window, for up to 6 hours in total. Our team will monitor the works and update this notice if anything changes. We appreciate your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-06T14:00:07.782Z",
+			"content": "Scheduled maintenance for NBN services at the Mayfield (2MYF) POI has now commenced. The maintenance window remains between 12:00 AM and 7:00 AM AEST on Monday 7 September 2026. Services may experience interruptions during this period. We will provide further updates as the works progress.",
 			"material_change": true
 		}
 	]
