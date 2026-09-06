@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/08/MNT-1M0RQNYZ2.json"
 	},
 	{
+		"reference": "MNT-1KZT7T660",
+		"title": "NBN POI 3HAW (Hawthorn) NNI Rehoming",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-07T14:00:00.000Z",
+			"end_date": "2026-09-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1KZT7T660.json"
+	},
+	{
 		"reference": "INC-1M1TWJMTQ",
 		"title": "nbn Incident INC000022473788 - ",
 		"planned": false,
