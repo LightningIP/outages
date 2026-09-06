@@ -1,11 +1,11 @@
 {
 	"reference": "INC-1M1TWJWNB",
-	"title": "nbn Incident INC000022473788 - ",
+	"title": "nbn Incident INC000022473788 - Infrastructure Restoration",
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "We are aware of an issue on the access network affecting one broadband service. The affected connection may be offline or experience intermittent connectivity. Our team is working with our network partner to restore service as quickly as possible. There is no estimated restoration time yet.",
+	"status": "resolved",
+	"current_summary": "Service in your area has now been restored following an unexpected network issue. If your service has not reconnected automatically, please try restarting your modem and nbn equipment. Thank you for your patience while this was being resolved.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,13 +22,13 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-06T08:41:56.000Z",
+		"resolved_at": "2026-09-06T08:41:56.000Z",
+		"closed_at": "2026-09-06T08:41:56.000Z"
 	},
 	"cause": {
 		"reason": null,
-		"detailed": null,
+		"detailed": "3rd party network provider reconfigured network to restore wireless service",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
@@ -38,6 +38,11 @@
 		{
 			"update_time": "2026-09-06T08:07:23.000Z",
 			"content": "We are investigating an issue on the access network affecting one broadband service. Customers on the affected connection may be offline or see intermittent connectivity. Our team is working with our network partner to restore service as quickly as possible. There is no estimated restoration time yet. We will share updates as soon as more information becomes available. Thank you for your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-06T08:41:56.000Z",
+			"content": "Services in your area have now been restored. If your broadband connection has not yet come back online, please try restarting your modem and nbn equipment. We appreciate your patience while the issue was resolved.",
 			"material_change": true
 		}
 	]
