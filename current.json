@@ -1,18 +1,18 @@
 [
 	{
-		"reference": "INC-1M1TWJMTQ",
+		"reference": "INC-1M1TWJWNB",
 		"title": "nbn Incident INC000022473788 - ",
 		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": null,
+			"impact_scope": "site",
 			"service_count": 1
 		},
 		"lifecycle": {
 			"start_date": "2026-09-06T08:07:23.000Z",
 			"end_date": null
 		},
-		"record_path": "outages/2026/09/INC-1M1TWJMTQ.json"
+		"record_path": "outages/2026/09/INC-1M1TWJWNB.json"
 	},
 	{
 		"reference": "MNT-1M0RQNYZ2",
@@ -28,5 +28,20 @@
 			"end_date": "2026-09-06T21:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1M0RQNYZ2.json"
+	},
+	{
+		"reference": "INC-1M1TWJMTQ",
+		"title": "nbn Incident INC000022473788 - ",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-09-06T08:07:23.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/09/INC-1M1TWJMTQ.json"
 	}
 ]
