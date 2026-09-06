@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "INC-1M1TWJWNB",
+		"title": "nbn Incident INC000022473788 - Infrastructure Restoration",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-06T08:07:23.000Z",
+			"end_date": "2026-09-06T08:41:56.000Z"
+		},
+		"record_path": "outages/2026/09/INC-1M1TWJWNB.json"
+	},
+	{
 		"reference": "MNT-1M09CVF2Z",
 		"title": "NBN POI 4IPS (Ipswich), 4MRA (Merrimac), 4BNA (Acacia Ridge Depot), 4GDN (Goodna), 4BDB (Bundamba), 4SOP (Southport) - Splice Enclosure Repair",
 		"planned": true,
