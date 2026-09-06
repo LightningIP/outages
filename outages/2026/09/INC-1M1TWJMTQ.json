@@ -1,0 +1,44 @@
+{
+	"reference": "INC-1M1TWJMTQ",
+	"title": "nbn Incident INC000022473788 - ",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "work_underway",
+	"current_summary": "An upstream access network incident is affecting a specific broadband service. Impacted customers may experience loss of internet connectivity. Our team is engaged with the network provider and work is underway to restore service. No restoration time has been provided yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-06T08:07:23.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-06T08:07:23.000Z",
+			"content": "We are aware of an issue on the upstream access network affecting a broadband service. Customers on the affected service may be offline or experience intermittent connectivity. Our team is working with our network partner and restoration work is underway. We do not have an estimated restoration time yet, but we will share updates as soon as more information becomes available. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
