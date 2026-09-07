@@ -1,0 +1,44 @@
+{
+	"reference": "INC-1M1WXF3G5",
+	"title": " - Infrastructure Restoration",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "resolved",
+	"current_summary": "An unexpected network issue affected some internet services. Services have now been restored and we are monitoring. If your connection has not returned, please restart your modem/router and, if you use a separate connection box, restart that as well.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-07T00:30:22.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-09-07T01:06:02.000Z"
+	},
+	"cause": {
+		"reason": "network fault",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-07T01:06:02.000Z",
+			"content": "Services have been restored following an unexpected network issue affecting some internet connections. If your service has not come back online, please restart your modem/router and, if you use a separate connection box, restart that as well. We are monitoring to ensure stability. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
