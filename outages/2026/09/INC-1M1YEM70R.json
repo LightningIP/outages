@@ -39,6 +39,11 @@
 			"update_time": "2026-09-07T17:23:34.622Z",
 			"content": "We’re aware of an unplanned network issue impacting some internet services in Dandenong North (VIC 3175). Affected customers may have no connection or intermittent dropouts. Our engineers are engaged and working with our network partners to restore service as quickly as possible. We don’t have an estimated restoration time yet. If available, you may wish to use mobile data as a temporary backup. Thank you for your patience—we’ll share updates as soon as we have more information.",
 			"material_change": true
+		},
+		{
+			"update_time": "2026-09-07T18:48:47.000Z",
+			"content": "Our team continues to work with our upstream provider to restore internet services for affected customers in Dandenong North (VIC 3175). The previously advised information remains accurate and restoration efforts are ongoing. We will provide an update as soon as more details become available.",
+			"material_change": false
 		}
 	]
 }
