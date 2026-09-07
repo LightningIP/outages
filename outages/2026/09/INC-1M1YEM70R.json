@@ -1,0 +1,44 @@
+{
+	"reference": "INC-1M1YEM70R",
+	"title": "nbn Incident INC000022476620 - DANDENONG NORTH,VIC-3175",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "work_underway",
+	"current_summary": "An unplanned network issue is affecting internet services for some customers in Dandenong North (VIC 3175). Customers may experience no connection or intermittent connectivity. Our team is working with an upstream provider to restore services as quickly as possible. No estimated restoration time is available yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-07T17:15:35.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-07T17:23:34.622Z",
+			"content": "We’re aware of an unplanned network issue impacting some internet services in Dandenong North (VIC 3175). Affected customers may have no connection or intermittent dropouts. Our engineers are engaged and working with our network partners to restore service as quickly as possible. We don’t have an estimated restoration time yet. If available, you may wish to use mobile data as a temporary backup. Thank you for your patience—we’ll share updates as soon as we have more information.",
+			"material_change": true
+		}
+	]
+}
