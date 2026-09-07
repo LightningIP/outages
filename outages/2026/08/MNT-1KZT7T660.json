@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned maintenance will occur at the NBN Hawthorn (3HAW) POI in Melbourne on Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. NBN services served by this POI may be disrupted during the window (up to 2 hours) while services are moved to new network equipment. Services should restore automatically after the window.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance at the NBN Hawthorn (3HAW) POI in Melbourne was completed as scheduled on Tuesday 8 September 2026 at 2:00 AM AEST. Services were rehomed to new network equipment, and may have experienced a brief disruption of up to 2 hours during the maintenance window. Services should now be operating normally.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,9 +30,9 @@
 		"scheduled_start": "2026-09-07T14:00:00.000Z",
 		"scheduled_end": "2026-09-07T16:00:00.000Z",
 		"estimated_restoration_at": "2026-09-07T16:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-07T16:00:00.000Z",
+		"resolved_at": "2026-09-07T16:00:00.000Z",
+		"closed_at": "2026-09-07T16:00:00.000Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -52,6 +52,11 @@
 			"update_time": "2026-09-07T14:00:08.391Z",
 			"content": "The planned maintenance for NBN services at the Hawthorn (3HAW) POI in Melbourne remains scheduled for Tuesday 8 September 2026 between 12:00 AM and 2:00 AM AEST. No changes to the maintenance window, expected impact, or restoration estimate have been made. The previously communicated information is still accurate.",
 			"material_change": false
+		},
+		{
+			"update_time": "2026-09-07T16:00:00.000Z",
+			"content": "The planned maintenance for NBN services at the Hawthorn (3HAW) POI in Melbourne has been completed as scheduled. All service rehoming activities were finished by 2:00 AM AEST on Tuesday 8 September 2026. Services should now be operating as normal. If your service remains offline, please restart your modem/router.",
+			"material_change": true
 		}
 	]
 }
