@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/09/INC-1M1TWJWNB.json"
 	},
 	{
+		"reference": "INC-1M1WXF3G5",
+		"title": " - Infrastructure Restoration",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-07T00:30:22.000Z",
+			"end_date": "2026-09-07T01:06:02.000Z"
+		},
+		"record_path": "outages/2026/09/INC-1M1WXF3G5.json"
+	},
+	{
 		"reference": "MNT-1M0RQNYZ2",
 		"title": "NBN POI 2MYF (Mayfield) - Permanent cable repair",
 		"planned": true,
