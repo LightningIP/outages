@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": null,
 	"status": "work_underway",
-	"current_summary": "An unplanned network issue is affecting internet services for some customers in Dandenong North (VIC 3175). Customers may experience no connection or intermittent connectivity. Our team is working with an upstream provider to restore services as quickly as possible. No estimated restoration time is available yet.",
+	"current_summary": "Technicians are actively working to restore internet services in Dandenong North (VIC 3175) following an unexpected network issue. Restoration is now estimated by 12:00pm AEST on Tuesday, 8 September. Field services are on-site and work is ongoing. We appreciate your patience and will provide further updates as restoration progresses.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -21,7 +21,7 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": null,
+		"estimated_restoration_at": "2026-09-08T02:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -49,6 +49,11 @@
 			"update_time": "2026-09-07T19:21:11.000Z",
 			"content": "Our team continues to work with partners to restore internet services for customers in Dandenong North (VIC 3175). There are no updates to the restoration timeframe at this stage, and the previously communicated information remains accurate. We will share further updates as new information becomes available.",
 			"material_change": false
+		},
+		{
+			"update_time": "2026-09-07T21:57:26.496Z",
+			"content": "Restoration efforts for the network issue affecting Dandenong North (VIC 3175) are ongoing. Field technicians have arrived on-site and begun work. The estimated restoration time is now 12:00pm AEST on Tuesday, 8 September. We will continue to provide updates as more information becomes available.",
+			"material_change": true
 		}
 	]
 }
