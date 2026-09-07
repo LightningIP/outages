@@ -135,6 +135,21 @@
 		"record_path": "outages/2026/09/INC-1M1WXF3G5.json"
 	},
 	{
+		"reference": "INC-1M1YEM70R",
+		"title": "nbn Incident INC000022476620 - DANDENONG NORTH,VIC-3175",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-07T17:15:35.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/09/INC-1M1YEM70R.json"
+	},
+	{
 		"reference": "MNT-1M0RQNYZ2",
 		"title": "NBN POI 2MYF (Mayfield) - Permanent cable repair",
 		"planned": true,
