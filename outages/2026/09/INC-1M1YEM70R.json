@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "Technicians are continuing to work to restore internet services in Dandenong North (VIC 3175). Restoration is now expected by 4:30pm AEST on Tuesday, 8 September. We will provide further updates if new information becomes available.",
+	"status": "resolved",
+	"current_summary": "Internet services in Dandenong North (VIC 3175) have been restored and the issue is now resolved. If your connection has not resumed automatically, please restart your modem and nbn equipment. Thank you for your patience while our teams worked to address the issue.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -21,17 +21,17 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": "2026-09-08T06:30:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"estimated_restoration_at": null,
+		"actual_restoration_at": "2026-09-08T06:25:41.000Z",
+		"resolved_at": "2026-09-08T06:25:41.000Z",
+		"closed_at": "2026-09-08T06:25:41.000Z"
 	},
 	"cause": {
-		"reason": null,
-		"detailed": null,
+		"reason": "Network equipment repair required",
+		"detailed": "A third-party cable cut in a manhole required additional site safety steps before full service could be restored.",
 		"root": null,
 		"weather_related": null,
-		"third_party_damage": null,
+		"third_party_damage": true,
 		"power_related": null
 	},
 	"updates": [
@@ -63,6 +63,11 @@
 		{
 			"update_time": "2026-09-08T03:43:44.628Z",
 			"content": "Restoration work is still underway for the network issue impacting Dandenong North (VIC 3175). The estimated restoration time has been revised to 4:30pm AEST on Tuesday, 8 September. We will provide further updates as soon as more information is available.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-08T06:25:41.000Z",
+			"content": "Internet services in Dandenong North (VIC 3175) have been restored following repairs to a third-party cable cut. The outage is now resolved. If your connection has not resumed automatically, please try restarting your modem and nbn equipment. Thank you for your understanding as we worked to restore service.",
 			"material_change": true
 		}
 	]
