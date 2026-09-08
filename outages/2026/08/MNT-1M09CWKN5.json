@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned works will rehome the NNI at the NBN Caulfield (3CAU) POI. NBN services delivered via this POI may experience interruptions during the window 12:00 AM–2:00 AM AEST on 9 September 2026 (up to 2 hours). Our team will monitor the activity and aim to minimise downtime.",
+	"status": "in_progress",
+	"current_summary": "Scheduled maintenance to rehome the NNI at the NBN Caulfield (3CAU) POI has commenced. NBN services delivered via this POI may experience interruptions during the window 12:00 AM–2:00 AM AEST on 9 September 2026 (up to 2 hours). Our team is monitoring the work and will provide an update on completion.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -48,6 +48,11 @@
 		{
 			"update_time": "2026-08-15T14:20:51.301Z",
 			"content": "We have scheduled maintenance at the NBN Caulfield (3CAU) Point of Interconnect to rehome the NNI. The window is from 12:00 AM to 2:00 AM AEST on 9 September 2026. Services delivered via this POI may experience brief interruptions during the window (up to 2 hours). Our team will work to keep any downtime as short as possible. No action is required from customers. We will provide an update once the work is complete.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-08T14:00:08.169Z",
+			"content": "Planned maintenance to rehome the NNI at the NBN Caulfield (3CAU) POI has now commenced. The scheduled window remains from 12:00 AM to 2:00 AM AEST on 9 September 2026. Brief interruptions to NBN services may occur during this time. We are monitoring progress and will update you when the work is complete.",
 			"material_change": true
 		}
 	]
