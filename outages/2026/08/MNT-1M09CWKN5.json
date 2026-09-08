@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "in_progress",
-	"current_summary": "Scheduled maintenance to rehome the NNI at the NBN Caulfield (3CAU) POI has commenced. NBN services delivered via this POI may experience interruptions during the window 12:00 AM–2:00 AM AEST on 9 September 2026 (up to 2 hours). Our team is monitoring the work and will provide an update on completion.",
+	"status": "resolved",
+	"current_summary": "The scheduled maintenance to rehome the NNI at the NBN Caulfield (3CAU) POI has been completed. NBN services delivered via this POI may have experienced brief interruptions during the work window ending 2:00 AM AEST on 9 September 2026. No further impact is expected.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -32,9 +32,9 @@
 		"scheduled_start": "2026-09-08T14:00:00.000Z",
 		"scheduled_end": "2026-09-08T16:00:00.000Z",
 		"estimated_restoration_at": "2026-09-08T16:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-08T16:00:00.000Z",
+		"resolved_at": "2026-09-08T16:00:00.000Z",
+		"closed_at": "2026-09-08T16:00:00.000Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -53,6 +53,11 @@
 		{
 			"update_time": "2026-09-08T14:00:08.169Z",
 			"content": "Planned maintenance to rehome the NNI at the NBN Caulfield (3CAU) POI has now commenced. The scheduled window remains from 12:00 AM to 2:00 AM AEST on 9 September 2026. Brief interruptions to NBN services may occur during this time. We are monitoring progress and will update you when the work is complete.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-08T16:00:00.000Z",
+			"content": "Scheduled maintenance at the NBN Caulfield (3CAU) POI has been completed as of 2:00 AM AEST on 9 September 2026. All work was finished within the planned window, and any temporary interruptions to services have now concluded. No further action is required.",
 			"material_change": true
 		}
 	]
