@@ -30,21 +30,6 @@
 		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
 	},
 	{
-		"reference": "MNT-1M1BAE28R",
-		"title": "Kiewa, VIC - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 6
-		},
-		"lifecycle": {
-			"start_date": "2026-09-14T22:00:00.000Z",
-			"end_date": "2026-09-19T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1M1BAE28R.json"
-	},
-	{
 		"reference": "MNT-1M1BB35AV",
 		"title": "Baranduda, VIC - Upgrade the Network",
 		"planned": true,
@@ -178,6 +163,21 @@
 			"end_date": "2026-09-08T06:25:41.000Z"
 		},
 		"record_path": "outages/2026/09/INC-1M1YEM70R.json"
+	},
+	{
+		"reference": "MNT-1M1BAE28R",
+		"title": "Kiewa, VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 6
+		},
+		"lifecycle": {
+			"start_date": "2026-09-14T22:00:00.000Z",
+			"end_date": "2026-09-19T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M1BAE28R.json"
 	},
 	{
 		"reference": "MNT-1KZT9PN4P",
