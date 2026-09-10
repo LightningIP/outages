@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "An upstream access network incident is affecting a specific broadband service. Impacted customers may experience loss of internet connectivity. Our team is engaged with the network provider and work is underway to restore service. No restoration time has been provided yet.",
+	"status": "resolved",
+	"current_summary": "Service in your area has now been restored following an unexpected network issue. If your service has not reconnected automatically, please try restarting your modem and nbn equipment. Thank you for your patience while this was being resolved.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
