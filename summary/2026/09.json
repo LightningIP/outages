@@ -210,6 +210,21 @@
 		"record_path": "outages/2026/08/MNT-1M09CWKN5.json"
 	},
 	{
+		"reference": "MNT-1M26ZN0EX",
+		"title": "NSW, QLD, VIC and more - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-28T14:00:00.000Z",
+			"end_date": "2026-09-28T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M26ZN0EX.json"
+	},
+	{
 		"reference": "MNT-1M09CY9HC",
 		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
 		"planned": true,
