@@ -105,6 +105,21 @@
 		"record_path": "outages/2026/09/MNT-1M26ZN0EX.json"
 	},
 	{
+		"reference": "MNT-1M27HKWP8",
+		"title": " Kurri Kurri NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+	},
+	{
 		"reference": "MNT-1M09CY9HC",
 		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
 		"planned": true,
