@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M26ZN0EX",
+	"title": "NSW, QLD, VIC and more - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "An upstream provider has scheduled network upgrades that will affect some services in NSW, QLD, VIC and other areas. A single interruption of up to 30 minutes is expected within the maintenance window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. Order and service change processing may be slower during and shortly after the window. Work is scheduled and not yet started.",
+	"impact": {
+		"customer": true,
+		"operational_impact": true,
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-03T04:25:48.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-09-28T14:00:00.000Z",
+		"scheduled_end": "2026-09-28T20:00:00.000Z",
+		"estimated_restoration_at": "2026-09-28T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-03T04:25:48.000Z",
+			"content": "Some services in NSW, QLD, VIC and other areas will be briefly offline while our network partner completes planned upgrades. A single interruption of up to 30 minutes is expected within the maintenance window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026.\n\nOrders and service change requests may process more slowly during and shortly after the window.\n\nMost services should reconnect automatically. If your service does not come back online after the window, please restart your modem/router and contact our support team. We appreciate your patience while this work is completed.",
+			"material_change": true
+		}
+	]
+}
