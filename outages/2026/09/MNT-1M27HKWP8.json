@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M27HKWP8",
+	"title": " Kurri Kurri NSW - Maintain the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Scheduled maintenance on the local access network in Kurri Kurri, NSW is planned for Thursday 8 October 2026 between 12:00 AM and 6:00 AM AEDT. Broadband services in the area may go offline during this window. A single interruption of up to 4 hours is expected between 12:30 AM and 4:30 AM AEDT. Services are expected to be restored by 6:00 AM AEDT.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 2,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-07-29T10:28:09.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-07T13:00:00.000Z",
+		"scheduled_end": "2026-10-07T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-07T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-11T06:13:01.926Z",
+			"content": "Scheduled maintenance will occur on the local access network in Kurri Kurri, NSW. Some broadband services may be offline during the window. Maintenance window: Thursday 8 October 2026, 12:00 AM–6:00 AM AEDT. A single interruption of up to 4 hours is expected between 12:30 AM and 4:30 AM AEDT. Services are expected to be restored by 6:00 AM AEDT. We will monitor progress and provide updates if the schedule changes. If available, you may wish to use mobile data while your service is offline. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
