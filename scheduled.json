@@ -120,6 +120,21 @@
 		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
 	},
 	{
+		"reference": "MNT-1M2F030DV",
+		"title": "Lavington NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 7
+		},
+		"lifecycle": {
+			"start_date": "2026-10-14T13:00:00.000Z",
+			"end_date": "2026-10-14T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M2F030DV.json"
+	},
+	{
 		"reference": "MNT-1M09CY9HC",
 		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
 		"planned": true,
