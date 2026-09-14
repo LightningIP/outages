@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned NBN maintenance at the Dandenong (3DAD) Point of Interconnect to rehome the interconnect. Window: 12:00 AM–2:00 AM AEST on 15 September 2026. NBN services delivered via this POI may experience service interruptions for up to 2 hours during the window.",
+	"status": "in_progress",
+	"current_summary": "Scheduled NBN maintenance at the Dandenong (3DAD) Point of Interconnect is now underway. Service interruptions for NBN customers in the Mulgrave area may occur until 2:00 AM AEST.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,11 @@
 		{
 			"update_time": "2026-08-15T14:23:05.758Z",
 			"content": "We will be performing scheduled maintenance on our NBN interconnect at the Dandenong (3DAD) Point of Interconnect. This work is planned between 12:00 AM and 2:00 AM AEST on 15 September 2026. Customers with NBN services delivered via this POI may experience one or more interruptions during the window, up to a total of 2 hours. Our team will work to keep any downtime to a minimum and services are expected to return to normal after the window. Thank you for your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-14T14:00:03.281Z",
+			"content": "Scheduled NBN maintenance at the Dandenong (3DAD) Point of Interconnect has started. Service interruptions may occur for NBN customers in the Mulgrave area until the maintenance is expected to finish at 2:00 AM AEST.",
 			"material_change": true
 		}
 	]
