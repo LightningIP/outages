@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M2F030DV",
+	"title": "Lavington NSW - Maintain the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned maintenance on the access network in Lavington, NSW is scheduled for 15 October 2026 from 12:00 AM to 6:00 AM AEDT. Some services in this area will lose connection during the window. Work is being performed by an upstream provider and we will monitor and confirm restoration by the planned completion time.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 7,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-14T03:35:32.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-14T13:00:00.000Z",
+		"scheduled_end": "2026-10-14T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-14T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-14T03:40:55.575Z",
+			"content": "We will be supporting planned maintenance on the access network in Lavington, NSW. Some services in the area will be offline during the window on 15 October 2026 between 12:00 AM and 6:00 AM AEDT. Our team will monitor progress with our network partner and confirm when services are restored. If you rely on your connection, please plan for downtime and consider a mobile hotspot where available. Thank you for your patience.",
+			"material_change": true
+		}
+	]
+}
