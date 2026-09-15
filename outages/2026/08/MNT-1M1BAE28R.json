@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned network upgrades are scheduled in Kiewa, VIC, and may interrupt Fixed Wireless internet services. Up to three planned service interruptions, each lasting up to 8 hours, may occur between Tuesday 15 September and Thursday 17 September during the broader maintenance window, which runs until Saturday 19 September at 5:00 PM AEST. Customers are encouraged to plan ahead and consider using mobile data during the interruptions. Our team will keep monitoring and provide updates if the schedule changes.",
+	"status": "in_progress",
+	"current_summary": "Planned network upgrades in Kiewa, VIC are now underway. Service interruptions are occurring as part of these works and may impact Fixed Wireless internet services. The maintenance window runs until Saturday 19 September at 5:00 PM AEST. Please prepare for possible additional outages during this time and consider using mobile data if your service is affected. We will provide further updates if the schedule or expected impact changes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -43,6 +43,11 @@
 		{
 			"update_time": "2026-09-09T07:26:35.483Z",
 			"content": "The planned maintenance works in Kiewa, VIC have been updated. There are now up to three potential service interruptions, each of up to 8 hours, which may occur on separate days between Tuesday 15 September and Thursday 17 September within the current maintenance window. The overall maintenance window remains scheduled until Saturday 19 September at 5:00 PM AEST. Please plan accordingly and consider using mobile data during the possible interruptions. We will continue to monitor and provide any further updates as needed.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-15T19:23:38.278Z",
+			"content": "The planned network maintenance in Kiewa, VIC has begun and is now in progress. Customers may experience service interruptions while works continue through to Saturday 19 September at 5:00 PM AEST. We recommend planning ahead and using mobile data if necessary. Further updates will be shared if the schedule or expected impact changes.",
 			"material_change": true
 		}
 	]
