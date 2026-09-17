@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned works by an upstream provider will update access network equipment in Queensland. Impacted internet services may briefly drop offline during the window from 11:00 PM on 5 October to 5:00 AM on 6 October (QLD time). A short interruption of about 15 minutes is expected around 12:00 AM. Our team will monitor progress and services should restore once the maintenance is complete.",
+	"status": "cancelled",
+	"current_summary": "Planned network upgrades in Queensland scheduled for 5 October have been cancelled by our upstream provider. No service interruptions are expected to occur during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -21,10 +21,10 @@
 		"detected_at": null,
 		"scheduled_start": "2026-10-05T13:00:00.000Z",
 		"scheduled_end": "2026-10-05T19:00:00.000Z",
-		"estimated_restoration_at": "2026-10-05T19:00:00.000Z",
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"resolved_at": "2026-09-17T03:21:33.816Z",
+		"closed_at": "2026-09-17T03:21:33.816Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -38,6 +38,11 @@
 		{
 			"update_time": "2026-09-17T00:39:52.515Z",
 			"content": "We will be supporting planned works by our network partner in Queensland to update access network equipment.\n\n- Window: 11:00 PM on 5 October to 5:00 AM on 6 October (QLD time)\n- Expected impact: A brief loss of internet connectivity for affected services, with a planned interruption of up to 15 minutes around 12:00 AM\n- What we’re doing: We’ll monitor progress and confirm when services are back to normal\n\nIf your service does not reconnect after 5:00 AM, please restart your modem/router. If issues persist, contact our support team. Thank you for your patience while this work is completed.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-17T03:21:33.816Z",
+			"content": "The planned network maintenance scheduled for Queensland on 5 October has been cancelled by our upstream provider. There will be no service interruptions during this time.",
 			"material_change": true
 		}
 	]
