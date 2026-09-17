@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M2PP0FX3",
+	"title": "SA, NSW - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned network upgrades by an upstream provider will affect some Fixed Wireless services in parts of NSW and SA. Short interruptions are expected within the window from 12:30 AM to 6:00 AM AEDT on 8 October 2026, with brief outages planned around 1:00 AM, 1:30 AM and 2:30 AM AEDT (15–30 minutes each). Our team will monitor progress and assist with recovery. Services should restore after each interruption, with all work expected to finish by the end of the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 20,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-15T03:35:58.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-07T13:30:00.000Z",
+		"scheduled_end": "2026-10-07T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-07T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-17T03:18:30.793Z",
+			"content": "One of our network partners will be performing planned upgrades that will affect some Fixed Wireless services in parts of NSW and SA.\n\nWhen: 12:30 AM–6:00 AM AEDT on 8 October 2026.\nExpected impact: brief loss of internet connectivity during the window, with short outages planned around 1:00 AM, 1:30 AM and 2:30 AM AEDT (15–30 minutes each).\n\nWhat we’re doing: We’re monitoring the work and will help restore services as each interruption completes.\n\nIf available, you can use mobile data during brief interruptions. We appreciate your patience.",
+			"material_change": true
+		}
+	]
+}
