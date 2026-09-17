@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": null,
+	"status": "resolved",
+	"current_summary": "Scheduled maintenance on the network backhaul serving NBN POI 2TAM (Tamworth) has been completed. All maintenance work was carried out between 11:00 PM on 17 September and 6:00 AM on 18 September (AEST). Services have returned to normal, and no further interruption is expected.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -27,12 +27,12 @@
 	"lifecycle": {
 		"opened_at": "2026-08-23T21:58:16.080Z",
 		"detected_at": null,
-		"scheduled_start": null,
-		"scheduled_end": null,
+		"scheduled_start": "2026-09-17T13:00:00.000Z",
+		"scheduled_end": "2026-09-17T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-17T20:00:00.000Z",
+		"resolved_at": "2026-09-17T20:00:00.000Z",
+		"closed_at": "2026-09-17T20:00:00.000Z"
 	},
 	"cause": {
 		"reason": null,
@@ -57,6 +57,11 @@
 			"update_time": "2026-09-17T14:00:07.892Z",
 			"content": "The previously advised maintenance window for NBN POI 2TAM (Tamworth) remains unchanged. Maintenance is scheduled to occur from 11:00 PM on 17 September to 6:00 AM on 18 September (AEST). No further changes have been announced.",
 			"material_change": false
+		},
+		{
+			"update_time": "2026-09-17T20:00:00.000Z",
+			"content": "The planned maintenance for NBN POI 2TAM (Tamworth) has been completed. All work was finished within the scheduled window from 11:00 PM on 17 September to 6:00 AM on 18 September (AEST). Services have returned to normal and no further disruptions are expected.",
+			"material_change": true
 		}
 	]
 }
