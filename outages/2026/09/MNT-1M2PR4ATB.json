@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M2PR4ATB",
+	"title": "QLD - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Scheduled maintenance on the access network in Queensland is planned. Some broadband services may briefly drop offline during the window from 12:00 AM to 6:00 AM AEST on 6 October 2026. A single interruption of up to 15 minutes is expected around 1:00 AM AEST. We will monitor the activity and services should restore automatically once the work is complete.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-17T02:53:00.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-05T14:00:00.000Z",
+		"scheduled_end": "2026-10-05T20:00:00.000Z",
+		"estimated_restoration_at": "2026-10-05T15:15:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-17T03:55:40.765Z",
+			"content": "We are preparing for scheduled maintenance on the access network in Queensland. During the window from 12:00 AM to 6:00 AM AEST on 6 October 2026, some services may briefly drop offline. A single interruption of up to 15 minutes is expected around 1:00 AM AEST. Services should restore automatically once the work is complete. If needed, you can use mobile data as a backup during the interruption. We will monitor progress and share updates if anything changes.",
+			"material_change": true
+		}
+	]
+}
