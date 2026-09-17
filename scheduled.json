@@ -163,5 +163,20 @@
 			"end_date": "2026-10-07T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PNX52D.json"
+	},
+	{
+		"reference": "MNT-1M2PP0FX3",
+		"title": "SA, NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 20
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:30:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M2PP0FX3.json"
 	}
 ]
