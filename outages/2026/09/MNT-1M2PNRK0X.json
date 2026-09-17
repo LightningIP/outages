@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M2PNRK0X",
+	"title": "NSW\nVIC\nSA\nQLD - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned access network upgrades by an upstream provider are scheduled for selected Fixed Wireless areas in NSW, VIC, SA and QLD. Short interruptions to internet services are expected between 1:00 AM and 6:00 AM AEDT on Wednesday, 7 October 2026. Work involves switching to new equipment to improve performance and resilience. Services should reconnect automatically after each interruption. The maintenance window is expected to end by 6:00 AM AEDT.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-10T05:38:51.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-06T14:00:00.000Z",
+		"scheduled_end": "2026-10-06T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-06T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-17T03:15:02.412Z",
+			"content": "We will be supporting planned access network upgrades affecting selected Fixed Wireless areas across NSW, VIC, SA and QLD. During the window from 1:00 AM to 6:00 AM AEDT on Wednesday, 7 October 2026, some customers may experience brief loss of internet service. Several short interruptions (up to around 30 minutes each) may occur while the work is carried out.\n\nOur team will monitor connectivity and work with our network partners to minimise disruption. Services should restore automatically after each interruption, with all work due to finish by 6:00 AM AEDT. If your service remains offline after the window, please restart your modem/router and contact us if you still need help.\n\nThank you for your patience while this improvement work is completed.",
+			"material_change": true
+		}
+	]
+}
