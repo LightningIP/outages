@@ -59,6 +59,11 @@
 			"update_time": "2026-09-17T06:31:50.514Z",
 			"content": "The planned network upgrades in Kiewa, VIC are progressing as scheduled. No changes to the maintenance window or expected impact have been reported. Customers may continue to experience service interruptions while works continue until Saturday 19 September at 5:00 PM AEST.",
 			"material_change": false
+		},
+		{
+			"update_time": "2026-09-17T22:15:50.008Z",
+			"content": "The planned network upgrades in Kiewa, VIC are still underway. No new changes to the schedule or expected impact have been reported. The maintenance window continues through to Saturday 19 September at 5:00 PM AEST. We will keep you updated if there are any further developments.",
+			"material_change": false
 		}
 	]
 }
