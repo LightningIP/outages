@@ -5,12 +5,12 @@
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "regional",
+			"impact_scope": null,
 			"service_count": 2
 		},
 		"lifecycle": {
-			"start_date": "2026-09-17T13:00:00.000Z",
-			"end_date": "2026-09-17T20:00:00.000Z"
+			"start_date": "2026-08-23T21:58:16.080Z",
+			"end_date": null
 		},
 		"record_path": "outages/2026/08/MNT-1M0RPSP6K.json"
 	},
