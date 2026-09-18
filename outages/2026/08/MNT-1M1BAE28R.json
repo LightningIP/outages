@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "in_progress",
-	"current_summary": "Planned network upgrades in Kiewa, VIC are now underway. Service interruptions are occurring as part of these works and may impact Fixed Wireless internet services. The maintenance window runs until Saturday 19 September at 5:00 PM AEST. Please prepare for possible additional outages during this time and consider using mobile data if your service is affected. We will provide further updates if the schedule or expected impact changes.",
+	"status": "resolved",
+	"current_summary": "Planned network upgrades in Kiewa, VIC have now been completed. Services impacted by this maintenance should be restored. If you are still experiencing issues, please restart your equipment or contact support for assistance. Thank you for your patience during these works.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-09-14T22:00:00.000Z",
 		"scheduled_end": "2026-09-19T07:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-18T05:40:42.846Z",
+		"resolved_at": "2026-09-18T05:40:42.846Z",
+		"closed_at": "2026-09-18T05:40:42.846Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -64,6 +64,11 @@
 			"update_time": "2026-09-17T22:15:50.008Z",
 			"content": "The planned network upgrades in Kiewa, VIC are still underway. No new changes to the schedule or expected impact have been reported. The maintenance window continues through to Saturday 19 September at 5:00 PM AEST. We will keep you updated if there are any further developments.",
 			"material_change": false
+		},
+		{
+			"update_time": "2026-09-18T05:40:42.846Z",
+			"content": "Network upgrades in Kiewa, VIC have been completed and maintenance works are finished. Services affected by this planned maintenance should now be restored. If you are still experiencing issues, please restart your equipment or contact our support team for help.",
+			"material_change": true
 		}
 	]
 }
