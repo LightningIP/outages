@@ -1,0 +1,44 @@
+{
+	"reference": "MNT-1M2S7RRXM",
+	"title": "WODONGA VIC - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "An upstream provider will perform capacity upgrade works in Wodonga VIC. Customers in the area may experience loss of internet connectivity during the maintenance window on Tuesday 6 October 2026, 12:00 AM to 6:00 AM AEDT. Services are expected to restore once the work is complete.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 11,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-11T03:07:05.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-05T13:00:00.000Z",
+		"scheduled_end": "2026-10-05T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-05T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-18T03:07:33.790Z",
+			"content": "Planned maintenance is scheduled in Wodonga VIC to upgrade network capacity. During this window, some customers may be unable to connect to the internet.\n\nWindow: Tuesday 6 October 2026, 12:00 AM to 6:00 AM AEDT.\n\nWe will monitor progress and confirm once services are restored. If available, you may wish to use mobile data during the work. We know interruptions are inconvenient and appreciate your patience.",
+			"material_change": true
+		}
+	]
+}
