@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "in_progress",
-	"current_summary": "Network upgrades are now in progress for Fixed Wireless services in parts of Victoria and Queensland. The maintenance window runs from 12:00 AM to 6:00 AM AEST on Monday 21 September. During this period, some services may briefly disconnect. Two short interruptions of up to 10 minutes are expected around 12:30 AM and 1:30 AM AEST. Our team is monitoring the works and will confirm once complete. No action is required; services should reconnect automatically by the end of the maintenance window.",
+	"status": "resolved",
+	"current_summary": "Network upgrades in Victoria and Queensland have been completed ahead of schedule. Fixed Wireless services are now restored, and no further interruptions are expected. Thank you for your patience during these works.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-09-20T14:00:00.000Z",
 		"scheduled_end": "2026-09-20T20:00:00.000Z",
 		"estimated_restoration_at": "2026-09-20T20:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-20T17:53:36.092Z",
+		"resolved_at": "2026-09-20T17:53:36.092Z",
+		"closed_at": "2026-09-20T17:53:36.092Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -43,6 +43,11 @@
 		{
 			"update_time": "2026-09-20T14:07:43.633Z",
 			"content": "Planned network upgrades have begun and the maintenance window is now in progress for Fixed Wireless services in parts of Victoria and Queensland. The works are scheduled between 12:00 AM and 6:00 AM AEST on Monday 21 September. Some brief interruptions are expected, and our team will monitor the activity throughout the window. Services should reconnect automatically once the works are completed.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-20T17:53:36.092Z",
+			"content": "The planned network maintenance for Fixed Wireless services in parts of Victoria and Queensland has now been completed. Services were restored ahead of the scheduled maintenance window end, and no further interruptions are expected. We appreciate your patience while these improvements were completed.",
 			"material_change": true
 		}
 	]
