@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned upgrades to the Fixed Wireless access network in Baranduda, VIC will cause short service interruptions. Two outages of up to 4 hours are scheduled at 12:00 AM–4:00 AM AEST on 21 and 22 September 2026. The overall maintenance window runs from 12:00 AM on 21 September to 6:00 AM on 25 September (AEST). Our team will monitor progress and work with our network partner to restore services after each interruption. Times may shift within the window if required.",
+	"status": "in_progress",
+	"current_summary": "Planned upgrades to the Fixed Wireless access network in Baranduda, VIC have commenced. Short service interruptions are now in progress within the advised maintenance window, which runs from 12:00 AM on 21 September to 6:00 AM on 25 September (AEST). Our team and our network partner are monitoring progress and will work to restore services as each upgrade completes. Service interruptions may still shift within the window if required.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,11 @@
 		{
 			"update_time": "2026-08-31T07:20:27.429Z",
 			"content": "Planned network upgrades are scheduled for the Fixed Wireless access network in Baranduda, VIC. Customers in this area may experience brief loss of internet service during the maintenance window.\n\nPlanned interruptions (local time):\n- 21 September, 12:00 AM–4:00 AM AEST\n- 22 September, 12:00 AM–4:00 AM AEST\nOverall window: 21 September 12:00 AM to 25 September 6:00 AM AEST. On occasion, an interruption may move to another day within the window.\n\nWe will monitor the work and coordinate with our network partner throughout. Services should restore automatically after each interruption. If your connection does not return, please power cycle your modem/router. If issues persist, contact our support team. Thank you for your patience.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-20T14:14:03.600Z",
+			"content": "Network upgrades in Baranduda, VIC have now commenced as scheduled. Customers may experience short interruptions to their Fixed Wireless internet service during the maintenance window, which remains from 12:00 AM on 21 September to 6:00 AM on 25 September (AEST). Our team will continue to coordinate with our network partner and monitor progress throughout this work.",
 			"material_change": true
 		}
 	]
