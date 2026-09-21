@@ -58,17 +58,23 @@
 		{
 			"update_time": "2026-08-17T00:02:55.046Z",
 			"content": "We will be carrying out planned network maintenance that may affect some NBN services connected via the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland. The maintenance window is from 11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August. Services may be interrupted during the window, for up to 7 hours, while a splice enclosure is replaced. Our team will monitor throughout and work to restore services as soon as the works are complete. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-30T13:00:02.152Z",
 			"content": "Planned maintenance has now started. Services connected via the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland may experience interruptions of up to 7 hours during the current maintenance window (11:00 PM AEST on 30 August to 6:00 AM AEST on 31 August). Our team is monitoring progress and will provide further updates as the work continues.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-30T20:00:21.904Z",
 			"content": "This planned maintenance is now complete. All works to replace the splice enclosure at the Ipswich, Merrimac, Acacia Ridge, Goodna, Bundamba and Southport POIs in Queensland finished as scheduled. Services have been restored and no further interruptions are expected.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
