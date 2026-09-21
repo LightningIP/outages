@@ -48,7 +48,9 @@
 		{
 			"update_time": "2026-08-13T04:22:10.294Z",
 			"content": "Planned network maintenance impacting a small number of services in NSW has been completed. The work took place between 12:00 AM and 8:00 AM AEST on Thursday, 2 July 2026, with one interruption of up to 2 hours expected around 1:00 AM AEST. All services are now online and stable. No further impact is expected. If you are still experiencing issues after this window, please restart your modem or router and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
