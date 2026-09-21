@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-17T03:55:40.765Z",
 			"content": "We are preparing for scheduled maintenance on the access network in Queensland. During the window from 12:00 AM to 6:00 AM AEST on 6 October 2026, some services may briefly drop offline. A single interruption of up to 15 minutes is expected around 1:00 AM AEST. Services should restore automatically once the work is complete. If needed, you can use mobile data as a backup during the interruption. We will monitor progress and share updates if anything changes.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
