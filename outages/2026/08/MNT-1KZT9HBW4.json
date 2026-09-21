@@ -46,12 +46,16 @@
 		{
 			"update_time": "2026-08-12T06:11:15.146Z",
 			"content": "We’re preparing for planned maintenance affecting some services in Lavington, NSW. An upstream network provider will replace access network hardware. The work window is Monday 3 August, 9:00 AM–5:00 PM AEST. A single interruption of up to 3 hours is expected from 9:00 AM, during which services may be offline.\n\nIf you rely on your connection, you may wish to download any needed files beforehand or use mobile data during the interruption. We’ll monitor progress and share updates if anything changes. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T04:24:13.463Z",
 			"content": "Planned maintenance in Lavington, NSW has been completed. All activities to upgrade access network hardware are now finished, and services have been restored. No further interruptions are expected.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
