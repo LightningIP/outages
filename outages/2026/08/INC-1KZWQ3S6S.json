@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-12T01:36:52.000Z",
 			"content": "We’re aware of a service interruption that affected some customers in Walla Walla, NSW due to a local power outage at an upstream access site. Services were restored at 11:36 AM AEST on 12 July 2026. If your connection hasn’t come back online, please restart your modem/router and any connection box (if you have one). If issues persist, contact our support team and we’ll help get you back online.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
