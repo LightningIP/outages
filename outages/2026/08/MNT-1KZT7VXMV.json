@@ -49,7 +49,9 @@
 		{
 			"update_time": "2026-08-09T21:00:00.000Z",
 			"content": "Planned works at the NBN Mayfield (2MYF) Point of Interconnect have finished. Some NBN services connected via this POI may have been interrupted during the 12:00 AM to 7:00 AM AEST window on 10 August 2026. Services are now operating normally and we are monitoring. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
