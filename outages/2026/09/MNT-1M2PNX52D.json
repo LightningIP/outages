@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-17T03:16:57.570Z",
 			"content": "We will be performing planned network maintenance in Queensland between 12:00 AM and 6:00 AM AEST on 8 October 2026. During this window, some services may experience a brief loss of connectivity. A short interruption of up to 15 minutes is expected around 1:00 AM. Our team will monitor progress with our network partner and work to minimise disruption. Services should come back online automatically once the work is complete. If you need to stay connected, consider using mobile data where available. If your service does not restore after the window, please restart your modem/router and contact us if you still need help.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
