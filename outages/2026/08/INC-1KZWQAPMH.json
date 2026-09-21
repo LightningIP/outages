@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-24T04:57:47.000Z",
 			"content": "We’re aware of an earlier service interruption affecting some customers in Thurgoona (NSW 2640). The issue has been resolved following field repairs to network cabling, and services were restored at 2:57 PM AEST on 24 July 2026.\n\nIf your service has not come back online, please restart your modem/router and any connection box you have. If you’re still experiencing issues after restarting, contact our support team and we’ll help get you back online.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
