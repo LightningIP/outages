@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-12T06:20:35.000Z",
 			"content": "Services in Albury, NSW were interrupted earlier due to an unexpected network issue. All services have now been restored. We are monitoring. If your service has not come back online, please power cycle your modem/router and any separate connection box, and contact our support team if you still have trouble.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
