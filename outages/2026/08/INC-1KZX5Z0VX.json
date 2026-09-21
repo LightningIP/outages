@@ -46,27 +46,37 @@
 		{
 			"update_time": "2026-08-13T08:54:13.000Z",
 			"content": "We’re investigating a service disruption affecting some customers in Coolum Beach, QLD. You may experience no connectivity or intermittent service. Our team, together with our network partner, is troubleshooting a hardware alarm on a local network switch. We’re working to restore services as quickly as possible. We don’t have an estimated restoration time yet. If available, using mobile data can help you stay connected during the interruption. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T09:30:41.273Z",
 			"content": "A technician has now been dispatched to the Coolum Beach area to investigate and address the ongoing network issue. Some customers may continue to experience no connectivity or intermittent service while work is underway. We are working with our network partner and will provide an estimated restoration time as soon as it becomes available. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T09:54:51.000Z",
 			"content": "An attending technician will need to arrange spare parts before arriving in Coolum Beach, QLD to work on local network hardware. Urgent repair work may temporarily impact additional users. Service interruptions are expected to continue until repairs are completed. We will share more information as it becomes available. Thank you for your continued patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T13:26:35.000Z",
 			"content": "Technicians are expected to arrive onsite at Coolum Beach by 2AM (AEST) with spare parts to address a hardware failure affecting local nbn network services. Service interruptions will continue while repairs are underway. We will share further updates or an earlier restoration time if available.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T17:40:50.000Z",
 			"content": "Services in Coolum Beach, QLD have now been restored following the replacement of failed network hardware. If your service is still offline, please try restarting your nbn equipment and Wi-Fi router. No further interruptions are expected at this time.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
