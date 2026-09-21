@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-07T08:25:30.000Z",
 			"content": "We’re aware of an earlier unplanned interruption affecting some services in Albury, NSW. The issue within an upstream access network has been resolved, and services were restored as of 6:25 PM AEST on 7 July 2026. If your connection is still impacted, please restart your modem or router. If issues persist, contact our support team and we’ll help get you back online.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
