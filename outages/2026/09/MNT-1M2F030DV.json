@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-14T03:40:55.575Z",
 			"content": "We will be supporting planned maintenance on the access network in Lavington, NSW. Some services in the area will be offline during the window on 15 October 2026 between 12:00 AM and 6:00 AM AEDT. Our team will monitor progress with our network partner and confirm when services are restored. If you rely on your connection, please plan for downtime and consider a mobile hotspot where available. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
