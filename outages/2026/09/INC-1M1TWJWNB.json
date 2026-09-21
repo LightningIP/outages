@@ -38,12 +38,16 @@
 		{
 			"update_time": "2026-09-06T08:07:23.000Z",
 			"content": "We are investigating an issue on the access network affecting one broadband service. Customers on the affected connection may be offline or see intermittent connectivity. Our team is working with our network partner to restore service as quickly as possible. There is no estimated restoration time yet. We will share updates as soon as more information becomes available. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-09-06T08:41:56.000Z",
 			"content": "Services in your area have now been restored. If your broadband connection has not yet come back online, please try restarting your modem and nbn equipment. We appreciate your patience while the issue was resolved.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
