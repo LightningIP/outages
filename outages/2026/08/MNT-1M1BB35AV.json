@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "in_progress",
-	"current_summary": "Planned upgrades to the Fixed Wireless access network in Baranduda, VIC have commenced. Short service interruptions are now in progress within the advised maintenance window, which runs from 12:00 AM on 21 September to 6:00 AM on 25 September (AEST). Our team and our network partner are monitoring progress and will work to restore services as each upgrade completes. Service interruptions may still shift within the window if required.",
+	"status": "resolved",
+	"current_summary": "Planned network upgrades in Baranduda, VIC have been completed and services have been restored. No further interruptions from this maintenance are expected.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-09-20T14:00:00.000Z",
 		"scheduled_end": "2026-09-24T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-21T22:55:54.376Z",
+		"resolved_at": "2026-09-21T22:55:54.376Z",
+		"closed_at": "2026-09-21T22:55:54.376Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -53,6 +53,13 @@
 			"update_time": "2026-09-20T17:51:37.318Z",
 			"content": "Network upgrades are continuing in Baranduda, VIC as planned. The maintenance window and service impact remain unchanged. We remain on track and will keep you updated if the situation changes.",
 			"material_change": false,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-21T22:55:54.375Z",
+			"content": "Network maintenance in Baranduda, VIC has now been completed and all works have finished as planned. Services have been restored and no further interruptions are expected from this activity. Thank you for your patience during this upgrade period.",
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
