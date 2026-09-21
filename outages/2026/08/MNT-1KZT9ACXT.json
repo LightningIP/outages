@@ -46,12 +46,16 @@
 		{
 			"update_time": "2026-08-08T20:37:10.373Z",
 			"content": "Planned upgrade work on the access network is scheduled. A small number of services may briefly go offline (up to 45 minutes) during the maintenance window. Services should reconnect automatically when the work is complete. Our team will monitor progress and provide updates if anything changes. You can continue to place orders during this time, though processing may be delayed. No action is required; if needed, you can use mobile data during the brief interruption.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T04:00:54.406Z",
 			"content": "The scheduled network upgrade maintenance has been completed. Services in the affected area may have briefly gone offline during the maintenance window but should now be operating normally. Order processing delays related to the maintenance are now cleared. No further disruptions are anticipated.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
