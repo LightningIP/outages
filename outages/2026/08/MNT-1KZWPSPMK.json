@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-13T04:00:54.343Z",
 			"content": "Planned maintenance on the access network in VIC, NSW and QLD has been completed. The work took place overnight from 12:00 AM to 6:00 AM AEST on 31 July 2026. Some services may have experienced a brief interruption of up to 15 minutes during the window. Services are back online and performing as expected. We will continue to monitor. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
