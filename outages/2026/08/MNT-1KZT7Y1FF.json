@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-12T05:43:13.489Z",
 			"content": "We carried out scheduled maintenance affecting NBN services delivered via the Ringwood (3RWO) and Lilydale (3LIL) POIs in Melbourne. The work was scheduled for Saturday, 8 August 2026 between 12:00 AM and 2:00 AM AEST to move services to a new router. Some customers may have experienced short interruptions during this time. The maintenance window has concluded. If you are still experiencing issues, please restart your modem or router and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
