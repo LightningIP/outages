@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-03T09:00:14.000Z",
 			"content": "An unplanned outage affecting some services in Temora, NSW has been resolved. Services were restored by 7:00 pm AEST on 3 July 2026. If you remain offline, please restart your modem/router. If the issue persists, get in touch and we’ll help. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
