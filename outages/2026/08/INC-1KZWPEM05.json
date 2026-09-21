@@ -48,7 +48,9 @@
 		{
 			"update_time": "2026-07-03T08:12:18.000Z",
 			"content": "We’re aware of an unplanned interruption that affected some services in Murringo, NSW. The issue was within the access network used to deliver connectivity. Our network partner has replaced faulty hardware and service was restored at 6:12 PM AEST on 3 July 2026.\n\nIf you’re still offline, please restart your modem and router. If the issue continues, contact our support team and we’ll help get you back online.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
