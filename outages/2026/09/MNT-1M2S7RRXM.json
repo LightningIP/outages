@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-18T03:07:33.790Z",
 			"content": "Planned maintenance is scheduled in Wodonga VIC to upgrade network capacity. During this window, some customers may be unable to connect to the internet.\n\nWindow: Tuesday 6 October 2026, 12:00 AM to 6:00 AM AEDT.\n\nWe will monitor progress and confirm once services are restored. If available, you may wish to use mobile data during the work. We know interruptions are inconvenient and appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
