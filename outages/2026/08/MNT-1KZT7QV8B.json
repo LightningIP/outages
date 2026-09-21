@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-10T15:14:00.000Z",
 			"content": "This planned maintenance is now complete. NBN services connected to the Aspley (4APL) and Aspley Depot (4BNB) POIs in Brisbane may have experienced short interruptions between 12:00 AM and 2:00 AM AEST on 11 August 2026 while we moved services to a new router. Services are operating normally and no further impact is expected. We appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
