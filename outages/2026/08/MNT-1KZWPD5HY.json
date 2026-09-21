@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-13T04:24:11.780Z",
 			"content": "We have completed planned upgrade work with one of our network partners in Campsie, NSW. The maintenance took place from 12:00 AM to 6:00 AM AEST on 15 July 2026. Some services may have briefly lost connection during a single interruption of up to 60 minutes around 12:30 AM. Service orders and changes may also have been delayed during and shortly after the window. This maintenance is now complete and services should be operating normally. If you’re still experiencing issues, please restart your modem/router and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
