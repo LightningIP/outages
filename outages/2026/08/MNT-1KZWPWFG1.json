@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-13T04:24:16.878Z",
 			"content": "Planned network works in Harrison, ACT that were scheduled for 9:00 AM to 5:00 PM AEST on 7 August 2026 have been cancelled. No service interruption will occur and no action is required. If this maintenance is rebooked, we will share the new schedule here.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
