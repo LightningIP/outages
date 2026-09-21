@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-17T03:15:02.412Z",
 			"content": "We will be supporting planned access network upgrades affecting selected Fixed Wireless areas across NSW, VIC, SA and QLD. During the window from 1:00 AM to 6:00 AM AEDT on Wednesday, 7 October 2026, some customers may experience brief loss of internet service. Several short interruptions (up to around 30 minutes each) may occur while the work is carried out.\n\nOur team will monitor connectivity and work with our network partners to minimise disruption. Services should restore automatically after each interruption, with all work due to finish by 6:00 AM AEDT. If your service remains offline after the window, please restart your modem/router and contact us if you still need help.\n\nThank you for your patience while this improvement work is completed.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
