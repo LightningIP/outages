@@ -49,7 +49,9 @@
 		{
 			"update_time": "2026-08-12T02:24:59.208Z",
 			"content": "The planned NBN maintenance for the Petrie, Caboolture and Aspley POIs, previously scheduled for Thursday 13 August from 11:00 PM to Friday 14 August 6:00 AM AEST, has been cancelled. There will be no impact to services during this time. Thank you for your understanding.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
