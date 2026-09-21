@@ -38,17 +38,23 @@
 		{
 			"update_time": "2026-09-01T04:28:50.556Z",
 			"content": "We will be supporting planned network upgrades by an upstream provider affecting Fixed Wireless services in parts of Victoria and Queensland. The maintenance window is Monday 21 September from 12:00 AM to 6:00 AM AEST. During this time, some services may briefly go offline. Two short interruptions of up to 10 minutes are expected around 12:30 AM and 1:30 AM AEST.\n\nOur team will monitor the work and restore services as quickly as possible if any issues arise. No action is required from you—services should reconnect automatically once each interruption ends. We appreciate your patience while these improvements are completed.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-09-20T14:07:43.633Z",
 			"content": "Planned network upgrades have begun and the maintenance window is now in progress for Fixed Wireless services in parts of Victoria and Queensland. The works are scheduled between 12:00 AM and 6:00 AM AEST on Monday 21 September. Some brief interruptions are expected, and our team will monitor the activity throughout the window. Services should reconnect automatically once the works are completed.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-09-20T17:53:36.092Z",
 			"content": "The planned network maintenance for Fixed Wireless services in parts of Victoria and Queensland has now been completed. Services were restored ahead of the scheduled maintenance window end, and no further interruptions are expected. We appreciate your patience while these improvements were completed.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
