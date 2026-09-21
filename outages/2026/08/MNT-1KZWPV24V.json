@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-13T04:00:54.380Z",
 			"content": "Emergency maintenance affecting services in Lavington NSW 2641 has been completed. Customers in the area may have experienced a temporary loss of connectivity between 3:55 PM and 6:50 PM AEST on 3 August 2026. Services are now restored and operating normally. No action is required. If you are still having trouble, please restart your equipment and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
