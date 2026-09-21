@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-07T01:06:02.000Z",
 			"content": "Services have been restored following an unexpected network issue affecting some internet connections. If your service has not come back online, please restart your modem/router and, if you use a separate connection box, restart that as well. We are monitoring to ensure stability. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
