@@ -120,6 +120,36 @@
 		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
 	},
 	{
+		"reference": "INC-1KZWQAPMH",
+		"title": "Thurgoona, NSW 2640 - Infrastructure Restoration",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-07-24T00:16:45.000Z",
+			"end_date": "2026-07-24T04:57:47.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWQAPMH.json"
+	},
+	{
+		"reference": "INC-1KZWPEM05",
+		"title": "Murringo, NSW - Infrastructure Restoration",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-07-02T14:08:45.000Z",
+			"end_date": "2026-07-03T08:12:18.000Z"
+		},
+		"record_path": "outages/2026/08/INC-1KZWPEM05.json"
+	},
+	{
 		"reference": "MNT-1KZWPG8NF",
 		"title": "Coffs Harbour NSW - Remediate the Network",
 		"planned": true,
@@ -330,21 +360,6 @@
 		"record_path": "outages/2026/08/MNT-1KZWPSPMK.json"
 	},
 	{
-		"reference": "INC-1KZWQAPMH",
-		"title": "Thurgoona, NSW 2640 - Infrastructure Restoration",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-07-24T00:16:45.000Z",
-			"end_date": "2026-07-24T04:57:47.000Z"
-		},
-		"record_path": "outages/2026/08/INC-1KZWQAPMH.json"
-	},
-	{
 		"reference": "INC-1KZX60KBT",
 		"title": "RESERVOIR,VIC-3073 - Infrastructure Restoration",
 		"planned": false,
@@ -358,21 +373,6 @@
 			"end_date": "2026-07-28T13:00:13.000Z"
 		},
 		"record_path": "outages/2026/08/INC-1KZX60KBT.json"
-	},
-	{
-		"reference": "INC-1KZWPEM05",
-		"title": "Murringo, NSW - Infrastructure Restoration",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-07-02T14:08:45.000Z",
-			"end_date": "2026-07-03T08:12:18.000Z"
-		},
-		"record_path": "outages/2026/08/INC-1KZWPEM05.json"
 	},
 	{
 		"reference": "INC-1KZWQ3S6S",
