@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-14T05:15:56.000Z",
 			"content": "Services in Lavington, NSW have been restored following a power issue affecting access network equipment. Most customers should now be back online. If your service hasn’t reconnected, please power-cycle your modem/router and any network connection box, then wait a few minutes before testing again. We’ll continue to monitor and we’re here to help if you need support.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
