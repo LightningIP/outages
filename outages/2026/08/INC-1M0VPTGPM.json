@@ -38,12 +38,16 @@
 		{
 			"update_time": "2026-08-25T05:11:04.000Z",
 			"content": "We’re aware of an issue affecting some internet services in Walla Walla, NSW. Customers in this area may be offline or notice slow or intermittent connectivity. Our team is working with our network partner to restore services as quickly as possible. There is no estimated restoration time yet. We’ll share further updates as soon as we have them. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-25T06:02:57.000Z",
 			"content": "Restoration work is now complete and services in Walla Walla, NSW have been restored as of 4:02pm AEST. If your service has not automatically reconnected, we recommend restarting your Wi-Fi router and nbn Connection Box. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
