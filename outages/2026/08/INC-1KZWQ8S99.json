@@ -48,7 +48,9 @@
 		{
 			"update_time": "2026-07-18T08:08:03.000Z",
 			"content": "We’re aware of an earlier outage affecting Fixed Wireless services around Sawyers Gully, NSW. Service has been restored as of 6:08 pm AEST on 18 July 2026. If your connection has not come back online, please restart your modem/router and connection box. We’ll continue to monitor and we’re here to help if you need assistance.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
