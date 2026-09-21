@@ -48,7 +48,9 @@
 		{
 			"update_time": "2026-08-04T20:00:00.000Z",
 			"content": "We completed planned maintenance affecting NBN services delivered via the Footscray (3FSR) and St Kilda (3STK) Points of Interconnect between 12:00 AM and 6:00 AM AEST on 5 August 2026. Some customers may have experienced brief interruptions during this window. The maintenance is now complete and services should be operating normally. If you still have trouble connecting, please restart your modem/router and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
