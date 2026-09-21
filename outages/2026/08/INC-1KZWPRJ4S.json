@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-07T16:30:29.000Z",
 			"content": "Resolved: Some customers in Lavington, NSW experienced a service interruption. Our network partner replaced faulty hardware and services were restored at 2:30 AM AEST on 8 July 2026. If your connection is still not working, please restart your modem/router and contact our support team. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
