@@ -89,7 +89,9 @@
 		{
 			"update_time": "2026-08-13T04:24:50.082Z",
 			"content": "Completed: Planned network upgrade in Cann River, VIC.\n\nAn upstream provider has finished scheduled works to improve network infrastructure in your area. The maintenance window ran from 12:00 AM to 6:00 AM AEST on 21 July 2026, and some services may have experienced a brief interruption of up to 60 minutes.\n\nAll services are now expected to be online. If your connection is still affected, please restart your modem/router. If issues continue, contact our support team and we’ll help get you back online.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
