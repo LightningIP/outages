@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "in_progress",
-	"current_summary": "Planned maintenance is now underway in Glenroy, NSW. Internet services in the area may be interrupted for up to 3 hours while hardware is replaced. The maintenance is scheduled to finish by 5:00 PM AEST. We will provide updates if there are any changes to the schedule.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance in Glenroy, NSW has been completed. Internet services in the area should now be operating as normal. Thank you for your patience during this essential work.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -21,10 +21,10 @@
 		"detected_at": null,
 		"scheduled_start": "2026-09-20T23:00:00.000Z",
 		"scheduled_end": "2026-09-21T07:00:00.000Z",
-		"estimated_restoration_at": "2026-09-21T07:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"estimated_restoration_at": null,
+		"actual_restoration_at": "2026-09-21T01:55:39.426Z",
+		"resolved_at": "2026-09-21T01:55:39.426Z",
+		"closed_at": "2026-09-21T01:55:39.426Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -43,6 +43,11 @@
 		{
 			"update_time": "2026-09-21T00:21:32.446Z",
 			"content": "Planned maintenance has commenced in Glenroy, NSW. You may experience interruptions to your internet service while the work is in progress. The maintenance is expected to be completed by 5:00 PM AEST. We will keep you informed of any significant changes.",
+			"material_change": true
+		},
+		{
+			"update_time": "2026-09-21T01:55:39.426Z",
+			"content": "Planned maintenance in Glenroy, NSW has now been completed. Internet services in the area should be restored and operating normally. Thank you for your patience while this work was carried out.",
 			"material_change": true
 		}
 	]
