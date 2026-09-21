@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-30T02:37:39.000Z",
 			"content": "Services in Berridale, NSW have been restored following an issue on the access network. Work to replace faulty network hardware has been completed, and services were confirmed restored at 12:37 PM AEST on 30 July 2026. If your service has not come back online, please restart your modem/router and any connection box. We’re monitoring for stability. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
