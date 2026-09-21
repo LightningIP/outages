@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-13T04:24:55.397Z",
 			"content": "Our network partner completed scheduled maintenance in Coffs Harbour, NSW on 23 July 2026 between 8:00 AM and 5:00 PM AEST. Some services in the area may have briefly gone offline during this window. The maintenance is now complete and services should be operating normally. If you are still offline, please restart your modem or router. If issues persist, contact our support team. We appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
