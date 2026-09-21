@@ -47,12 +47,16 @@
 		{
 			"update_time": "2026-08-12T06:12:51.974Z",
 			"content": "We will be supporting planned network works affecting some services in River St, Maclean NSW. The window is scheduled for 12:00 AM to 6:00 AM AEST on 14 August. During this time, a single interruption of up to 5 hours is expected, and impacted customers may lose connectivity. Services should restore automatically once the work is complete. We will monitor the activity and provide updates if anything changes. If you need to stay online, consider using mobile data where available during the window. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-14T01:57:03.826Z",
 			"content": "Planned maintenance in River St, Maclean NSW has now been completed. Services in the affected area should be operating as normal. Thank you for your patience while this work was carried out.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
