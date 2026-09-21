@@ -49,12 +49,16 @@
 		{
 			"update_time": "2026-08-04T06:03:14.580Z",
 			"content": "Planned maintenance is scheduled on backhaul links serving the NBN Caboolture (4CAB) and Aspley (4APL) POIs. An upstream provider will be relocating and replacing a cable. Some NBN services in these areas may be affected for up to 8 hours within the maintenance window.\n\nWindow: Sun 16 Aug 11:00 PM to Mon 17 Aug 7:00 AM AEST.\n\nOur team will monitor throughout and work to minimise disruption. No action is required from customers; services should restore automatically once the work is complete. We appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-16T21:00:00.000Z",
 			"content": "Scheduled maintenance at Caboolture (4CAB) and Aspley (4APL) has been completed. All NBN services are expected to be restored as of Mon 17 Aug 7:00 AM AEST. Thank you for your patience while our upstream provider carried out this work.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
