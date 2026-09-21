@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-29T04:31:00.000Z",
 			"content": "Resolved: Some customers in Charleville (QLD 4470) experienced a loss of service due to a local power issue in the access network. Services were restored at 2:31 PM AEST on 29 July. If your connection hasn’t come back online, please restart your modem/router and connection box (if present). We’re monitoring the area and appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
