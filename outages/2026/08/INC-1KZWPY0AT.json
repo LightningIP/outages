@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-08T14:10:12.000Z",
 			"content": "We are aware of an access network interruption that affected some services in Albury, NSW. Our network partner has restored services. If your connection is still offline or unstable, please restart your modem or router. If issues continue, contact our support team and we will assist.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
