@@ -46,12 +46,16 @@
 		{
 			"update_time": "2026-08-08T20:37:10.446Z",
 			"content": "Planned works on the access network in Young, NSW are scheduled for 11 August 2026 between 12:00 AM and 6:00 AM AEST. During this window, some services may go offline. A single interruption of up to 3 hours is expected from 12:00 AM. We will monitor the works and provide an update once services are restored. If you need to stay online, consider using mobile data where available. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T04:00:54.392Z",
 			"content": "The scheduled maintenance works in Young, NSW have been completed. Services in the area returned to normal after the maintenance window on 11 August 2026 (12:00 AM–6:00 AM AEST). Thank you for your patience while these improvements were carried out.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
