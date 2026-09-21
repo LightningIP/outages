@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-09-06T08:07:23.000Z",
 			"content": "We are aware of an issue on the upstream access network affecting a broadband service. Customers on the affected service may be offline or experience intermittent connectivity. Our team is working with our network partner and restoration work is underway. We do not have an estimated restoration time yet, but we will share updates as soon as more information becomes available. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
