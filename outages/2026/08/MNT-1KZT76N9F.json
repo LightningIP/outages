@@ -48,7 +48,9 @@
 		{
 			"update_time": "2026-08-09T21:00:00.000Z",
 			"content": "Planned maintenance on our NBN network in Footscray and St Kilda (VIC) and Miranda (NSW) has been completed. The work ran from 12:00 AM to 7:00 AM AEST on 10 August 2026. Some services in these areas may have experienced brief interruptions during the window. Services are now operating normally. If you’re still having trouble, please restart your modem/router and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
