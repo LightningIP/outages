@@ -38,12 +38,16 @@
 		{
 			"update_time": "2026-08-21T05:33:08.983Z",
 			"content": "We are advising of planned upgrades to the access network in Campsie and Liverpool, NSW. The work is scheduled on 11 September from 12:00 AM to 6:00 AM AEST (NSW time). A single interruption of up to 60 minutes is expected between 1:00 AM and 2:00 AM.\n\nDuring the window, some services may go offline. Order processing and diagnostics for affected services may be delayed during and shortly after the change. If needed, you can use mobile data to stay connected while your service is offline.\n\nWe will monitor the work and service performance throughout the window and will provide updates if anything changes. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-09-10T15:54:35.020Z",
 			"content": "The planned network upgrades in Campsie and Liverpool (NSW) have now been completed. Service restoration was confirmed at 1:54 PM AEST on 11 September 2026. All affected services should now be operating normally.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
