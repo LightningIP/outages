@@ -89,7 +89,9 @@
 		{
 			"update_time": "2026-08-13T04:24:56.917Z",
 			"content": "Planned network works affecting some services in Cann River, VIC scheduled for Saturday 25 July between 12:00 AM and 6:00 AM local time have been cancelled. No customer impact is expected and no action is required. If you do notice any unexpected issues, please restart your modem or router and contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
