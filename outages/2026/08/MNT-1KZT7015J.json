@@ -52,27 +52,37 @@
 		{
 			"update_time": "2026-08-12T01:14:45.907Z",
 			"content": "We will be performing planned network works that may impact some NBN services in Coffs Harbour, Miranda and Grafton (POIs 2CFS, 2MIR, 2GRN). An upstream network provider will complete fibre splicing during the maintenance window from Thursday 13 August, 11:00 PM to Friday 14 August, 7:00 AM AEST. Services in the affected areas may experience interruptions during this time (up to 8 hours within the window). Our team will monitor progress and work to minimise disruption. If you have issues after the window ends, please contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T21:00:00.000Z",
 			"content": "Scheduled maintenance affecting some NBN services in Coffs Harbour, Miranda, and Grafton (POIs 2CFS, 2MIR, 2GRN) has been completed. All services are expected to be operating normally following the completion of fibre splicing works within the planned maintenance window.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T21:00:00.000Z",
 			"content": "Scheduled fibre splicing works affecting some NBN services in Coffs Harbour, Miranda, and Grafton have been completed. Maintenance finished as planned and all services are now restored.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T21:00:00.000Z",
 			"content": "The scheduled fibre splicing maintenance for some NBN services in Coffs Harbour, Miranda, and Grafton has now been completed. All services are considered restored. Thank you for your patience during this essential work.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-13T21:00:00.000Z",
 			"content": "Scheduled maintenance on NBN services in Coffs Harbour, Miranda, and Grafton (POIs 2CFS, 2MIR, 2GRN) is now complete. The works took place from Thursday, 13 August at 11:00 PM to Friday, 14 August at 7:00 AM AEST. If you experience any ongoing disruptions, please contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
