@@ -38,12 +38,16 @@
 		{
 			"update_time": "2026-08-12T05:28:16.695Z",
 			"content": "We are preparing for planned upgrade work by our network partner that will briefly interrupt some broadband services. A single outage of up to 45 minutes is expected within the maintenance window. Ordering and service changes may also take longer than usual during and shortly after the work. No action is required from you. If you have mobile data available, you may wish to use it while your service is offline. We will monitor the activity and post an update once the work is complete.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-09-02T20:10:43.201Z",
 			"content": "The planned network upgrade was completed as scheduled, and all affected services have been restored. No further interruptions are expected. If you experience any ongoing issues, please contact our support team.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
