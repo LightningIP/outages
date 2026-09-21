@@ -38,7 +38,9 @@
 		{
 			"update_time": "2026-08-28T05:31:10.474Z",
 			"content": "We will be supporting planned network upgrades affecting customers in Woolloongabba, QLD on Tuesday 13 October between 12:00 AM and 6:00 AM AEST. During this window, your internet service may briefly go offline. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST.\n\nOur team will monitor the work closely with our network partners and restore services as soon as the maintenance is complete. If available, you may wish to use mobile data as a backup while your service is offline. New connections or changes requested during or shortly after the window may take a little longer than usual to process. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
