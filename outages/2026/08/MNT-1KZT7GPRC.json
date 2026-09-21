@@ -50,7 +50,9 @@
 		{
 			"update_time": "2026-08-12T02:24:59.193Z",
 			"content": "Planned works at the Nerang NBN POI have been completed. The maintenance window ran from 11:00 PM AEST on 10 August to 6:00 AM AEST on 11 August. NBN services delivered via this POI are now operating normally. We will continue to monitor to ensure stability. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
