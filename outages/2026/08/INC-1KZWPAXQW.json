@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-03T00:14:46.000Z",
 			"content": "Resolved: Some customers in Yackandandah North, VIC were affected by an upstream access network issue. Services were restored at 10:14 AM AEST on 3 July 2026. If you’re still offline, please restart your modem/router and contact us if the issue continues. We’re monitoring and appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
