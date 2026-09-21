@@ -49,12 +49,16 @@
 		{
 			"update_time": "2026-08-12T05:28:16.688Z",
 			"content": "We are aware of urgent maintenance by one of our network providers to resolve a network issue. This work may cause a temporary loss of connectivity for some services.\n\nWhen:\n- Friday 14 August, 2:00 AM–6:00 AM AEST (maintenance window)\n- A single interruption of up to 3 hours is expected between 2:00 AM and 5:00 AM AEST\n\nWhat we’re doing:\n- We are monitoring the work and will provide updates if details change. Services should restore automatically when the work is complete.\n\nIf you need to stay online during the window, using mobile data where available may help. We appreciate your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-14T01:57:03.839Z",
 			"content": "Scheduled maintenance work has been completed as planned. Impacted services should now be restored. If you continue to experience issues, please restart your equipment.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
