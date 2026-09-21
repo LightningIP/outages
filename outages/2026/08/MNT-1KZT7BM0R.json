@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-06T17:00:00.000Z",
 			"content": "We completed planned work on the NBN Mt Eliza (3MTE) POI between 12:00 AM and 3:00 AM AEST on 7 August 2026. Some services in the area may have briefly dropped during the window while traffic was moved to new network equipment. Services are now operating normally. Thank you for your patience.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
