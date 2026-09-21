@@ -47,7 +47,9 @@
 		{
 			"update_time": "2026-08-13T04:23:46.784Z",
 			"content": "Planned maintenance affecting some services in Maclean, NSW has been cancelled by an upstream provider. No downtime is expected. The previously scheduled window was 11 July 2026 from 12:00 AM to 6:00 AM AEST. No action is required.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
