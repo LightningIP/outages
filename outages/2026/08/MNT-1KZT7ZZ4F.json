@@ -46,12 +46,16 @@
 		{
 			"update_time": "2026-08-04T05:59:37.115Z",
 			"content": "We will be undertaking planned network works with one of our network partners overnight.\n\nWindow: Tuesday 18 August, 11:00 PM to Wednesday 19 August, 7:00 AM AEST (Brisbane time).\n\nImpact: Some NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba may experience interruptions of up to 8 hours during this window. Not all services will be affected.\n\nWhat we’re doing: Our engineers will be monitoring throughout and will work to restore any affected services as quickly as possible. Services are expected to be restored by 7:00 AM AEST.\n\nWe know service interruptions can be frustrating and we appreciate your patience while this essential work is completed.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		},
 		{
 			"update_time": "2026-08-18T21:00:00.000Z",
 			"content": "Scheduled maintenance affecting NBN services in Aspley, Ipswich, Woolloongabba, Caboolture, Rockhampton, Bundaberg, Petrie and Toowoomba was completed as planned overnight. All services have now been restored.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
