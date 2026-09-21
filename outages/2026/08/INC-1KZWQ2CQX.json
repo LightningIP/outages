@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-07-09T23:20:41.000Z",
 			"content": "Some customers in Albury, NSW experienced a service interruption caused by a power issue at a network site. Services were restored at 9:20 AM AEST on 10 July 2026. If your service has not reconnected, please restart your modem/router and connection box (if you have one). If you still have trouble, please contact us and we will help.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
