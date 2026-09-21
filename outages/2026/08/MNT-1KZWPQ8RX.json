@@ -46,7 +46,9 @@
 		{
 			"update_time": "2026-08-13T04:00:54.414Z",
 			"content": "We’re aware of emergency maintenance that took place in Bayswater (VIC 3153) on 26 July 2026. Some services in the area may have briefly lost connectivity during the planned window from 3:47 PM to 6:47 PM AEST. This work is now complete and no further impact is expected. If your service is still not working, please restart your modem/router and contact our support team so we can help.",
-			"material_change": true
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
 		}
 	]
 }
