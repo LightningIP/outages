@@ -30,21 +30,6 @@
 		"record_path": "outages/2026/08/MNT-1M0RPSP6K.json"
 	},
 	{
-		"reference": "MNT-1M1G6DTB5",
-		"title": "GLENROY NSW - Remediate the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-09-20T23:00:00.000Z",
-			"end_date": "2026-09-21T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M1G6DTB5.json"
-	},
-	{
 		"reference": "INC-1M1TWJWNB",
 		"title": "nbn Incident INC000022473788 - Infrastructure Restoration",
 		"planned": false,
@@ -118,6 +103,21 @@
 			"end_date": "2026-09-20T17:53:36.092Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M1DKNNS3.json"
+	},
+	{
+		"reference": "MNT-1M1G6DTB5",
+		"title": "GLENROY NSW - Remediate the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-20T23:00:00.000Z",
+			"end_date": "2026-09-21T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M1G6DTB5.json"
 	},
 	{
 		"reference": "MNT-1M0RQNYZ2",
