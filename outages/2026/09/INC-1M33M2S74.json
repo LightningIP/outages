@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "investigating",
-	"current_summary": "An upstream network provider has reported an unplanned incident affecting services in Allans Flat, VIC. Some customers may be offline or experience degraded performance. Our team is investigating and working with our network partner to restore services. No estimated restoration time is available yet.",
+	"status": "resolved",
+	"current_summary": "Services in Allans Flat, VIC have been restored following earlier works on the upstream network. If your internet remains offline, please try restarting your modem and connection equipment.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,13 +22,13 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-22T04:57:25.000Z",
+		"resolved_at": "2026-09-22T04:57:25.000Z",
+		"closed_at": "2026-09-22T04:57:25.000Z"
 	},
 	"cause": {
-		"reason": null,
-		"detailed": null,
+		"reason": "Fault caused by approved 3rd party network provider planned works",
+		"detailed": "Services in your area were impacted by works carried out by a third-party network provider.",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-22T03:36:38.000Z",
 			"content": "We are aware of an issue affecting some internet services in Allans Flat, VIC. Customers may experience no connectivity or slow speeds. Our team is investigating and working with our network partner to restore services as quickly as possible. We do not yet have an estimated restoration time. We will provide further updates as soon as more information becomes available. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-22T04:57:25.000Z",
+			"content": "Services in Allans Flat, VIC have now been restored after earlier works on the upstream network. If your internet service has not reconnected automatically, we recommend restarting your modem and nbn equipment. Thank you for your patience while the issue was resolved.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
