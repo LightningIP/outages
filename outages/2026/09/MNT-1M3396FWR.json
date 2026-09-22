@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M3396FWR",
+	"title": "TAS, VIC - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned software update by an upstream provider affecting some services in Tasmania and Victoria. Maintenance window is 12:00 AM–6:00 AM AEDT on 13 Oct 2026 (2026-10-12 13:00–19:00 UTC). A single interruption of up to 15 minutes is expected around 1:00 AM AEDT. We will monitor during the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-04T02:36:04.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-12T13:00:00.000Z",
+		"scheduled_end": "2026-10-12T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-12T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-22T00:44:18.606Z",
+			"content": "Planned maintenance is scheduled that may affect some services in Tasmania and Victoria. The work will run between 12:00 AM and 6:00 AM AEDT on 13 October. A brief loss of connection of up to 15 minutes is expected around 1:00 AM AEDT.\n\nServices should restore automatically once the work is complete. We will monitor the maintenance and provide updates if timings change. If your service does not come back online after 6:00 AM AEDT, please restart your modem/router. Using mobile data where available can help you stay connected during the brief interruption.\n\nThank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
