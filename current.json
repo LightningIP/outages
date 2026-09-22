@@ -1,6 +1,6 @@
 [
 	{
-		"reference": "INC-1M33M1W3P",
+		"reference": "INC-1M33M2S74",
 		"title": "nbn Incident INC000022509215 - Allans_Flat, VIC",
 		"planned": false,
 		"impact": {
@@ -12,7 +12,7 @@
 			"start_date": "2026-09-22T03:36:38.000Z",
 			"end_date": null
 		},
-		"record_path": "outages/2026/09/INC-1M33M1W3P.json"
+		"record_path": "outages/2026/09/INC-1M33M2S74.json"
 	},
 	{
 		"reference": "INC-1M1TWJMTQ",
@@ -28,5 +28,20 @@
 			"end_date": null
 		},
 		"record_path": "outages/2026/09/INC-1M1TWJMTQ.json"
+	},
+	{
+		"reference": "INC-1M33M1W3P",
+		"title": "nbn Incident INC000022509215 - Allans_Flat, VIC",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-09-22T03:36:38.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/09/INC-1M33M1W3P.json"
 	}
 ]
