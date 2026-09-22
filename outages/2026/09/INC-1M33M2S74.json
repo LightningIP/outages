@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M33M2S74",
+	"title": "nbn Incident INC000022509215 - Allans_Flat, VIC",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "investigating",
+	"current_summary": "An upstream network provider has reported an unplanned incident affecting services in Allans Flat, VIC. Some customers may be offline or experience degraded performance. Our team is investigating and working with our network partner to restore services. No estimated restoration time is available yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 10,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-22T03:36:38.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-22T03:36:38.000Z",
+			"content": "We are aware of an issue affecting some internet services in Allans Flat, VIC. Customers may experience no connectivity or slow speeds. Our team is investigating and working with our network partner to restore services as quickly as possible. We do not yet have an estimated restoration time. We will provide further updates as soon as more information becomes available. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
