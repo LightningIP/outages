@@ -10,7 +10,7 @@
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "local",
-		"service_count": 10,
+		"service_count": 0,
 		"service_types": null,
 		"states": null,
 		"suburbs": null,
