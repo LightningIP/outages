@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M35R6NNQ",
+	"title": "VIC - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned maintenance by an upstream provider will update access network equipment in Victoria between 12:00 AM and 6:00 AM AEDT on 14 October 2026. A brief service interruption of up to 15 minutes is expected around 1:00 AM AEDT. Our team will monitor the work and services should restore once the window ends.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-03T01:11:45.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-13T13:00:00.000Z",
+		"scheduled_end": "2026-10-13T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-13T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-22T23:45:20.016Z",
+			"content": "An upstream provider will perform software updates on access network equipment in Victoria between 12:00 AM and 6:00 AM AEDT on 14 October 2026. During this window, some services may briefly go offline, with a single interruption of up to 15 minutes expected around 1:00 AM AEDT. We will monitor progress and services should restore once the work is complete. If needed, using mobile data can help you stay connected while your service is offline.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
