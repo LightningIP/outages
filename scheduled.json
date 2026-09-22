@@ -133,5 +133,20 @@
 			"end_date": "2026-10-05T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
+	},
+	{
+		"reference": "MNT-1M3396CGB",
+		"title": "TAS, VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T13:00:00.000Z",
+			"end_date": "2026-10-12T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M3396CGB.json"
 	}
 ]
