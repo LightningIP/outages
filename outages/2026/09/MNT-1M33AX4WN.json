@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned works by an upstream provider will occur in Wodonga VIC on Thursday 8 October 2026 between 8:00 AM and 5:00 PM AEDT. A single interruption of up to 3 hours is expected starting at 8:00 AM AEDT. Customers in the area may temporarily lose internet connectivity during this window. We will monitor progress and share updates if the schedule changes.",
+	"status": "cancelled",
+	"current_summary": "The planned maintenance for Wodonga VIC, previously scheduled for Thursday 8 October 2026 between 8:00 AM and 5:00 PM AEDT, has been cancelled. No service interruptions will occur as part of this maintenance window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -24,7 +24,7 @@
 		"estimated_restoration_at": "2026-10-08T06:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"closed_at": null
+		"closed_at": "2026-09-23T23:49:36.032Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-22T01:14:38.375Z",
 			"content": "We will be supporting planned network maintenance affecting Wodonga VIC on Thursday 8 October 2026 between 8:00 AM and 5:00 PM AEDT. An interruption of up to 3 hours is expected from 8:00 AM AEDT. During this time, some customers may lose internet connectivity. Services should restore once the work is completed, with the maintenance window ending by 5:00 PM AEDT. If available, you may wish to use mobile data during the interruption. We will continue to monitor and provide updates if anything changes. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-23T23:49:36.029Z",
+			"content": "The planned maintenance affecting Wodonga VIC, originally scheduled for Thursday 8 October 2026 between 8:00 AM and 5:00 PM AEDT, has been cancelled. There will be no service interruptions related to these works.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
