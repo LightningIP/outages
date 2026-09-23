@@ -120,21 +120,6 @@
 		"record_path": "outages/2026/09/MNT-1M2PP0FX3.json"
 	},
 	{
-		"reference": "MNT-1M33AX4WN",
-		"title": "Wodonga VIC - Remediate the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T21:00:00.000Z",
-			"end_date": "2026-10-08T06:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M33AX4WN.json"
-	},
-	{
 		"reference": "MNT-1M35R6NNQ",
 		"title": "VIC - Upgrade the Network",
 		"planned": true,
@@ -148,6 +133,21 @@
 			"end_date": "2026-10-13T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M35R6NNQ.json"
+	},
+	{
+		"reference": "MNT-1M33AX4WN",
+		"title": "Wodonga VIC - Remediate the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T21:00:00.000Z",
+			"end_date": "2026-10-08T06:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M33AX4WN.json"
 	},
 	{
 		"reference": "MNT-1M3396FWR",
