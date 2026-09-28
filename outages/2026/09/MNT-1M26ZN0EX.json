@@ -5,7 +5,7 @@
 	"planned": true,
 	"category": null,
 	"status": "scheduled",
-	"current_summary": "Network maintenance affecting some services in NSW, QLD, VIC, and other areas has been rescheduled. This work is now planned to occur during the maintenance window from 12:00 AM to 6:00 AM AEST on Wednesday 30 September 2026. During this time, a single interruption of up to 6 hours may occur for some services, and order or service processing may be delayed until work is complete. Maintenance has not yet started.",
+	"current_summary": "Network maintenance is scheduled to affect some services in NSW, QLD, VIC, and other areas. This work will now occur during the maintenance window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. During this period, a single interruption of up to 30 minutes may occur and order or service processing may be delayed until the work is complete. Maintenance has not yet started.",
 	"impact": {
 		"customer": true,
 		"operational_impact": true,
@@ -19,9 +19,9 @@
 	"lifecycle": {
 		"opened_at": "2026-09-03T04:25:48.000Z",
 		"detected_at": null,
-		"scheduled_start": "2026-09-29T14:00:00.000Z",
-		"scheduled_end": "2026-09-29T20:00:00.000Z",
-		"estimated_restoration_at": "2026-09-29T20:00:00.000Z",
+		"scheduled_start": "2026-09-28T14:00:00.000Z",
+		"scheduled_end": "2026-09-28T20:00:00.000Z",
+		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-09-17T02:00:08.072Z",
 			"content": "The planned network maintenance affecting NSW, QLD, VIC and other areas has been rescheduled by our network partner. The maintenance window is now scheduled for 12:00 AM to 6:00 AM AEST on Wednesday 30 September 2026, and some services may be offline for up to 6 hours during this time. Order and service processing may also be delayed until maintenance is complete. Maintenance work has not yet started.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-28T15:42:55.596Z",
+			"content": "The planned network maintenance affecting some services in NSW, QLD, VIC, and other areas has been rescheduled. The maintenance window is now set for 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. During this time, affected services may experience a single interruption of up to 30 minutes, and order and service processing may be delayed until maintenance is complete. Maintenance work has not yet started.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
