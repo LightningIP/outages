@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "in_progress",
-	"current_summary": "Network maintenance is now underway in NSW, QLD, VIC and other areas. Some services may be offline for up to 30 minutes during the maintenance window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. Order and service processing may also be delayed until the work is complete. We will provide another update once maintenance has concluded.",
+	"status": "resolved",
+	"current_summary": "Network maintenance affecting NSW, QLD, VIC and other areas has finished. All services are now restored following the scheduled window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. Normal service and order processing has resumed. Thank you for your patience while this work was completed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": true,
@@ -19,11 +19,11 @@
 	"lifecycle": {
 		"opened_at": "2026-09-03T04:25:48.000Z",
 		"detected_at": null,
-		"scheduled_start": "2026-09-28T14:00:00.000Z",
-		"scheduled_end": "2026-09-28T20:00:00.000Z",
+		"scheduled_start": "2026-09-29T14:00:00.000Z",
+		"scheduled_end": "2026-09-29T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-09-29T20:00:00.000Z",
+		"resolved_at": "2026-09-29T20:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -59,6 +59,13 @@
 		{
 			"update_time": "2026-09-29T14:00:03.102Z",
 			"content": "Network maintenance has now commenced in NSW, QLD, VIC and other areas. Services may be briefly offline during the scheduled window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. You may notice brief interruptions and some order or service processing delays while this work takes place.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-29T20:00:23.479Z",
+			"content": "Network maintenance in NSW, QLD, VIC and other areas has been completed as scheduled during the maintenance window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. All affected services have been restored, and normal service and order processing has resumed.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
