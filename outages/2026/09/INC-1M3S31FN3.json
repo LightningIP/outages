@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M3S31FN3",
+	"title": "Albury, NSW - Infrastructure Restoration",
+	"type": "incident",
+	"planned": false,
+	"category": null,
+	"status": "resolved",
+	"current_summary": "An upstream provider has restored services following an unplanned access network issue affecting some internet services in Albury, NSW. Service was restored at 8:51 PM AEST on 29 September 2026. If your connection has not come back online, please restart your modem/router and, if you have one, your connection box, then contact our support team.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-29T07:44:11.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-09-29T10:51:46.000Z"
+	},
+	"cause": {
+		"reason": "network cable fault",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-29T10:51:46.000Z",
+			"content": "Earlier today some customers in Albury, NSW experienced a loss of internet due to an issue in the access network. Services were restored at 8:51 PM AEST on 29 September 2026. If you are still offline, please restart your modem/router and, if you have one, your connection box. We are monitoring and here to help.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
