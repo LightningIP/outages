@@ -24,7 +24,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-09-29T20:00:00.000Z",
 		"resolved_at": "2026-09-29T20:00:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-09-30T10:00:23.862Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -66,6 +66,13 @@
 		{
 			"update_time": "2026-09-29T20:00:23.479Z",
 			"content": "Network maintenance in NSW, QLD, VIC and other areas has been completed as scheduled during the maintenance window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. All affected services have been restored, and normal service and order processing has resumed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-30T10:00:23.862Z",
+			"content": "The scheduled network maintenance affecting NSW, QLD, VIC and other areas was completed during the planned window from 12:00 AM to 6:00 AM AEST on Tuesday 29 September 2026. All affected services have been restored and normal operations have resumed. Thank you for your patience.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
