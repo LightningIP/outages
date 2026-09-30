@@ -28,5 +28,20 @@
 			"end_date": "2026-09-29T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M26ZN0EX.json"
+	},
+	{
+		"reference": "INC-1M3S31FN3",
+		"title": "Albury, NSW - Infrastructure Restoration",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T07:44:11.000Z",
+			"end_date": "2026-09-29T10:51:46.000Z"
+		},
+		"record_path": "outages/2026/09/INC-1M3S31FN3.json"
 	}
 ]
