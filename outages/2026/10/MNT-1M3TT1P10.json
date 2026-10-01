@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M3TT1P10",
+	"title": "VIC, NSW - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned works on access network equipment in parts of Victoria and New South Wales are scheduled for Monday 19 October, 12:00 AM–6:00 AM AEDT. Some customers may experience a brief loss of connection during this window, with one short interruption of up to 15 minutes currently scheduled around 1:00 AM AEDT. Our team will monitor progress and provide updates. Services are expected to be fully restored by 6:00 AM AEDT.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 63,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-08T01:44:49.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-18T13:00:00.000Z",
+		"scheduled_end": "2026-10-18T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-18T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-01T04:00:24.798Z",
+			"content": "We will be performing planned maintenance affecting some services in parts of Victoria and New South Wales. The maintenance window is Monday 19 October, 12:00 AM to 6:00 AM AEDT. A brief loss of connection (up to 15 minutes) is expected around 1:00 AM AEDT. We will monitor throughout and share updates. If you need to stay online during the brief interruption, consider using mobile data where available. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
