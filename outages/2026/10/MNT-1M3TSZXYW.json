@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M3TSZXYW",
+	"title": "NSW - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned access network maintenance will affect some Fixed Wireless services in NSW between 12:00 AM and 6:00 AM AEDT on 19 October 2026. Two brief interruptions (around 10 minutes each) are scheduled at approximately 12:30 AM and 1:30 AM AEDT. Services are expected to restore within the maintenance window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 4,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-21T01:47:30.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-18T13:00:00.000Z",
+		"scheduled_end": "2026-10-18T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-18T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-01T04:00:24.798Z",
+			"content": "We will be performing planned works with our network partner that will affect some Fixed Wireless services in NSW. The maintenance window is from 12:00 AM to 6:00 AM AEDT on 19 October 2026. During this time, services may drop briefly. Two short interruptions of up to 10 minutes are expected around 12:30 AM and 1:30 AM AEDT.\n\nNo action is required. If you need to stay online during the window, you may wish to use mobile data where available. Services should return automatically once the work is complete. We will monitor progress and update this notice if the schedule changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
