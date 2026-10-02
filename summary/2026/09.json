@@ -480,6 +480,21 @@
 		"record_path": "outages/2026/10/MNT-1M3TT1P10.json"
 	},
 	{
+		"reference": "MNT-1M3X5G4FA",
+		"title": "NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-20T13:00:00.000Z",
+			"end_date": "2026-10-20T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
+	},
+	{
 		"reference": "INC-1M1TWJMTQ",
 		"title": "nbn Incident INC000022473788 - ",
 		"planned": false,
