@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M3XK79H7",
+	"title": "Mayfield NSW - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned upgrades by our network partner will occur in Mayfield, NSW between 12:00 AM and 6:00 AM AEDT on Tuesday 20 October. Customers in this area may briefly lose internet connectivity during the window. A single interruption of up to 60 minutes is currently scheduled to start around 12:30 AM AEDT. Our team will be monitoring throughout and services should restore automatically once work is complete. Processing of new orders or service changes may be delayed during and shortly after the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": true,
+		"impact_scope": "local",
+		"service_count": 2,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-15T02:09:04.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-19T13:00:00.000Z",
+		"scheduled_end": "2026-10-19T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-19T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-02T06:00:26.115Z",
+			"content": "We will be supporting planned upgrades by our network partner in Mayfield, NSW between 12:00 AM and 6:00 AM AEDT on Tuesday 20 October. During this window, some customers in the area may experience a brief loss of internet service. A single interruption of up to 60 minutes is currently scheduled to begin around 12:30 AM AEDT. We will monitor progress and aim to minimise disruption. Services should come back online automatically once the work is finished. Please note that new orders and service changes may process more slowly during and shortly after the window. If your connection does not return after 6:00 AM AEDT, try restarting your modem/router. If issues persist, contact our support team.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
