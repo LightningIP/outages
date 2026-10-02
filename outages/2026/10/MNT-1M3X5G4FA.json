@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M3X5G4FA",
+	"title": "NSW - Upgrade the Network",
+	"type": "maintenance",
+	"planned": true,
+	"category": null,
+	"status": "scheduled",
+	"current_summary": "Planned maintenance by an upstream provider in NSW from 12:00 AM to 6:00 AM AEDT on 21 Oct 2026. Software updates will be applied to access network equipment. A brief (~15 minute) service interruption is expected around 1:00 AM AEDT within the window. Impact is limited to specific identified services. We will monitor throughout the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-10T04:17:30.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-20T13:00:00.000Z",
+		"scheduled_end": "2026-10-20T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "maintenance activity",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-02T02:00:25.020Z",
+			"content": "An upstream provider will carry out planned maintenance on access network equipment in New South Wales between 12:00 AM and 6:00 AM AEDT on 21 October 2026. During this window, some services may briefly lose connection. A single interruption of about 15 minutes is currently scheduled around 1:00 AM AEDT.\n\nWe will monitor progress and update this notice if timings change. If you need to stay connected, please consider using mobile data during the brief interruption. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
