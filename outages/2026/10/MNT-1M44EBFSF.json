@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M44EBFSF",
+	"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance will affect NBN services delivered via the Hawthorn POI (VIC) between Thursday 8 October 2026, 12:00am and 3:00am AEDT. Some services may experience interruptions during this window, for up to three hours in total.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-21T01:28:25.696Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-07T13:00:00.000Z",
+		"scheduled_end": "2026-10-07T16:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "NNI rehoming at the NBN Hawthorn POI",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-04T21:50:37.520Z",
+			"content": "We will be performing planned work to rehome the NBN network handoff (NNI) at the Hawthorn POI (VIC). This work is scheduled for Thursday 8 October 2026, between 12:00am and 3:00am AEDT. Services delivered via this POI may experience interruptions during the window, with up to three hours of disruption possible. No action is required from customers. We will work to keep any impact as brief as possible.",
+			"material_change": false,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
