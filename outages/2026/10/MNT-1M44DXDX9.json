@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M44DXDX9",
+	"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "An upstream network provider will perform subsea cable maintenance on the Perth–Singapore route from Fri 2 Oct 08:00 to Fri 9 Oct 07:00 (UTC+8). During this window, traffic will be rerouted via alternate paths where available. Customers may notice higher latency and slower international connectivity to Asia, and short interruptions are possible at times. We do not anticipate a total loss of Internet service for most customers. No action is required.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "international",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-07-09T04:23:09.655Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-02T00:00:00.000Z",
+		"scheduled_end": "2026-10-08T23:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "subsea cable maintenance",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-04T21:42:56.330Z",
+			"content": "Scheduled maintenance: An upstream provider is repairing a subsea cable on the Perth–Singapore route. Window: Fri 2 Oct 08:00 to Fri 9 Oct 07:00 (UTC+8). We will reroute traffic via alternate paths where available. Some customers may experience higher latency or slower international performance during busy periods, and brief interruptions are possible. No action is required.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
