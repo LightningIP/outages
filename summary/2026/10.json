@@ -30,6 +30,51 @@
 		"record_path": "outages/2026/10/MNT-1M3TT3Y5E.json"
 	},
 	{
+		"reference": "MNT-1M44E13HV",
+		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T13:00:00.000Z",
+			"end_date": "2026-10-06T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E13HV.json"
+	},
+	{
+		"reference": "MNT-1M44E6YZR",
+		"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T13:00:00.000Z",
+			"end_date": "2026-10-12T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E6YZR.json"
+	},
+	{
+		"reference": "MNT-1M44ED3ND",
+		"title": "NBN maintenance – Kew POI (3KEW), VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-05T16:00:00.000Z",
+			"end_date": "2026-10-05T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
+	},
+	{
 		"reference": "MNT-1M3XK79H7",
 		"title": "Mayfield NSW - Upgrade the Network",
 		"planned": true,
@@ -45,19 +90,34 @@
 		"record_path": "outages/2026/10/MNT-1M3XK79H7.json"
 	},
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
+			"impact_scope": "international",
+			"service_count": 0
 		},
 		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
+			"start_date": "2026-10-02T00:00:00.000Z",
+			"end_date": "2026-10-08T23:00:00.000Z"
 		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
+		"reference": "MNT-1M44E2CY9",
+		"title": "Scheduled maintenance: NBN Karringal/Frankston (VIC)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-13T13:00:00.000Z",
+			"end_date": "2026-10-13T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E2CY9.json"
 	},
 	{
 		"reference": "MNT-1M2F030DV",
@@ -120,6 +180,21 @@
 		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
 	},
 	{
+		"reference": "MNT-1M27HKWP8",
+		"title": " Kurri Kurri NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+	},
+	{
 		"reference": "MNT-1M2PNX52D",
 		"title": "QLD - Upgrade the Network",
 		"planned": true,
@@ -133,6 +208,51 @@
 			"end_date": "2026-10-07T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PNX52D.json"
+	},
+	{
+		"reference": "MNT-1M44DYMES",
+		"title": "Planned NBN maintenance – VIC (multiple POIs)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-08T12:00:00.000Z",
+			"end_date": "2026-10-08T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DYMES.json"
+	},
+	{
+		"reference": "MNT-1M44E3P3M",
+		"title": "Scheduled maintenance – NBN services in Penrith and Glebe (NSW)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-20T13:00:00.000Z",
+			"end_date": "2026-10-20T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
+	},
+	{
+		"reference": "MNT-1M44E9XQ7",
+		"title": "NBN Reservoir (3RES) POI (VIC) – scheduled maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-08T13:00:00.000Z",
+			"end_date": "2026-10-08T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
 	},
 	{
 		"reference": "MNT-1M2PP0FX3",
@@ -253,6 +373,51 @@
 			"end_date": "2026-10-20T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
+	},
+	{
+		"reference": "MNT-1M44DZVJ4",
+		"title": "NBN Lonsdale POI (SA) – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T12:30:00.000Z",
+			"end_date": "2026-10-06T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DZVJ4.json"
+	},
+	{
+		"reference": "MNT-1M44E5707",
+		"title": "NBN services in Mosman (NSW) – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-14T12:00:00.000Z",
+			"end_date": "2026-10-14T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E5707.json"
+	},
+	{
+		"reference": "MNT-1M44EBFSF",
+		"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
 		"reference": "MNT-1M3396CGB",
