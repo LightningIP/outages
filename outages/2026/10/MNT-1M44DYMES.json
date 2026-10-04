@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M44DYMES",
+	"title": "Planned NBN maintenance – VIC (multiple POIs)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance will occur on Thursday 8 October from 11:00 pm to Friday 9 October 7:00 am AEDT affecting NBN services in parts of VIC. Some services may experience interruptions of up to 7 hours within the window while a permanent cable repair is completed.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "state",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-23T21:51:37.201Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-08T12:00:00.000Z",
+		"scheduled_end": "2026-10-08T20:00:00.000Z",
+		"estimated_restoration_at": "2026-10-08T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Permanent cable repair",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-04T21:43:35.873Z",
+			"content": "We will be performing network maintenance to support a permanent cable repair that affects NBN services across multiple VIC POIs. The maintenance window is from Thursday 8 October 11:00 pm to Friday 9 October 7:00 am AEDT. During this time, some NBN services may be interrupted for up to 7 hours within the window.\n\nAffected POIs (VIC): Footscray (3FSR), South Morang (3SMR), North Balwyn (3NBA), Geelong (3GEE), Ringwood (3RWO), Dandenong (3DAD), Bendigo (3BEN), Karingal (3KAL), Shepparton (3SHP), Kings Park (3KGP), St Kilda (3STK), Cheltenham (3CTA), Wheelers Hill (3WHL), Nunawading Depot (3MEA), Lilydale (3LIL), Horsham (3HRS), Caulfield (3CAU), Werribee (3WER), Tullamarine (3TMN).\n\nNo action is required from customers. If your service does not reconnect after the window, please power-cycle your modem/router and contact us if issues persist. We will provide an update when the work is complete.",
+			"material_change": false,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
