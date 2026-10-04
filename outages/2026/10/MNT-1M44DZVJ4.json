@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M44DZVJ4",
+	"title": "NBN Lonsdale POI (SA) – planned maintenance",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance at the NBN Lonsdale POI (SA) may interrupt some NBN services for up to 7 hours during the window. Scheduled for 11:00 pm Tue 6 Oct to 6:00 am Wed 7 Oct 2026 (ACDT).",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-15T04:52:11.404Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-06T12:30:00.000Z",
+		"scheduled_end": "2026-10-06T19:30:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Cable cutover and relocation works",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-04T21:44:15.959Z",
+			"content": "Scheduled maintenance: A network provider will relocate and cut over cabling at the NBN Lonsdale POI (SA). Some NBN services served by this POI may experience interruptions for up to 7 hours during the window. Timing: 11:00 pm Tue 6 Oct to 6:00 am Wed 7 Oct 2026 (ACDT). We will provide updates if the schedule changes.",
+			"material_change": false,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
