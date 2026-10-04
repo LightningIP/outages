@@ -45,19 +45,19 @@
 		"record_path": "outages/2026/08/MNT-1KZT7KSVN.json"
 	},
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
+			"impact_scope": "international",
+			"service_count": 0
 		},
 		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
+			"start_date": "2026-10-02T00:00:00.000Z",
+			"end_date": "2026-10-08T23:00:00.000Z"
 		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "MNT-1KZWP70BN",
@@ -118,6 +118,21 @@
 			"end_date": "2026-08-12T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
+	},
+	{
+		"reference": "MNT-1M27HKWP8",
+		"title": " Kurri Kurri NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
 	},
 	{
 		"reference": "INC-1KZWQAPMH",
