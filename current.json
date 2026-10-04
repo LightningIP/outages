@@ -1,5 +1,50 @@
 [
 	{
+		"reference": "MNT-1M44ED3ND",
+		"title": "NBN maintenance – Kew POI (3KEW), VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-05T16:00:00.000Z",
+			"end_date": "2026-10-05T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
+	},
+	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "international",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-02T00:00:00.000Z",
+			"end_date": "2026-10-08T23:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
+		"reference": "INC-1M44E8FAS",
+		"title": "International backhaul degradation: Perth–Singapore cable fault",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "international",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-08-08T08:05:44.211Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
+	},
+	{
 		"reference": "MNT-1M2S7RRXM",
 		"title": "WODONGA VIC - Upgrade the Network",
 		"planned": true,
@@ -28,6 +73,21 @@
 			"end_date": "2026-10-05T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
+	},
+	{
+		"reference": "MNT-1M44DZVJ4",
+		"title": "NBN Lonsdale POI (SA) – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T12:30:00.000Z",
+			"end_date": "2026-10-06T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DZVJ4.json"
 	},
 	{
 		"reference": "INC-1M1TWJMTQ",
