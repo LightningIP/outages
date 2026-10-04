@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M44E6YZR",
+	"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Scheduled maintenance will occur at the NBN South Morang (3SMR) POI on Tuesday 13 October 2026 from 12:00am to 7:00am AEDT. Some NBN services in the South Morang area may experience interruptions during this window. We will monitor the work and provide updates if anything changes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-28T05:13:11.621Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-12T13:00:00.000Z",
+		"scheduled_end": "2026-10-12T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Network provider backhaul maintenance at the South Morang (3SMR) POI",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-04T21:48:08.971Z",
+			"content": "A network provider will perform maintenance on backhaul links at the NBN South Morang (3SMR) POI between 12:00am and 7:00am AEDT on Tuesday 13 October 2026. During this window, some NBN services served by this POI may be interrupted. No action is required from customers. We’ll monitor the activity and update if the scope or timing changes.",
+			"material_change": false,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
