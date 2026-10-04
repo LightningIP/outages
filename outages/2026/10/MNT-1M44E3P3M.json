@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M44E3P3M",
+	"title": "Scheduled maintenance – NBN services in Penrith and Glebe (NSW)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Scheduled maintenance may interrupt some NBN services in the Penrith and Glebe areas (NSW) between 12:00 am and 7:00 am AEDT on Wed 21 Oct 2026. A network provider will be migrating services during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-01T00:52:47.761Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-20T13:00:00.000Z",
+		"scheduled_end": "2026-10-20T20:00:00.000Z",
+		"estimated_restoration_at": "2026-10-20T20:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network provider migration of services",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-04T21:46:21.534Z",
+			"content": "We will be conducting scheduled network work with a provider that may affect NBN services in the Penrith and Glebe areas (NSW). The maintenance window is Wed 21 Oct 2026 from 12:00 am to 7:00 am AEDT. During this time, some services may experience brief interruptions.\n\nWe will monitor the work and provide updates if anything changes. If your service remains offline after 7:00 am AEDT, please power-cycle your modem/router and contact us.",
+			"material_change": false,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
