@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M44E8FAS",
+	"title": "International backhaul degradation: Perth–Singapore cable fault",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "identified",
+	"current_summary": "An international submarine cable on the Perth–Singapore route is down due to a cable break. Traffic is being rerouted over alternate paths, so services remain available, but some customers may notice higher latency and slower performance on international traffic to Asia. Repair works are currently expected between 16 and 26 October 2026 (local time, UTC+8). These timelines may change due to permits, logistics and weather. We will provide further updates as they become available.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "international",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-08-08T08:05:44.211Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Submarine cable break on the Perth–Singapore route",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-08-08T08:05:44.211Z",
+			"content": "We are aware of an issue affecting international connectivity on the Perth–Singapore route. Our network provider has reported a fault on a submarine cable; the initial shunt fault has since deteriorated into a full cable break. Services are routing via alternate paths and remain online, however some customers may experience higher latency and reduced speeds on traffic to Asia.\n\nRepair activity is currently expected to occur between 16 and 26 October 2026 (local time, UTC+8). These dates are subject to change based on permits, logistics and weather. We are monitoring closely and will update you as timelines are confirmed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
