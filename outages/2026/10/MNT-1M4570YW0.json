@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4570YW0",
+	"title": "Scheduled maintenance – national broadband access",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "National maintenance window on 22 October 2026 from 12:00 am to 6:00 am AEDT. A 15-minute interruption is expected around 1:00 am AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "national",
+		"service_count": 3,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-13T23:43:24.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-21T13:00:00.000Z",
+		"scheduled_end": "2026-10-21T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned software update on access network equipment.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-05T05:01:46.704Z",
+			"content": "National maintenance window on 22 October 2026 from 12:00 am to 6:00 am AEDT. A 15-minute interruption is expected around 1:00 am AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
