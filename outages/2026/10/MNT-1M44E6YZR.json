@@ -38,7 +38,7 @@
 		{
 			"update_time": "2026-10-04T21:48:08.971Z",
 			"content": "A network provider will perform maintenance on backhaul links at the NBN South Morang (3SMR) POI between 12:00am and 7:00am AEDT on Tuesday 13 October 2026. During this window, some NBN services served by this POI may be interrupted. No action is required from customers. We’ll monitor the activity and update if the scope or timing changes.",
-			"material_change": false,
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
