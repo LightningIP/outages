@@ -4,7 +4,7 @@
 	"type": "incident",
 	"planned": false,
 	"category": null,
-	"status": "work_underway",
+	"status": "resolved",
 	"current_summary": "An upstream access network incident is affecting a specific broadband service. Impacted customers may experience loss of internet connectivity. Our team is engaged with the network provider and work is underway to restore service. No restoration time has been provided yet.",
 	"impact": {
 		"customer": true,
@@ -22,9 +22,9 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-09-06T08:41:56.000Z",
+		"resolved_at": "2026-09-06T08:41:56.000Z",
+		"closed_at": "2026-09-06T08:41:56.000Z"
 	},
 	"cause": {
 		"reason": null,
