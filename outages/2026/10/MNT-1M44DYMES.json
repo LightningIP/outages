@@ -38,7 +38,7 @@
 		{
 			"update_time": "2026-10-04T21:43:35.873Z",
 			"content": "We will be performing network maintenance to support a permanent cable repair that affects NBN services across multiple VIC POIs. The maintenance window is from Thursday 8 October 11:00 pm to Friday 9 October 7:00 am AEDT. During this time, some NBN services may be interrupted for up to 7 hours within the window.\n\nAffected POIs (VIC): Footscray (3FSR), South Morang (3SMR), North Balwyn (3NBA), Geelong (3GEE), Ringwood (3RWO), Dandenong (3DAD), Bendigo (3BEN), Karingal (3KAL), Shepparton (3SHP), Kings Park (3KGP), St Kilda (3STK), Cheltenham (3CTA), Wheelers Hill (3WHL), Nunawading Depot (3MEA), Lilydale (3LIL), Horsham (3HRS), Caulfield (3CAU), Werribee (3WER), Tullamarine (3TMN).\n\nNo action is required from customers. If your service does not reconnect after the window, please power-cycle your modem/router and contact us if issues persist. We will provide an update when the work is complete.",
-			"material_change": false,
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
