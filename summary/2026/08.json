@@ -225,21 +225,6 @@
 		"record_path": "outages/2026/08/MNT-1M1BAE28R.json"
 	},
 	{
-		"reference": "MNT-1M44DXDX9",
-		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "international",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-02T00:00:00.000Z",
-			"end_date": "2026-10-08T23:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
-	},
-	{
 		"reference": "INC-1M44E8FAS",
 		"title": "International backhaul degradation: Perth–Singapore cable fault",
 		"planned": false,
@@ -418,6 +403,21 @@
 			"end_date": "2026-10-07T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+	},
+	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-02T00:00:00.000Z",
+			"end_date": "2026-10-08T23:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "MNT-1KZT9HBW4",
