@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance at the NBN Kew POI (3KEW), VIC is now in progress. Services delivered via this POI may be interrupted until 6:00am AEDT.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance at the NBN Kew POI (3KEW), VIC is complete. Services are operating normally.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-10-05T16:00:00.000Z",
 		"scheduled_end": "2026-10-05T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-05T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-05T19:00:00.000Z",
+		"resolved_at": "2026-10-05T19:00:00.000Z",
+		"closed_at": "2026-10-05T19:00:00.000Z"
 	},
 	"cause": {
 		"reason": "NNI rehoming at the NBN Kew POI (3KEW)",
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-05T16:00:02.737Z",
 			"content": "The maintenance window has commenced at 3:00am AEDT. Work is in progress and services delivered via the Kew POI (3KEW) may experience interruptions until approximately 6:00am AEDT.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-05T19:00:00.000Z",
+			"content": "The maintenance at the Kew POI (3KEW) was completed at 6:00am AEDT on 6 October 2026. No further impact is expected.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
