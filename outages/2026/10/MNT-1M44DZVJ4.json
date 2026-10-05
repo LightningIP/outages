@@ -38,7 +38,7 @@
 		{
 			"update_time": "2026-10-04T21:44:15.959Z",
 			"content": "Scheduled maintenance: A network provider will relocate and cut over cabling at the NBN Lonsdale POI (SA). Some NBN services served by this POI may experience interruptions for up to 7 hours during the window. Timing: 11:00 pm Tue 6 Oct to 6:00 am Wed 7 Oct 2026 (ACDT). We will provide updates if the schedule changes.",
-			"material_change": false,
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
