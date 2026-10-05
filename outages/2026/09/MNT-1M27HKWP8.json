@@ -5,7 +5,7 @@
 	"planned": true,
 	"category": null,
 	"status": "scheduled",
-	"current_summary": "Scheduled maintenance on the local access network in Kurri Kurri, NSW is planned for Thursday 8 October 2026 between 12:00 AM and 6:00 AM AEDT. Broadband services in the area may go offline during this window. A single interruption of up to 4 hours is expected between 12:30 AM and 4:30 AM AEDT. Services are expected to be restored by 6:00 AM AEDT.",
+	"current_summary": "Kurri Kurri, NSW. Maintenance window Thu 8 Oct 2026, 12:00 am–6:00 am AEDT; a single interruption of up to 4 hours is expected between 12:30 am and 4:30 am AEDT.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn is completing scheduled works on the nbn® network in your area. This will cause your nbn® service to lose connection. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
