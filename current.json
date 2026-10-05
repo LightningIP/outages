@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M44E13HV",
+		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T13:00:00.000Z",
+			"end_date": "2026-10-06T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E13HV.json"
+	},
+	{
 		"reference": "MNT-1M44ED3ND",
 		"title": "NBN maintenance – Kew POI (3KEW), VIC",
 		"planned": true,
@@ -13,21 +28,6 @@
 			"end_date": "2026-10-05T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
-	},
-	{
-		"reference": "MNT-1M44DXDX9",
-		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "international",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-02T00:00:00.000Z",
-			"end_date": "2026-10-08T23:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "INC-1M44E8FAS",
@@ -45,6 +45,21 @@
 		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
 	},
 	{
+		"reference": "MNT-1M2PNRK0X",
+		"title": "NSW\nVIC\nSA\nQLD - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T14:00:00.000Z",
+			"end_date": "2026-10-06T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M2PNRK0X.json"
+	},
+	{
 		"reference": "MNT-1M2S7RRXM",
 		"title": "WODONGA VIC - Upgrade the Network",
 		"planned": true,
@@ -58,6 +73,21 @@
 			"end_date": "2026-10-05T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
+	},
+	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-02T00:00:00.000Z",
+			"end_date": "2026-10-08T23:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "MNT-1M2PR4ATB",
