@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M2S7RRXM",
+		"title": "WODONGA VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 11
+		},
+		"lifecycle": {
+			"start_date": "2026-10-05T13:00:00.000Z",
+			"end_date": "2026-10-05T17:00:30.676Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
+	},
+	{
 		"reference": "MNT-1M26ZN0EX",
 		"title": "NSW, QLD, VIC and more - Upgrade the Network",
 		"planned": true,
