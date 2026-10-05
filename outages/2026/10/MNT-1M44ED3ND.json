@@ -38,7 +38,7 @@
 		{
 			"update_time": "2026-10-04T21:51:30.656Z",
 			"content": "We will perform network maintenance at the NBN Kew POI (3KEW) between 3:00am and 6:00am AEDT on 6 October 2026. Services delivered via this POI may experience interruptions during the window (up to 3 hours total). This work involves rehoming network links at the POI. No action is required from customers. We will monitor the change and post an update once the maintenance is complete.",
-			"material_change": false,
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
