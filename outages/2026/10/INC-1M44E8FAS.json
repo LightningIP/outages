@@ -5,12 +5,12 @@
 	"planned": false,
 	"category": "internet",
 	"status": "identified",
-	"current_summary": "An international submarine cable on the Perth–Singapore route is down due to a cable break. Traffic is being rerouted over alternate paths, so services remain available, but some customers may notice higher latency and slower performance on international traffic to Asia. Repair works are currently expected between 16 and 26 October 2026 (local time, UTC+8). These timelines may change due to permits, logistics and weather. We will provide further updates as they become available.",
+	"current_summary": "An international submarine cable on the Perth–Singapore route remains down due to a cable break. All Lightning IP internet services are online but may experience higher latency and slower performance for international traffic (especially to Asia) while traffic is rerouted. Repair works are currently expected between 16 and 26 October 2026 (local time, UTC+8) and remain subject to permits, logistics and weather.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
-		"impact_scope": "international",
-		"service_count": 0,
+		"impact_scope": "national",
+		"service_count": 886,
 		"service_types": null,
 		"states": null,
 		"suburbs": null,
@@ -36,8 +36,71 @@
 	},
 	"updates": [
 		{
-			"update_time": "2026-08-08T08:05:44.211Z",
+			"update_time": "2026-09-21T05:49:06.000Z",
 			"content": "We are aware of an issue affecting international connectivity on the Perth–Singapore route. Our network provider has reported a fault on a submarine cable; the initial shunt fault has since deteriorated into a full cable break. Services are routing via alternate paths and remain online, however some customers may experience higher latency and reduced speeds on traffic to Asia.\n\nRepair activity is currently expected to occur between 16 and 26 October 2026 (local time, UTC+8). These dates are subject to change based on permits, logistics and weather. We are monitoring closely and will update you as timelines are confirmed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-08-08T16:30:22.000Z",
+			"content": "The root cause has been confirmed as a shunt fault within the cable provider's infrastructure. They are working with their equipment vendor to determine the full scope of the issue. We remain in direct contact with them and will share more as soon as we have it.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-08-25T05:01:56.000Z",
+			"content": "The repair ship is scheduled to repair the fault off Perth between 2 and 11 September 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-09T04:02:28.000Z",
+			"content": "Additional faults were found during repairs. Restoration is now estimated for 16 September 2026, with contingency through to the end of 20 September.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-08-15T14:16:00.000Z",
+			"content": "The fault has now been located about 47.6 km from the Perth cable landing station. The repair vessel is expected to arrive around 30 August 2026, with restoration estimated for 4 September 2026. Timelines remain subject to clearances, logistics and weather.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-08-08T08:05:44.000Z",
+			"content": "We are investigating an outage on the Perth–Singapore subsea cable. Internet traffic is being rerouted over alternate paths, so services remain online, though some customers may notice slower performance on international traffic to Asia.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-08-08T11:26:22.000Z",
+			"content": "The cable operator has confirmed the Perth–Singapore cable is down because of a shunt fault (an electrical fault on the cable's power system). Further diagnostics are underway. Traffic continues to route over alternate paths.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-09-16T08:45:29.000Z",
+			"content": "Repair works off Perth were completed on 15 September and the cable was powered back up, but traffic did not restore. Further testing found that a fault first identified as a shunt fault has deteriorated into a full cable cut. The restoration schedule is under review, and traffic continues to route over alternate paths.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-08-10T07:22:38.000Z",
+			"content": "Testing places the fault about 65 km from the Perth cable landing station, pending confirmation. A marine repair vessel is being arranged, with arrival expected around 26 August 2026. Timelines remain subject to clearances, logistics and weather.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-05T01:45:56.431Z",
+			"content": "Scope clarified: this international cable fault is causing nationally observed degradation on international traffic across all internet services. Repair works remain scheduled for 16–26 October 2026 (local time, UTC+8).",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
