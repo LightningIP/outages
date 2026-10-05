@@ -3,9 +3,9 @@
 	"title": "WODONGA VIC - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "An upstream provider will perform capacity upgrade works in Wodonga VIC. Customers in the area may experience loss of internet connectivity during the maintenance window on Tuesday 6 October 2026, 12:00 AM to 6:00 AM AEDT. Services are expected to restore once the work is complete.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Wodonga VIC. Maintenance window: Tuesday 6 October 2026, 12:00 am–6:00 am AEDT.\n\nField Services will be upgrading network cabling as part of a program to improve capacity on the nbn Network. During this time, customers will not be able to access the internet.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-18T03:07:33.790Z",
 			"content": "Planned maintenance is scheduled in Wodonga VIC to upgrade network capacity. During this window, some customers may be unable to connect to the internet.\n\nWindow: Tuesday 6 October 2026, 12:00 AM to 6:00 AM AEDT.\n\nWe will monitor progress and confirm once services are restored. If available, you may wish to use mobile data during the work. We know interruptions are inconvenient and appreciate your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-05T15:00:12.056Z",
+			"content": "Maintenance has started and is underway in Wodonga VIC. The window remains Tuesday 6 October 2026, 12:00 am–6:00 am AEDT.\n\nField Services will be upgrading network cabling as part of a program to improve capacity on the nbn Network.  During this time, customers will not be able to access the internet.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
