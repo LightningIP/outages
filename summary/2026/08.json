@@ -245,8 +245,8 @@
 		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": "international",
-			"service_count": 0
+			"impact_scope": "national",
+			"service_count": 886
 		},
 		"lifecycle": {
 			"start_date": "2026-08-08T08:05:44.211Z",
