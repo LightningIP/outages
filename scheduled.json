@@ -120,6 +120,21 @@
 		"record_path": "outages/2026/10/MNT-1M44E2CY9.json"
 	},
 	{
+		"reference": "MNT-1M462G39M",
+		"title": "Planned maintenance – NBN Footscray POI (3FSR)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-19T13:00:00.000Z",
+			"end_date": "2026-10-19T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M462G39M.json"
+	},
+	{
 		"reference": "MNT-1M2F030DV",
 		"title": "Lavington NSW - Maintain the Network",
 		"planned": true,
@@ -148,21 +163,6 @@
 			"end_date": "2026-10-06T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PNRK0X.json"
-	},
-	{
-		"reference": "MNT-1M2S7RRXM",
-		"title": "WODONGA VIC - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 11
-		},
-		"lifecycle": {
-			"start_date": "2026-10-05T13:00:00.000Z",
-			"end_date": "2026-10-05T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
 	},
 	{
 		"reference": "MNT-1M2PNX52D",
