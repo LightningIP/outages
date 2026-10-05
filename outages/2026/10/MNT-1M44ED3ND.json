@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned NBN maintenance at the Kew POI (3KEW), VIC is scheduled for 6 October 2026 from 3:00am to 6:00am AEDT. Services delivered via this POI may be interrupted during the window (up to 3 hours).",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance at the NBN Kew POI (3KEW), VIC is now in progress. Services delivered via this POI may be interrupted until 6:00am AEDT.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-04T21:51:30.656Z",
 			"content": "We will perform network maintenance at the NBN Kew POI (3KEW) between 3:00am and 6:00am AEDT on 6 October 2026. Services delivered via this POI may experience interruptions during the window (up to 3 hours total). This work involves rehoming network links at the POI. No action is required from customers. We will monitor the change and post an update once the maintenance is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-05T16:00:02.737Z",
+			"content": "The maintenance window has commenced at 3:00am AEDT. Work is in progress and services delivered via the Kew POI (3KEW) may experience interruptions until approximately 6:00am AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
