@@ -38,7 +38,7 @@
 		{
 			"update_time": "2026-09-28T06:00:08.104Z",
 			"content": "Scheduled maintenance: A network provider will be performing service migration work affecting NBN services in the Mosman area. Window: 11:00 pm 14 Oct 2026 to 6:00 am 15 Oct 2026 (AEDT). Impact: NBN services delivered via the Mosman area may experience interruptions during the window (up to seven hours). We will provide an update when work begins and when it is complete.",
-			"material_change": false,
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
