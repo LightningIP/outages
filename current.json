@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/10/MNT-1M44E13HV.json"
 	},
 	{
-		"reference": "MNT-1M44ED3ND",
-		"title": "NBN maintenance – Kew POI (3KEW), VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-05T16:00:00.000Z",
-			"end_date": "2026-10-05T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
-	},
-	{
 		"reference": "INC-1M44E8FAS",
 		"title": "International backhaul degradation: Perth–Singapore cable fault",
 		"planned": false,
