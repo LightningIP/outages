@@ -4,7 +4,7 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
+	"status": "resolved",
 	"current_summary": "Queensland. Maintenance window 12:00 am–6:00 am AEST Tue 6 Oct 2026; one interruption up to 15 minutes around 1:00 am AEST.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
@@ -23,8 +23,8 @@
 		"scheduled_end": "2026-10-05T20:00:00.000Z",
 		"estimated_restoration_at": "2026-10-05T15:15:00.000Z",
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"resolved_at": "2026-10-05T21:00:27.311Z",
+		"closed_at": "2026-10-05T21:00:27.311Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -35,6 +35,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-10-05T21:00:27.311Z",
+			"content": "This maintenance has been completed as of 7:00 am AEST Tue 6 Oct 2026. No further impact is expected.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-09-17T03:55:40.765Z",
 			"content": "We are preparing for scheduled maintenance on the access network in Queensland. During the window from 12:00 AM to 6:00 AM AEST on 6 October 2026, some services may briefly drop offline. A single interruption of up to 15 minutes is expected around 1:00 AM AEST. Services should restore automatically once the work is complete. If needed, you can use mobile data as a backup during the interruption. We will monitor progress and share updates if anything changes.",
