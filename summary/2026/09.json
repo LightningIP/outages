@@ -345,21 +345,6 @@
 		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
 	},
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
-	},
-	{
 		"reference": "MNT-1M09CY9HC",
 		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
 		"planned": true,
@@ -463,6 +448,21 @@
 			"end_date": "2026-10-08T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
+	},
+	{
+		"reference": "MNT-1M27HKWP8",
+		"title": " Kurri Kurri NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
 	},
 	{
 		"reference": "MNT-1M2PP0FX3",
@@ -685,7 +685,7 @@
 		},
 		"lifecycle": {
 			"start_date": "2026-09-06T08:07:23.000Z",
-			"end_date": null
+			"end_date": "2026-09-06T08:41:56.000Z"
 		},
 		"record_path": "outages/2026/09/INC-1M1TWJMTQ.json"
 	},
@@ -715,7 +715,7 @@
 		},
 		"lifecycle": {
 			"start_date": "2026-09-22T03:36:38.000Z",
-			"end_date": null
+			"end_date": "2026-09-22T04:57:25.000Z"
 		},
 		"record_path": "outages/2026/09/INC-1M33M1W3P.json"
 	}
