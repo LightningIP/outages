@@ -3,9 +3,9 @@
 	"title": "QLD - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Scheduled maintenance on the access network in Queensland is planned. Some broadband services may briefly drop offline during the window from 12:00 AM to 6:00 AM AEST on 6 October 2026. A single interruption of up to 15 minutes is expected around 1:00 AM AEST. We will monitor the activity and services should restore automatically once the work is complete.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Queensland. Maintenance window 12:00 am–6:00 am AEST Tue 6 Oct 2026; one interruption up to 15 minutes around 1:00 am AEST.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-17T03:55:40.765Z",
 			"content": "We are preparing for scheduled maintenance on the access network in Queensland. During the window from 12:00 AM to 6:00 AM AEST on 6 October 2026, some services may briefly drop offline. A single interruption of up to 15 minutes is expected around 1:00 AM AEST. Services should restore automatically once the work is complete. If needed, you can use mobile data as a backup during the interruption. We will monitor progress and share updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-05T15:00:12.056Z",
+			"content": "This maintenance window is now underway. A single interruption of up to 15 minutes is expected around 1:00 am AEST.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
