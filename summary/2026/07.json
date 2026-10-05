@@ -120,21 +120,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
 	},
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
-	},
-	{
 		"reference": "INC-1KZWQAPMH",
 		"title": "Thurgoona, NSW 2640 - Infrastructure Restoration",
 		"planned": false,
@@ -163,6 +148,21 @@
 			"end_date": "2026-07-03T08:12:18.000Z"
 		},
 		"record_path": "outages/2026/08/INC-1KZWPEM05.json"
+	},
+	{
+		"reference": "MNT-1M27HKWP8",
+		"title": " Kurri Kurri NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
 	},
 	{
 		"reference": "MNT-1KZWPG8NF",
