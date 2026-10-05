@@ -60,21 +60,6 @@
 		"record_path": "outages/2026/10/MNT-1M44E6YZR.json"
 	},
 	{
-		"reference": "MNT-1M44ED3ND",
-		"title": "NBN maintenance – Kew POI (3KEW), VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-05T16:00:00.000Z",
-			"end_date": "2026-10-05T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
-	},
-	{
 		"reference": "MNT-1M44S8RD4",
 		"title": "Planned NBN maintenance – Merrimac and Southport (QLD)",
 		"planned": true,
@@ -88,6 +73,21 @@
 			"end_date": "2026-10-19T20:30:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44S8RD4.json"
+	},
+	{
+		"reference": "MNT-1M44ED3ND",
+		"title": "NBN maintenance – Kew POI (3KEW), VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-05T16:00:00.000Z",
+			"end_date": "2026-10-05T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
 		"reference": "MNT-1M3XK79H7",
@@ -190,7 +190,7 @@
 		},
 		"lifecycle": {
 			"start_date": "2026-10-05T13:00:00.000Z",
-			"end_date": "2026-10-05T19:00:00.000Z"
+			"end_date": "2026-10-05T17:00:30.676Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
 	},
