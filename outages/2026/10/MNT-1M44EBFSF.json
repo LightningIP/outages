@@ -38,7 +38,7 @@
 		{
 			"update_time": "2026-10-04T21:50:37.520Z",
 			"content": "We will be performing planned work to rehome the NBN network handoff (NNI) at the Hawthorn POI (VIC). This work is scheduled for Thursday 8 October 2026, between 12:00am and 3:00am AEDT. Services delivered via this POI may experience interruptions during the window, with up to three hours of disruption possible. No action is required from customers. We will work to keep any impact as brief as possible.",
-			"material_change": false,
+			"material_change": true,
 			"author": null,
 			"source": "vendor"
 		}
