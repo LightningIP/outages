@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Wodonga VIC. Maintenance window: Tuesday 6 October 2026, 12:00 am–6:00 am AEDT.\n\nField Services will be upgrading network cabling as part of a program to improve capacity on the nbn Network. During this time, customers will not be able to access the internet.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Wodonga VIC. Maintenance window: Tuesday 6 October 2026, 12:00 am–6:00 am AEDT. Work completed at 4:00 am AEDT.\n\nField Services will be upgrading network cabling as part of a program to improve capacity on the nbn Network. During this time, customers will not be able to access the internet.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-10-05T13:00:00.000Z",
 		"scheduled_end": "2026-10-05T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-05T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-05T17:00:30.676Z",
+		"resolved_at": "2026-10-05T17:00:30.676Z",
+		"closed_at": "2026-10-05T17:00:30.676Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-05T15:00:12.056Z",
 			"content": "Maintenance has started and is underway in Wodonga VIC. The window remains Tuesday 6 October 2026, 12:00 am–6:00 am AEDT.\n\nField Services will be upgrading network cabling as part of a program to improve capacity on the nbn Network.  During this time, customers will not be able to access the internet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-05T17:00:30.676Z",
+			"content": "Maintenance has been completed in Wodonga VIC. Services were restored at 4:00 am AEDT on Tuesday 6 October 2026.\n\nField Services will be upgrading network cabling as part of a program to improve capacity on the nbn Network.  During this time, customers will not be able to access the internet.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
