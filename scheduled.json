@@ -75,6 +75,21 @@
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
+		"reference": "MNT-1M44S8RD4",
+		"title": "Planned NBN maintenance – Merrimac and Southport (QLD)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-19T14:00:00.000Z",
+			"end_date": "2026-10-19T20:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44S8RD4.json"
+	},
+	{
 		"reference": "MNT-1M3XK79H7",
 		"title": "Mayfield NSW - Upgrade the Network",
 		"planned": true,
@@ -223,6 +238,21 @@
 			"end_date": "2026-10-08T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
+	},
+	{
+		"reference": "MNT-1M44SAN5J",
+		"title": "VIC: NBN maintenance (multiple POIs) – 22–23 Oct 2026",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-22T12:00:00.000Z",
+			"end_date": "2026-10-22T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44SAN5J.json"
 	},
 	{
 		"reference": "MNT-1M2PP0FX3",
