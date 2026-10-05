@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M462G39M",
+	"title": "Planned maintenance – NBN Footscray POI (3FSR)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "We have scheduled maintenance at the NBN Footscray POI (3FSR) on Tuesday 20 October 2026 between 12:00am and 3:00am AEDT. NBN services served by this POI may experience an interruption of up to 3 hours during the window while we relocate the network interconnect. We’ll work to keep any downtime as short as possible.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-05T11:57:14.006Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-19T13:00:00.000Z",
+		"scheduled_end": "2026-10-19T16:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "NBN interconnect (NNI) rehoming at the Footscray POI",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-05T11:57:14.046Z",
+			"content": "Scheduled maintenance: We will be relocating the NBN interconnect at the Footscray POI (3FSR). Services served by this POI may be disrupted for up to 3 hours during the window: Tuesday 20 October 2026, 12:00am–3:00am AEDT.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
