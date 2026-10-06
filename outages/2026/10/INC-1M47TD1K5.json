@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "Ashfield NSW 2131. Field technician expected on site by 3:30 am AEDT Wed 7 Oct.\n\nThe field technician is estimated to arrive to the impacted site by 07/10/2026 by 03:30\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"current_summary": "Ashfield NSW 2131. Estimated restoration by 12:00 am AEDT on Thu 8 Oct.\n\nThe field technician is estimated to arrive to the impacted site by 07/10/2026 by 03:30\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 08/10/2026 by 00:00. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -21,7 +21,7 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": null,
+		"estimated_restoration_at": "2026-10-07T13:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-06T13:22:59.000Z",
 			"content": "A field technician is now expected to arrive on site around 3:30 am AEDT on Wed 7 Oct. We will update once on-site assessment provides more detail.\n\nThe field technician is estimated to arrive to the impacted site by 07/10/2026 by 03:30\n\nThe field technician is estimated to arrive to the impacted site by 07/10/2026 by 03:30",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T15:26:58.900Z",
+			"content": "New: nbn has provided an estimated restoration time of around 12:00 am AEDT on Thu 8 Oct.\n\nThe field technician is estimated to arrive to the impacted site by 07/10/2026 by 03:30",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
