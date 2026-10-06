@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M47T8CAQ",
+	"title": "Service interruption resolved – Deakin, ACT",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "resolved",
+	"current_summary": "Deakin, ACT. Services were restored at 8:45 pm AEST on 2 October 2026.\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-02T10:09:58.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-10-02T13:20:16.000Z"
+	},
+	"cause": {
+		"reason": "network issue",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-02T13:20:16.000Z",
+			"content": "Deakin, ACT. Services were restored at 8:45 pm AEST on 2 October 2026.\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
