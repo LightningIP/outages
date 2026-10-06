@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M47TB25W",
+	"title": "Thurgoona, NSW – Emergency maintenance affecting internet services",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "resolved",
+	"current_summary": "Thurgoona, NSW. Sun 4 Oct 2026, 12:00 am–6:00 am Australia/Sydney time (temporary loss of connectivity during the window).\n\nnbn is responding to an unexpected issue in your area that requires urgent work on the nbn network. This work may cause a temporary outage to your nbn service. While nbn is working to resolve the issue and restore your connection, use mobile data if you have it available to help you stay connected during this time.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-03T15:02:13.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-03T14:00:00.000Z",
+		"scheduled_end": "2026-10-03T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-10-06T05:11:58.453Z"
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-06T05:11:58.453Z",
+			"content": "Thurgoona, NSW. Sun 4 Oct 2026, 12:00 am–6:00 am Australia/Sydney time (temporary loss of connectivity during the window).\n\nnbn is responding to an unexpected issue in your area that requires urgent work on the nbn network. This work may cause a temporary outage to your nbn service. While nbn is working to resolve the issue and restore your connection, use mobile data if you have it available to help you stay connected during this time.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
