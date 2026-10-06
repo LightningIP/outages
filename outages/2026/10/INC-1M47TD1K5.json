@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Ashfield NSW 2131. Estimated restoration around 12:30 pm AEDT on Wed 7 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nnbn is working hard to fix an unexpected network issue in your area causing a loss of nbn service connection. The updated estimated restoration time is approximately 07/10/2026 by 12:30. Using mobile data can help you stay connected if needed.",
+	"status": "resolved",
+	"current_summary": "Ashfield NSW 2131. Services restored around 10:20 am AEDT on Wed 7 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nResolution: nbn Network Hardware Replaced\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,12 +22,12 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": "2026-10-07T01:30:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-06T23:19:52.000Z",
+		"resolved_at": "2026-10-06T23:20:08.000Z",
+		"closed_at": "2026-10-06T23:20:08.000Z"
 	},
 	"cause": {
-		"reason": null,
+		"reason": "Network hardware replaced",
 		"detailed": null,
 		"root": null,
 		"weather_related": null,
@@ -35,6 +35,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-10-06T23:20:08.000Z",
+			"content": "Services in Ashfield (2131) have been restored as of around 10:20 am AEDT. If you’re still offline, please restart your modem/router and connection box, then contact us if you still have trouble.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-10-06T05:18:54.335Z",
 			"content": "Ashfield NSW 2131. Reported at 1:50 pm AEDT on Tue 6 Oct 2026; no restoration estimate yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
