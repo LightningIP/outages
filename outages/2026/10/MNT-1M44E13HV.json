@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned work at the NBN Thornbury POI (3TNB) is scheduled for Wednesday 7 October 2026 between 12:00am and 3:00am AEDT. NBN services delivered via this POI may experience interruptions during the window.",
+	"status": "work_underway",
+	"current_summary": "Planned work at the NBN Thornbury POI (3TNB) is underway. NBN services delivered via this POI may experience short interruptions until 3:00am AEDT.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-04T21:44:56.892Z",
 			"content": "We will be performing planned maintenance at the NBN Thornbury POI (3TNB) on Wednesday 7 October 2026 between 12:00am and 3:00am AEDT. Services delivered via this POI may be interrupted during the window (up to 3 hours).\n\nWhat this means for you:\n- Scope: NBN services connected at the Thornbury POI (3TNB), VIC.\n- Impact: Short interruptions are expected during the maintenance window.\n- No action is required. If your service does not restore after 3:00am AEDT, please power cycle your modem/router and contact our support team.\n\nWe will monitor the work and confirm once complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T13:00:02.942Z",
+			"content": "This planned maintenance has started at 12:00am AEDT and is now underway. Brief interruptions may occur until 3:00am AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
