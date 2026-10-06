@@ -30,6 +30,21 @@
 		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
 	},
 	{
+		"reference": "INC-1M480Q20J",
+		"title": "nbn access network incident – specific services",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T06:50:41.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M480Q20J.json"
+	},
+	{
 		"reference": "MNT-1M2PNRK0X",
 		"title": "NSW\nVIC\nSA\nQLD - Upgrade the Network",
 		"planned": true,
