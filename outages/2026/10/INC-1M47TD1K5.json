@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "Ashfield NSW 2131. Estimated restoration around 12:30 pm AEDT Wed 7 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nnbn is working hard to fix an unexpected network issue in your area causing a loss of nbn service connection. The updated estimated restoration time is approximately 07/10/2026 by 12:30. Using mobile data can help you stay connected if needed.",
+	"current_summary": "Ashfield NSW 2131. Estimated restoration around 12:30 pm AEDT on Wed 7 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nnbn is working hard to fix an unexpected network issue in your area causing a loss of nbn service connection. The updated estimated restoration time is approximately 07/10/2026 by 12:30. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -65,6 +65,13 @@
 		},
 		{
 			"update_time": "2026-10-06T22:01:37.723Z",
+			"content": "The restoration estimate has been brought forward to around 12:30 pm AEDT on Wed 7 Oct.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T22:02:59.185Z",
 			"content": "The restoration estimate has been brought forward to around 12:30 pm AEDT on Wed 7 Oct.",
 			"material_change": true,
 			"author": null,
