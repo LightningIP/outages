@@ -3,9 +3,9 @@
 	"title": "NSW\nVIC\nSA\nQLD - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned access network upgrades by an upstream provider are scheduled for selected Fixed Wireless areas in NSW, VIC, SA and QLD. Short interruptions to internet services are expected between 1:00 AM and 6:00 AM AEDT on Wednesday, 7 October 2026. Work involves switching to new equipment to improve performance and resilience. Services should reconnect automatically after each interruption. The maintenance window is expected to end by 6:00 AM AEDT.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Selected Fixed Wireless areas in NSW, VIC, SA and QLD. Maintenance window 1:00 AM–6:00 AM AEDT Wednesday 7 Oct 2026 with brief interruptions around 1:30–1:45 AM, 2:00–2:15 AM and 3:00–3:30 AM AEDT.\n\nOur upstream network is being switched to new equipment at Fixed Wireless sites. Your service may drop a few times during the window and should reconnect automatically after each interruption.\n\nThis deployment is part of a program to both improve Fixed Wireless performance through faster speed tiers and to install Small Wireless Routers (SWR) at Fixed Wireless sites. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues. Installing SWRs at Fixed Wireless sites will help reduce customer impact during scheduled and unscheduled network outages because of its ability to route traffic via alternate fibre/microwave paths. In addition to this, the SWR also supports the load balancing of traffic. This planned outage is to change the network over to the newly installed SWR and activate its new features.\n\nnbn®is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.  \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-17T03:15:02.412Z",
 			"content": "We will be supporting planned access network upgrades affecting selected Fixed Wireless areas across NSW, VIC, SA and QLD. During the window from 1:00 AM to 6:00 AM AEDT on Wednesday, 7 October 2026, some customers may experience brief loss of internet service. Several short interruptions (up to around 30 minutes each) may occur while the work is carried out.\n\nOur team will monitor connectivity and work with our network partners to minimise disruption. Services should restore automatically after each interruption, with all work due to finish by 6:00 AM AEDT. If your service remains offline after the window, please restart your modem/router and contact us if you still need help.\n\nThank you for your patience while this improvement work is completed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T14:28:09.953Z",
+			"content": "This maintenance is now underway. Interruption times are scheduled for around 1:30–1:45 AM, 2:00–2:15 AM and 3:00–3:30 AM AEDT, with the window ending by 6:00 AM AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
