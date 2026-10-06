@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned work at the NBN Thornbury POI (3TNB) is underway. NBN services delivered via this POI may experience short interruptions until 3:00am AEDT.",
+	"status": "resolved",
+	"current_summary": "Planned work at the NBN Thornbury POI (3TNB) was completed at 3:00am AEDT. Services should now be operating normally; if your service has not come back online, please restart your modem/router and contact support.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -23,8 +23,8 @@
 		"scheduled_end": "2026-10-06T16:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"resolved_at": "2026-10-06T16:00:00.000Z",
+		"closed_at": "2026-10-06T16:00:00.000Z"
 	},
 	"cause": {
 		"reason": "NBN POI NNI rehoming",
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-06T13:00:02.942Z",
 			"content": "This planned maintenance has started at 12:00am AEDT and is now underway. Brief interruptions may occur until 3:00am AEDT.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T16:00:00.000Z",
+			"content": "The planned maintenance at the Thornbury POI (3TNB) finished at 3:00am AEDT on Wed 7 Oct 2026. No further interruptions are expected.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
