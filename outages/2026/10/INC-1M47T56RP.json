@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M47T56RP",
+	"title": "Caulfield and Malvern East, VIC – Internet outage resolved",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "resolved",
+	"current_summary": "Caulfield, Malvern East and surrounding areas in VIC. Interruption occurred from 8:43 pm to 9:22 pm AEST on 29 Sep 2026.\n\nnbn advises that this is a retrospective update confirming a network incident that impacted 6574 HFC customers in Caulfield, VIC and surrounding areas, between 20:43 and 21:22 AEST on 29/09/2026. The outage was caused by a network traffic drop on an aggregation link and was restored by a switch over of a Fibre Access Switch at the Caulfield optical node. All HFC customer services have been restored.\n\nResolution: nbn reset network equipment to restore service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-29T11:54:18.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "aggregation link issue",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-09-29T12:37:26.000Z",
+			"content": "Caulfield, Malvern East and surrounding areas in VIC. Interruption occurred from 8:43 pm to 9:22 pm AEST on 29 Sep 2026.\n\nnbn advises that this is a retrospective update confirming a network incident that impacted 6574 HFC customers in Caulfield, VIC and surrounding areas, between 20:43 and 21:22 AEST on 29/09/2026. The outage was caused by a network traffic drop on an aggregation link and was restored by a switch over of a Fibre Access Switch at the Caulfield optical node. All HFC customer services have been restored.\n\nResolution: nbn reset network equipment to restore service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
