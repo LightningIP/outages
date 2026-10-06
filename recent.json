@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
+		"reference": "INC-1M47T3G0X",
+		"title": "Malvern East (VIC 3145) internet services",
+		"planned": false,
+		"impact": {
+			"customer": false,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T11:38:58.000Z",
+			"end_date": "2026-09-29T11:53:54.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47T3G0X.json"
+	},
+	{
 		"reference": "MNT-1M2S7RRXM",
 		"title": "WODONGA VIC - Upgrade the Network",
 		"planned": true,
@@ -60,6 +75,36 @@
 		"record_path": "outages/2026/09/INC-1M3S31FN3.json"
 	},
 	{
+		"reference": "INC-1M47T8CAQ",
+		"title": "Service interruption resolved – Deakin, ACT",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-02T10:09:58.000Z",
+			"end_date": "2026-10-02T13:20:16.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47T8CAQ.json"
+	},
+	{
+		"reference": "INC-1M47TAVQS",
+		"title": "Yamba, NSW 2464 – internet services restored",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-05T21:45:04.000Z",
+			"end_date": "2026-10-05T21:53:05.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47TAVQS.json"
+	},
+	{
 		"reference": "MNT-1M2PR4ATB",
 		"title": "QLD - Upgrade the Network",
 		"planned": true,
@@ -73,5 +118,35 @@
 			"end_date": "2026-10-05T21:00:27.311Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
+	},
+	{
+		"reference": "INC-1M47T56W0",
+		"title": "Caulfield and Malvern East, VIC internet outage (resolved)",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T11:54:18.000Z",
+			"end_date": "2026-09-29T12:58:42.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47T56W0.json"
+	},
+	{
+		"reference": "MNT-1M47TB25W",
+		"title": "Thurgoona, NSW – Emergency maintenance affecting internet services",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-03T14:00:00.000Z",
+			"end_date": "2026-10-03T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M47TB25W.json"
 	}
 ]
