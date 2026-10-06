@@ -30,21 +30,6 @@
 		"record_path": "outages/2026/10/MNT-1M3TT3Y5E.json"
 	},
 	{
-		"reference": "MNT-1M44E13HV",
-		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T13:00:00.000Z",
-			"end_date": "2026-10-06T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E13HV.json"
-	},
-	{
 		"reference": "MNT-1M44E6YZR",
 		"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
 		"planned": true,
@@ -88,6 +73,21 @@
 			"end_date": "2026-10-05T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
+	},
+	{
+		"reference": "MNT-1M44E13HV",
+		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T13:00:00.000Z",
+			"end_date": "2026-10-06T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E13HV.json"
 	},
 	{
 		"reference": "MNT-1M3XK79H7",
@@ -405,21 +405,6 @@
 		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
 	},
 	{
-		"reference": "MNT-1M44DZVJ4",
-		"title": "NBN Lonsdale POI (SA) – planned maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T12:30:00.000Z",
-			"end_date": "2026-10-06T19:30:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DZVJ4.json"
-	},
-	{
 		"reference": "MNT-1M44E5707",
 		"title": "NBN services in Mosman (NSW) – planned maintenance",
 		"planned": true,
@@ -523,6 +508,21 @@
 			"end_date": "2026-10-05T21:53:05.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M47TAVQS.json"
+	},
+	{
+		"reference": "MNT-1M44DZVJ4",
+		"title": "NBN Lonsdale POI (SA) – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T12:30:00.000Z",
+			"end_date": "2026-10-06T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DZVJ4.json"
 	},
 	{
 		"reference": "MNT-1M2PR4ATB",
