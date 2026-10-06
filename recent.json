@@ -90,6 +90,21 @@
 		"record_path": "outages/2026/10/INC-1M47TAVQS.json"
 	},
 	{
+		"reference": "MNT-1M44DZVJ4",
+		"title": "NBN Lonsdale POI (SA) – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T12:30:00.000Z",
+			"end_date": "2026-10-06T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DZVJ4.json"
+	},
+	{
 		"reference": "MNT-1M2PR4ATB",
 		"title": "QLD - Upgrade the Network",
 		"planned": true,
