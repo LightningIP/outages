@@ -105,21 +105,6 @@
 		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
-		"reference": "MNT-1M44DZVJ4",
-		"title": "NBN Lonsdale POI (SA) – planned maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T12:30:00.000Z",
-			"end_date": "2026-10-06T19:30:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DZVJ4.json"
-	},
-	{
 		"reference": "INC-1M47TD1K5",
 		"title": "Internet services - Ashfield NSW 2131",
 		"planned": false,
