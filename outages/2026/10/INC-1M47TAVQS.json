@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M47TAVQS",
+	"title": "Yamba, NSW 2464 – internet services restored",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "resolved",
+	"current_summary": "Yamba, NSW 2464. Brief interruption between 8:45 am and 8:53 am AEDT on 6 Oct 2026; services are now restored.\n\nResolution: nbn Network Hardware Replaced\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-05T21:45:04.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-10-05T21:53:05.000Z"
+	},
+	"cause": {
+		"reason": "network hardware fault",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-05T21:53:05.000Z",
+			"content": "Yamba, NSW 2464. Brief interruption between 8:45 am and 8:53 am AEDT on 6 Oct 2026; services are now restored.\n\nResolution: nbn Network Hardware Replaced\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
