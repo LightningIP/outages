@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "Specific nbn services only; no restoration estimate yet. Opened 5:50 pm AEDT, Tue 6 Oct 2026.",
+	"status": "resolved",
+	"current_summary": "Specific services only. Restoration confirmed at 9:09 pm AEDT, Tue 6 Oct 2026.\n\nResolution: 3rd party network provider reconfigured network to restore wireless service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-06T10:08:46.000Z",
+		"resolved_at": "2026-10-06T10:09:47.000Z",
+		"closed_at": "2026-10-06T10:09:47.000Z"
 	},
 	"cause": {
 		"reason": null,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-06T06:50:41.000Z",
 			"content": "Specific nbn services only; no restoration estimate yet. Opened 5:50 pm AEDT, Tue 6 Oct 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T10:09:47.000Z",
+			"content": "Impacted services have been restored. Restoration was confirmed at 9:09 pm AEDT, Tue 6 Oct 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
