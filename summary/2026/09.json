@@ -150,6 +150,21 @@
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
+		"reference": "INC-1M47T3G0X",
+		"title": "Malvern East (VIC 3145) internet services",
+		"planned": false,
+		"impact": {
+			"customer": false,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T11:38:58.000Z",
+			"end_date": "2026-09-29T11:53:54.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47T3G0X.json"
+	},
+	{
 		"reference": "MNT-1M0RQNYZ2",
 		"title": "NBN POI 2MYF (Mayfield) - Permanent cable repair",
 		"planned": true,
@@ -690,6 +705,21 @@
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
 	},
 	{
+		"reference": "INC-1M47T56W0",
+		"title": "Caulfield and Malvern East, VIC internet outage (resolved)",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T11:54:18.000Z",
+			"end_date": "2026-09-29T12:58:42.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47T56W0.json"
+	},
+	{
 		"reference": "INC-1M1TWJMTQ",
 		"title": "nbn Incident INC000022473788 - ",
 		"planned": false,
@@ -733,5 +763,35 @@
 			"end_date": "2026-09-22T04:57:25.000Z"
 		},
 		"record_path": "outages/2026/09/INC-1M33M1W3P.json"
+	},
+	{
+		"reference": "INC-1M47T3G0E",
+		"title": "Malvern East VIC 3145 - internet incident",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T11:38:58.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M47T3G0E.json"
+	},
+	{
+		"reference": "INC-1M47T56RP",
+		"title": "Caulfield and Malvern East, VIC – Internet outage resolved",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-09-29T11:54:18.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M47T56RP.json"
 	}
 ]
