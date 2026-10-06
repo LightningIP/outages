@@ -135,21 +135,6 @@
 		"record_path": "outages/2026/10/MNT-1M462G39M.json"
 	},
 	{
-		"reference": "INC-1M480Q20J",
-		"title": "nbn access network incident – specific services",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T06:50:41.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M480Q20J.json"
-	},
-	{
 		"reference": "MNT-1M2F030DV",
 		"title": "Lavington NSW - Maintain the Network",
 		"planned": true,
@@ -478,6 +463,21 @@
 			"end_date": "2026-10-21T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4570YW0.json"
+	},
+	{
+		"reference": "INC-1M480Q20J",
+		"title": "nbn access network incident – specific services",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T06:50:41.000Z",
+			"end_date": "2026-10-06T10:09:47.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M480Q20J.json"
 	},
 	{
 		"reference": "INC-1M47TD1K5",
