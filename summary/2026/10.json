@@ -405,6 +405,21 @@
 		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
 	},
 	{
+		"reference": "INC-1M47TD1K5",
+		"title": "Internet services - Ashfield NSW 2131",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T02:50:59.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M47TD1K5.json"
+	},
+	{
 		"reference": "MNT-1M44E5707",
 		"title": "NBN services in Mosman (NSW) – planned maintenance",
 		"planned": true,
@@ -463,21 +478,6 @@
 			"end_date": "2026-10-06T10:09:47.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M480Q20J.json"
-	},
-	{
-		"reference": "INC-1M47TD1K5",
-		"title": "Internet services - Ashfield NSW 2131",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T02:50:59.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M47TD1K5.json"
 	},
 	{
 		"reference": "INC-1M47T8CAQ",
