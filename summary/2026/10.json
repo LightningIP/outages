@@ -495,21 +495,6 @@
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
 	},
 	{
-		"reference": "INC-1M47TD1K5",
-		"title": "Internet services - Ashfield NSW 2131",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T02:50:59.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M47TD1K5.json"
-	},
-	{
 		"reference": "MNT-1M44E13HV",
 		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
 		"planned": true,
@@ -538,6 +523,21 @@
 			"end_date": "2026-10-03T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M47TB25W.json"
+	},
+	{
+		"reference": "INC-1M47TD1K5",
+		"title": "Internet services - Ashfield NSW 2131",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T02:50:59.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M47TD1K5.json"
 	},
 	{
 		"reference": "MNT-1M2PNRK0X",
