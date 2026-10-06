@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M47T3G0X",
+	"title": "Malvern East (VIC 3145) internet services",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "cancelled",
+	"current_summary": "Malvern East (VIC 3145). Reported 29 Sep 2026 9:38 pm–9:53 pm AEST.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"impact": {
+		"customer": false,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-29T11:38:58.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": "2026-09-29T11:53:54.000Z"
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-06T05:13:41.299Z",
+			"content": "Malvern East (VIC 3145). Reported 29 Sep 2026 9:38 pm–9:53 pm AEST.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
