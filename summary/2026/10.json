@@ -465,6 +465,51 @@
 		"record_path": "outages/2026/10/MNT-1M4570YW0.json"
 	},
 	{
+		"reference": "INC-1M47TD1K5",
+		"title": "Internet services - Ashfield NSW 2131",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-06T02:50:59.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M47TD1K5.json"
+	},
+	{
+		"reference": "INC-1M47T8CAQ",
+		"title": "Service interruption resolved – Deakin, ACT",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-02T10:09:58.000Z",
+			"end_date": "2026-10-02T13:20:16.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47T8CAQ.json"
+	},
+	{
+		"reference": "INC-1M47TAVQS",
+		"title": "Yamba, NSW 2464 – internet services restored",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-05T21:45:04.000Z",
+			"end_date": "2026-10-05T21:53:05.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M47TAVQS.json"
+	},
+	{
 		"reference": "MNT-1M2PR4ATB",
 		"title": "QLD - Upgrade the Network",
 		"planned": true,
@@ -478,6 +523,36 @@
 			"end_date": "2026-10-05T21:00:27.311Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
+	},
+	{
+		"reference": "MNT-1M47TB25W",
+		"title": "Thurgoona, NSW – Emergency maintenance affecting internet services",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-03T14:00:00.000Z",
+			"end_date": "2026-10-03T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M47TB25W.json"
+	},
+	{
+		"reference": "INC-1M47T8BSJ",
+		"title": "Deakin, ACT internet outage - resolved",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-02T10:09:58.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M47T8BSJ.json"
 	},
 	{
 		"reference": "MNT-1M3396CGB",
