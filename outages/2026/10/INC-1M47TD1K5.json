@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "Ashfield NSW 2131. Estimated restoration by 12:00 am AEDT Thu 8 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 08/10/2026 by 00:00. Using mobile data can help you stay connected if needed.",
+	"current_summary": "Ashfield NSW 2131. Estimated restoration around 12:30 pm AEDT Wed 7 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nnbn is working hard to fix an unexpected network issue in your area causing a loss of nbn service connection. The updated estimated restoration time is approximately 07/10/2026 by 12:30. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -21,7 +21,7 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": "2026-10-07T13:00:00.000Z",
+		"estimated_restoration_at": "2026-10-07T01:30:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -59,6 +59,13 @@
 		{
 			"update_time": "2026-10-06T15:29:52.000Z",
 			"content": "A field technician is now on site and repairs are underway. The restoration estimate remains around 12:00 am AEDT on Thu 8 Oct.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.\n\nA field technician has arrived on-site and begun works to restore services. The estimated time for service restoration has been set to 08/10/2026 by 00:00 AEST. Further updates will be provided as progress continues.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T22:01:37.723Z",
+			"content": "The restoration estimate has been brought forward to around 12:30 pm AEDT on Wed 7 Oct.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
