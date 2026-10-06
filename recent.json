@@ -60,19 +60,19 @@
 		"record_path": "outages/2026/09/MNT-1M26ZN0EX.json"
 	},
 	{
-		"reference": "INC-1M3S31FN3",
-		"title": "Albury, NSW - Infrastructure Restoration",
+		"reference": "INC-1M480Q20J",
+		"title": "nbn access network incident – specific services",
 		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": null,
+			"impact_scope": "site",
 			"service_count": 1
 		},
 		"lifecycle": {
-			"start_date": "2026-09-29T07:44:11.000Z",
-			"end_date": "2026-09-29T10:51:46.000Z"
+			"start_date": "2026-10-06T06:50:41.000Z",
+			"end_date": "2026-10-06T10:09:47.000Z"
 		},
-		"record_path": "outages/2026/09/INC-1M3S31FN3.json"
+		"record_path": "outages/2026/10/INC-1M480Q20J.json"
 	},
 	{
 		"reference": "INC-1M47T8CAQ",
