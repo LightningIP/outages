@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance at the NBN Lonsdale POI (SA) is now underway. Some NBN services served by this POI may be interrupted until 6:00 am Wed 7 Oct 2026 (ACDT).",
+	"status": "resolved",
+	"current_summary": "Planned maintenance at the NBN Lonsdale POI (SA) has been completed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-10-06T12:30:00.000Z",
 		"scheduled_end": "2026-10-06T19:30:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-06T19:30:00.000Z",
+		"resolved_at": "2026-10-06T19:30:00.000Z",
+		"closed_at": "2026-10-06T19:30:00.000Z"
 	},
 	"cause": {
 		"reason": "Cable cutover and relocation works",
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-06T12:30:02.937Z",
 			"content": "The scheduled maintenance has commenced as planned. Work is underway and is expected to complete by 6:00 am Wed 7 Oct 2026 (ACDT).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-06T19:30:00.000Z",
+			"content": "This maintenance is complete. Work finished at 6:00 am Wed 7 Oct 2026 (ACDT).",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
