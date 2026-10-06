@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M480Q20J",
+	"title": "nbn access network incident – specific services",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "Specific nbn services only; no restoration estimate yet. Opened 5:50 pm AEDT, Tue 6 Oct 2026.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "site",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-06T06:50:41.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-06T06:50:41.000Z",
+			"content": "Specific nbn services only; no restoration estimate yet. Opened 5:50 pm AEDT, Tue 6 Oct 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
