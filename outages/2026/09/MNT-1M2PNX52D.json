@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Queensland. Maintenance window 12:00 AM–6:00 AM AEST on 8 October 2026. A brief interruption of up to 15 minutes is expected around 1:00 AM.\n\nThis is a software update on local access network equipment. Your connection may briefly drop during the window and should reconnect automatically.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Queensland. Maintenance window was 12:00 AM–6:00 AM AEST on 8 October 2026; work completed at 5:48 AM AEST.\n\nThis was a software update on local access network equipment. Any brief interruptions during the window have now ended.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -23,8 +23,8 @@
 		"scheduled_end": "2026-10-07T20:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"resolved_at": "2026-10-07T19:48:24.948Z",
+		"closed_at": "2026-10-07T19:48:24.948Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -35,6 +35,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-10-07T19:48:24.948Z",
+			"content": "This maintenance has been completed at 5:48 AM AEST. No further impact is expected.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-09-17T03:16:57.570Z",
 			"content": "We will be performing planned network maintenance in Queensland between 12:00 AM and 6:00 AM AEST on 8 October 2026. During this window, some services may experience a brief loss of connectivity. A short interruption of up to 15 minutes is expected around 1:00 AM. Our team will monitor progress with our network partner and work to minimise disruption. Services should come back online automatically once the work is complete. If you need to stay connected, consider using mobile data where available. If your service does not restore after the window, please restart your modem/router and contact us if you still need help.",
