@@ -90,6 +90,21 @@
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
+		"reference": "INC-1M4B85RSA",
+		"title": "Access network issue - 2KRI, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:05:51.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M4B85RSA.json"
+	},
+	{
 		"reference": "MNT-1M3XK79H7",
 		"title": "Mayfield NSW - Upgrade the Network",
 		"planned": true,
