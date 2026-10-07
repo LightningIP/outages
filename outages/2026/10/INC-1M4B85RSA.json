@@ -1,11 +1,11 @@
 {
 	"reference": "INC-1M4B85RSA",
-	"title": "Access network issue - 2KRI, NSW",
+	"title": "Access network issue - Sawyers Gully, NSW",
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
 	"status": "investigating",
-	"current_summary": "Area: 2KRI, NSW. First reported at 12:05 am AEDT on 8 Oct 2026.",
+	"current_summary": "Affected area: Sawyers Gully, NSW. First reported at 12:05 am AEDT on 8 Oct 2026.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-07T13:05:51.000Z",
 			"content": "Area: 2KRI, NSW. First reported at 12:05 am AEDT on 8 Oct 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T13:19:55.768Z",
+			"content": "Updated the affected area to Sawyers Gully, NSW based on the latest information. No restoration estimate has been provided yet.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
