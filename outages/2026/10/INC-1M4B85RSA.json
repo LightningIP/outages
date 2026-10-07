@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M4B85RSA",
+	"title": "Access network issue - 2KRI, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "Area: 2KRI, NSW. First reported at 12:05 am AEDT on 8 Oct 2026.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-07T13:05:51.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-07T13:05:51.000Z",
+			"content": "Area: 2KRI, NSW. First reported at 12:05 am AEDT on 8 Oct 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
