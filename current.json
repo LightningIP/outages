@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
-	},
-	{
 		"reference": "INC-1M4B85RSA",
 		"title": "Access network issue - Sawyers Gully, NSW",
 		"planned": false,
