@@ -3,9 +3,9 @@
 	"title": "QLD - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned maintenance is scheduled in Queensland between 12:00 AM and 6:00 AM AEST on 8 October 2026. Some internet services in the area may briefly drop during this window, with a short interruption of up to 15 minutes expected around 1:00 AM. We are monitoring the work with our network partner and services should restore automatically once complete.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Queensland. Maintenance window 12:00 AM–6:00 AM AEST on 8 October 2026. A brief interruption of up to 15 minutes is expected around 1:00 AM.\n\nThis is a software update on local access network equipment. Your connection may briefly drop during the window and should reconnect automatically.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-17T03:16:57.570Z",
 			"content": "We will be performing planned network maintenance in Queensland between 12:00 AM and 6:00 AM AEST on 8 October 2026. During this window, some services may experience a brief loss of connectivity. A short interruption of up to 15 minutes is expected around 1:00 AM. Our team will monitor progress with our network partner and work to minimise disruption. Services should come back online automatically once the work is complete. If you need to stay connected, consider using mobile data where available. If your service does not restore after the window, please restart your modem/router and contact us if you still need help.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T14:59:24.386Z",
+			"content": "The planned maintenance window has commenced and is now underway. The window runs until 6:00 AM AEST.\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
