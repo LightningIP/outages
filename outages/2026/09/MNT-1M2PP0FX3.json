@@ -3,9 +3,9 @@
 	"title": "SA, NSW - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned network upgrades by an upstream provider will affect some Fixed Wireless services in parts of NSW and SA. Short interruptions are expected within the window from 12:30 AM to 6:00 AM AEDT on 8 October 2026, with brief outages planned around 1:00 AM, 1:30 AM and 2:30 AM AEDT (15–30 minutes each). Our team will monitor progress and assist with recovery. Services should restore after each interruption, with all work expected to finish by the end of the window.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Parts of NSW and SA. Maintenance window 12:30 AM–6:00 AM AEDT on 8 October 2026, with short interruptions around 1:00 AM, 1:30 AM and 2:30 AM (15–30 minutes).\n\nThis deployment is part of a program to both improve Fixed Wireless performance through faster speed tiers and to install Small Wireless Routers (SWR) at Fixed Wireless sites. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues. Installing SWRs at Fixed Wireless sites will help reduce customer impact during scheduled and unscheduled network outages because of its ability to route traffic via alternate fibre/microwave paths. In addition to this, the SWR also supports the load balancing of traffic. This planned outage is to change the network over to the newly installed SWR and activate its new features.\n\nnbn®is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.  \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-17T03:18:30.793Z",
 			"content": "One of our network partners will be performing planned upgrades that will affect some Fixed Wireless services in parts of NSW and SA.\n\nWhen: 12:30 AM–6:00 AM AEDT on 8 October 2026.\nExpected impact: brief loss of internet connectivity during the window, with short outages planned around 1:00 AM, 1:30 AM and 2:30 AM AEDT (15–30 minutes each).\n\nWhat we’re doing: We’re monitoring the work and will help restore services as each interruption completes.\n\nIf available, you can use mobile data during brief interruptions. We appreciate your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T13:43:10.787Z",
+			"content": "The planned maintenance window has commenced. Short interruptions are expected as scheduled, with work due to finish by 6:00 AM AEDT on 8 October 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
