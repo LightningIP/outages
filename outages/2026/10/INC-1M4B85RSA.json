@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "Affected area: Sawyers Gully, NSW. First reported at 12:05 am AEDT on 8 Oct 2026.",
+	"status": "cancelled",
+	"current_summary": "Affected area: Sawyers Gully, NSW. Incident cancelled at 1:06 am AEDT on 8 Oct 2026.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -24,7 +24,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"closed_at": null
+		"closed_at": "2026-10-07T14:06:47.000Z"
 	},
 	"cause": {
 		"reason": null,
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-07T13:19:55.768Z",
 			"content": "Updated the affected area to Sawyers Gully, NSW based on the latest information. No restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T14:06:47.000Z",
+			"content": "This incident has been cancelled by the network operator; no further impact is expected. Cancellation time: 1:06 am AEDT on 8 Oct 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
