@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Parts of NSW and SA. Maintenance window 12:30 AM–6:00 AM AEDT on 8 October 2026, with short interruptions around 1:00 AM, 1:30 AM and 2:30 AM (15–30 minutes).\n\nThis deployment is part of a program to both improve Fixed Wireless performance through faster speed tiers and to install Small Wireless Routers (SWR) at Fixed Wireless sites. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues. Installing SWRs at Fixed Wireless sites will help reduce customer impact during scheduled and unscheduled network outages because of its ability to route traffic via alternate fibre/microwave paths. In addition to this, the SWR also supports the load balancing of traffic. This planned outage is to change the network over to the newly installed SWR and activate its new features.\n\nnbn®is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.  \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Parts of NSW and SA. Maintenance window 12:30 AM–6:00 AM AEDT on 8 October 2026; work completed at 5:42 AM AEDT.\n\nThis deployment is part of a program to both improve Fixed Wireless performance through faster speed tiers and to install Small Wireless Routers (SWR) at Fixed Wireless sites. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues. Installing SWRs at Fixed Wireless sites will help reduce customer impact during scheduled and unscheduled network outages because of its ability to route traffic via alternate fibre/microwave paths. In addition to this, the SWR also supports the load balancing of traffic. This planned outage is to change the network over to the newly installed SWR and activate its new features.\n\nnbn®is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.  \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-10-07T13:30:00.000Z",
 		"scheduled_end": "2026-10-07T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-07T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-07T18:42:13.863Z",
+		"resolved_at": "2026-10-07T18:42:13.863Z",
+		"closed_at": "2026-10-07T18:42:13.863Z"
 	},
 	"cause": {
 		"reason": "maintenance activity",
@@ -35,6 +35,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-10-07T18:42:13.863Z",
+			"content": "This maintenance has finished at 5:42 AM AEDT on 8 October 2026. No further interruptions are expected.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-09-17T03:18:30.793Z",
 			"content": "One of our network partners will be performing planned upgrades that will affect some Fixed Wireless services in parts of NSW and SA.\n\nWhen: 12:30 AM–6:00 AM AEDT on 8 October 2026.\nExpected impact: brief loss of internet connectivity during the window, with short outages planned around 1:00 AM, 1:30 AM and 2:30 AM AEDT (15–30 minutes each).\n\nWhat we’re doing: We’re monitoring the work and will help restore services as each interruption completes.\n\nIf available, you can use mobile data during brief interruptions. We appreciate your patience.",
