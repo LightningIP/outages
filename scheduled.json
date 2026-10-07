@@ -195,21 +195,6 @@
 		"record_path": "outages/2026/10/MNT-1M44SAN5J.json"
 	},
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
-	},
-	{
 		"reference": "MNT-1M2PP0FX3",
 		"title": "SA, NSW - Upgrade the Network",
 		"planned": true,
@@ -313,21 +298,6 @@
 			"end_date": "2026-10-14T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E5707.json"
-	},
-	{
-		"reference": "MNT-1M44EBFSF",
-		"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
 		"reference": "MNT-1M4570YW0",
