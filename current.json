@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M27HKWP8",
+		"title": " Kurri Kurri NSW - Maintain the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+	},
+	{
 		"reference": "INC-1M44E8FAS",
 		"title": "International backhaul degradation: Perth–Singapore cable fault",
 		"planned": false,
@@ -45,19 +60,19 @@
 		"record_path": "outages/2026/10/MNT-1M44DYMES.json"
 	},
 	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
+		"reference": "MNT-1M44E9XQ7",
+		"title": "NBN Reservoir (3RES) POI (VIC) – scheduled maintenance",
 		"planned": true,
 		"impact": {
 			"customer": true,
 			"impact_scope": "local",
-			"service_count": 2
+			"service_count": 0
 		},
 		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T19:00:00.000Z"
+			"start_date": "2026-10-08T13:00:00.000Z",
+			"end_date": "2026-10-08T16:00:00.000Z"
 		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
+		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
 	},
 	{
 		"reference": "MNT-1M44DXDX9",
