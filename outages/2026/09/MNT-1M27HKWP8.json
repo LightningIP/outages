@@ -3,9 +3,9 @@
 	"title": " Kurri Kurri NSW - Maintain the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Kurri Kurri, NSW. Maintenance window Thu 8 Oct 2026, 12:00 am–6:00 am AEDT; a single interruption of up to 4 hours is expected between 12:30 am and 4:30 am AEDT.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn is completing scheduled works on the nbn® network in your area. This will cause your nbn® service to lose connection. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Kurri Kurri, NSW. Maintenance window Thursday 8 Oct 2026, 12:00 am–6:00 am AEDT; a single interruption of up to 4 hours is expected between 12:30 am and 4:30 am AEDT.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn is completing scheduled works on the nbn® network in your area. This will cause your nbn® service to lose connection. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-11T06:13:01.926Z",
 			"content": "Scheduled maintenance will occur on the local access network in Kurri Kurri, NSW. Some broadband services may be offline during the window. Maintenance window: Thursday 8 October 2026, 12:00 AM–6:00 AM AEDT. A single interruption of up to 4 hours is expected between 12:30 AM and 4:30 AM AEDT. Services are expected to be restored by 6:00 AM AEDT. We will monitor progress and provide updates if the schedule changes. If available, you may wish to use mobile data while your service is offline. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T13:08:06.629Z",
+			"content": "This maintenance has started and is now in progress. The planned interruption window remains between 12:30 am and 4:30 am AEDT.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
