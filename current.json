@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
 	},
 	{
+		"reference": "INC-1M4B85RSA",
+		"title": "Access network issue - 2KRI, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:05:51.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M4B85RSA.json"
+	},
+	{
 		"reference": "INC-1M44E8FAS",
 		"title": "International backhaul degradation: Perth–Singapore cable fault",
 		"planned": false,
