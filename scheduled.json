@@ -285,21 +285,6 @@
 		"record_path": "outages/2026/10/MNT-1M4ENQTS5.json"
 	},
 	{
-		"reference": "MNT-1M4EYZY5X",
-		"title": "Ashfield, NSW — Emergency maintenance on the access network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-08T23:55:00.000Z",
-			"end_date": "2026-10-09T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
-	},
-	{
 		"reference": "MNT-1M3396CGB",
 		"title": "TAS, VIC - Upgrade the Network",
 		"planned": true,
