@@ -135,6 +135,21 @@
 		"record_path": "outages/2026/10/MNT-1M462G39M.json"
 	},
 	{
+		"reference": "MNT-1M4EYZY5X",
+		"title": "Ashfield, NSW — Emergency maintenance on the access network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-08T23:55:00.000Z",
+			"end_date": "2026-10-09T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
+	},
+	{
 		"reference": "MNT-1M2F030DV",
 		"title": "Lavington NSW - Maintain the Network",
 		"planned": true,
@@ -598,21 +613,6 @@
 			"end_date": "2026-10-07T18:42:13.863Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PP0FX3.json"
-	},
-	{
-		"reference": "MNT-1M4EYZY5X",
-		"title": "Ashfield, NSW — Emergency maintenance on the access network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-08T23:55:00.000Z",
-			"end_date": "2026-10-09T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
 	},
 	{
 		"reference": "INC-1M47T8BSJ",
