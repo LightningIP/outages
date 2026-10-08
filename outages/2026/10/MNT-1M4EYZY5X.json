@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4EYZY5X",
+	"title": "Ashfield, NSW — Emergency maintenance on the access network",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Ashfield, NSW. Maintenance window 9 Oct 2026 10:55am–6:00pm AEDT; planned service interruption up to 3 hours between 11:10am–2:10pm AEDT.\n\nAs part of troubleshooting and restoration work for a current Network Activity Ticket (NAT), techs will be taking a network element offline which will cause temporary service interruption for customers. The tech will be performing troubleshooting which will involve running tests to identify return path noise on the network. This work is being performed to prevent the current issue evolving into a larger network incident. Residential noise restrictions and safety regulations require this work to take place during daylight hours.\n\nnbn is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\n\nUsing mobile data where available can help you stay connected if needed. Check the nbn® Network Outages website periodically for the latest updates.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-08T06:43:38.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-08T23:55:00.000Z",
+		"scheduled_end": "2026-10-09T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Emergency maintenance to remediate a network issue",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-08T23:52:55.743Z",
+			"content": "Ashfield, NSW. Maintenance window 9 Oct 2026 10:55am–6:00pm AEDT; planned service interruption up to 3 hours between 11:10am–2:10pm AEDT.\n\nAs part of troubleshooting and restoration work for a current Network Activity Ticket (NAT), techs will be taking a network element offline which will cause temporary service interruption for customers. The tech will be performing troubleshooting which will involve running tests to identify return path noise on the network. This work is being performed to prevent the current issue evolving into a larger network incident. Residential noise restrictions and safety regulations require this work to take place during daylight hours.\n\nnbn is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\n\nUsing mobile data where available can help you stay connected if needed. Check the nbn® Network Outages website periodically for the latest updates.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
