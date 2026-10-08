@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4ENQTS5",
+	"title": "Wallan VIC – Scheduled network maintenance",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Wallan VIC. Tue 27 Oct 2026, 12:00 am–6:00 am AEDT (one interruption up to 3 hours from 12:00 am).\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-01T09:27:27.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-26T13:00:00.000Z",
+		"scheduled_end": "2026-10-26T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Fibre relocation and splicing (scheduled works)",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-08T21:12:05.810Z",
+			"content": "Wallan VIC. Tue 27 Oct 2026, 12:00 am–6:00 am AEDT (one interruption up to 3 hours from 12:00 am).\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
