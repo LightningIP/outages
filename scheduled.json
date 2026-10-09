@@ -285,6 +285,21 @@
 		"record_path": "outages/2026/10/MNT-1M4ENQTS5.json"
 	},
 	{
+		"reference": "MNT-1M4FDYZ10",
+		"title": "NSW: Fixed Wireless network upgrade (planned maintenance)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4FDYZ10.json"
+	},
+	{
 		"reference": "MNT-1M3396CGB",
 		"title": "TAS, VIC - Upgrade the Network",
 		"planned": true,
