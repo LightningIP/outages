@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4FK2VB7",
+	"title": "Network maintenance – brief interruptions in NSW, QLD, VIC, SA and other regions",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Selected areas across NSW, QLD, VIC, SA and other regions. Maintenance window Monday 19 Oct 2026, 12:00am–6:00am AEDT; brief interruptions up to 15 minutes at 12:00am and 12:30am AEDT.\n\nnbn is deploying new firmware that will enable additional features and capabilities in the network and fix any existing bugs on the current firmware version.\n\nnbn® is completing a remote software update on your nbn-branded equipment. This will cause your nbn service to briefly lose connection. \n\nIf your connection does not come back after the listed outage date and times, try turning your nbn connection box off at the power point, waiting 30 seconds, then switching it on again.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-05T22:57:56.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-18T13:00:00.000Z",
+		"scheduled_end": "2026-10-18T19:00:00.000Z",
+		"estimated_restoration_at": "2026-10-18T19:00:00.000Z",
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned software upgrade",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-05T22:57:56.000Z",
+			"content": "Selected areas across NSW, QLD, VIC, SA and other regions. Maintenance window Monday 19 Oct 2026, 12:00am–6:00am AEDT; brief interruptions up to 15 minutes at 12:00am and 12:30am AEDT.\n\nnbn is deploying new firmware that will enable additional features and capabilities in the network and fix any existing bugs on the current firmware version.\n\nnbn® is completing a remote software update on your nbn-branded equipment. This will cause your nbn service to briefly lose connection. \n\nIf your connection does not come back after the listed outage date and times, try turning your nbn connection box off at the power point, waiting 30 seconds, then switching it on again.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
