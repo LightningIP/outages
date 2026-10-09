@@ -223,5 +223,20 @@
 			"end_date": "2026-10-07T18:42:13.863Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PP0FX3.json"
+	},
+	{
+		"reference": "MNT-1M4EYZY5X",
+		"title": "Ashfield, NSW — Emergency maintenance on the access network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-08T23:55:00.000Z",
+			"end_date": "2026-10-09T01:54:56.286Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
 	}
 ]
