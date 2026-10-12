@@ -23,8 +23,8 @@
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"resolved_at": "2026-09-29T12:37:26.000Z",
+		"closed_at": "2026-09-29T12:37:26.000Z"
 	},
 	"cause": {
 		"reason": "aggregation link issue",
