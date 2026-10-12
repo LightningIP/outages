@@ -85,7 +85,7 @@
 		},
 		"lifecycle": {
 			"start_date": "2026-10-12T03:01:12.363Z",
-			"end_date": null
+			"end_date": "2026-10-12T07:38:00.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M4Q2BJNF.json"
 	},
@@ -135,21 +135,6 @@
 		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
 	},
 	{
-		"reference": "INC-1M47T8BSJ",
-		"title": "Deakin, ACT internet outage - resolved",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-02T10:09:58.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M47T8BSJ.json"
-	},
-	{
 		"reference": "MNT-1M3396CGB",
 		"title": "TAS, VIC - Upgrade the Network",
 		"planned": true,
@@ -163,35 +148,5 @@
 			"end_date": "2026-10-12T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M3396CGB.json"
-	},
-	{
-		"reference": "INC-1M47T3G0E",
-		"title": "Malvern East VIC 3145 - internet incident",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-09-29T11:38:58.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M47T3G0E.json"
-	},
-	{
-		"reference": "INC-1M47T56RP",
-		"title": "Caulfield and Malvern East, VIC – Internet outage resolved",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-09-29T11:54:18.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M47T56RP.json"
 	}
 ]
