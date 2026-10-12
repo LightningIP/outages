@@ -60,21 +60,6 @@
 		"record_path": "outages/2026/10/INC-1M480Q20J.json"
 	},
 	{
-		"reference": "INC-1M47TAVQS",
-		"title": "Yamba, NSW 2464 – internet services restored",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-05T21:45:04.000Z",
-			"end_date": "2026-10-05T21:53:05.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M47TAVQS.json"
-	},
-	{
 		"reference": "MNT-1M44DZVJ4",
 		"title": "NBN Lonsdale POI (SA) – planned maintenance",
 		"planned": true,
