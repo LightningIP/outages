@@ -765,21 +765,6 @@
 		"record_path": "outages/2026/10/INC-1M4QTYTS3.json"
 	},
 	{
-		"reference": "MNT-1M13DKFHV",
-		"title": "Woolloongabba\r\n QLD - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-12T14:00:00.000Z",
-			"end_date": "2026-10-12T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
-	},
-	{
 		"reference": "MNT-1M4RJKP53",
 		"title": "Scheduled nbn software update – Victoria",
 		"planned": true,
@@ -793,5 +778,20 @@
 			"end_date": "2026-10-26T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4RJKP53.json"
+	},
+	{
+		"reference": "MNT-1M13DKFHV",
+		"title": "Woolloongabba\r\n QLD - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T14:00:00.000Z",
+			"end_date": "2026-10-12T18:13:54.407Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
 	}
 ]
