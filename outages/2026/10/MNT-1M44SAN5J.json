@@ -10,11 +10,45 @@
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "state",
-		"service_count": 0,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_count": 14,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - Fixed Wireless",
+			"NBN - HFC"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BAYSWATER",
+			"BEVERIDGE",
+			"BUNDOORA",
+			"ECHUCA",
+			"KILSYTH",
+			"LAVERTON",
+			"LYNBROOK",
+			"SEYMOUR",
+			"SHEPPARTON",
+			"SOUTH KINGSVILLE",
+			"SOUTH MORANG",
+			"STRATHMERTON",
+			"SUNSHINE WEST"
+		],
+		"postcodes": [
+			"3015",
+			"3020",
+			"3028",
+			"3083",
+			"3137",
+			"3153",
+			"3564",
+			"3630",
+			"3641",
+			"3660",
+			"3752",
+			"3753",
+			"3975"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-10-05T00:18:38.550Z",
