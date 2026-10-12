@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "We are aware of an issue affecting our network in Melbourne. Since around 2:01 pm AEDT on 12 October 2026, some customers in Victoria may notice slower speeds because of congestion. A link in our Melbourne network has been lost, so traffic is using other paths. We have moved traffic around the network to ease the congestion. We do not yet have an estimated time for the link to be restored, and we will share more information as soon as we have it.",
+	"status": "resolved",
+	"current_summary": "The issue affecting our network in Melbourne has been resolved. The link that was lost has been restored, and traffic is no longer being rerouted over alternate paths. Customers in Victoria who noticed slower speeds due to congestion should now see normal performance. If you are still experiencing problems, please contact our support team.",
 	"impact": {
 		"customer": true,
 		"operational_impact": true,
@@ -134,8 +134,8 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-12T07:38:00.000Z",
+		"resolved_at": "2026-10-12T07:38:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -150,6 +150,13 @@
 		{
 			"update_time": "2026-10-12T03:01:12.401Z",
 			"content": "We are aware of an issue affecting our network in Melbourne. We have lost a link in our Melbourne ring network, and traffic is now using alternate links, which has caused some congestion. Some customers in Victoria may notice slower performance. We have moved traffic around the network to ease the congestion. We will share another update as soon as we have more information.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-12T07:38:00.000Z",
+			"content": "The link in our Melbourne network that was lost has been restored as of 6:38 pm AEDT on 12 October 2026. Traffic has returned to its normal paths and the congestion that was causing slower speeds in Victoria is resolved. This incident is now closed.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
