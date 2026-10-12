@@ -10,11 +10,19 @@
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "regional",
-		"service_count": 0,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"LYNBROOK"
+		],
+		"postcodes": [
+			"3975"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-10-11T23:55:44.007Z",
