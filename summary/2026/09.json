@@ -81,7 +81,7 @@
 		"impact": {
 			"customer": true,
 			"impact_scope": "regional",
-			"service_count": 0
+			"service_count": 2
 		},
 		"lifecycle": {
 			"start_date": "2026-10-12T13:00:00.000Z",
