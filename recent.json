@@ -75,21 +75,6 @@
 		"record_path": "outages/2026/10/INC-1M480Q20J.json"
 	},
 	{
-		"reference": "INC-1M47T8CAQ",
-		"title": "Service interruption resolved – Deakin, ACT",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-02T10:09:58.000Z",
-			"end_date": "2026-10-02T13:20:16.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M47T8CAQ.json"
-	},
-	{
 		"reference": "INC-1M47TAVQS",
 		"title": "Yamba, NSW 2464 – internet services restored",
 		"planned": false,
