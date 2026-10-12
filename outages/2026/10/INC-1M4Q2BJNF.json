@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M4Q2BJNF",
+	"title": "Network congestion in Melbourne due to a lost network link",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "identified",
+	"current_summary": "We are aware of an issue affecting our network in Melbourne. Since around 2:01 pm AEDT on 12 October 2026, some customers in Victoria may notice slower speeds because of congestion. A link in our Melbourne network has been lost, so traffic is using other paths. We have moved traffic around the network to ease the congestion. We do not yet have an estimated time for the link to be restored, and we will share more information as soon as we have it.",
+	"impact": {
+		"customer": true,
+		"operational_impact": true,
+		"impact_scope": "state",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-12T03:01:12.363Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "A link in our Melbourne ring network was lost, so traffic is using alternate links and causing some congestion.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-12T03:01:12.401Z",
+			"content": "We are aware of an issue affecting our network in Melbourne. We have lost a link in our Melbourne ring network, and traffic is now using alternate links, which has caused some congestion. Some customers in Victoria may notice slower performance. We have moved traffic around the network to ease the congestion. We will share another update as soon as we have more information.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
