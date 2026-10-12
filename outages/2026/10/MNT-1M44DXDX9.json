@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "An upstream network provider is performing subsea cable maintenance on the Perth–Singapore route from Fri 2 Oct 08:00 to Fri 9 Oct 07:00 (UTC+8). During this window, traffic is being rerouted via alternate paths. Customers nationwide may notice higher latency and slower international connectivity to Asia at times; brief interruptions are possible. No action is required.",
+	"status": "scheduled",
+	"current_summary": "The subsea cable maintenance on the Perth–Singapore route, originally planned for 2–9 October, has been rescheduled. It is now planned from Sun 25 Oct 12:00 to Wed 4 Nov 10:59 (AEDT). During the new window, international traffic is expected to be rerouted via alternate paths. Customers nationwide may notice higher latency and slower international connectivity to Asia at times, and brief interruptions are possible. No action is required.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -19,8 +19,8 @@
 	"lifecycle": {
 		"opened_at": "2026-07-09T04:23:09.655Z",
 		"detected_at": null,
-		"scheduled_start": "2026-10-02T00:00:00.000Z",
-		"scheduled_end": "2026-10-08T23:00:00.000Z",
+		"scheduled_start": "2026-10-25T01:00:00.000Z",
+		"scheduled_end": "2026-11-03T23:59:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-05T11:54:08.817Z",
 			"content": "This maintenance window is in progress and affects international traffic across all services nationally. The schedule is unchanged and is due to end Fri 9 Oct 07:00 (UTC+8).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T12:06:00.000Z",
+			"content": "The upstream provider has delayed the Perth–Singapore subsea cable maintenance. It is now scheduled to run from Sun 25 Oct 12:00 to Wed 4 Nov 10:59 (AEDT). Services remain online, and we will update you if the schedule changes again.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
