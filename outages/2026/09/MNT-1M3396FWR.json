@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Some services in Tasmania and Victoria are affected. The maintenance window is 12:00 AM to 6:00 AM AEDT on 13 October 2026, with a single interruption of up to 15 minutes expected around 1:00 AM AEDT.\n\nThe work updates software on the radio equipment that connects your service to the network. Your connection will drop briefly while the update is applied, then should return on its own.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance affecting some services in Tasmania and Victoria ran within the 12:00 AM to 6:00 AM AEDT window on 13 October 2026. The maintenance was completed at 6:00 AM AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -31,7 +31,7 @@
 		"scheduled_end": "2026-10-12T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-12T19:00:00.000Z",
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-10-12T19:00:24.897Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-12T13:18:35.582Z",
 			"content": "The planned maintenance has now started and is scheduled to run until 6:00 AM AEDT on 13 October. A single interruption of up to 15 minutes is still expected around 1:00 AM AEDT.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-12T19:00:24.897Z",
+			"content": "The planned maintenance has been completed as of 6:00 AM AEDT on 13 October 2026. If your service is not back online, please restart your modem/router.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
