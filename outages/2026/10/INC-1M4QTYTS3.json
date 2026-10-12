@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M4QTYTS3",
+	"title": "nbn service disruption - Albury, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "This affects some nbn services in Albury, NSW. The issue was logged at 4:55 pm AEDT on 12 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTN"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"NORTH ALBURY"
+		],
+		"postcodes": [
+			"2640"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-12T05:55:33.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-12T05:55:33.000Z",
+			"content": "This affects some nbn services in Albury, NSW. The issue was logged at 4:55 pm AEDT on 12 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
