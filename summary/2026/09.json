@@ -315,6 +315,21 @@
 		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
 	},
 	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-25T01:00:00.000Z",
+			"end_date": "2026-11-03T23:59:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
 		"reference": "MNT-1M09CY9HC",
 		"title": "NBN POI 3DAD (Dandenong) NNI Rehoming",
 		"planned": true,
@@ -388,36 +403,6 @@
 			"end_date": "2026-10-20T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
-	},
-	{
-		"reference": "MNT-1M44E9XQ7",
-		"title": "NBN Reservoir (3RES) POI (VIC) – scheduled maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-08T13:00:00.000Z",
-			"end_date": "2026-10-08T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
-	},
-	{
-		"reference": "MNT-1M44DXDX9",
-		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 886
-		},
-		"lifecycle": {
-			"start_date": "2026-10-02T00:00:00.000Z",
-			"end_date": "2026-10-08T23:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "MNT-1M35R6NNQ",
@@ -600,21 +585,6 @@
 		"record_path": "outages/2026/10/MNT-1M44E5707.json"
 	},
 	{
-		"reference": "MNT-1M44EBFSF",
-		"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
-	},
-	{
 		"reference": "MNT-1M4570YW0",
 		"title": "Scheduled maintenance – national broadband access",
 		"planned": true,
@@ -748,6 +718,36 @@
 			"end_date": "2026-10-26T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4FDYZ10.json"
+	},
+	{
+		"reference": "MNT-1M44E9XQ7",
+		"title": "NBN Reservoir (3RES) POI (VIC) – scheduled maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-08T13:00:00.000Z",
+			"end_date": "2026-10-08T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
+	},
+	{
+		"reference": "MNT-1M44EBFSF",
+		"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-07T13:00:00.000Z",
+			"end_date": "2026-10-07T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
 		"reference": "INC-1M1TWJMTQ",
