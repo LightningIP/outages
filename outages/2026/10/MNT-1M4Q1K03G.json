@@ -10,11 +10,19 @@
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "regional",
-		"service_count": 0,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"ASHFIELD"
+		],
+		"postcodes": [
+			"2131"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-10-11T23:47:29.597Z",
