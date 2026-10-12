@@ -3,18 +3,26 @@
 	"title": "Woolloongabba\r\n QLD - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned network upgrades by an upstream provider will occur in Woolloongabba, QLD on Tuesday 13 October from 12:00 AM to 6:00 AM AEST. Internet services in the area may go offline during the window. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST. Our team will monitor progress and services should restore once the maintenance is complete.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Woolloongabba, QLD: maintenance window is 12:00 AM to 6:00 AM AEST on Tuesday 13 October. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST.\n\nnbn is upgrading shared network equipment that carries your area's traffic, so it can cope with growing demand. Your service will drop out briefly while this happens.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn is completing upgrades on the nbn® network in your area. This will cause your nbn® service to lose connection. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "local",
 		"service_count": 1,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"KANGAROO POINT"
+		],
+		"postcodes": [
+			"4169"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-07-22T08:18:51.000Z",
@@ -38,6 +46,13 @@
 		{
 			"update_time": "2026-08-28T05:31:10.474Z",
 			"content": "We will be supporting planned network upgrades affecting customers in Woolloongabba, QLD on Tuesday 13 October between 12:00 AM and 6:00 AM AEST. During this window, your internet service may briefly go offline. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST.\n\nOur team will monitor the work closely with our network partners and restore services as soon as the maintenance is complete. If available, you may wish to use mobile data as a backup while your service is offline. New connections or changes requested during or shortly after the window may take a little longer than usual to process. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-12T14:09:51.130Z",
+			"content": "The planned maintenance in Woolloongabba, QLD has now started. The window still ends at 6:00 AM AEST, with a single interruption of up to 60 minutes expected between 12:30 AM and 1:30 AM AEST.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
