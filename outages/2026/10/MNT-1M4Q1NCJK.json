@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4Q1NCJK",
+	"title": "Planned maintenance: NBN Tullamarine (VIC) network connection changes",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "We have planned maintenance on our network at the Tullamarine (Victoria) NBN point of interconnect. It is scheduled from 12:00 am to 3:00 am AEDT on Tuesday 27 October 2026. During this window, NBN services connected through this point may be disrupted for up to 3 hours.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-12T00:07:01.969Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-26T13:00:00.000Z",
+		"scheduled_end": "2026-10-26T16:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned maintenance to move services from legacy network connections to new ones at the Tullamarine NBN point of interconnect.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-12T00:07:01.988Z",
+			"content": "We have scheduled planned maintenance at the Tullamarine (Victoria) NBN point of interconnect. We will be moving services from legacy network connections to new connections. The work is scheduled from 12:00 am to 3:00 am AEDT on Tuesday 27 October 2026. NBN services connected through this point may be disrupted for up to 3 hours during this window. We will share any changes to the schedule here.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
