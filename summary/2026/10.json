@@ -750,6 +750,21 @@
 		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
+		"reference": "INC-1M4Q2BJNF",
+		"title": "Network congestion in Melbourne due to a lost network link",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T03:01:12.363Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M4Q2BJNF.json"
+	},
+	{
 		"reference": "INC-1M47T8BSJ",
 		"title": "Deakin, ACT internet outage - resolved",
 		"planned": false,
