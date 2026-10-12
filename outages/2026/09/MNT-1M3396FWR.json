@@ -3,18 +3,26 @@
 	"title": "TAS, VIC - Upgrade the Network",
 	"type": "maintenance",
 	"planned": true,
-	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned software update by an upstream provider affecting some services in Tasmania and Victoria. Maintenance window is 12:00 AM–6:00 AM AEDT on 13 Oct 2026 (2026-10-12 13:00–19:00 UTC). A single interruption of up to 15 minutes is expected around 1:00 AM AEDT. We will monitor during the window.",
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Some services in Tasmania and Victoria are affected. The maintenance window is 12:00 AM–6:00 AM AEDT on 13 October 2026, with a single interruption of up to 15 minutes expected around 1:00 AM AEDT.\n\nThe work updates software on the radio equipment that connects your service to the network. Your connection will drop briefly while the update is applied, then should return on its own.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
-		"impact_scope": null,
+		"impact_scope": "local",
 		"service_count": 1,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"SALE"
+		],
+		"postcodes": [
+			"3850"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-09-04T02:36:04.000Z",
@@ -38,6 +46,13 @@
 		{
 			"update_time": "2026-09-22T00:44:18.606Z",
 			"content": "Planned maintenance is scheduled that may affect some services in Tasmania and Victoria. The work will run between 12:00 AM and 6:00 AM AEDT on 13 October. A brief loss of connection of up to 15 minutes is expected around 1:00 AM AEDT.\n\nServices should restore automatically once the work is complete. We will monitor the maintenance and provide updates if timings change. If your service does not come back online after 6:00 AM AEDT, please restart your modem/router. Using mobile data where available can help you stay connected during the brief interruption.\n\nThank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-12T13:18:35.582Z",
+			"content": "The planned maintenance has now started and is scheduled to run until 6:00 AM AEDT on 13 October. A single interruption of up to 15 minutes is still expected around 1:00 AM AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
