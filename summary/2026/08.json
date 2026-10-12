@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/08/MNT-1M1BB35AV.json"
 	},
 	{
-		"reference": "MNT-1M13DKFHV",
-		"title": "Woolloongabba\r\n QLD - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-12T14:00:00.000Z",
-			"end_date": "2026-10-12T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
-	},
-	{
 		"reference": "MNT-1M0RPSP6K",
 		"title": "NBN POI 2TAM (Tamworth) - Permanent repair due to rodent damage",
 		"planned": true,
@@ -763,5 +748,20 @@
 			"end_date": null
 		},
 		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
+	},
+	{
+		"reference": "MNT-1M13DKFHV",
+		"title": "Woolloongabba\r\n QLD - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T14:00:00.000Z",
+			"end_date": "2026-10-12T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
 	}
 ]
