@@ -10,11 +10,22 @@
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "regional",
-		"service_count": 0,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"PELICAN WATERS",
+			"WAVELL HEIGHTS"
+		],
+		"postcodes": [
+			"4012",
+			"4551"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-10-11T23:54:02.901Z",
