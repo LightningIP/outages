@@ -1,5 +1,35 @@
 [
 	{
+		"reference": "MNT-1M13DKFHV",
+		"title": "Woolloongabba\r\n QLD - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T14:00:00.000Z",
+			"end_date": "2026-10-12T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M13DKFHV.json"
+	},
+	{
+		"reference": "MNT-1M44E6YZR",
+		"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T13:00:00.000Z",
+			"end_date": "2026-10-12T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E6YZR.json"
+	},
+	{
 		"reference": "INC-1M44E8FAS",
 		"title": "International backhaul degradation: Perth–Singapore cable fault",
 		"planned": false,
@@ -60,6 +90,21 @@
 		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
+		"reference": "MNT-1M3396FWR",
+		"title": "TAS, VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T13:00:00.000Z",
+			"end_date": "2026-10-12T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M3396FWR.json"
+	},
+	{
 		"reference": "MNT-1M44EBFSF",
 		"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
 		"planned": true,
@@ -88,6 +133,21 @@
 			"end_date": null
 		},
 		"record_path": "outages/2026/10/INC-1M47T8BSJ.json"
+	},
+	{
+		"reference": "MNT-1M3396CGB",
+		"title": "TAS, VIC - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T13:00:00.000Z",
+			"end_date": "2026-10-12T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/09/MNT-1M3396CGB.json"
 	},
 	{
 		"reference": "INC-1M47T3G0E",
