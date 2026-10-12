@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "identified",
-	"current_summary": "An international submarine cable on the Perth–Singapore route remains down due to a cable break. All Lightning IP internet services are online but may experience higher latency and slower performance for international traffic (especially to Asia) while traffic is rerouted. Repair works are currently expected between 16 and 26 October 2026 (local time, UTC+8) and remain subject to permits, logistics and weather.",
+	"current_summary": "An international submarine cable on the Perth–Singapore route remains down following a cable break. All Lightning IP internet services are online, but customers may notice higher latency and slower performance on international traffic (especially to Asia) while traffic is rerouted over other links. Repair works have been delayed and are now scheduled from 12:00 pm on 25 October 2026 to 10:59 am on 4 November 2026 (Sydney time). These dates remain subject to change.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -101,6 +101,13 @@
 		{
 			"update_time": "2026-10-05T01:45:56.431Z",
 			"content": "Scope clarified: this international cable fault is causing nationally observed degradation on international traffic across all internet services. Repair works remain scheduled for 16–26 October 2026 (local time, UTC+8).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T12:07:13.364Z",
+			"content": "The repair works on the Perth–Singapore cable have been delayed. They are now scheduled from 12:00 pm on 25 October 2026 to 10:59 am on 4 November 2026 (Sydney time), replacing the earlier 16–26 October window. Internet services remain online and are being rerouted over other links, so international traffic may continue to be slower than usual until the cable is repaired. We will update you when the schedule changes or the repair is completed.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
