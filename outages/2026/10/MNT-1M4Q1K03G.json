@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4Q1K03G",
+	"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "A network provider will carry out planned cable and splice relocation work that may affect NBN services connected through the Ryde, Campsie, Glebe and Miranda points of interconnect in NSW. The work is scheduled between 11:00 pm on Monday 2 November 2026 and 7:00 am on Tuesday 3 November 2026 (AEDT). Services may be interrupted for up to 8 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-11T23:47:29.597Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-02T12:00:00.000Z",
+		"scheduled_end": "2026-11-02T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned cable and splice relocation work by a network provider.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-11T23:47:29.625Z",
+			"content": "We have been advised that a network provider will be performing cable and splice relocation work that may affect NBN services connected through the Ryde, Campsie, Glebe and Miranda points of interconnect in NSW. The work is scheduled between 11:00 pm on Monday 2 November 2026 and 7:00 am on Tuesday 3 November 2026 (AEDT). Affected NBN services may be interrupted for up to 8 hours during this window. We will share any further updates as they become available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
