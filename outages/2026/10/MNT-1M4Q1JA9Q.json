@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M4Q1JA9Q",
+	"title": "Planned maintenance: NBN services connected to the Lonsdale Depot POI (Adelaide, SA)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled for the nbn Point of Interconnect (POI) at Lonsdale Depot in South Australia. It runs from 11:00 pm on Wednesday 28 October to 6:00 am on Thursday 29 October 2026 (ACDT). nbn services connected through this POI may be interrupted for up to 7 hours during that window. Customers connected through other POIs are not expected to be affected.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-11T23:50:43.595Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-28T12:30:00.000Z",
+		"scheduled_end": "2026-10-28T19:30:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned service restoration activities on the backhaul connection to this nbn Point of Interconnect, carried out by a network provider.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-11T23:50:43.634Z",
+			"content": "We have been advised that our network provider will carry out some service restoration activities on the backhaul connection to the nbn Point of Interconnect (POI) at Lonsdale Depot in South Australia. The work is scheduled between 11:00 pm on Wednesday 28 October and 6:00 am on Thursday 29 October 2026 (ACDT). nbn services connected through this POI may be affected for up to 7 hours during that window. We will share further updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
