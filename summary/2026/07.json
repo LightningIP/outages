@@ -105,6 +105,21 @@
 		"record_path": "outages/2026/08/MNT-1KZT81WZK.json"
 	},
 	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-25T01:00:00.000Z",
+			"end_date": "2026-11-03T23:59:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
 		"reference": "INC-1KZWQAPMH",
 		"title": "Thurgoona, NSW 2640 - Infrastructure Restoration",
 		"planned": false,
@@ -133,21 +148,6 @@
 			"end_date": "2026-07-03T08:12:18.000Z"
 		},
 		"record_path": "outages/2026/08/INC-1KZWPEM05.json"
-	},
-	{
-		"reference": "MNT-1M44DXDX9",
-		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 886
-		},
-		"lifecycle": {
-			"start_date": "2026-10-02T00:00:00.000Z",
-			"end_date": "2026-10-08T23:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "MNT-1KZWPG8NF",
