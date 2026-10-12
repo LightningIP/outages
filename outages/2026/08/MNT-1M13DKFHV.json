@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Woolloongabba, QLD: maintenance window is 12:00 AM to 6:00 AM AEST on Tuesday 13 October. A single interruption of up to 60 minutes is expected between 12:30 AM and 1:30 AM AEST.\n\nnbn is upgrading shared network equipment that carries your area's traffic, so it can cope with growing demand. Your service will drop out briefly while this happens.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn is completing upgrades on the nbn® network in your area. This will cause your nbn® service to lose connection. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Woolloongabba, QLD: the maintenance window ran from 12:00 AM to 6:00 AM AEST on Tuesday 13 October. The work was marked complete at 5:13 AM AEST.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn is completing upgrades on the nbn® network in your area. This will cause your nbn® service to lose connection. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-10-12T14:00:00.000Z",
 		"scheduled_end": "2026-10-12T20:00:00.000Z",
 		"estimated_restoration_at": "2026-10-12T20:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-12T18:13:54.407Z",
+		"resolved_at": "2026-10-12T18:13:54.407Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-12T14:09:51.130Z",
 			"content": "The planned maintenance in Woolloongabba, QLD has now started. The window still ends at 6:00 AM AEST, with a single interruption of up to 60 minutes expected between 12:30 AM and 1:30 AM AEST.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-12T18:13:54.407Z",
+			"content": "The planned maintenance in Woolloongabba, QLD has been completed, and services should be back to normal. If your service is still offline, please restart your modem and contact support.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
