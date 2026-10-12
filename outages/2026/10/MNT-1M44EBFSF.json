@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned maintenance will affect NBN services delivered via the Hawthorn POI (VIC) between Thursday 8 October 2026, 12:00am and 3:00am AEDT. Some services may experience interruptions during this window, for up to three hours in total.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance on NBN services delivered via the Hawthorn POI (VIC) is complete. The work ran between 12:00am and 3:00am AEDT on Thursday 8 October 2026. Services may have been disrupted during that window. No further action is required from customers.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-10-07T13:00:00.000Z",
 		"scheduled_end": "2026-10-07T16:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-07T16:00:00.000Z",
+		"resolved_at": "2026-10-07T16:00:00.000Z",
+		"closed_at": "2026-10-07T16:00:00.000Z"
 	},
 	"cause": {
 		"reason": "NNI rehoming at the NBN Hawthorn POI",
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-04T21:50:37.520Z",
 			"content": "We will be performing planned work to rehome the NBN network handoff (NNI) at the Hawthorn POI (VIC). This work is scheduled for Thursday 8 October 2026, between 12:00am and 3:00am AEDT. Services delivered via this POI may experience interruptions during the window, with up to three hours of disruption possible. No action is required from customers. We will work to keep any impact as brief as possible.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-07T16:00:00.000Z",
+			"content": "The planned maintenance at the Hawthorn POI (VIC) is complete. The work to rehome the NBN network handoff finished at 3:00am AEDT on Thursday 8 October 2026. Services may have been disrupted during the window, and no further action is required.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
