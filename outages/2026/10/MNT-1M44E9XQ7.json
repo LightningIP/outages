@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Scheduled maintenance is planned on the NBN Reservoir (3RES) POI in VIC from 12:00am to 3:00am AEDT on Friday 9 October 2026. Services delivered via this POI may experience interruptions of up to 3 hours during the window.",
+	"status": "resolved",
+	"current_summary": "The scheduled maintenance on the NBN Reservoir (3RES) POI in VIC has been completed. The work finished at 3:00am AEDT on Friday 9 October 2026, the end of the planned window. Services delivered via this POI may have been interrupted for up to 3 hours during the window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,9 +22,9 @@
 		"scheduled_start": "2026-10-08T13:00:00.000Z",
 		"scheduled_end": "2026-10-08T16:00:00.000Z",
 		"estimated_restoration_at": "2026-10-08T16:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
-		"closed_at": null
+		"actual_restoration_at": "2026-10-08T16:00:00.000Z",
+		"resolved_at": "2026-10-08T16:00:00.000Z",
+		"closed_at": "2026-10-08T16:00:00.000Z"
 	},
 	"cause": {
 		"reason": "Planned maintenance at the NBN Reservoir (3RES) POI (NNI rehoming)",
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-09-23T04:16:44.448Z",
 			"content": "We have scheduled maintenance on the NBN Reservoir (3RES) POI in VIC from 12:00am to 3:00am AEDT on Friday 9 October 2026. During this window, services connected via this POI may experience one or more interruptions, up to 3 hours in total, while we rehome the NBN interconnect (NNI). We will work to minimise downtime and will provide further updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-08T16:00:00.000Z",
+			"content": "The scheduled maintenance on the NBN Reservoir (3RES) POI in VIC is now complete. The work finished at 3:00am AEDT on Friday 9 October 2026. Services connected via this POI may have experienced interruptions of up to 3 hours during the window, and no further interruptions are expected from this work.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
