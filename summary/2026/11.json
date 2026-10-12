@@ -1,0 +1,47 @@
+[
+	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-25T01:00:00.000Z",
+			"end_date": "2026-11-03T23:59:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
+		"reference": "MNT-1M4Q1MGGS",
+		"title": "Planned maintenance: nbn services connected via Petrie, Caboolture and Aspley (QLD)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-02T13:00:00.000Z",
+			"end_date": "2026-11-02T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1MGGS.json"
+	},
+	{
+		"reference": "MNT-1M4Q1K03G",
+		"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-02T12:00:00.000Z",
+			"end_date": "2026-11-02T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1K03G.json"
+	}
+]
