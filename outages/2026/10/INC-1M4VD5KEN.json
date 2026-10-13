@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "Affects some nbn services in Albury, NSW, since about 6:39am AEDT on 14 October 2026. A field technician is estimated to arrive on site by 10:30am AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 14/10/2026 by 10:30\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"current_summary": "Affects some nbn services in Albury, NSW, since about 6:39am AEDT on 14 October 2026. Services are expected to be restored by approximately 1:00pm AEDT on 14 October 2026.\n\nThe technician is onsite. Further updates will be advised when available.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 14/10/2026 by 13:00. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -29,7 +29,7 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": null,
+		"estimated_restoration_at": "2026-10-14T02:00:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -60,6 +60,13 @@
 		{
 			"update_time": "2026-10-13T22:26:52.000Z",
 			"content": "A field technician is now estimated to arrive at the affected site by 10:30am AEDT on 14 October 2026. No restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 14/10/2026 by 10:30",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-13T22:54:11.000Z",
+			"content": "A technician is now on site in Albury, and a restoration estimate of approximately 1:00pm AEDT on 14 October 2026 has been provided.\n\nThe technician is onsite. Further updates will be advised when available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
