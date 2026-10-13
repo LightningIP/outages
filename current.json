@@ -50,7 +50,7 @@
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": null,
+			"impact_scope": "local",
 			"service_count": 1
 		},
 		"lifecycle": {
