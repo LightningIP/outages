@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Scheduled maintenance is under way at the NBN South Morang (3SMR) POI. The work began at 12:00am AEDT on Tuesday 13 October 2026 and is scheduled to finish by 7:00am AEDT. During this window, some NBN services in the South Morang area may experience interruptions of up to 7 hours. No action is required from customers. We will update this notice when the work is complete or if the timing changes.",
+	"status": "resolved",
+	"current_summary": "The scheduled maintenance at the NBN South Morang (3SMR) POI is complete. The work ran from 12:00am to 7:00am AEDT on Tuesday 13 October 2026. NBN services in the South Morang area that were interrupted during the window should now be restored. No action is required from customers.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -32,8 +32,8 @@
 		"scheduled_start": "2026-10-12T13:00:00.000Z",
 		"scheduled_end": "2026-10-12T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-12T20:00:00.000Z",
+		"resolved_at": "2026-10-12T20:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -48,6 +48,13 @@
 		{
 			"update_time": "2026-10-04T21:48:08.971Z",
 			"content": "A network provider will perform maintenance on backhaul links at the NBN South Morang (3SMR) POI between 12:00am and 7:00am AEDT on Tuesday 13 October 2026. During this window, some NBN services served by this POI may be interrupted. No action is required from customers. We’ll monitor the activity and update if the scope or timing changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-12T20:00:00.000Z",
+			"content": "The scheduled maintenance at the NBN South Morang (3SMR) POI was completed at 7:00am AEDT on Tuesday 13 October 2026. Services in the area that were interrupted during the work should now be restored. If you are still experiencing issues, please restart your modem and contact support if the problem continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
