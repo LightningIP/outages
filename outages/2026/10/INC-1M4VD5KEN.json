@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "Affects some nbn services in Albury, NSW, which have been affected since about 6:39am AEDT on 14 October 2026. No restoration estimate has been provided yet.\n\nRemote troubleshooting activities have been unsuccessful in resolving this incident. A technician is currently being engaged to attend site and further investigate. Further updates will be provided once an ETA is known.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"current_summary": "Affects some nbn services in Albury, NSW, since about 6:39am AEDT on 14 October 2026. A field technician is estimated to arrive on site by 10:30am AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 14/10/2026 by 10:30\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-13T20:47:51.000Z",
 			"content": "Remote troubleshooting has not resolved the issue, and a technician is being arranged to attend the site and investigate further. No restoration estimate is available yet.\n\nRemote troubleshooting activities have been unsuccessful in resolving this incident. A technician is currently being engaged to attend site and further investigate. Further updates will be provided once an ETA is known.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-13T22:26:52.000Z",
+			"content": "A field technician is now estimated to arrive at the affected site by 10:30am AEDT on 14 October 2026. No restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 14/10/2026 by 10:30",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
