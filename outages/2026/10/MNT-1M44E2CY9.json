@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "We will perform maintenance at the NBN connection point for Karringal/Frankston (VIC) from 12:00 am to 3:00 am AEDT on 14 October 2026. Some NBN services in this area may experience interruptions of up to 3 hours during the window.",
+	"status": "work_underway",
+	"current_summary": "Scheduled maintenance is now under way at the NBN connection point for Karringal/Frankston (VIC). The maintenance window runs from 12:00 am to 3:00 am AEDT on 14 October 2026. Some NBN services in this area may experience interruptions of up to 3 hours during the window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-04T21:45:39.270Z",
 			"content": "Scheduled maintenance will take place at the NBN connection point for Karringal/Frankston (VIC) from 12:00 am to 3:00 am AEDT on 14 October 2026. During this window, some NBN services served by this POI may experience one or more interruptions, up to a total of 3 hours, while we relocate network links (NNI rehoming). We will work to keep any downtime as short as possible.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-13T13:00:03.958Z",
+			"content": "Scheduled maintenance at the NBN connection point for Karringal/Frankston (VIC) has started. Some NBN services in this area may experience interruptions of up to 3 hours during the window, which is due to finish at 3:00 am AEDT on 14 October 2026. We will update you once the work is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
