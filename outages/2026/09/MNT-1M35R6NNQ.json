@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Maintenance is under way in Victoria and runs from 12:00 AM to 6:00 AM AEDT on 14 October 2026. A single interruption of up to 15 minutes is expected around 1:00 AM AEDT.\n\nThis is routine software work on the nbn equipment that serves your area. Your connection will drop out briefly while the update is applied, then should return on its own.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance in Victoria has been completed. The work ran from 12:00 AM to 6:00 AM AEDT on 14 October 2026, with a single interruption of up to 15 minutes planned around 1:00 AM AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-10-13T13:00:00.000Z",
 		"scheduled_end": "2026-10-13T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-13T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-13T18:53:59.931Z",
+		"resolved_at": "2026-10-13T18:53:59.931Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -43,6 +43,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-10-13T18:53:59.931Z",
+			"content": "The planned maintenance has been completed. Services affected by the work should now be back to normal.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-09-22T23:45:20.016Z",
 			"content": "An upstream provider will perform software updates on access network equipment in Victoria between 12:00 AM and 6:00 AM AEDT on 14 October 2026. During this window, some services may briefly go offline, with a single interruption of up to 15 minutes expected around 1:00 AM AEDT. We will monitor progress and services should restore once the work is complete. If needed, using mobile data can help you stay connected while your service is offline.",
