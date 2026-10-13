@@ -793,5 +793,20 @@
 			"end_date": "2026-10-13T18:53:59.931Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M35R6NNQ.json"
+	},
+	{
+		"reference": "INC-1M4VD5KEN",
+		"title": "nbn connectivity issue - Albury, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-13T19:39:15.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M4VD5KEN.json"
 	}
 ]
