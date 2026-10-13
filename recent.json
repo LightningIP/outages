@@ -90,21 +90,6 @@
 		"record_path": "outages/2026/09/MNT-1M2PNX52D.json"
 	},
 	{
-		"reference": "MNT-1M2PNRK0X",
-		"title": "NSW\nVIC\nSA\nQLD - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-06T14:00:00.000Z",
-			"end_date": "2026-10-06T18:49:07.077Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M2PNRK0X.json"
-	},
-	{
 		"reference": "MNT-1M2PP0FX3",
 		"title": "SA, NSW - Upgrade the Network",
 		"planned": true,
