@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Scheduled maintenance is now under way at the NBN connection point for Karringal/Frankston (VIC). The maintenance window runs from 12:00 am to 3:00 am AEDT on 14 October 2026. Some NBN services in this area may experience interruptions of up to 3 hours during the window.",
+	"status": "resolved",
+	"current_summary": "Scheduled maintenance at the NBN connection point for Karringal/Frankston (VIC) is complete. Any services that were interrupted during the window, which ran from 12:00 am to 3:00 am AEDT on 14 October 2026, should now be back to normal.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,8 +22,8 @@
 		"scheduled_start": "2026-10-13T13:00:00.000Z",
 		"scheduled_end": "2026-10-13T16:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-13T16:00:00.000Z",
+		"resolved_at": "2026-10-13T16:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-04T21:45:39.270Z",
 			"content": "Scheduled maintenance will take place at the NBN connection point for Karringal/Frankston (VIC) from 12:00 am to 3:00 am AEDT on 14 October 2026. During this window, some NBN services served by this POI may experience one or more interruptions, up to a total of 3 hours, while we relocate network links (NNI rehoming). We will work to keep any downtime as short as possible.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-13T16:00:00.000Z",
+			"content": "Scheduled maintenance at the NBN connection point for Karringal/Frankston (VIC) was completed at 3:00 am AEDT on 14 October 2026. Services in this area should be operating normally. If you are still experiencing issues, please restart your modem and contact support if the problem continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
