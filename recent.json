@@ -73,20 +73,5 @@
 			"end_date": "2026-10-08T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
-	},
-	{
-		"reference": "MNT-1M44EBFSF",
-		"title": "Planned maintenance – NBN services at Hawthorn POI (VIC)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	}
 ]
