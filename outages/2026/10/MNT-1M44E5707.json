@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance is now under way on NBN services in the Mosman area (NSW) while a network provider performs service migration work. The window runs until 6:00 am on 15 Oct 2026 (AEDT). Services may experience interruptions during the window (up to seven hours). We will provide an update when the work is complete.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance on NBN services in the Mosman area (NSW) is now complete. The work was carried out by a network provider as part of service migration activity, and the maintenance window closed at 6:00 am on 15 Oct 2026 (AEDT).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -23,7 +23,7 @@
 		"scheduled_end": "2026-10-14T19:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-10-14T19:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-14T12:00:03.990Z",
 			"content": "Scheduled maintenance has started on NBN services in the Mosman area (NSW). Services may experience interruptions until the window closes at 6:00 am on 15 Oct 2026 (AEDT). We will provide another update when the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-14T19:00:00.000Z",
+			"content": "Scheduled maintenance on NBN services in the Mosman area (NSW) is now complete, as confirmed at 6:00 am on 15 Oct 2026 (AEDT). Services that were interrupted during the window should now be operating normally. If you are still experiencing issues, please restart your modem and contact our support team.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
