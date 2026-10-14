@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "One nbn service in Springdale Heights, NSW 2641 is affected. Restoration is now estimated by approximately 7:00 am AEDT on 15 October 2026, and a field technician is estimated to arrive at the site by 8:30 am AEDT the same day.\n\nThe field technician is estimated to arrive to the impacted site by 15/10/2026 by 08:30\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 15/10/2026 by 07:00. Using mobile data can help you stay connected if needed.",
+	"current_summary": "One nbn service in Springdale Heights, NSW 2641 is affected. Restoration is estimated by approximately 7:00 am AEDT on 15 October 2026.\n\nThe Field Technician has arrived on-site and begun works to restore services. Further updates will be provided as progress continues.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 15/10/2026 by 07:00. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -67,6 +67,13 @@
 		{
 			"update_time": "2026-10-14T18:04:02.000Z",
 			"content": "A technician arrival time is now available: they are estimated to reach the affected site by 8:30 am AEDT on 15 October 2026. No restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 15/10/2026 by 08:30",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-14T19:26:50.000Z",
+			"content": "The field technician arrived at the site at about 6:26 am AEDT on 15 October 2026 and has started work to restore the service. The restoration estimate of approximately 7:00 am AEDT is unchanged.\n\nThe Field Technician has arrived on-site and begun works to restore services. Further updates will be provided as progress continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
