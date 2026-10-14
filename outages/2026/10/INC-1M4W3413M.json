@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "One nbn service in Springdale Heights, NSW 2641 is affected. Restoration is estimated by approximately 7:00 am AEDT on 15 October 2026.\n\nThe Field Technician has arrived on-site and begun works to restore services. Further updates will be provided as progress continues.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 15/10/2026 by 07:00. Using mobile data can help you stay connected if needed.",
+	"current_summary": "One nbn service in Springdale Heights, NSW 2641 is affected. Restoration is estimated by approximately 7:00 am AEDT on 15 October 2026.\n\nThe Field Technician has arrived on-site and begun works to restore services. Further updates will be provided as progress continues.\n\nnbn is working to restore services in your area following an unexpected network issue causing a loss of nbn service connection. An estimated restoration time is not currently available. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
