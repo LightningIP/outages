@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Affected area: Lavington, NSW. Interruption window is 12:00 AM to 6:00 AM AEDT on 15 October 2026.\n\nThis planned work is to apply a permanent fix in place of the temporary repairs implemented to restore services during a recent network outage. Work may need to be performed during daylight hours for safety reasons, please refer to the estimated Scheduled Start Date for confirmation.\n\nnbn® is completing repairs on the nbn network in your area. This will cause your nbn service to lose connection.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements.\n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Lavington, NSW. The planned maintenance was scheduled for 12:00 AM to 6:00 AM AEDT on 15 October 2026 and was completed at 1:07 AM AEDT.\n\nThis planned work is to apply a permanent fix in place of the temporary repairs implemented to restore services during a recent network outage. Work may need to be performed during daylight hours for safety reasons, please refer to the estimated Scheduled Start Date for confirmation.\n\nnbn® is completing repairs on the nbn network in your area. This will cause your nbn service to lose connection.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements.\n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -32,7 +32,7 @@
 		"scheduled_end": "2026-10-14T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-14T19:00:00.000Z",
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-10-14T14:07:20.785Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -54,6 +54,13 @@
 		{
 			"update_time": "2026-10-14T13:11:13.702Z",
 			"content": "The planned maintenance in Lavington, NSW has started. Affected services may be offline until the window is due to end at 6:00 AM AEDT on 15 October 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-14T14:07:20.785Z",
+			"content": "The planned maintenance in Lavington, NSW has been completed, earlier than the 6:00 AM AEDT end of the window.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
