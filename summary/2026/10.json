@@ -795,6 +795,21 @@
 		"record_path": "outages/2026/09/MNT-1M35R6NNQ.json"
 	},
 	{
+		"reference": "INC-1M4W3413M",
+		"title": "nbn service disruption - Springdale Heights, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-14T01:28:20.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M4W3413M.json"
+	},
+	{
 		"reference": "INC-1M4VD5KEN",
 		"title": "nbn connectivity issue - Albury, NSW",
 		"planned": false,
