@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "An nbn service in Springdale Heights, NSW 2641 is affected. The issue was reported at 12:28 pm AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"status": "work_underway",
+	"current_summary": "One nbn service in Springdale Heights, NSW 2641 is affected. The issue was reported at 12:28 pm AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nRemote troubleshooting was unsuccessful in resolving the issue. A technician will be dispatched to the site for further investigation. nbn will share additional updates once an estimated time of arrival is available.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-10-14T01:28:20.000Z",
 			"content": "An nbn service in Springdale Heights, NSW 2641 is affected. The issue was reported at 12:28 pm AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-14T12:55:45.000Z",
+			"content": "Remote troubleshooting did not resolve the issue, so a technician will be dispatched to the site. No restoration estimate has been provided yet.\n\nRemote troubleshooting was unsuccessful in resolving the issue. A technician will be dispatched to the site for further investigation. nbn will share additional updates once an estimated time of arrival is available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
