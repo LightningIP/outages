@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "INC-1M4B85RSA",
-		"title": "Access network issue - Sawyers Gully, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:05:51.000Z",
-			"end_date": "2026-10-07T14:06:47.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M4B85RSA.json"
-	},
-	{
 		"reference": "MNT-1M44DYMES",
 		"title": "Planned NBN maintenance – VIC (multiple POIs)",
 		"planned": true,
@@ -28,21 +13,6 @@
 			"end_date": "2026-10-08T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44DYMES.json"
-	},
-	{
-		"reference": "MNT-1M27HKWP8",
-		"title": " Kurri Kurri NSW - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-07T13:00:00.000Z",
-			"end_date": "2026-10-07T13:58:05.333Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
 	},
 	{
 		"reference": "MNT-1M2PNX52D",
