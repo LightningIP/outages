@@ -240,21 +240,6 @@
 		"record_path": "outages/2026/08/MNT-1KZT9PN4P.json"
 	},
 	{
-		"reference": "MNT-1M09CWKN5",
-		"title": "NBN POI 3CAU (Caulfield) NNI Rehoming",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-09-08T14:00:00.000Z",
-			"end_date": "2026-09-08T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/08/MNT-1M09CWKN5.json"
-	},
-	{
 		"reference": "MNT-1M2F030DV",
 		"title": "Lavington NSW - Maintain the Network",
 		"planned": true,
@@ -268,6 +253,21 @@
 			"end_date": "2026-10-14T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2F030DV.json"
+	},
+	{
+		"reference": "MNT-1M09CWKN5",
+		"title": "NBN POI 3CAU (Caulfield) NNI Rehoming",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-09-08T14:00:00.000Z",
+			"end_date": "2026-09-08T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/08/MNT-1M09CWKN5.json"
 	},
 	{
 		"reference": "MNT-1M2PCYSD1",
