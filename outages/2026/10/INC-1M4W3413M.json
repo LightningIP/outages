@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M4W3413M",
+	"title": "nbn service disruption - Springdale Heights, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "An nbn service in Springdale Heights, NSW 2641 is affected. The issue was reported at 12:28 pm AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"SPRINGDALE HEIGHTS"
+		],
+		"postcodes": [
+			"2641"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-14T01:28:20.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-14T01:28:20.000Z",
+			"content": "An nbn service in Springdale Heights, NSW 2641 is affected. The issue was reported at 12:28 pm AEDT on 14 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
