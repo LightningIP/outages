@@ -373,5 +373,20 @@
 			"end_date": "2026-10-26T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4RJKP53.json"
+	},
+	{
+		"reference": "MNT-1M4W94KHH",
+		"title": "Planned network upgrade – Mayfield NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-28T13:00:00.000Z",
+			"end_date": "2026-10-28T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4W94KHH.json"
 	}
 ]
