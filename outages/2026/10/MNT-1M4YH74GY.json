@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M4YH74GY",
+	"title": "Planned maintenance: NBN services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned fibre cable repair work may affect nbn services connected through the Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas in Victoria. The work is scheduled between 11:00 pm on Wednesday 4 November and 7:00 am on Thursday 5 November 2026 (AEDT). Services may be interrupted for up to 8 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"LYNBROOK"
+		],
+		"postcodes": [
+			"3975"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-15T00:41:18.069Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-04T12:00:00.000Z",
+		"scheduled_end": "2026-11-04T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned fibre cable repair by a network provider",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-15T00:41:18.088Z",
+			"content": "We have been advised that a network provider will carry out a fibre cable repair that may affect nbn services in the Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas of Victoria. The work is scheduled between 11:00 pm on Wednesday 4 November and 7:00 am on Thursday 5 November 2026 (AEDT). Affected services may be interrupted for up to 8 hours during this window. We will share further updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
