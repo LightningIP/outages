@@ -898,5 +898,50 @@
 			"end_date": "2026-10-29T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4YGKYSZ.json"
+	},
+	{
+		"reference": "MNT-1M4YH74GY",
+		"title": "Planned maintenance: NBN services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-04T12:00:00.000Z",
+			"end_date": "2026-11-04T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4YH74GY.json"
+	},
+	{
+		"reference": "MNT-1M4YH7RRS",
+		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-09T12:00:00.000Z",
+			"end_date": "2026-11-09T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4YH7RRS.json"
+	},
+	{
+		"reference": "MNT-1M4YH8FSW",
+		"title": "Planned maintenance: nbn services connected via Aspley, Caboolture and Petrie (QLD)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-05T14:00:00.000Z",
+			"end_date": "2026-11-05T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4YH8FSW.json"
 	}
 ]
