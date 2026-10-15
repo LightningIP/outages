@@ -1,0 +1,57 @@
+{
+	"reference": "MNT-1M4YH8FSW",
+	"title": "Planned maintenance: nbn services connected via Aspley, Caboolture and Petrie (QLD)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "An upstream network provider will carry out a planned fibre cable migration that may affect nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland. The work is scheduled between 12:00 am and 6:00 am AEST on Friday 6 November 2026. Some customers may lose service for up to 6 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - HFC"
+		],
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"PELICAN WATERS",
+			"WAVELL HEIGHTS"
+		],
+		"postcodes": [
+			"4012",
+			"4551"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-15T00:37:37.230Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-05T14:00:00.000Z",
+		"scheduled_end": "2026-11-05T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned fibre cable migration being carried out by an upstream network provider.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-15T00:37:37.263Z",
+			"content": "Our upstream network provider has advised us of planned fibre cable migration work. It may affect nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland. The maintenance window is between 12:00 am and 6:00 am AEST on Friday 6 November 2026. During this window, affected services may be interrupted for up to 6 hours. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
