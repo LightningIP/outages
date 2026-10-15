@@ -225,21 +225,6 @@
 		"record_path": "outages/2026/10/MNT-1M4Q1K03G.json"
 	},
 	{
-		"reference": "MNT-1M4FK2VB7",
-		"title": "Network maintenance – brief interruptions in NSW, QLD, VIC, SA and other regions",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-18T13:00:00.000Z",
-			"end_date": "2026-10-18T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4FK2VB7.json"
-	},
-	{
 		"reference": "MNT-1M4Q1JA9Q",
 		"title": "Planned maintenance: NBN services connected to the Lonsdale Depot POI (Adelaide, SA)",
 		"planned": true,
@@ -298,6 +283,21 @@
 			"end_date": "2026-10-22T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1P8X2.json"
+	},
+	{
+		"reference": "MNT-1M4FK2VB7",
+		"title": "Network maintenance – brief interruptions in NSW, QLD, VIC, SA and other regions",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-18T13:00:00.000Z",
+			"end_date": "2026-10-15T00:31:37.797Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4FK2VB7.json"
 	},
 	{
 		"reference": "MNT-1M4FDYZ10",
