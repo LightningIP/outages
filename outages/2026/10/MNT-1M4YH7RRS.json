@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M4YH7RRS",
+	"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled between 11:00 PM on Monday 9 November 2026 and 7:00 AM on Tuesday 10 November 2026 (AEDT). A network provider will be replacing fibre cable that supports the nbn connection points serving Nunawading, Horsham, St Kilda, Keysborough and Cheltenham in Victoria. Some nbn services connected through these locations may be affected for up to 8 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"LYNBROOK"
+		],
+		"postcodes": [
+			"3975"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-15T00:32:50.746Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-09T12:00:00.000Z",
+		"scheduled_end": "2026-11-09T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned fibre cable replacement by a network provider",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-15T00:32:50.779Z",
+			"content": "We have been advised of planned maintenance that may affect some nbn services in Victoria. A network provider will be replacing fibre cable that supports the nbn connection points serving Nunawading, Horsham, St Kilda, Keysborough and Cheltenham. The work is scheduled between 11:00 PM on Monday 9 November 2026 and 7:00 AM on Tuesday 10 November 2026 (AEDT). Affected services may be interrupted for up to 8 hours during this window. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
