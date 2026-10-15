@@ -28,20 +28,5 @@
 			"end_date": "2026-10-09T01:54:56.286Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
-	},
-	{
-		"reference": "MNT-1M44E9XQ7",
-		"title": "NBN Reservoir (3RES) POI (VIC) – scheduled maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-08T13:00:00.000Z",
-			"end_date": "2026-10-08T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E9XQ7.json"
 	}
 ]
