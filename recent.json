@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "MNT-1M44DYMES",
-		"title": "Planned NBN maintenance – VIC (multiple POIs)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "state",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-08T12:00:00.000Z",
-			"end_date": "2026-10-08T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DYMES.json"
-	},
-	{
 		"reference": "MNT-1M4EYZY5X",
 		"title": "Ashfield, NSW — Emergency maintenance on the access network",
 		"planned": true,
