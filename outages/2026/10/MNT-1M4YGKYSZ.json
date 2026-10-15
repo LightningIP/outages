@@ -1,0 +1,57 @@
+{
+	"reference": "MNT-1M4YGKYSZ",
+	"title": "Mayfield NSW - Planned nbn network upgrade",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "This affects nbn services in Mayfield NSW. The maintenance window is from 12:00am to 6:00am on Friday 30 October 2026 (AEDT), with a service interruption of about 60 minutes expected from 12:30am.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTN",
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BENDOLBA",
+			"SMITHS LAKE"
+		],
+		"postcodes": [
+			"2420",
+			"2428"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-09-15T02:23:28.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-29T13:00:00.000Z",
+		"scheduled_end": "2026-10-29T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned upgrade of nbn network equipment",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-15T00:50:26.867Z",
+			"content": "This affects nbn services in Mayfield NSW. The maintenance window is from 12:00am to 6:00am on Friday 30 October 2026 (AEDT), with a service interruption of about 60 minutes expected from 12:30am.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
