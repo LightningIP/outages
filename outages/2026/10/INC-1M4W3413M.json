@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "One service in Springdale Heights, NSW 2641 is affected. The restoration estimate is now approximately 12:30 am AEDT on 16 October 2026.\n\nRestoration activities are continuing onsite. The ETR has been tentatively revised while repair works remain in progress. A revised ETR will be provided as soon as it becomes available.\n\nnbn is working hard to fix an unexpected network issue in your area causing a loss of nbn service connection. The updated estimated restoration time is approximately 16/10/2026 by 00:30. Using mobile data can help you stay connected if needed.",
+	"status": "resolved",
+	"current_summary": "The affected service in Springdale Heights, NSW 2641 was restored at about 9:11 pm AEDT on 15 October 2026, and the incident was closed at about 9:12 pm AEDT.\n\nRestoration activities are continuing onsite. The ETR has been tentatively revised while repair works remain in progress. A revised ETR will be provided as soon as it becomes available.\n\nResolution: nbn Network Cable Repaired\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,12 +30,12 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": "2026-10-15T13:30:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-15T10:11:52.000Z",
+		"resolved_at": "2026-10-15T10:12:06.000Z",
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
+		"reason": "nbn network cable fault",
 		"detailed": null,
 		"root": null,
 		"weather_related": null,
@@ -102,6 +102,13 @@
 		{
 			"update_time": "2026-10-15T07:07:36.921Z",
 			"content": "The restoration estimate has been revised to approximately 12:30 am AEDT on 16 October 2026. This is earlier than the previous estimate of 5:30 pm AEDT on 16 October 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-15T10:12:06.000Z",
+			"content": "The nbn service in Springdale Heights has been restored, and the incident was closed at about 9:12 pm AEDT on 15 October 2026. The repair involved a cable fix, and the earlier restoration estimate no longer applies.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
