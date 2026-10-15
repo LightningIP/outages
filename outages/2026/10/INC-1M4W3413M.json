@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "One nbn service in Springdale Heights, NSW 2641 is affected. The earlier restoration estimate of 5:30 pm AEDT on 15 October 2026 is being revised, and no new restoration time has been provided yet.\n\nETR means estimated time of restoration. Repair work is still under way on site, so the earlier 5:30 pm estimate should no longer be relied on until a new time is provided.\n\nRestoration activities are continuing onsite. The ETR has been tentatively revised while repair works remain in progress. A revised ETR will be provided as soon as it becomes available.\n\nnbn is working to restore services in your area following an unexpected network issue causing a loss of nbn service connection. An estimated restoration time is not currently available. Using mobile data can help you stay connected if needed.",
+	"current_summary": "One service in Springdale Heights, NSW 2641 is affected. The estimated restoration time is now approximately 5:30 pm AEDT on 16 October 2026.\n\nRestoration activities are continuing onsite. The ETR has been tentatively revised while repair works remain in progress. A revised ETR will be provided as soon as it becomes available.\n\nnbn is working hard to fix an unexpected network issue in your area causing a loss of nbn service connection. The updated estimated restoration time is approximately 16/10/2026 by 17:30. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -29,7 +29,7 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": "2026-10-15T06:30:00.000Z",
+		"estimated_restoration_at": "2026-10-16T06:30:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -88,6 +88,13 @@
 		{
 			"update_time": "2026-10-15T06:30:28.000Z",
 			"content": "Repair work is continuing on site, and the earlier restoration estimate of 5:30 pm AEDT on 15 October 2026 has been tentatively revised. No new restoration time has been provided yet.\n\nETR means estimated time of restoration. Repair work is still under way on site, so the earlier 5:30 pm estimate should no longer be relied on until a new time is provided.\n\nRestoration activities are continuing onsite. The ETR has been tentatively revised while repair works remain in progress. A revised ETR will be provided as soon as it becomes available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-15T07:01:16.135Z",
+			"content": "A new restoration estimate of approximately 5:30 pm AEDT on 16 October 2026 has been provided. This is one day later than the earlier estimate of 5:30 pm AEDT on 15 October 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
