@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M531CK2P",
+	"title": "Voice network emergency maintenance",
+	"type": "maintenance",
+	"planned": true,
+	"category": "voice",
+	"status": "resolved",
+	"current_summary": "Emergency maintenance on part of our voice network platform took place between 2:00am and 3:00am AEDT on 17 October 2026 and is now complete. Calls to SIP trunking customers on this platform were unavailable for up to 30 minutes during the window. This platform is mainly used as backup voice capacity, so we do not expect Lightning IP customer services to have been affected.",
+	"impact": {
+		"customer": false,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-16T00:13:04.712Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-16T15:00:00.000Z",
+		"scheduled_end": "2026-10-16T16:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Emergency maintenance on a voice network platform used for SIP trunking.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-16T16:00:00.000Z",
+			"content": "The emergency maintenance on part of our voice network platform is now complete, as of 3:00am AEDT on 17 October 2026. Calls to SIP trunking customers on this platform were unavailable for up to 30 minutes during the window, and services have been restored. This platform is mainly used as backup voice capacity, so we do not expect Lightning IP customer services to have been affected.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
