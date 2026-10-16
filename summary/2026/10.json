@@ -958,5 +958,20 @@
 			"end_date": "2026-11-01T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M515MPFN.json"
+	},
+	{
+		"reference": "MNT-1M531CK2P",
+		"title": "Voice network emergency maintenance",
+		"planned": true,
+		"impact": {
+			"customer": false,
+			"impact_scope": null,
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-16T15:00:00.000Z",
+			"end_date": "2026-10-16T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M531CK2P.json"
 	}
 ]
