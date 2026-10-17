@@ -45,6 +45,36 @@
 		"record_path": "outages/2026/09/MNT-1M2F030DV.json"
 	},
 	{
+		"reference": "MNT-1M3TSZXYW",
+		"title": "NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 4
+		},
+		"lifecycle": {
+			"start_date": "2026-10-18T13:00:00.000Z",
+			"end_date": "2026-10-18T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M3TSZXYW.json"
+	},
+	{
+		"reference": "MNT-1M3TT1P10",
+		"title": "VIC, NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 63
+		},
+		"lifecycle": {
+			"start_date": "2026-10-18T13:00:00.000Z",
+			"end_date": "2026-10-18T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M3TT1P10.json"
+	},
+	{
 		"reference": "MNT-1M44E5707",
 		"title": "NBN services in Mosman (NSW) – planned maintenance",
 		"planned": true,
@@ -73,6 +103,21 @@
 			"end_date": "2026-10-17T15:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1KQ73.json"
+	},
+	{
+		"reference": "MNT-1M4FK2VB7",
+		"title": "Network maintenance – brief interruptions in NSW, QLD, VIC, SA and other regions",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-18T13:00:00.000Z",
+			"end_date": "2026-10-15T00:31:37.797Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4FK2VB7.json"
 	},
 	{
 		"reference": "INC-1M44E8FAS",
