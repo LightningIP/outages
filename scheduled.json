@@ -240,21 +240,6 @@
 		"record_path": "outages/2026/10/MNT-1M4Q1JA9Q.json"
 	},
 	{
-		"reference": "MNT-1M4Q1KQ73",
-		"title": "Planned maintenance: NBN services connected via St Kilda, Cheltenham and Keysborough (VIC)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-17T12:00:00.000Z",
-			"end_date": "2026-10-17T15:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4Q1KQ73.json"
-	},
-	{
 		"reference": "MNT-1M4Q1NCJK",
 		"title": "Planned maintenance: NBN Tullamarine (VIC) network connection changes",
 		"planned": true,
