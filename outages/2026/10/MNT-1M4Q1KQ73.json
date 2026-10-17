@@ -5,7 +5,7 @@
 	"planned": true,
 	"category": "internet",
 	"status": "scheduled",
-	"current_summary": "We have planned maintenance on Saturday 17 October 2026 from 11:00 pm to 2:00 am AEDT (Sunday 18 October). We will be moving NBN services at the St Kilda, Cheltenham and Keysborough points of interconnect in Victoria onto new network connections. NBN services connected through these locations may be disrupted for up to 3 hours during this window.",
+	"current_summary": "The planned maintenance for NBN services connected through the St Kilda, Cheltenham and Keysborough points of interconnect in Victoria, originally scheduled for the night of Saturday 17 October 2026, has been postponed because of nbn system works. The work to move these services onto new network connections will be rescheduled. A new date will be advised next week.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-10-11T23:55:44.048Z",
 			"content": "We have scheduled planned maintenance for Saturday 17 October 2026, between 11:00 pm and 2:00 am AEDT (Sunday 18 October). During this window we will be moving NBN services at the St Kilda, Cheltenham and Keysborough points of interconnect in Victoria from older network connections to new ones. NBN services connected through these locations may be disrupted for up to 3 hours during the window. We will keep you updated if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-17T12:49:00.000Z",
+			"content": "As of 11:49 pm AEDT on Saturday 17 October, the maintenance has been postponed because of nbn system works. The work to move NBN services at the St Kilda, Cheltenham and Keysborough points of interconnect onto new network connections will be rescheduled. We will share the new date once it has been confirmed, which is expected next week.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
