@@ -555,21 +555,6 @@
 		"record_path": "outages/2026/09/MNT-1M2PP0FX3.json"
 	},
 	{
-		"reference": "MNT-1M4Q1JA9Q",
-		"title": "Planned maintenance: NBN services connected to the Lonsdale Depot POI (Adelaide, SA)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-28T12:30:00.000Z",
-			"end_date": "2026-10-28T19:30:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4Q1JA9Q.json"
-	},
-	{
 		"reference": "MNT-1M4Q1KQ73",
 		"title": "Planned maintenance: NBN services connected via St Kilda, Cheltenham and Keysborough (VIC)",
 		"planned": true,
@@ -583,6 +568,21 @@
 			"end_date": "2026-10-17T15:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1KQ73.json"
+	},
+	{
+		"reference": "MNT-1M4Q1JA9Q",
+		"title": "Planned maintenance: NBN services connected to the Lonsdale Depot POI (Adelaide, SA)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-28T12:30:00.000Z",
+			"end_date": "2026-10-28T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1JA9Q.json"
 	},
 	{
 		"reference": "MNT-1M4Q1NCJK",
