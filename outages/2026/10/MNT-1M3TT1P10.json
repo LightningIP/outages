@@ -4,17 +4,55 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "scheduled",
-	"current_summary": "Planned works on access network equipment in parts of Victoria and New South Wales are scheduled for Monday 19 October, 12:00 AM–6:00 AM AEDT. Some customers may experience a brief loss of connection during this window, with one short interruption of up to 15 minutes currently scheduled around 1:00 AM AEDT. Our team will monitor progress and provide updates. Services are expected to be fully restored by 6:00 AM AEDT.",
+	"status": "work_underway",
+	"current_summary": "Affects some services in parts of Victoria and New South Wales. The maintenance window runs from 12:00 AM to 6:00 AM AEDT on Monday 19 October, with one interruption of up to 15 minutes scheduled around 1:00 AM AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": null,
 		"service_count": 63,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW",
+			"VIC"
+		],
+		"suburbs": [
+			"BURRUMBUTTOCK",
+			"CULCAIRN",
+			"GEROGERY",
+			"GLENELLEN",
+			"HOLBROOK",
+			"JINDERA",
+			"LOCKHART",
+			"MALUA BAY",
+			"MANNUS",
+			"MURRINGO",
+			"STOCKINBINGAL",
+			"TABLE TOP",
+			"TALGARNO",
+			"THURGOONA",
+			"WALLA WALLA",
+			"WEST WODONGA",
+			"WIRLINGA",
+			"YOUNG"
+		],
+		"postcodes": [
+			"2536",
+			"2586",
+			"2594",
+			"2640",
+			"2642",
+			"2644",
+			"2653",
+			"2656",
+			"2659",
+			"2660",
+			"2725",
+			"3690",
+			"3691"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-09-08T01:44:49.000Z",
@@ -38,6 +76,13 @@
 		{
 			"update_time": "2026-10-01T04:00:24.798Z",
 			"content": "We will be performing planned maintenance affecting some services in parts of Victoria and New South Wales. The maintenance window is Monday 19 October, 12:00 AM to 6:00 AM AEDT. A brief loss of connection (up to 15 minutes) is expected around 1:00 AM AEDT. We will monitor throughout and share updates. If you need to stay online during the brief interruption, consider using mobile data where available. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-18T13:01:01.474Z",
+			"content": "The planned maintenance has started, beginning at 12:00 AM AEDT on Monday 19 October. Works are still due to finish by 6:00 AM AEDT, and the short interruption is still scheduled around 1:00 AM AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
