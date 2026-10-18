@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": null,
-	"status": "work_underway",
-	"current_summary": "Affects some services in parts of Victoria and New South Wales. The maintenance window runs from 12:00 AM to 6:00 AM AEDT on Monday 19 October, with one interruption of up to 15 minutes scheduled around 1:00 AM AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Affects some services in parts of Victoria and New South Wales. The maintenance window ran from 12:00 AM to 6:00 AM AEDT on Monday 19 October and was completed at 5:29 AM AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -60,8 +60,8 @@
 		"scheduled_start": "2026-10-18T13:00:00.000Z",
 		"scheduled_end": "2026-10-18T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-18T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-18T18:29:11.614Z",
+		"resolved_at": "2026-10-18T18:29:11.614Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -76,6 +76,13 @@
 		{
 			"update_time": "2026-10-01T04:00:24.798Z",
 			"content": "We will be performing planned maintenance affecting some services in parts of Victoria and New South Wales. The maintenance window is Monday 19 October, 12:00 AM to 6:00 AM AEDT. A brief loss of connection (up to 15 minutes) is expected around 1:00 AM AEDT. We will monitor throughout and share updates. If you need to stay online during the brief interruption, consider using mobile data where available. Thank you for your patience.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-18T18:29:11.614Z",
+			"content": "The planned maintenance has been completed as of 5:29 AM AEDT on Monday 19 October, ahead of the 6:00 AM end of the window. Services in the affected areas should be back to normal.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
