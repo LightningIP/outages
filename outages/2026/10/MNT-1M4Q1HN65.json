@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Maintenance is under way at the Footscray (VIC) NBN Point of Interconnect (POI). The window runs from 12:00 am to 3:00 am AEDT on Tuesday 20 October 2026. We are moving services from older network connections to new ones. NBN services connected through this POI may be disrupted for up to 3 hours during this window.",
+	"status": "resolved",
+	"current_summary": "The scheduled maintenance at the Footscray (VIC) NBN Point of Interconnect (POI) is complete. Services have been moved from older network connections to new ones. The work finished at 3:00 am AEDT on Tuesday 20 October 2026.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -32,8 +32,8 @@
 		"scheduled_start": "2026-10-19T13:00:00.000Z",
 		"scheduled_end": "2026-10-19T16:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-19T16:00:00.000Z",
+		"resolved_at": "2026-10-19T16:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -55,6 +55,13 @@
 		{
 			"update_time": "2026-10-19T13:00:03.136Z",
 			"content": "The scheduled maintenance at the Footscray (VIC) NBN Point of Interconnect (POI) has started. NBN services connected through this POI may be disrupted for up to 3 hours, until about 3:00 am AEDT on Tuesday 20 October 2026. We will post another update when the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-19T16:00:00.000Z",
+			"content": "The scheduled maintenance at the Footscray (VIC) NBN Point of Interconnect (POI) was completed at 3:00 am AEDT on Tuesday 20 October 2026. NBN services connected through this POI should now be running normally on the new network connections. If you are still having problems with your service, please restart your modem and contact our support team if the issue continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
