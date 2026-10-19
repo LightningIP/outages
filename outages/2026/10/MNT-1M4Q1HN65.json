@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "We have planned maintenance at the Footscray (VIC) NBN Point of Interconnect (POI) between 12:00 am and 3:00 am AEDT on Tuesday 20 October 2026. We are moving services from older network connections to new ones. NBN services connected through this POI may be disrupted for up to 3 hours during this window.",
+	"status": "work_underway",
+	"current_summary": "Maintenance is under way at the Footscray (VIC) NBN Point of Interconnect (POI). The window runs from 12:00 am to 3:00 am AEDT on Tuesday 20 October 2026. We are moving services from older network connections to new ones. NBN services connected through this POI may be disrupted for up to 3 hours during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -48,6 +48,13 @@
 		{
 			"update_time": "2026-10-12T00:00:18.100Z",
 			"content": "We have scheduled maintenance at the Footscray (VIC) NBN Point of Interconnect (POI). The work will take place between 12:00 am and 3:00 am AEDT on Tuesday 20 October 2026. During this time, we will be moving services from older network connections to new ones. NBN services connected through this POI may be disrupted for up to 3 hours within the window. We will post an update if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-19T13:00:03.136Z",
+			"content": "The scheduled maintenance at the Footscray (VIC) NBN Point of Interconnect (POI) has started. NBN services connected through this POI may be disrupted for up to 3 hours, until about 3:00 am AEDT on Tuesday 20 October 2026. We will post another update when the work is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
