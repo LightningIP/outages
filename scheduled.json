@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "MNT-1M44S8RD4",
-		"title": "Planned NBN maintenance – Merrimac and Southport (QLD)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-19T14:00:00.000Z",
-			"end_date": "2026-10-19T20:30:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44S8RD4.json"
-	},
-	{
 		"reference": "MNT-1M44DXDX9",
 		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
 		"planned": true,
