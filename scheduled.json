@@ -433,5 +433,20 @@
 			"end_date": "2026-11-03T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M58QVE79.json"
+	},
+	{
+		"reference": "MNT-1M58TDQC0",
+		"title": "Planned nbn network upgrade - Maclean NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-05T12:00:00.000Z",
+			"end_date": "2026-11-05T18:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M58TDQC0.json"
 	}
 ]
