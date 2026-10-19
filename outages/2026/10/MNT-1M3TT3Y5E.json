@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Maintenance is under way in NSW during the window of 12:00 AM to 6:00 AM AEDT on 20 October 2026. A single interruption of up to 15 minutes is scheduled from about 1:00 AM AEDT.\n\nThe work updates software on the radio equipment that serves fixed wireless connections in your area. Your connection will drop briefly and should reconnect by itself once the update is done.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Planned fixed wireless maintenance in NSW (12:00 AM to 6:00 AM AEDT, 20 October 2026) is complete. It was marked completed at about 6:17 AM AEDT.\n\nThis was a software update on the radio equipment that serves fixed wireless connections. Your service should have dropped briefly during the update and reconnected by itself.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -78,8 +78,8 @@
 		"scheduled_start": "2026-10-19T13:00:00.000Z",
 		"scheduled_end": "2026-10-19T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-19T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-19T19:17:52.310Z",
+		"resolved_at": "2026-10-19T19:17:52.310Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -101,6 +101,13 @@
 		{
 			"update_time": "2026-10-19T13:07:07.129Z",
 			"content": "The planned maintenance has now started. The single interruption of up to 15 minutes is still expected from about 1:00 AM AEDT, and the work is due to finish by 6:00 AM AEDT on 20 October 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-19T19:17:52.310Z",
+			"content": "The planned maintenance has been completed as of about 6:17 AM AEDT on 20 October 2026. If your service has not reconnected, please restart your modem/router and contact us.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
