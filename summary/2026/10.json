@@ -690,6 +690,21 @@
 		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
+		"reference": "MNT-1M59FJ5MK",
+		"title": "Planned maintenance: NBN Kings Park (VIC) network connection upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-04T13:00:00.000Z",
+			"end_date": "2026-11-04T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
+	},
+	{
 		"reference": "INC-1M4Q2BJNF",
 		"title": "Network congestion in Melbourne due to a lost network link",
 		"planned": false,
