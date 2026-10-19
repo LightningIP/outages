@@ -1,0 +1,56 @@
+{
+	"reference": "MNT-1M58QVE79",
+	"title": "Scheduled nbn network upgrade - Victoria",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects some nbn services in Victoria. The maintenance window runs from 12:00am to 6:00am on Wednesday 4 November 2026 (AEDT), with an interruption of about 30 minutes expected from 12:00am.\n\nThe purpose of this change is to improve the performance of cells by changing network settings. This work is part of a program of work nbn is undertaking to support extra capacity for the nbn network. As this upgrade work is being performed at the network level, customers may not experience an immediate increase in performance for their individual service.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 6,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"MURRINGO",
+			"YOUNG"
+		],
+		"postcodes": [
+			"2586",
+			"2594"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-12T00:47:27.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-03T13:00:00.000Z",
+		"scheduled_end": "2026-11-03T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned nbn network upgrade to improve cell performance as part of a program to add network capacity.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-19T00:08:54.906Z",
+			"content": "Affects some nbn services in Victoria. The maintenance window runs from 12:00am to 6:00am on Wednesday 4 November 2026 (AEDT), with an interruption of about 30 minutes expected from 12:00am.\n\nThe purpose of this change is to improve the performance of cells by changing network settings. This work is part of a program of work nbn is undertaking to support extra capacity for the nbn network. As this upgrade work is being performed at the network level, customers may not experience an immediate increase in performance for their individual service.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
