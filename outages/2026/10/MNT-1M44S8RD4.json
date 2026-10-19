@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned maintenance will replace backhaul fibre serving the NBN areas of Merrimac and Southport (QLD). Some NBN services may experience interruptions of up to 7 hours during the window on 20 Oct 2026 from 00:00 to 06:30 (Queensland time).",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport (QLD) is now under way. Some NBN services in these areas may experience interruptions of up to 7 hours during the maintenance window, which ends at 06:30 on 20 Oct 2026 (Queensland time).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-10-05T01:01:21.869Z",
 			"content": "A network provider will undertake planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport. This work is scheduled for 20 Oct 2026 from 00:00 to 06:30 (Queensland time). During this window, some NBN services in these areas may be interrupted for up to 7 hours. We will monitor the activity and provide updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-19T14:00:03.170Z",
+			"content": "The planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport started at 00:00 on 20 Oct 2026 (Queensland time). Some NBN services in these areas may be interrupted while the work is carried out. The maintenance window is scheduled to finish at 06:30 (Queensland time), and we will update you when the work is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
