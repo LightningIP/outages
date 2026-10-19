@@ -1,0 +1,55 @@
+{
+	"reference": "MNT-1M58TDQC0",
+	"title": "Planned nbn network upgrade - Maclean NSW",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in Maclean NSW. The maintenance window is 11:00 pm Thursday 5 November to 5:00 am Friday 6 November 2026 (Sydney time), with an expected loss of connectivity of up to 5 hours from 11:00 pm.\n\nA third-party network provider will be performing work on its' Managed Service Backhaul (MSB) infrastructure which will impact nbn services. Due to the network architecture, work conducted by a third-party is sometimes outside of nbn's control but is essential for the overall performance of the nbn network.\n\nAn external party is performing works that will affect the nbn® network in your area. This will cause a temporary loss of connectivity to your nbn service.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 3,
+		"service_types": [
+			"NBN - FTTC",
+			"NBN - FTTP"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"YAMBA"
+		],
+		"postcodes": [
+			"2464"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-16T05:01:52.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-05T12:00:00.000Z",
+		"scheduled_end": "2026-11-05T18:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network upgrade works affecting the nbn network in the Maclean area.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-16T05:01:52.000Z",
+			"content": "Affects nbn services in Maclean NSW. The maintenance window is 11:00 pm Thursday 5 November to 5:00 am Friday 6 November 2026 (Sydney time), with an expected loss of connectivity of up to 5 hours from 11:00 pm.\n\nA third-party network provider will be performing work on its' Managed Service Backhaul (MSB) infrastructure which will impact nbn services. Due to the network architecture, work conducted by a third-party is sometimes outside of nbn's control but is essential for the overall performance of the nbn network.\n\nAn external party is performing works that will affect the nbn® network in your area. This will cause a temporary loss of connectivity to your nbn service.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
