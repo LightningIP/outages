@@ -463,5 +463,20 @@
 			"end_date": "2026-11-11T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M590KG36.json"
+	},
+	{
+		"reference": "MNT-1M597QQCS",
+		"title": "Planned maintenance: NBN services via Katanning (WA) POI",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-04T16:00:00.000Z",
+			"end_date": "2026-11-04T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M597QQCS.json"
 	}
 ]
