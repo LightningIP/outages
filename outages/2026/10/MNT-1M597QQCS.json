@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M597QQCS",
+	"title": "Planned maintenance: NBN services via Katanning (WA) POI",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "We have planned maintenance on Thursday 5 November 2026 from 12:00 am to 3:00 am AWST. It affects NBN services connected through the Katanning (WA) point of interconnect. We will be moving services from older network connections to new ones. During this window, affected services may be disrupted for up to 3 hours.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-19T02:15:31.225Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-04T16:00:00.000Z",
+		"scheduled_end": "2026-11-04T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network maintenance to move services from older network connections to new ones.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-19T02:15:31.248Z",
+			"content": "We have scheduled planned maintenance on our network for NBN services connected through the Katanning (WA) point of interconnect. We will be moving services from older network connections to new ones. The maintenance window is from 12:00 am to 3:00 am AWST on Thursday 5 November 2026. Services in the affected area may be disrupted for up to 3 hours during this window. We will keep you updated if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
