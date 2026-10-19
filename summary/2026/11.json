@@ -103,5 +103,20 @@
 			"end_date": "2026-11-01T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M515MPFN.json"
+	},
+	{
+		"reference": "MNT-1M58QVE79",
+		"title": "Scheduled nbn network upgrade - Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 6
+		},
+		"lifecycle": {
+			"start_date": "2026-11-03T13:00:00.000Z",
+			"end_date": "2026-11-03T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M58QVE79.json"
 	}
 ]
