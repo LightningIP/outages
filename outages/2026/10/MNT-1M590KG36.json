@@ -1,0 +1,56 @@
+{
+	"reference": "MNT-1M590KG36",
+	"title": "Planned maintenance: nbn services connected via the Bendigo (VIC) POI",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "A network provider will carry out a planned router software upgrade that may affect nbn services connected through the Bendigo POI in Victoria. The work is scheduled from 11:00pm AEDT on Wednesday 11 November to 6:00am AEDT on Thursday 12 November 2026. Services may be interrupted for up to 7 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BEVERIDGE",
+			"SEYMOUR"
+		],
+		"postcodes": [
+			"3660",
+			"3753"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-18T23:44:56.589Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-11T12:00:00.000Z",
+		"scheduled_end": "2026-11-11T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network router software upgrade by a network provider",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-18T23:44:56.610Z",
+			"content": "We have been advised that a network provider will carry out a planned router software upgrade that may affect nbn services connected through the Bendigo POI in Victoria. The work is scheduled between 11:00pm AEDT on Wednesday 11 November and 6:00am AEDT on Thursday 12 November 2026. Affected services may be interrupted for up to 7 hours during this window. We will share further updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
