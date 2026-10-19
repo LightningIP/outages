@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned upgrade work is under way in Mayfield, NSW, within the window of 12:00 AM to 6:00 AM AEDT on Tuesday 20 October. A single interruption of up to 60 minutes is scheduled from around 12:30 AM AEDT.\n\nOur network partner is upgrading equipment that carries traffic from the local area into the wider network. Your service will drop out briefly while this happens and should reconnect by itself.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Planned upgrade work in Mayfield, NSW is complete. The maintenance window was 12:00 AM to 6:00 AM AEDT on Tuesday 20 October, and the work was completed at about 2:57 AM AEDT.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": true,
@@ -33,8 +33,8 @@
 		"scheduled_start": "2026-10-19T13:00:00.000Z",
 		"scheduled_end": "2026-10-19T19:00:00.000Z",
 		"estimated_restoration_at": "2026-10-19T19:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-19T15:57:10.072Z",
+		"resolved_at": "2026-10-19T15:57:10.072Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -56,6 +56,13 @@
 		{
 			"update_time": "2026-10-19T13:22:06.867Z",
 			"content": "The planned upgrade work in Mayfield, NSW has now started. The interruption of up to 60 minutes is still scheduled from around 12:30 AM AEDT, and services should reconnect automatically once the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-19T15:57:10.072Z",
+			"content": "The planned upgrade work in Mayfield, NSW has been completed, at about 2:57 AM AEDT on Tuesday 20 October. Affected services should have reconnected automatically.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
