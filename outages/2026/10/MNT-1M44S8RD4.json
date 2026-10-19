@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport (QLD) is now under way. Some NBN services in these areas may experience interruptions of up to 7 hours during the maintenance window, which ends at 06:30 on 20 Oct 2026 (Queensland time).",
+	"status": "resolved",
+	"current_summary": "Planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport (QLD) has been completed. Some NBN services in these areas may have been interrupted during the maintenance window, which ran from 00:00 to 06:30 on 20 Oct 2026 (Queensland time).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-10-19T14:00:00.000Z",
 		"scheduled_end": "2026-10-19T20:30:00.000Z",
 		"estimated_restoration_at": "2026-10-19T20:30:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-19T20:30:00.000Z",
+		"resolved_at": "2026-10-19T20:30:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-19T14:00:03.170Z",
 			"content": "The planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport started at 00:00 on 20 Oct 2026 (Queensland time). Some NBN services in these areas may be interrupted while the work is carried out. The maintenance window is scheduled to finish at 06:30 (Queensland time), and we will update you when the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-19T20:30:00.000Z",
+			"content": "The planned maintenance to replace backhaul fibre serving the NBN areas of Merrimac and Southport has been completed. Services in these areas may have been interrupted during the maintenance window, which finished at 06:30 on 20 Oct 2026 (Queensland time). No further work is expected for this maintenance.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
