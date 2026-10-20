@@ -208,5 +208,20 @@
 			"end_date": "2026-11-10T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M5BD9J8G.json"
+	},
+	{
+		"reference": "MNT-1M5BSNPTN",
+		"title": "nbn network capacity upgrade - NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-08T13:00:00.000Z",
+			"end_date": "2026-11-08T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5BSNPTN.json"
 	}
 ]
