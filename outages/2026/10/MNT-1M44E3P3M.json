@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Scheduled maintenance is now under way and may interrupt some NBN services in the Penrith and Glebe areas (NSW). The work started at 12:00 am AEDT on Wed 21 Oct 2026 and is scheduled to finish by 7:00 am AEDT. A network provider is migrating services during this window.",
+	"status": "resolved",
+	"current_summary": "The scheduled maintenance for NBN services in the Penrith and Glebe areas (NSW) is complete. The work finished at 7:00 am AEDT on Wed 21 Oct 2026, within the planned window. Services may have been affected during the window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,8 +22,8 @@
 		"scheduled_start": "2026-10-20T13:00:00.000Z",
 		"scheduled_end": "2026-10-20T20:00:00.000Z",
 		"estimated_restoration_at": "2026-10-20T20:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-20T20:00:00.000Z",
+		"resolved_at": "2026-10-20T20:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-20T13:00:02.210Z",
 			"content": "The scheduled maintenance for NBN services in the Penrith and Glebe areas (NSW) started at 12:00 am AEDT on Wed 21 Oct 2026. Some services may experience interruptions while the migration is carried out, and the work is scheduled to finish by 7:00 am AEDT. If your service is still offline after 7:00 am AEDT, please power-cycle your modem/router and contact us.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-20T20:00:00.000Z",
+			"content": "The scheduled maintenance for NBN services in the Penrith and Glebe areas (NSW) was completed at 7:00 am AEDT on Wed 21 Oct 2026. Services should now be back to normal. If your service is still offline, please power-cycle your modem/router and contact us.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
