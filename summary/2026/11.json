@@ -193,5 +193,20 @@
 			"end_date": "2026-11-17T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M59FCB4E.json"
+	},
+	{
+		"reference": "MNT-1M5BD9J8G",
+		"title": "Planned maintenance: Sydney to Perth intercapital network link (NSW and WA)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 501
+		},
+		"lifecycle": {
+			"start_date": "2026-11-10T13:00:00.000Z",
+			"end_date": "2026-11-10T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5BD9J8G.json"
 	}
 ]
