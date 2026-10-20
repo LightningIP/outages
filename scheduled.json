@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
-		"reference": "MNT-1M44E3P3M",
-		"title": "Scheduled maintenance – NBN services in Penrith and Glebe (NSW)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-20T13:00:00.000Z",
-			"end_date": "2026-10-20T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
-	},
-	{
 		"reference": "MNT-1M44SAN5J",
 		"title": "VIC: NBN maintenance (multiple POIs) – 22–23 Oct 2026",
 		"planned": true,
@@ -73,21 +58,6 @@
 			"end_date": "2026-10-22T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
-	},
-	{
-		"reference": "MNT-1M3X5G4FA",
-		"title": "NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-20T13:00:00.000Z",
-			"end_date": "2026-10-20T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
 	},
 	{
 		"reference": "MNT-1M4570YW0",
