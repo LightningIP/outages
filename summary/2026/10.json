@@ -275,12 +275,12 @@
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": null,
+			"impact_scope": "local",
 			"service_count": 2
 		},
 		"lifecycle": {
 			"start_date": "2026-10-20T13:00:00.000Z",
-			"end_date": "2026-10-20T19:00:00.000Z"
+			"end_date": "2026-10-20T21:01:28.237Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
 	},
