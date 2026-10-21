@@ -238,5 +238,20 @@
 			"end_date": "2026-11-09T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M5E2XJT6.json"
+	},
+	{
+		"reference": "MNT-1M5E35JFM",
+		"title": "Planned nbn network software update - VIC, NSW, TAS and ACT",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 70
+		},
+		"lifecycle": {
+			"start_date": "2026-11-04T13:00:00.000Z",
+			"end_date": "2026-11-04T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5E35JFM.json"
 	}
 ]
