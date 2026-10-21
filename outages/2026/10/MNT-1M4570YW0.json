@@ -4,17 +4,27 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "National maintenance window on 22 October 2026 from 12:00 am to 6:00 am AEDT. A 15-minute interruption is expected around 1:00 am AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance is under way on nbn Fixed Wireless services, including in the Lovedale and Rutherford areas of NSW. The maintenance window runs from 12:00 am to 6:00 am AEDT on 22 October 2026, with a 15-minute interruption expected around 1:00 am AEDT.\n\nThe eNodeB is the radio equipment at a Fixed Wireless site. Updating its software means your nbn connection will drop out briefly while the update is applied.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "national",
 		"service_count": 3,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LOVEDALE",
+			"RUTHERFORD"
+		],
+		"postcodes": [
+			"2320",
+			"2325"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-09-13T23:43:24.000Z",
@@ -38,6 +48,13 @@
 		{
 			"update_time": "2026-10-05T05:01:46.704Z",
 			"content": "National maintenance window on 22 October 2026 from 12:00 am to 6:00 am AEDT. A 15-minute interruption is expected around 1:00 am AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-21T13:03:59.133Z",
+			"content": "The scheduled maintenance has now started. The 15-minute interruption is still expected around 1:00 am AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
