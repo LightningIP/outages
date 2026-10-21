@@ -1,0 +1,56 @@
+{
+	"reference": "MNT-1M5E9Y3TY",
+	"title": "Scheduled nbn maintenance - Victoria (HFC network)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in Victoria. The maintenance window is from 12:00 am to 6:00 am on Friday 6 November 2026 (AEDT), and short service interruptions are expected during this time.\n\nnbn is fixing a known fault in the cable (HFC) network that can affect the connection between nbn equipment and cable modems. Your service will drop out briefly while the work is done, and new connections or changes to services may be temporarily unavailable.\n\nnbn will undertake remediation works within the HFC network to address a known issue causing NCP (Next Codeword Pointer) message corruption between the CMTS (Cable Modem Termination System) and cable modems on a mid-band OFDM (Orthogonal Frequency Division Multiplexing) channel. The change is designed to improve network stability, reduce the risk of service impacts, and enhance customer experience. Customers will experience up to two service interruptions of approximately 30 minutes during the maintenance window.Provisioning activities on the affected CMTS may be temporarily unavailable during the change window.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 2,
+		"service_types": [
+			"NBN - HFC"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BAYSWATER",
+			"MULGRAVE"
+		],
+		"postcodes": [
+			"3153",
+			"3170"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-07T23:34:49.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-05T13:00:00.000Z",
+		"scheduled_end": "2026-11-05T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Scheduled remediation works on the HFC network to address a known issue.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-07T23:34:49.000Z",
+			"content": "Affects nbn services in Victoria. The maintenance window is from 12:00 am to 6:00 am on Friday 6 November 2026 (AEDT), and short service interruptions are expected during this time.\n\nnbn is fixing a known fault in the cable (HFC) network that can affect the connection between nbn equipment and cable modems. Your service will drop out briefly while the work is done, and new connections or changes to services may be temporarily unavailable.\n\nnbn will undertake remediation works within the HFC network to address a known issue causing NCP (Next Codeword Pointer) message corruption between the CMTS (Cable Modem Termination System) and cable modems on a mid-band OFDM (Orthogonal Frequency Division Multiplexing) channel. The change is designed to improve network stability, reduce the risk of service impacts, and enhance customer experience. Customers will experience up to two service interruptions of approximately 30 minutes during the maintenance window.Provisioning activities on the affected CMTS may be temporarily unavailable during the change window.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
