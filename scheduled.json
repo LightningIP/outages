@@ -60,21 +60,6 @@
 		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
 	},
 	{
-		"reference": "MNT-1M4570YW0",
-		"title": "Scheduled maintenance – national broadband access",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-10-21T13:00:00.000Z",
-			"end_date": "2026-10-21T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4570YW0.json"
-	},
-	{
 		"reference": "MNT-1M4ENQTS5",
 		"title": "Wallan VIC – Scheduled network maintenance",
 		"planned": true,
