@@ -180,21 +180,6 @@
 		"record_path": "outages/2026/10/MNT-1M4Q1KQ73.json"
 	},
 	{
-		"reference": "MNT-1M4Q1P8X2",
-		"title": "Planned maintenance: NBN services connected via the South Morang (3SMR) POI, Victoria",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-22T13:00:00.000Z",
-			"end_date": "2026-10-22T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4Q1P8X2.json"
-	},
-	{
 		"reference": "MNT-1M4FK2VB7",
 		"title": "Network maintenance – brief interruptions in NSW, QLD, VIC, SA and other regions",
 		"planned": true,
@@ -208,6 +193,21 @@
 			"end_date": "2026-10-15T00:31:37.797Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4FK2VB7.json"
+	},
+	{
+		"reference": "MNT-1M4Q1P8X2",
+		"title": "Planned maintenance: NBN services connected via the South Morang (3SMR) POI, Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-22T13:00:00.000Z",
+			"end_date": "2026-10-22T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1P8X2.json"
 	},
 	{
 		"reference": "MNT-1M462G39M",
