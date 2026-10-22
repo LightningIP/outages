@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance is now underway at the South Morang (3SMR) NBN point of interconnect in Victoria. The work started at 12:00 am AEDT on Friday 23 October 2026 and is scheduled to finish by 3:00 am AEDT. NBN services connected through this location may be disrupted for up to 3 hours during this window. We are moving services from older network connections to new ones, and not every service will be affected for the full window.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance at the South Morang (3SMR) NBN point of interconnect in Victoria is complete. The work ran from 12:00 am to 3:00 am AEDT on Friday 23 October 2026, and services were moved from older network connections to new ones. NBN services connected through this location should now be operating normally.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -32,8 +32,8 @@
 		"scheduled_start": "2026-10-22T13:00:00.000Z",
 		"scheduled_end": "2026-10-22T16:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-22T16:00:00.000Z",
+		"resolved_at": "2026-10-22T16:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -55,6 +55,13 @@
 		{
 			"update_time": "2026-10-22T13:00:02.867Z",
 			"content": "Our planned maintenance at the South Morang (3SMR) NBN point of interconnect started at 12:00 am AEDT on Friday 23 October 2026. NBN services connected through this location may be disrupted for up to 3 hours while we move services to new network connections. The maintenance window is scheduled to end at 3:00 am AEDT, and we will update this page once the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-22T16:00:00.000Z",
+			"content": "Our planned maintenance at the South Morang (3SMR) NBN point of interconnect was completed at 3:00 am AEDT on Friday 23 October 2026. Services have been moved to the new network connections. If you are still having problems with your NBN service, please restart your modem and contact our support team if the issue continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
