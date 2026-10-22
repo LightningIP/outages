@@ -4,17 +4,28 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Selected services will be impacted. Window: Fri 23 Oct 2026, 12:00 am–6:00 am AEDT; one interruption of up to 15 minutes expected around 1:00 am AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "cancelled",
+	"current_summary": "The planned maintenance for services in the Beechworth (VIC) and Obi Obi (QLD) areas has been cancelled. It was scheduled for 12:00 am–6:00 am AEDT on Fri 23 Oct 2026 (11:00 pm Thu–5:00 am Fri AEST).\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": null,
 		"service_count": 5,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"QLD",
+			"VIC"
+		],
+		"suburbs": [
+			"BEECHWORTH",
+			"OBI OBI"
+		],
+		"postcodes": [
+			"3747",
+			"4574"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-09-17T03:55:28.000Z",
@@ -38,6 +49,13 @@
 		{
 			"update_time": "2026-10-08T21:11:10.047Z",
 			"content": "Selected services will be impacted. Window: Fri 23 Oct 2026, 12:00 am–6:00 am AEDT; one interruption of up to 15 minutes expected around 1:00 am AEDT.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-22T02:52:01.133Z",
+			"content": "The planned maintenance scheduled for early Fri 23 Oct 2026 has been cancelled, so the interruption to your service will not go ahead at that time.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
