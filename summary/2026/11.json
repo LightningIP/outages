@@ -60,21 +60,6 @@
 		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
 	},
 	{
-		"reference": "MNT-1M4YH74GY",
-		"title": "Planned maintenance: NBN services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-04T12:00:00.000Z",
-			"end_date": "2026-11-04T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4YH74GY.json"
-	},
-	{
 		"reference": "MNT-1M4YH7RRS",
 		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
 		"planned": true,
@@ -103,6 +88,21 @@
 			"end_date": "2026-11-05T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4YH8FSW.json"
+	},
+	{
+		"reference": "MNT-1M4YH74GY",
+		"title": "Planned maintenance: NBN services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-04T12:00:00.000Z",
+			"end_date": "2026-11-04T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4YH74GY.json"
 	},
 	{
 		"reference": "MNT-1M515MPFN",
