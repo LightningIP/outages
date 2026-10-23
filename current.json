@@ -75,6 +75,21 @@
 		"record_path": "outages/2026/09/MNT-1M2F030DV.json"
 	},
 	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-25T01:00:00.000Z",
+			"end_date": "2026-11-03T23:59:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
 		"reference": "MNT-1M44SAN5J",
 		"title": "VIC: NBN maintenance (multiple POIs) – 22–23 Oct 2026",
 		"planned": true,
