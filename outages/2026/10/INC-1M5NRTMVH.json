@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "An nbn network issue is affecting one Lightning IP service in Ashfield, NSW (2131). It was reported at 12:29 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"status": "identified",
+	"current_summary": "One Lightning IP service in Ashfield, NSW (2131) is affected. The issue was reported at 12:29 pm AEDT on 24 October 2026, and nbn has not given a restoration estimate yet.\n\nnbn is checking whether a power supply problem in its network equipment is behind the outage. It will then decide whether a technician needs to attend.\n\nnbn is investigating power alarms including confirmation from the supplier whether this relates to a loss of commercial power supply. Further updates once troubleshooting has confirmed whether Field Services or an electrician are required to attend.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -40,12 +40,19 @@
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null
+		"power_related": true
 	},
 	"updates": [
 		{
 			"update_time": "2026-10-24T01:29:04.000Z",
 			"content": "An nbn network issue is affecting one Lightning IP service in Ashfield, NSW (2131). It was reported at 12:29 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-24T06:11:13.000Z",
+			"content": "nbn is now investigating power alarms linked to this outage. No restoration estimate has been provided yet.\n\nnbn is checking whether a power supply problem in its network equipment is behind the outage. It will then decide whether a technician needs to attend.\n\nnbn is investigating power alarms including confirmation from the supplier whether this relates to a loss of commercial power supply. Further updates once troubleshooting has confirmed whether Field Services or an electrician are required to attend.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
