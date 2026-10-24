@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "One Lightning IP service in Ashfield, NSW (2131) is affected. The issue was reported at 12:29 pm AEDT on 24 October 2026, and nbn has not given a restoration estimate yet.\n\nnbn is checking whether a power supply problem in its network equipment is behind the outage. It will then decide whether a technician needs to attend.\n\nnbn is investigating power alarms including confirmation from the supplier whether this relates to a loss of commercial power supply. Further updates once troubleshooting has confirmed whether Field Services or an electrician are required to attend.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"status": "work_underway",
+	"current_summary": "One service in Ashfield, NSW (2131) is affected. An nbn field technician is estimated to arrive at the site by 7:00 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 24/10/2026 by 19:00\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-24T06:11:13.000Z",
 			"content": "nbn is now investigating power alarms linked to this outage. No restoration estimate has been provided yet.\n\nnbn is checking whether a power supply problem in its network equipment is behind the outage. It will then decide whether a technician needs to attend.\n\nnbn is investigating power alarms including confirmation from the supplier whether this relates to a loss of commercial power supply. Further updates once troubleshooting has confirmed whether Field Services or an electrician are required to attend.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-24T06:31:47.000Z",
+			"content": "nbn has arranged for a field technician to attend the affected site, with arrival estimated by 7:00 pm AEDT today (24 October 2026). No restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 24/10/2026 by 19:00",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
