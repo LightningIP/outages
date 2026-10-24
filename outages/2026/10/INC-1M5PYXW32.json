@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M5PYXW32",
+	"title": "Internet service disruption - Malua Bay, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "One Lightning IP service in Malua Bay, NSW is affected. The fault was logged at 10:50 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "site",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"MALUA BAY"
+		],
+		"postcodes": [
+			"2536"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-24T11:50:14.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-24T11:50:14.000Z",
+			"content": "One Lightning IP service in Malua Bay, NSW is affected. The fault was logged at 10:50 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
