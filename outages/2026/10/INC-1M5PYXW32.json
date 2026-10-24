@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "One Lightning IP service in Malua Bay, NSW is affected. The fault was logged at 10:50 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.",
+	"status": "identified",
+	"current_summary": "One service in Malua Bay, NSW has been affected since 10:50 pm AEDT on 24 October 2026. No restoration estimate has been provided yet.\n\nA local power outage has affected the nearby network equipment, and its backup battery has run out. A generator is to be brought in to power the site until mains power returns.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -35,17 +35,24 @@
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
-		"detailed": null,
+		"reason": "Local power outage affecting the network site",
+		"detailed": "An unplanned local power outage is affecting the network site, and the backup battery power has been depleted.",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null
+		"power_related": true
 	},
 	"updates": [
 		{
 			"update_time": "2026-10-24T11:50:14.000Z",
 			"content": "One Lightning IP service in Malua Bay, NSW is affected. The fault was logged at 10:50 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-24T21:06:38.000Z",
+			"content": "The cause has been identified as a local power outage affecting the network site, and the backup battery has been depleted. A generator is to be deployed, and no restoration estimate has been provided yet.\n\nA local power outage has affected the nearby network equipment, and its backup battery has run out. A generator is to be brought in to power the site until mains power returns.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
