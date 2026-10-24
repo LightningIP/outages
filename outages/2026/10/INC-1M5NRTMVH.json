@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "One service in Ashfield, NSW (2131) is affected. nbn currently estimates restoration by approximately 5:00 am AEDT on 25 October 2026.\n\nnbn has requested a technician to attend the site and investigate a loss of signal to a network hardware. An update will be communicated once an ETA is available.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 25/10/2026 by 05:00. Using mobile data can help you stay connected if needed.",
+	"current_summary": "One service in Ashfield, NSW (2131) is affected. Restoration is estimated by approximately 5:00 am AEDT on 25 October 2026.\n\nThe technician is on site progressing restoration. Services are expected to restore by 5:00am 25/10/26.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 25/10/2026 by 05:00. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -74,6 +74,13 @@
 		{
 			"update_time": "2026-10-24T07:30:59.716Z",
 			"content": "nbn has now provided a restoration estimate of approximately 5:00 am AEDT on 25 October 2026 for the affected service.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-24T09:44:22.000Z",
+			"content": "A technician is now on site and working on restoration. The restoration estimate is unchanged at approximately 5:00 am AEDT on 25 October 2026.\n\nThe technician is on site progressing restoration. Services are expected to restore by 5:00am 25/10/26.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
