@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "One service in Ashfield, NSW (2131) is affected. Restoration is estimated by approximately 5:00 am AEDT on 25 October 2026.\n\nThe technician is on site progressing restoration. Services are expected to restore by 5:00am 25/10/26.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Affected services are expected to be restored by approximately 25/10/2026 by 05:00. Using mobile data can help you stay connected if needed.",
+	"status": "resolved",
+	"current_summary": "The nbn service in Ashfield, NSW (2131) was restored and the incident was closed at about 8:54 pm AEDT on 24 October 2026.\n\nThe technician is on site progressing restoration. Services are expected to restore by 5:00am 25/10/26.\n\nResolution: nbn Network Hardware Replaced\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": "2026-10-24T18:00:00.000Z",
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-24T09:54:18.000Z",
+		"resolved_at": "2026-10-24T09:54:55.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -81,6 +81,13 @@
 		{
 			"update_time": "2026-10-24T09:44:22.000Z",
 			"content": "A technician is now on site and working on restoration. The restoration estimate is unchanged at approximately 5:00 am AEDT on 25 October 2026.\n\nThe technician is on site progressing restoration. Services are expected to restore by 5:00am 25/10/26.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-24T09:54:55.000Z",
+			"content": "The affected Ashfield service has been restored as of about 8:54 pm AEDT on 24 October 2026, ahead of the earlier estimate of 5:00 am on 25 October. This outage is now resolved.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
