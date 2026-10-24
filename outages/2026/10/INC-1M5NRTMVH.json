@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "work_underway",
-	"current_summary": "One service in Ashfield, NSW (2131) is affected. An nbn field technician is estimated to arrive at the site by 7:00 pm AEDT on 24 October 2026, and no restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 24/10/2026 by 19:00\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"current_summary": "One service in Ashfield, NSW (2131) is affected. No restoration estimate has been provided yet, and a technician arrival time is still to be confirmed by nbn.\n\nnbn has lost the signal to a piece of its network equipment and needs a technician on site to find out why.\n\nnbn has requested a technician to attend the site and investigate a loss of signal to a network hardware. An update will be communicated once an ETA is available.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -60,6 +60,13 @@
 		{
 			"update_time": "2026-10-24T06:31:47.000Z",
 			"content": "nbn has arranged for a field technician to attend the affected site, with arrival estimated by 7:00 pm AEDT today (24 October 2026). No restoration estimate has been provided yet.\n\nThe field technician is estimated to arrive to the impacted site by 24/10/2026 by 19:00",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-24T06:51:08.000Z",
+			"content": "nbn has requested a technician to attend the site to investigate the fault. nbn will confirm an arrival time once one is available, and no restoration estimate has been provided yet.\n\nnbn has lost the signal to a piece of its network equipment and needs a technician on site to find out why.\n\nnbn has requested a technician to attend the site and investigate a loss of signal to a network hardware. An update will be communicated once an ETA is available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
