@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "One service in Malua Bay, NSW has been affected since 10:50 pm AEDT on 24 October 2026. No restoration estimate has been provided yet.\n\nA local power outage has affected the nearby network equipment, and its backup battery has run out. A generator is to be brought in to power the site until mains power returns.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.",
+	"status": "resolved",
+	"current_summary": "One service in Malua Bay, NSW was affected from 10:50 pm AEDT on 24 October 2026. Service was restored at 1:47 pm AEDT on 25 October 2026.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.\n\nResolution: Fault caused by approved 3rd party network provider planned works\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-25T02:47:17.000Z",
+		"resolved_at": "2026-10-25T02:47:17.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-24T21:06:38.000Z",
 			"content": "The cause has been identified as a local power outage affecting the network site, and the backup battery has been depleted. A generator is to be deployed, and no restoration estimate has been provided yet.\n\nA local power outage has affected the nearby network equipment, and its backup battery has run out. A generator is to be brought in to power the site until mains power returns.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-25T02:47:17.000Z",
+			"content": "The affected service in Malua Bay, NSW was restored at 1:47 pm AEDT on 25 October 2026, and this outage is now resolved.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
