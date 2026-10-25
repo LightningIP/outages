@@ -195,6 +195,21 @@
 		"record_path": "outages/2026/10/MNT-1M4570YW0.json"
 	},
 	{
+		"reference": "MNT-1M4ENQTS5",
+		"title": "Wallan VIC – Scheduled network maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4ENQTS5.json"
+	},
+	{
 		"reference": "MNT-1M4Q1KQ73",
 		"title": "Planned maintenance: NBN services connected via St Kilda, Cheltenham and Keysborough (VIC)",
 		"planned": true,
@@ -208,6 +223,21 @@
 			"end_date": "2026-10-17T15:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1KQ73.json"
+	},
+	{
+		"reference": "MNT-1M4Q1NCJK",
+		"title": "Planned maintenance: NBN Tullamarine (VIC) network connection changes",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1NCJK.json"
 	},
 	{
 		"reference": "MNT-1M4FK2VB7",
@@ -238,6 +268,21 @@
 			"end_date": "2026-10-22T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1P8X2.json"
+	},
+	{
+		"reference": "MNT-1M4FDYZ10",
+		"title": "NSW: Fixed Wireless network upgrade (planned maintenance)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4FDYZ10.json"
 	},
 	{
 		"reference": "MNT-1M462G39M",
@@ -315,6 +360,21 @@
 		"record_path": "outages/2026/09/MNT-1M3396FWR.json"
 	},
 	{
+		"reference": "MNT-1M4RJKP53",
+		"title": "Scheduled nbn software update – Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 28
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4RJKP53.json"
+	},
+	{
 		"reference": "MNT-1M13DKFHV",
 		"title": "Woolloongabba\r\n QLD - Upgrade the Network",
 		"planned": true,
@@ -373,6 +433,21 @@
 			"end_date": "2026-10-13T23:35:58.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M4VD5KEN.json"
+	},
+	{
+		"reference": "MNT-1M4WKDQQA",
+		"title": "Planned nbn network upgrade - Woolloongabba QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T14:00:00.000Z",
+			"end_date": "2026-10-26T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4WKDQQA.json"
 	},
 	{
 		"reference": "MNT-1M531CK2P",
