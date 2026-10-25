@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "INC-1M5PYXW32",
-		"title": "Internet service disruption - Malua Bay, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-24T11:50:14.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M5PYXW32.json"
-	},
-	{
 		"reference": "MNT-1M44E6YZR",
 		"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
 		"planned": true,
@@ -58,6 +43,21 @@
 			"end_date": "2026-10-05T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
+	},
+	{
+		"reference": "INC-1M5PYXW32",
+		"title": "Internet service disruption - Malua Bay, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-24T11:50:14.000Z",
+			"end_date": "2026-10-25T02:47:17.000Z"
+		},
+		"record_path": "outages/2026/10/INC-1M5PYXW32.json"
 	},
 	{
 		"reference": "INC-1M4B85RSA",
