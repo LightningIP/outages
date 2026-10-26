@@ -435,6 +435,21 @@
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
 	},
 	{
+		"reference": "MNT-1M4ENQTS5",
+		"title": "Wallan VIC – Scheduled network maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4ENQTS5.json"
+	},
+	{
 		"reference": "MNT-1M44E13HV",
 		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
 		"planned": true,
@@ -493,21 +508,6 @@
 			"end_date": "2026-10-07T19:48:24.948Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PNX52D.json"
-	},
-	{
-		"reference": "MNT-1M4ENQTS5",
-		"title": "Wallan VIC – Scheduled network maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-26T13:00:00.000Z",
-			"end_date": "2026-10-26T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4ENQTS5.json"
 	},
 	{
 		"reference": "MNT-1M2PNRK0X",
