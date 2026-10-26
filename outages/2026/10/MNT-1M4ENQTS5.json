@@ -4,17 +4,25 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Wallan VIC. Tue 27 Oct 2026, 12:00 am–6:00 am AEDT (one interruption up to 3 hours from 12:00 am).\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "work_underway",
+	"current_summary": "Wallan VIC. Maintenance is under way, with one interruption of up to 3 hours starting at 12:00 am AEDT on Tue 27 Oct 2026, within a window of 12:00 am–6:00 am AEDT.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
 		"impact_scope": "local",
 		"service_count": 1,
-		"service_types": null,
-		"states": null,
-		"suburbs": null,
-		"postcodes": null
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BEVERIDGE"
+		],
+		"postcodes": [
+			"3753"
+		]
 	},
 	"lifecycle": {
 		"opened_at": "2026-10-01T09:27:27.000Z",
@@ -38,6 +46,13 @@
 		{
 			"update_time": "2026-10-08T21:12:05.810Z",
 			"content": "Wallan VIC. Tue 27 Oct 2026, 12:00 am–6:00 am AEDT (one interruption up to 3 hours from 12:00 am).\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-26T13:01:09.481Z",
+			"content": "The scheduled maintenance has now started. Your service may be offline during the interruption, which is expected to last up to 3 hours from 12:00 am AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
