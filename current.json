@@ -105,6 +105,21 @@
 		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
+		"reference": "MNT-1M5V9ZVBZ",
+		"title": "nbn network software upgrade – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T13:00:00.000Z",
+			"end_date": "2026-10-27T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5V9ZVBZ.json"
+	},
+	{
 		"reference": "MNT-1M44SAN5J",
 		"title": "VIC: NBN maintenance (multiple POIs) – 22–23 Oct 2026",
 		"planned": true,
@@ -223,6 +238,21 @@
 			"end_date": "2026-10-17T15:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1KQ73.json"
+	},
+	{
+		"reference": "MNT-1M4Q1JA9Q",
+		"title": "Planned maintenance: NBN services connected to the Lonsdale Depot POI (Adelaide, SA)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-28T12:30:00.000Z",
+			"end_date": "2026-10-28T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1JA9Q.json"
 	},
 	{
 		"reference": "MNT-1M4Q1NCJK",
@@ -448,6 +478,21 @@
 			"end_date": "2026-10-26T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4WKDQQA.json"
+	},
+	{
+		"reference": "MNT-1M4WKEAP7",
+		"title": "Planned nbn network upgrade – Woolloongabba QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T14:00:00.000Z",
+			"end_date": "2026-10-27T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4WKEAP7.json"
 	},
 	{
 		"reference": "MNT-1M531CK2P",
