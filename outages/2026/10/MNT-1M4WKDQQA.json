@@ -4,7 +4,7 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
+	"status": "work_underway",
 	"current_summary": "Affects an internet service in Woolloongabba QLD. The maintenance window runs from 12:00 am to 6:00 am AEST on Tuesday 27 October 2026, and the length of any interruption within that window has not been confirmed.\n\nThis notification is to let you know that nbn will be performing network maintenance work. Due to this activity the services listed below will experience a loss of connectivity for up to 00 hrs 00 mins during the change window",
 	"impact": {
 		"customer": true,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-07-22T22:18:59.000Z",
 			"content": "Affects an internet service in Woolloongabba QLD. The maintenance window runs from 12:00 am to 6:00 am AEST on Tuesday 27 October 2026, and the length of any interruption within that window has not been confirmed.\n\nThis notification is to let you know that nbn will be performing network maintenance work. Due to this activity the services listed below will experience a loss of connectivity for up to 00 hrs 00 mins during the change window",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-26T14:22:30.096Z",
+			"content": "The planned maintenance work has now started. The window is scheduled to finish at 6:00 am AEST on Tuesday 27 October 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
