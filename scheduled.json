@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M5V9ZVBZ",
+		"title": "nbn network software upgrade – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T13:00:00.000Z",
+			"end_date": "2026-10-27T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5V9ZVBZ.json"
+	},
+	{
 		"reference": "MNT-1M4Q1MGGS",
 		"title": "Planned maintenance: nbn services connected via Petrie, Caboolture and Aspley (QLD)",
 		"planned": true,
