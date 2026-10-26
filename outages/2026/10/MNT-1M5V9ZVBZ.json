@@ -1,0 +1,57 @@
+{
+	"reference": "MNT-1M5V9ZVBZ",
+	"title": "nbn network software upgrade – planned maintenance",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Maintenance window: midnight to 6:00 am AEDT on Wednesday 28 October 2026. A loss of connection of about 15 minutes is expected from 1:00 am AEDT.\n\nnbn is installing a software update on equipment in its network. During the maintenance window your internet connection will drop for around 15 minutes, then should return on its own.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 5,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"QLD",
+			"VIC"
+		],
+		"suburbs": [
+			"BEECHWORTH",
+			"OBI OBI"
+		],
+		"postcodes": [
+			"3747",
+			"4574"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-23T04:26:34.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-27T13:00:00.000Z",
+		"scheduled_end": "2026-10-27T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned software update on nbn network equipment.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-26T05:12:35.083Z",
+			"content": "Maintenance window: midnight to 6:00 am AEDT on Wednesday 28 October 2026. A loss of connection of about 15 minutes is expected from 1:00 am AEDT.\n\nnbn is installing a software update on equipment in its network. During the maintenance window your internet connection will drop for around 15 minutes, then should return on its own.\n\nnbn is performing planned maintenance to deploy new software on the eNodeB and site controller. This update forms part of routine network maintenance to help keep services running reliably.\n\nnbn® is updating software on network equipment in your area. You will experience a loss of connection to your nbn service while this update takes place. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
