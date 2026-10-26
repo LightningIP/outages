@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Affects an internet service in Woolloongabba QLD. The maintenance window runs from 12:00 am to 6:00 am AEST on Tuesday 27 October 2026, and the length of any interruption within that window has not been confirmed.\n\nThis notification is to let you know that nbn will be performing network maintenance work. Due to this activity the services listed below will experience a loss of connectivity for up to 00 hrs 00 mins during the change window",
+	"status": "resolved",
+	"current_summary": "Affects an internet service in Woolloongabba QLD. The maintenance window ran from 12:00 am to 6:00 am AEST on Tuesday 27 October 2026 and was completed at 12:53 am AEST.\n\nThis notification is to let you know that nbn will be performing network maintenance work. Due to this activity the services listed below will experience a loss of connectivity for up to 00 hrs 00 mins during the change window",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-10-26T14:00:00.000Z",
 		"scheduled_end": "2026-10-26T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-26T14:53:48.263Z",
+		"resolved_at": "2026-10-26T14:53:48.263Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-26T14:22:30.096Z",
 			"content": "The planned maintenance work has now started. The window is scheduled to finish at 6:00 am AEST on Tuesday 27 October 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-26T14:53:48.263Z",
+			"content": "The planned maintenance work has been completed as of 12:53 am AEST on Tuesday 27 October 2026, ahead of the scheduled 6:00 am finish. Service should now be available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
