@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "We have planned maintenance on our network at the Tullamarine (Victoria) NBN point of interconnect. It is scheduled from 12:00 am to 3:00 am AEDT on Tuesday 27 October 2026. During this window, NBN services connected through this point may be disrupted for up to 3 hours.",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance at the Tullamarine (Victoria) NBN point of interconnect has started. Work began at 12:00 am AEDT on Tuesday 27 October 2026 and is scheduled to finish at 3:00 am AEDT. NBN services connected through this point may be disrupted for up to 3 hours during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-12T00:07:01.988Z",
 			"content": "We have scheduled planned maintenance at the Tullamarine (Victoria) NBN point of interconnect. We will be moving services from legacy network connections to new connections. The work is scheduled from 12:00 am to 3:00 am AEDT on Tuesday 27 October 2026. NBN services connected through this point may be disrupted for up to 3 hours during this window. We will share any changes to the schedule here.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-26T13:00:05.002Z",
+			"content": "The planned maintenance at the Tullamarine (Victoria) NBN point of interconnect started at 12:00 am AEDT on Tuesday 27 October 2026. NBN services connected through this point may be disrupted while we move services to the new network connections. The work is still scheduled to finish by 3:00 am AEDT, and we will update here when it is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
