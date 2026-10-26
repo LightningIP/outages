@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M5VGBQDN",
+		"title": "Planned Works: Possible Increased Latency Between Victoria and South Australia",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 329
+		},
+		"lifecycle": {
+			"start_date": "2026-11-05T13:00:00.000Z",
+			"end_date": "2026-11-05T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5VGBQDN.json"
+	},
+	{
 		"reference": "MNT-1M5V9ZVBZ",
 		"title": "nbn network software upgrade – planned maintenance",
 		"planned": true,
@@ -30,6 +45,21 @@
 		"record_path": "outages/2026/10/MNT-1M4Q1MGGS.json"
 	},
 	{
+		"reference": "MNT-1M4Q1K03G",
+		"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2027-01-21T12:00:00.000Z",
+			"end_date": "2027-01-21T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1K03G.json"
+	},
+	{
 		"reference": "MNT-1M4ENQTS5",
 		"title": "Wallan VIC – Scheduled network maintenance",
 		"planned": true,
@@ -43,21 +73,6 @@
 			"end_date": "2026-10-26T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4ENQTS5.json"
-	},
-	{
-		"reference": "MNT-1M4Q1K03G",
-		"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-02T12:00:00.000Z",
-			"end_date": "2026-11-02T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4Q1K03G.json"
 	},
 	{
 		"reference": "MNT-1M4Q1JA9Q",
