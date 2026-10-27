@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M5ZV3W8E",
+	"title": "Emergency network maintenance - Stanbridge, NSW",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects an nbn service in Stanbridge, NSW 2705. Work is scheduled from 10:30 am to 6:00 pm AEDT on 28 October 2026, with an expected loss of connectivity of about 60 minutes starting at 10:30 am AEDT.\n\nThis is an emergency planned outage to remediate a network fault. Work may need to be performed during daylight hours for safety reasons, please refer to the estimated Scheduled Start Date for confirmation.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"WHITTON"
+		],
+		"postcodes": [
+			"2705"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-27T23:21:31.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-10-27T23:30:00.000Z",
+		"scheduled_end": "2026-10-28T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Emergency work to remediate a network fault in the nbn access network.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-27T23:21:31.000Z",
+			"content": "Affects an nbn service in Stanbridge, NSW 2705. Work is scheduled from 10:30 am to 6:00 pm AEDT on 28 October 2026, with an expected loss of connectivity of about 60 minutes starting at 10:30 am AEDT.\n\nThis is an emergency planned outage to remediate a network fault. Work may need to be performed during daylight hours for safety reasons, please refer to the estimated Scheduled Start Date for confirmation.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
