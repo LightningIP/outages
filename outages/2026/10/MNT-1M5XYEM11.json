@@ -1,0 +1,56 @@
+{
+	"reference": "MNT-1M5XYEM11",
+	"title": "Planned nbn network upgrade - Bundamba QLD",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in Bundamba QLD. The maintenance window is from 12:00 am to 6:00 am AEST on 12 November 2026, with an expected service interruption of about 60 minutes starting at 12:30 am AEST.\n\nnbn is upgrading equipment that carries internet traffic for your area to keep up with growing demand. Your internet service will drop out for a period during the overnight window.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 3,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"BRISBANE CITY",
+			"PULLENVALE"
+		],
+		"postcodes": [
+			"4000",
+			"4069"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-05T04:44:50.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-11T14:00:00.000Z",
+		"scheduled_end": "2026-11-11T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network upgrade by nbn",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-27T05:48:39.449Z",
+			"content": "Affects nbn services in Bundamba QLD. The maintenance window is from 12:00 am to 6:00 am AEST on 12 November 2026, with an expected service interruption of about 60 minutes starting at 12:30 am AEST.\n\nnbn is upgrading equipment that carries internet traffic for your area to keep up with growing demand. Your internet service will drop out for a period during the overnight window.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
