@@ -75,6 +75,21 @@
 		"record_path": "outages/2026/10/MNT-1M4Q1JA9Q.json"
 	},
 	{
+		"reference": "MNT-1M5XYEM11",
+		"title": "Planned nbn network upgrade - Bundamba QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-11T14:00:00.000Z",
+			"end_date": "2026-11-11T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
+	},
+	{
 		"reference": "MNT-1M59FJ5MK",
 		"title": "Planned maintenance: NBN Kings Park (VIC) network connection upgrade",
 		"planned": true,
