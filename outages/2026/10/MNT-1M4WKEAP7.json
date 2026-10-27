@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "The nbn maintenance affecting an internet service in Woolloongabba QLD is under way. The maintenance window runs from 12:00 am to 6:00 am AEST on Wednesday 28 October 2026.\n\nThe service may lose connection at some point during the maintenance window. nbn's notice doesn't say how long the interruption will last, and the \"00 hrs 00 mins\" figure is a placeholder rather than an actual time.\n\nThis notification is to let you know that nbn will be performing network maintenance work. Due to this activity the services listed below will experience a loss of connectivity for up to 00 hrs 00 mins during the change window",
+	"status": "resolved",
+	"current_summary": "Affects an internet service in Woolloongabba QLD. The maintenance window ran from 12:00 am to 6:00 am AEST on Wednesday 28 October 2026, and nbn marked the work as completed at 2:21 am AEST.\n\nThis notification is to let you know that nbn will be performing network maintenance work. Due to this activity the services listed below will experience a loss of connectivity for up to 00 hrs 00 mins during the change window",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-10-27T14:00:00.000Z",
 		"scheduled_end": "2026-10-27T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-27T15:21:13.996Z",
+		"resolved_at": "2026-10-27T15:21:13.996Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-27T14:13:11.833Z",
 			"content": "The planned nbn maintenance has started. It is scheduled to finish by 6:00 am AEST on Wednesday 28 October 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-27T15:21:13.996Z",
+			"content": "nbn has marked the planned maintenance as completed, at 2:21 am AEST on Wednesday 28 October 2026. No further work is scheduled for this maintenance.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
