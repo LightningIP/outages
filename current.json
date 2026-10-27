@@ -480,21 +480,6 @@
 		"record_path": "outages/2026/10/INC-1M4VD5KEN.json"
 	},
 	{
-		"reference": "MNT-1M5ZV3W8E",
-		"title": "Emergency network maintenance - Stanbridge, NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-27T23:30:00.000Z",
-			"end_date": "2026-10-28T07:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5ZV3W8E.json"
-	},
-	{
 		"reference": "MNT-1M4WKDQQA",
 		"title": "Planned nbn network upgrade - Woolloongabba QLD",
 		"planned": true,
@@ -553,6 +538,21 @@
 			"end_date": "2026-10-18T18:29:11.614Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M3TT1P10.json"
+	},
+	{
+		"reference": "MNT-1M5ZV3W8E",
+		"title": "Emergency network maintenance - Stanbridge, NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T23:30:00.000Z",
+			"end_date": "2026-10-28T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5ZV3W8E.json"
 	},
 	{
 		"reference": "MNT-1M3XK79H7",
