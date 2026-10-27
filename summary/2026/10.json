@@ -180,21 +180,6 @@
 		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
-		"reference": "MNT-1M5V9ZVBZ",
-		"title": "nbn network software upgrade – planned maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 5
-		},
-		"lifecycle": {
-			"start_date": "2026-10-27T13:00:00.000Z",
-			"end_date": "2026-10-27T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5V9ZVBZ.json"
-	},
-	{
 		"reference": "MNT-1M44DYMES",
 		"title": "Planned NBN maintenance – VIC (multiple POIs)",
 		"planned": true,
@@ -718,6 +703,21 @@
 			"end_date": "2026-11-04T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
+	},
+	{
+		"reference": "MNT-1M5V9ZVBZ",
+		"title": "nbn network software upgrade – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T13:00:00.000Z",
+			"end_date": "2026-10-27T19:30:34.921Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5V9ZVBZ.json"
 	},
 	{
 		"reference": "INC-1M4Q2BJNF",
