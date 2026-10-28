@@ -1228,5 +1228,20 @@
 			"end_date": "2026-10-24T09:54:55.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M5NRTMVH.json"
+	},
+	{
+		"reference": "MNT-1M60HYMNF",
+		"title": "Planned maintenance affecting internet services in Wallan VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-12T13:00:00.000Z",
+			"end_date": "2026-11-12T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M60HYMNF.json"
 	}
 ]
