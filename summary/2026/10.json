@@ -630,6 +630,21 @@
 		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
 	},
 	{
+		"reference": "MNT-1M62C3CTG",
+		"title": "Planned nbn network upgrade - Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
+	},
+	{
 		"reference": "MNT-1M4FDYZ10",
 		"title": "NSW: Fixed Wireless network upgrade (planned maintenance)",
 		"planned": true,
