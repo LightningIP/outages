@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance has started on the nbn Point of Interconnect (POI) at Lonsdale Depot in South Australia. The work is scheduled to run until 6:00 am on Thursday 29 October 2026 (ACDT). nbn services connected through this POI may be interrupted for up to 7 hours during that window. Customers connected through other POIs are not expected to be affected.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance on the nbn Point of Interconnect (POI) at Lonsdale Depot in South Australia has been completed. nbn services connected through this POI should now be operating normally. Customers connected through other POIs were not expected to be affected.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,8 +22,8 @@
 		"scheduled_start": "2026-10-28T12:30:00.000Z",
 		"scheduled_end": "2026-10-28T19:30:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-28T19:30:00.000Z",
+		"resolved_at": "2026-10-28T19:30:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-10-28T12:30:02.407Z",
 			"content": "The scheduled maintenance on the nbn Point of Interconnect at Lonsdale Depot has now started. nbn services connected through this POI may be interrupted until the window ends at 6:00 am on Thursday 29 October 2026 (ACDT). We will update you if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-28T19:30:00.000Z",
+			"content": "The scheduled maintenance on the nbn Point of Interconnect at Lonsdale Depot has been completed as of 6:30 am on Thursday 29 October 2026 (ACDT). nbn services connected through this POI should now be back to normal. If you are still experiencing problems, please restart your modem and contact our support team if the issue continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
