@@ -175,7 +175,7 @@
 		},
 		"lifecycle": {
 			"start_date": "2026-10-29T00:11:20.000Z",
-			"end_date": null
+			"end_date": "2026-10-29T05:25:18.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M62GCAME.json"
 	},
@@ -345,21 +345,6 @@
 		"record_path": "outages/2026/10/MNT-1M462G39M.json"
 	},
 	{
-		"reference": "INC-1M44E8FAS",
-		"title": "International backhaul degradation: Perth–Singapore cable fault",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 886
-		},
-		"lifecycle": {
-			"start_date": "2026-08-08T08:05:44.211Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
-	},
-	{
 		"reference": "MNT-1M5V9ZVBZ",
 		"title": "nbn network software upgrade – planned maintenance",
 		"planned": true,
@@ -403,6 +388,21 @@
 			"end_date": "2026-10-12T14:20:16.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M4QTYTS3.json"
+	},
+	{
+		"reference": "INC-1M44E8FAS",
+		"title": "International backhaul degradation: Perth–Singapore cable fault",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-08-08T08:05:44.211Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
 	},
 	{
 		"reference": "MNT-1M3396FWR",
