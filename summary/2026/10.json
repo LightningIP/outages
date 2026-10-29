@@ -240,21 +240,6 @@
 		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
 	},
 	{
-		"reference": "INC-1M62GCAME",
-		"title": "nbn service fault affecting Lavington, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-29T00:11:20.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M62GCAME.json"
-	},
-	{
 		"reference": "MNT-1M4Q1MGGS",
 		"title": "Planned maintenance: nbn services connected via Petrie, Caboolture and Aspley (QLD)",
 		"planned": true,
@@ -268,6 +253,21 @@
 			"end_date": "2026-11-02T21:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4Q1MGGS.json"
+	},
+	{
+		"reference": "INC-1M62GCAME",
+		"title": "nbn service fault affecting Lavington, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-29T00:11:20.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M62GCAME.json"
 	},
 	{
 		"reference": "MNT-1M33AX4WN",
