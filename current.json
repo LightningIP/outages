@@ -510,21 +510,6 @@
 		"record_path": "outages/2026/10/INC-1M4VD5KEN.json"
 	},
 	{
-		"reference": "MNT-1M4WEZPZE",
-		"title": "Planned nbn network upgrade - NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-29T13:00:00.000Z",
-			"end_date": "2026-10-29T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4WEZPZE.json"
-	},
-	{
 		"reference": "MNT-1M4YGKYSZ",
 		"title": "Mayfield NSW - Planned nbn network upgrade",
 		"planned": true,
@@ -568,6 +553,21 @@
 			"end_date": "2026-10-27T15:21:13.996Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4WKEAP7.json"
+	},
+	{
+		"reference": "MNT-1M4WEZPZE",
+		"title": "Planned nbn network upgrade - NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-29T13:00:00.000Z",
+			"end_date": "2026-10-29T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4WEZPZE.json"
 	},
 	{
 		"reference": "MNT-1M531CK2P",
