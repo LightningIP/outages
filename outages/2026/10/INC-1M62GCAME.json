@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "investigating",
-	"current_summary": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and no restoration estimate has been provided yet.",
+	"current_summary": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and nbn has not yet provided a restoration estimate.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
