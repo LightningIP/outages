@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and nbn has not yet provided a restoration estimate.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"status": "identified",
+	"current_summary": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and nbn has not provided a restoration estimate.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -35,17 +35,24 @@
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
+		"reason": "Power outage affecting the nbn site serving the area",
 		"detailed": null,
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null
+		"power_related": true
 	},
 	"updates": [
 		{
 			"update_time": "2026-10-29T00:11:20.000Z",
 			"content": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-29T03:35:20.000Z",
+			"content": "The cause has been identified as a power issue at the local nbn site. No restoration time has been provided yet.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
