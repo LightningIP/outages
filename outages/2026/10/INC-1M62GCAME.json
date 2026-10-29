@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "resolved",
-	"current_summary": "One nbn service in Lavington, NSW was affected. The fault was reported at 11:11 am AEDT on 29 October 2026 and service was restored at 4:25 pm AEDT the same day.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.\n\nResolution: Power has been restored to nbn network equipment\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"current_summary": "One nbn service in Lavington, NSW was affected from 11:11 am AEDT on 29 October 2026. Service was restored at 4:25 pm AEDT the same day.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.\n\nResolution: Power has been restored to nbn network equipment\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
