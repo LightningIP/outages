@@ -75,6 +75,21 @@
 		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
 	},
 	{
+		"reference": "MNT-1M639FY4F",
+		"title": "Planned Maintenance: Sydney to Perth Network Link Fibre Work",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 496
+		},
+		"lifecycle": {
+			"start_date": "2026-11-18T13:30:00.000Z",
+			"end_date": "2026-11-18T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M639FY4F.json"
+	},
+	{
 		"reference": "MNT-1M62C3CTG",
 		"title": "Planned nbn network upgrade - Victoria",
 		"planned": true,
