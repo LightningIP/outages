@@ -105,6 +105,21 @@
 		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
 	},
 	{
+		"reference": "INC-1M44E8FAS",
+		"title": "International backhaul degradation: Perth–Singapore cable fault",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-08-08T08:05:44.211Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
+	},
+	{
 		"reference": "MNT-1M4YH7RRS",
 		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
 		"planned": true,
