@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and nbn has not provided a restoration estimate.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"status": "resolved",
+	"current_summary": "One nbn service in Lavington, NSW was affected. The fault was reported at 11:11 am AEDT on 29 October 2026 and service was restored at 4:25 pm AEDT the same day.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.\n\nResolution: Power has been restored to nbn network equipment\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-29T05:25:18.000Z",
+		"resolved_at": "2026-10-29T05:25:18.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-29T03:35:20.000Z",
 			"content": "The cause has been identified as a power issue at the local nbn site. No restoration time has been provided yet.\n\nRemote troubleshooting confirms the site is isolated due to a power outage and the backup batteries depleting. Services are expected to restore when the external power returns.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-29T05:25:18.000Z",
+			"content": "nbn has confirmed that power has been restored to the affected site and service has been restored as of 4:25 pm AEDT on 29 October 2026. This outage is now resolved.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
