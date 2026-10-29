@@ -120,36 +120,6 @@
 		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
 	},
 	{
-		"reference": "MNT-1M4WEZPZE",
-		"title": "Planned nbn network upgrade - NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-29T13:00:00.000Z",
-			"end_date": "2026-10-29T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4WEZPZE.json"
-	},
-	{
-		"reference": "MNT-1M4YGKYSZ",
-		"title": "Mayfield NSW - Planned nbn network upgrade",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-29T13:00:00.000Z",
-			"end_date": "2026-10-29T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4YGKYSZ.json"
-	},
-	{
 		"reference": "MNT-1M4YH7RRS",
 		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
 		"planned": true,
