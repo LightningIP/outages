@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M62GCAME",
+	"title": "nbn service fault affecting Lavington, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and no restoration estimate has been provided yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "site",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTN"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"GLENROY"
+		],
+		"postcodes": [
+			"2640"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-29T00:11:20.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-10-29T00:11:20.000Z",
+			"content": "One nbn service in Lavington, NSW is affected. The fault was reported at 11:11 am AEDT on 29 October 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
