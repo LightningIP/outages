@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Affects an nbn Fixed Wireless service in Lovedale, NSW. The maintenance window is from 12:00 am to 6:00 am AEDT on Friday 30 October 2026, with expected interruptions at 12:30 am (15 minutes), 1:00 am (15 minutes) and 2:00 am (30 minutes).\n\nThis deployment is part of a program to both improve Fixed Wireless performance through faster speed tiers and to install Small Wireless Routers (SWR) at Fixed Wireless sites. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues. Installing SWRs at Fixed Wireless sites will help reduce customer impact during scheduled and unscheduled network outages because of its ability to route traffic via alternate fibre/microwave paths. In addition to this, the SWR also supports the load balancing of traffic. This planned outage is to change the network over to the newly installed SWR and activate its new features.\n\nnbn®is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.  \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Affects an nbn Fixed Wireless service in Lovedale, NSW. The maintenance window ran from 12:00 am to 6:00 am AEDT on Friday 30 October 2026, and the work was completed at 4:31 am AEDT.\n\nThis deployment is part of a program to both improve Fixed Wireless performance through faster speed tiers and to install Small Wireless Routers (SWR) at Fixed Wireless sites. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues. Installing SWRs at Fixed Wireless sites will help reduce customer impact during scheduled and unscheduled network outages because of its ability to route traffic via alternate fibre/microwave paths. In addition to this, the SWR also supports the load balancing of traffic. This planned outage is to change the network over to the newly installed SWR and activate its new features.\n\nnbn®is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.  \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-10-29T13:00:00.000Z",
 		"scheduled_end": "2026-10-29T19:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-10-29T17:31:48.267Z",
+		"resolved_at": "2026-10-29T17:31:48.267Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-10-29T13:01:04.098Z",
 			"content": "The planned nbn maintenance has started. Short interruptions are still expected at 12:30 am, 1:00 am and 2:00 am AEDT, with works due to finish by 6:00 am AEDT on Friday 30 October 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-29T17:31:48.267Z",
+			"content": "The planned nbn maintenance has been completed and service should now be restored. The work finished at 4:31 am AEDT on Friday 30 October 2026, ahead of the scheduled 6:00 am end.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
