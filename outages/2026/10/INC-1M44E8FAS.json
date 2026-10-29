@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "An international submarine cable on the Perth–Singapore route remains down following a cable break. All Lightning IP internet services are online, but customers may notice higher latency and slower performance on international traffic (especially to Asia) while traffic is rerouted over other links. The repair vessel has now been mobilised and is travelling to the repair site. Repairs are expected to commence on 25 October 2026, with restoration estimated for 3 November 2026. These dates remain subject to change.",
+	"status": "work_underway",
+	"current_summary": "An international submarine cable on the Perth–Singapore route remains down following a cable break. All Lightning IP internet services are online, but customers may notice higher latency and slower performance on international traffic (especially to Asia) while traffic is rerouted over other links. The repair vessel has arrived at the fault location and has begun setting up for electroding and inspection of the cable damage using a remotely operated vehicle. Repair operations are underway, with restoration estimated for 3 November 2026. This date remains subject to change.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -325,7 +325,7 @@
 		"detected_at": null,
 		"scheduled_start": null,
 		"scheduled_end": null,
-		"estimated_restoration_at": null,
+		"estimated_restoration_at": "2026-11-03T23:59:00.000Z",
 		"actual_restoration_at": null,
 		"resolved_at": null,
 		"closed_at": null
@@ -419,6 +419,13 @@
 		{
 			"update_time": "2026-10-26T05:22:52.854Z",
 			"content": "The repair vessel has been mobilised and has begun travelling to the repair site on the Perth–Singapore cable. Repairs are expected to commence on 25 October 2026, with restoration now estimated for 3 November 2026. Internet services remain online and are being rerouted over other links, so international traffic may continue to be slower than usual until the cable is repaired. We will update you when the schedule changes or the repair is completed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-10-29T04:43:23.826Z",
+			"content": "The repair vessel has arrived at the fault location and repair operations are now underway, beginning with setup for electroding and a remotely operated vehicle inspection of the cable damage. Restoration is still estimated for 3 November 2026. Internet services remain online and are being rerouted over other links, so international traffic may continue to be slower than usual until the cable is repaired. We will update you when the schedule changes or the repair is completed.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
