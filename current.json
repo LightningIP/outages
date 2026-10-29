@@ -150,21 +150,6 @@
 		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
 	},
 	{
-		"reference": "INC-1M62GCAME",
-		"title": "nbn service fault affecting Lavington, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-29T00:11:20.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/10/INC-1M62GCAME.json"
-	},
-	{
 		"reference": "MNT-1M3TSZXYW",
 		"title": "NSW - Upgrade the Network",
 		"planned": true,
@@ -178,6 +163,21 @@
 			"end_date": "2026-10-18T17:40:06.398Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M3TSZXYW.json"
+	},
+	{
+		"reference": "INC-1M62GCAME",
+		"title": "nbn service fault affecting Lavington, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-29T00:11:20.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/10/INC-1M62GCAME.json"
 	},
 	{
 		"reference": "MNT-1M3X5G4FA",
