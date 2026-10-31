@@ -570,6 +570,21 @@
 		"record_path": "outages/2026/10/MNT-1M4WEZPZE.json"
 	},
 	{
+		"reference": "MNT-1M515MPFN",
+		"title": "nbn network capacity upgrade – NSW and VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-01T13:00:00.000Z",
+			"end_date": "2026-11-01T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M515MPFN.json"
+	},
+	{
 		"reference": "MNT-1M531CK2P",
 		"title": "Voice network emergency maintenance",
 		"planned": true,
