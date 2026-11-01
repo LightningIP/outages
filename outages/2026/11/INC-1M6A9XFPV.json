@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "investigating",
-	"current_summary": "Some nbn services in Howlong, NSW are affected. The issue was reported at about 11:43 am AEDT on 1 November 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+	"current_summary": "Some nbn services in Howlong, NSW have been affected since about 11:43 am AEDT on 1 November 2026. No restoration estimate has been provided.\n\nA power outage in the local area is affecting the nbn equipment that serves your service. Service is expected to return once local power is restored, and nbn will then run checks on the network.\n\nA local power outage is affecting the nbn network, resulting in service interruptions for customers. nbn is actively monitoring the situation, and once power returns, will check alarms and run network health checks to ensure stability. For details such as the Estimated Time to Restore (ETR), please reach out to your local power provider. After power is restored, nbn suggests resetting your modem and in-home devices if you continue to have issues.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -35,17 +35,24 @@
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
+		"reason": "Local power outage affecting the nbn network",
 		"detailed": null,
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null
+		"power_related": true
 	},
 	"updates": [
 		{
 			"update_time": "2026-11-01T00:43:50.000Z",
 			"content": "Some nbn services in Howlong, NSW are affected. The issue was reported at about 11:43 am AEDT on 1 November 2026, and no restoration estimate has been provided yet.\n\nnbn is working hard to resolve an unexpected network issue in your area causing a partial or total loss of connectivity to your nbn service. Using mobile data can help you stay connected if needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-01T03:42:13.000Z",
+			"content": "nbn has advised that the disruption in Howlong is caused by a local power outage. No restoration estimate has been provided.\n\nA power outage in the local area is affecting the nbn equipment that serves your service. Service is expected to return once local power is restored, and nbn will then run checks on the network.\n\nA local power outage is affecting the nbn network, resulting in service interruptions for customers. nbn is actively monitoring the situation, and once power returns, will check alarms and run network health checks to ensure stability. For details such as the Estimated Time to Restore (ETR), please reach out to your local power provider. After power is restored, nbn suggests resetting your modem and in-home devices if you continue to have issues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
