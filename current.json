@@ -570,21 +570,6 @@
 		"record_path": "outages/2026/10/MNT-1M4WEZPZE.json"
 	},
 	{
-		"reference": "INC-1M6A9XFPV",
-		"title": "nbn service disruption - Howlong, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-11-01T00:43:50.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
-	},
-	{
 		"reference": "MNT-1M515MPFN",
 		"title": "nbn network capacity upgrade – NSW and VIC",
 		"planned": true,
@@ -688,5 +673,20 @@
 			"end_date": "2026-10-24T09:54:55.000Z"
 		},
 		"record_path": "outages/2026/10/INC-1M5NRTMVH.json"
+	},
+	{
+		"reference": "INC-1M6A9XFPV",
+		"title": "nbn service disruption - Howlong, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-01T00:43:50.000Z",
+			"end_date": "2026-11-01T05:05:44.000Z"
+		},
+		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
 	}
 ]
