@@ -388,5 +388,20 @@
 			"end_date": "2026-11-01T18:09:32.024Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M515MPFN.json"
+	},
+	{
+		"reference": "MNT-1M6CNJHMW",
+		"title": "Ashfield, NSW - Emergency nbn network maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-01T23:00:00.000Z",
+			"end_date": "2026-11-02T07:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6CNJHMW.json"
 	}
 ]
