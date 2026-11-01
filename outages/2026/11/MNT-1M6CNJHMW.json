@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M6CNJHMW",
+	"title": "Ashfield, NSW - Emergency nbn network maintenance",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "work_underway",
+	"current_summary": "Ashfield, NSW. The maintenance window is 10:00 am to 6:00 pm on Monday 2 November 2026 (Sydney time), with a service interruption expected from 10:15 am for up to about 3 hours.\n\nnbn technicians are testing for electrical interference on the network in your area, which is affecting service. To do this they need to take part of the network offline, so your internet connection will drop for a time while the work is carried out.\n\nAs part of troubleshooting and restoration work for a current Network Activity Ticket (NAT), techs will be taking a network element offline which will cause temporary service interruption for customers. The tech will be performing troubleshooting which will involve running tests to identify return path noise on the network. This work is being performed to prevent the current issue evolving into a larger network incident. Residential noise restrictions and safety regulations require this work to take place during daylight hours.\n\nnbn is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\n\nUsing mobile data where available can help you stay connected if needed. Check the nbn® Network Outages website periodically for the latest updates.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"ASHFIELD"
+		],
+		"postcodes": [
+			"2131"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-10-30T04:24:25.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-01T23:00:00.000Z",
+		"scheduled_end": "2026-11-02T07:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Emergency nbn network works to troubleshoot and remediate a network issue in the area.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-01T23:02:07.418Z",
+			"content": "Ashfield, NSW. The maintenance window is 10:00 am to 6:00 pm on Monday 2 November 2026 (Sydney time), with a service interruption expected from 10:15 am for up to about 3 hours.\n\nnbn technicians are testing for electrical interference on the network in your area, which is affecting service. To do this they need to take part of the network offline, so your internet connection will drop for a time while the work is carried out.\n\nAs part of troubleshooting and restoration work for a current Network Activity Ticket (NAT), techs will be taking a network element offline which will cause temporary service interruption for customers. The tech will be performing troubleshooting which will involve running tests to identify return path noise on the network. This work is being performed to prevent the current issue evolving into a larger network incident. Residential noise restrictions and safety regulations require this work to take place during daylight hours.\n\nnbn is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\n\nUsing mobile data where available can help you stay connected if needed. Check the nbn® Network Outages website periodically for the latest updates.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
