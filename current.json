@@ -150,6 +150,21 @@
 		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
 	},
 	{
+		"reference": "MNT-1M4Q1MGGS",
+		"title": "Planned maintenance: nbn services connected via Petrie, Caboolture and Aspley (QLD)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-02T13:00:00.000Z",
+			"end_date": "2026-11-02T21:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4Q1MGGS.json"
+	},
+	{
 		"reference": "MNT-1M3TSZXYW",
 		"title": "NSW - Upgrade the Network",
 		"planned": true,
