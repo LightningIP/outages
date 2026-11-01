@@ -120,21 +120,6 @@
 		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
 	},
 	{
-		"reference": "INC-1M6A9XFPV",
-		"title": "nbn service disruption - Howlong, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-11-01T00:43:50.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
-	},
-	{
 		"reference": "MNT-1M59FJ5MK",
 		"title": "Planned maintenance: NBN Kings Park (VIC) network connection upgrade",
 		"planned": true,
@@ -208,6 +193,21 @@
 			"end_date": "2026-11-04T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4YH74GY.json"
+	},
+	{
+		"reference": "INC-1M6A9XFPV",
+		"title": "nbn service disruption - Howlong, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-01T00:43:50.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
 	},
 	{
 		"reference": "MNT-1M515MPFN",
