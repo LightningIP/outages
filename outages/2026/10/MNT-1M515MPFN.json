@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Affects some nbn services in NSW and VIC. The maintenance window runs from 12:00 am to 6:00 am AEDT on Monday 2 November 2026, with two interruptions of about 10 minutes each, starting at 12:30 am and 1:30 am AEDT.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "The nbn maintenance affecting services in NSW and VIC is complete. The maintenance window ran from 12:00 am to 6:00 am AEDT on Monday 2 November 2026, with two short interruptions at 12:30 am and 1:30 am AEDT.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -33,7 +33,7 @@
 		"scheduled_end": "2026-11-01T19:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-01T18:09:32.024Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -55,6 +55,13 @@
 		{
 			"update_time": "2026-11-01T14:19:37.660Z",
 			"content": "The planned nbn maintenance has started. The two short interruptions are still scheduled for 12:30 am and 1:30 am AEDT.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-01T18:09:32.024Z",
+			"content": "The planned nbn network capacity upgrade has been completed and the maintenance is now resolved.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
