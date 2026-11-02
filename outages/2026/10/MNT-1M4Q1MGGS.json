@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned maintenance is scheduled between 11:00pm on Monday 2 November and 7:00am on Tuesday 3 November 2026 (Queensland time). During this window, nbn services connected through the Petrie, Caboolture and Aspley areas may be interrupted for up to 8 hours.",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance began at 11:00pm on Monday 2 November 2026 (Queensland time) and is scheduled to finish by 7:00am on Tuesday 3 November. During this window, nbn services connected through the Petrie, Caboolture and Aspley areas may be interrupted for up to 8 hours.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -49,6 +49,13 @@
 		{
 			"update_time": "2026-10-11T23:54:02.920Z",
 			"content": "A network provider will be replacing splice infrastructure that supports nbn services connected through the Petrie, Caboolture and Aspley areas in Queensland. The work is scheduled between 11:00pm on Monday 2 November and 7:00am on Tuesday 3 November 2026 (Queensland time). Some nbn services in these areas may be interrupted for up to 8 hours during this window. We will share more information if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-02T13:00:08.344Z",
+			"content": "The planned splice infrastructure replacement affecting nbn services connected through the Petrie, Caboolture and Aspley areas began at 11:00pm on Monday 2 November (Queensland time). Some services may be interrupted for up to 8 hours, and the work is scheduled to finish by 7:00am on Tuesday 3 November. We will update you if the schedule changes.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
