@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M6HT8XJA",
+	"title": "nbn outage affecting Keysborough POI (VIC)",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "We are aware of an outage affecting nbn services connected through the Keysborough point of interconnect in Victoria. Some customers in the area may be unable to connect to the internet. Our team is investigating and we do not yet have an estimated restoration time. We will share more information as soon as we have it.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"LYNBROOK"
+		],
+		"postcodes": [
+			"3975"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-03T21:01:25.144Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-03T21:01:25.155Z",
+			"content": "We are aware of an outage affecting nbn services connected through the Keysborough point of interconnect in Victoria. Some customers in the area may be affected. Our team is investigating and we will share further details as soon as they are available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
