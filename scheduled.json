@@ -315,6 +315,21 @@
 		"record_path": "outages/2026/10/MNT-1M60HYMNF.json"
 	},
 	{
+		"reference": "MNT-1M6FNEXD7",
+		"title": "Planned nbn network upgrade – Airlie Beach, QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-23T14:00:00.000Z",
+			"end_date": "2026-11-23T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6FNEXD7.json"
+	},
+	{
 		"reference": "MNT-1M6D8EMDY",
 		"title": "Planned nbn maintenance – Elsternwick VIC",
 		"planned": true,
@@ -328,6 +343,21 @@
 			"end_date": "2026-11-18T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M6D8EMDY.json"
+	},
+	{
+		"reference": "MNT-1M6FNFJJG",
+		"title": "Planned maintenance: nbn services in Victoria and Miranda (NSW) – fibre cable migration",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "state",
+			"service_count": 13
+		},
+		"lifecycle": {
+			"start_date": "2026-12-02T13:00:00.000Z",
+			"end_date": "2026-12-02T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6FNFJJG.json"
 	},
 	{
 		"reference": "MNT-1M6DEZG4D",
