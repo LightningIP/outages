@@ -1,0 +1,78 @@
+{
+	"reference": "MNT-1M6FNFJJG",
+	"title": "Planned maintenance: nbn services in Victoria and Miranda (NSW) – fibre cable migration",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled for nbn services connected through a number of Victorian locations and Miranda in NSW. It runs from 12:00am to 7:00am AEDT on Thursday 3 December 2026. Some customers may lose their nbn service for up to 7 hours during this window. The affected locations are Footscray, South Morang, North Balwyn, Ringwood, Geelong, Bendigo, Kings Park, Shepparton, Lilydale, Horsham, Karingal, Nunawading Depot, St Kilda, Keysborough, Cheltenham, Miranda, Werribee and Tullamarine.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "state",
+		"service_count": 13,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - Fixed Wireless",
+			"NBN - HFC"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BAYSWATER",
+			"BEVERIDGE",
+			"BUNDOORA",
+			"ECHUCA",
+			"KILSYTH",
+			"LAVERTON",
+			"LYNBROOK",
+			"SEYMOUR",
+			"SHEPPARTON",
+			"SOUTH MORANG",
+			"STRATHMERTON",
+			"SUNSHINE WEST"
+		],
+		"postcodes": [
+			"3020",
+			"3028",
+			"3083",
+			"3137",
+			"3153",
+			"3564",
+			"3630",
+			"3641",
+			"3660",
+			"3752",
+			"3753",
+			"3975"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-02T23:02:46.273Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-02T13:00:00.000Z",
+		"scheduled_end": "2026-12-02T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network joint upgrade (fibre cable migration) by a backhaul carrier",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-02T23:02:46.310Z",
+			"content": "Our network provider has told us that a backhaul carrier will carry out a planned network joint upgrade (a fibre cable migration). Some nbn services connected through the locations below may be interrupted for up to 7 hours during the maintenance window.\n\nWhen: 12:00am to 7:00am AEDT, Thursday 3 December 2026.\n\nAffected nbn locations: Footscray, South Morang, North Balwyn, Ringwood, Geelong, Bendigo, Kings Park, Shepparton, Lilydale, Horsham, Karingal, Nunawading Depot, St Kilda, Keysborough, Cheltenham, Miranda (NSW), Werribee and Tullamarine.\n\nThe interruption may not last the full window, and not every customer in these areas will necessarily be affected. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
