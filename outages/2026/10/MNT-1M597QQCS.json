@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance is now under way on NBN services connected through the Katanning (WA) point of interconnect. We are moving services from older network connections to new ones. The maintenance window runs until 3:00 am AWST on Thursday 5 November 2026. Affected services may be disrupted for up to 3 hours during this window.",
+	"status": "resolved",
+	"current_summary": "Planned maintenance on NBN services connected through the Katanning (WA) point of interconnect is complete. Services were moved from older network connections to new ones. Affected services may have been disrupted for up to 3 hours during the maintenance window, which ended at 3:00 am AWST on Thursday 5 November 2026.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,8 +22,8 @@
 		"scheduled_start": "2026-11-04T16:00:00.000Z",
 		"scheduled_end": "2026-11-04T19:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-04T19:00:00.000Z",
+		"resolved_at": "2026-11-04T19:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-11-04T16:00:04.059Z",
 			"content": "Our planned maintenance on NBN services connected through the Katanning (WA) point of interconnect has started. Affected services may be disrupted until the window ends at 3:00 am AWST on Thursday 5 November 2026. We will confirm once the maintenance is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T19:00:00.000Z",
+			"content": "Our planned maintenance on NBN services connected through the Katanning (WA) point of interconnect is complete. Services have been moved from older network connections to new ones. Affected services may have been disrupted for up to 3 hours during the window, which ended at 3:00 am AWST on Thursday 5 November 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
