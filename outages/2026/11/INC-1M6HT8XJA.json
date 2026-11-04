@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "We are aware of an outage affecting nbn services connected through the Keysborough point of interconnect in Victoria. Some customers in the area may be unable to connect to the internet. Our team is investigating and we do not yet have an estimated restoration time. We will share more information as soon as we have it.",
+	"status": "identified",
+	"current_summary": "Some nbn services connected through the Keysborough point of interconnect in Victoria are affected, and some customers in the area may be unable to connect to the internet. The cause has been identified as a motor vehicle accident at about 12:50am, which damaged some of the backhaul connections to the site. Because the site is a police scene, we do not yet have an estimated restoration time. Work is under way to look at moving services onto another connection at the site. We will share more information as soon as we have it.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -35,17 +35,24 @@
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
-		"detailed": null,
+		"reason": "Motor vehicle accident damaged backhaul connections to the Keysborough point of interconnect",
+		"detailed": "A motor vehicle accident at about 12:50am AEDT on 4 November 2026 took out some backhaul services to the Keysborough point of interconnect. The site is currently a police scene.",
 		"root": null,
 		"weather_related": null,
-		"third_party_damage": null,
+		"third_party_damage": true,
 		"power_related": null
 	},
 	"updates": [
 		{
 			"update_time": "2026-11-03T21:01:25.155Z",
 			"content": "We are aware of an outage affecting nbn services connected through the Keysborough point of interconnect in Victoria. Some customers in the area may be affected. Our team is investigating and we will share further details as soon as they are available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-03T22:20:09.975Z",
+			"content": "We have identified the cause of this outage as a motor vehicle accident at about 12:50am, which damaged some of the backhaul connections to the Keysborough point of interconnect. The site is currently a police scene, so we do not yet have an estimated restoration time. We are investigating moving affected services onto another connection at the site and will update you as soon as we have more information.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
