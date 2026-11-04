@@ -60,21 +60,6 @@
 		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
 	},
 	{
-		"reference": "INC-1M6HT8XJA",
-		"title": "nbn outage affecting Keysborough POI (VIC)",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-03T21:01:25.144Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/11/INC-1M6HT8XJA.json"
-	},
-	{
 		"reference": "MNT-1M4Q1K03G",
 		"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
 		"planned": true,
@@ -148,6 +133,21 @@
 			"end_date": "2026-11-11T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
+	},
+	{
+		"reference": "INC-1M6HT8XJA",
+		"title": "nbn outage affecting Keysborough POI (VIC)",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-03T21:01:25.144Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M6HT8XJA.json"
 	},
 	{
 		"reference": "MNT-1M59FJ5MK",
