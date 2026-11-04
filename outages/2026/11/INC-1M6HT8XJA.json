@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "Some nbn services connected through the Keysborough point of interconnect in Victoria are affected, and some customers in the area may be unable to connect to the internet. The cause has been identified as a motor vehicle accident at about 12:50am, which damaged some of the backhaul connections to the site. Because the site is a police scene, we do not yet have an estimated restoration time. Work is under way to look at moving services onto another connection at the site. We will share more information as soon as we have it.",
+	"status": "work_underway",
+	"current_summary": "Some nbn services connected through the Keysborough point of interconnect in Victoria were affected after a motor vehicle accident at about 12:50am damaged some of the backhaul connections to the site. Services are being moved onto another connection at the site. Some services have already been moved, and customers whose service has not come back should power cycle their router to get a new session. Other services are still being moved and are waiting on action from nbn. We do not have an estimated restoration time because the site is a police scene. We will share more information as soon as we have it.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-11-03T22:20:09.975Z",
 			"content": "We have identified the cause of this outage as a motor vehicle accident at about 12:50am, which damaged some of the backhaul connections to the Keysborough point of interconnect. The site is currently a police scene, so we do not yet have an estimated restoration time. We are investigating moving affected services onto another connection at the site and will update you as soon as we have more information.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T00:02:44.655Z",
+			"content": "Progress has been made in restoring services. Services have been moved to a new connection at the Keysborough point of interconnect, and many customers should be coming back online. If your service has not restored, please power cycle your router to get a new session. Some other services are still being moved and are waiting on action from nbn. We do not yet have an estimated time for full restoration and will update you as this progresses.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
