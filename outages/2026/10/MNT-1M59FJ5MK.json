@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance is now under way to move NBN services at the Kings Park (3KGP) point of interconnect in Victoria onto new network connections. The work is scheduled to finish by 3:00 am AEDT on Thursday 5 November 2026. NBN services connected through this location may be disrupted for up to 3 hours during this window.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance to move NBN services at the Kings Park (3KGP) point of interconnect in Victoria onto new network connections is complete. NBN services connected through this location should be operating normally.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,8 +22,8 @@
 		"scheduled_start": "2026-11-04T13:00:00.000Z",
 		"scheduled_end": "2026-11-04T16:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-04T16:00:00.000Z",
+		"resolved_at": "2026-11-04T16:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-11-04T13:00:05.210Z",
 			"content": "The scheduled maintenance at the Kings Park (3KGP) point of interconnect in Victoria has started. NBN services connected through this location may be disrupted until the work finishes, which is scheduled for 3:00 am AEDT today, Thursday 5 November 2026. We will update this page once the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T16:00:00.000Z",
+			"content": "The scheduled maintenance at the Kings Park (3KGP) point of interconnect in Victoria is complete, as of 3:00 am AEDT on Thursday 5 November 2026. NBN services connected through this location should now be operating normally on the new network connections. If you are still experiencing problems, please restart your modem and contact our support team if the issue continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
