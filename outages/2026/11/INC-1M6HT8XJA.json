@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Some nbn services connected through the Keysborough point of interconnect in Victoria were affected after a motor vehicle accident at about 12:50am on 4 November damaged some of the backhaul connections to the site. Many services have been moved onto another connection at the site. Customers whose service has not come back should power cycle their router to get a new session. Work has now begun to re-run the cable for the original damaged link. This work is expected to be completed overnight, with an estimated restoration time of 7am on 5 November. The remaining Enterprise Ethernet services are still being moved to the alternate connection by nbn, and we are continuing to press nbn on this. We will share more information as soon as we have it.",
+	"status": "monitoring",
+	"current_summary": "Some nbn services connected through the Keysborough point of interconnect in Victoria were affected after a motor vehicle accident at about 12:50am on 4 November damaged some of the backhaul connections to the site. All remaining Enterprise Ethernet services have now been moved to the alternate connection, and the original damaged link has been restored, so services that were still on that link are active again. Customers whose service has not come back should power cycle their router to get a new session. We are monitoring the network to confirm services remain stable.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,7 +30,7 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": "2026-11-04T20:00:00.000Z",
-		"actual_restoration_at": null,
+		"actual_restoration_at": "2026-11-04T16:39:27.726Z",
 		"resolved_at": null,
 		"closed_at": null
 	},
@@ -81,6 +81,13 @@
 		{
 			"update_time": "2026-11-04T11:40:25.458Z",
 			"content": "Work has begun to re-run the cable for the damaged link at the Keysborough point of interconnect. It is expected to be completed overnight, with an estimated restoration time of 7am on 5 November. The move of the remaining Enterprise Ethernet services to the alternate connection is still being worked on by nbn. If your service has not restored, please power cycle your router to get a new session. We will update you as this progresses.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T16:39:27.726Z",
+			"content": "Service has been restored. All Enterprise Ethernet services have now been moved to the alternate connection at the Keysborough point of interconnect, and the original damaged link has also been restored, so services that remained on it are active again. If your service has not come back, please power cycle your router to get a new session. We will continue to monitor and confirm once this outage is fully resolved.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
