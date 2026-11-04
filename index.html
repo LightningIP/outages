@@ -828,7 +828,17 @@ createApp({
       loadingCurrent.value = true;
       try {
         const data = await fetchJSON('current.json');
-        currentOutages.value = data.sort((a, b) => getSortTimestamp(a) - getSortTimestamp(b));
+        // Incidents first, newest to oldest — the newest unplanned outage is the one
+        // customers are most likely to be ringing about. Maintenance after it, oldest
+        // to newest, so the window closest to finishing sits at the top of that group.
+        currentOutages.value = data.sort((a, b) => {
+          const aPlanned = a?.planned ? 1 : 0;
+          const bPlanned = b?.planned ? 1 : 0;
+          if (aPlanned !== bPlanned) return aPlanned - bPlanned;
+          return aPlanned
+            ? getSortTimestamp(a) - getSortTimestamp(b)
+            : getSortTimestamp(b) - getSortTimestamp(a);
+        });
         prefetchFull(data);
       } catch (e) {
         console.error('Failed to load current.json', e);
