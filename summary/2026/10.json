@@ -780,21 +780,6 @@
 		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
 	},
 	{
-		"reference": "MNT-1M59FJ5MK",
-		"title": "Planned maintenance: NBN Kings Park (VIC) network connection upgrade",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-11-04T13:00:00.000Z",
-			"end_date": "2026-11-04T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
-	},
-	{
 		"reference": "MNT-1M5V9ZVBZ",
 		"title": "nbn network software upgrade – planned maintenance",
 		"planned": true,
@@ -853,6 +838,21 @@
 			"end_date": "2026-10-12T19:00:24.897Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M3396FWR.json"
+	},
+	{
+		"reference": "MNT-1M59FJ5MK",
+		"title": "Planned maintenance: NBN Kings Park (VIC) network connection upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-04T13:00:00.000Z",
+			"end_date": "2026-11-04T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
 	},
 	{
 		"reference": "MNT-1M4RJKP53",
