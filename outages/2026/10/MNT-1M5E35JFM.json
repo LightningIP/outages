@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Affects some nbn services in VIC, NSW, TAS and ACT. The maintenance window is 12:00 am to 6:00 am AEDT on Thursday 5 November 2026, with a brief interruption of about 60 minutes expected from 12:30 am.\n\nThis deployment will provide an enhanced remote service test capability to support nbn network and service assurance testing. Test and Diagnostics will be unavailable during the planned work. Works are being undertaken overnight to minimise disruption to customers.\n\nnbn® is completing a remote software update on your nbn-branded equipment. This will cause your nbn service to briefly lose connection. \nIf your connection does not come back after the listed outage date and times, try turning your nbn connection box off at the power point, waiting 30 seconds, then switching it on again.",
+	"status": "work_underway",
+	"current_summary": "Affects nbn services in parts of NSW and VIC. The maintenance window is 12:00 am to 6:00 am AEDT on Thursday 5 November 2026, with an interruption of about 60 minutes expected from 12:30 am.\n\nThis deployment will provide an enhanced remote service test capability to support nbn network and service assurance testing. Test and Diagnostics will be unavailable during the planned work. Works are being undertaken overnight to minimise disruption to customers.\n\nnbn® is completing a remote software update on your nbn-branded equipment. This will cause your nbn service to briefly lose connection. \nIf your connection does not come back after the listed outage date and times, try turning your nbn connection box off at the power point, waiting 30 seconds, then switching it on again.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -60,6 +60,13 @@
 		{
 			"update_time": "2026-10-21T01:22:06.000Z",
 			"content": "Affects some nbn services in VIC, NSW, TAS and ACT. The maintenance window is 12:00 am to 6:00 am AEDT on Thursday 5 November 2026, with a brief interruption of about 60 minutes expected from 12:30 am.\n\nThis deployment will provide an enhanced remote service test capability to support nbn network and service assurance testing. Test and Diagnostics will be unavailable during the planned work. Works are being undertaken overnight to minimise disruption to customers.\n\nnbn® is completing a remote software update on your nbn-branded equipment. This will cause your nbn service to briefly lose connection. \nIf your connection does not come back after the listed outage date and times, try turning your nbn connection box off at the power point, waiting 30 seconds, then switching it on again.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T13:11:31.762Z",
+			"content": "The planned maintenance has now started. The interruption of about 60 minutes is still expected from 12:30 am AEDT, and the works are due to finish by 6:00 am AEDT.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
