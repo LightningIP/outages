@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "We have planned maintenance on Thursday 5 November 2026 from 12:00 am to 3:00 am AWST. It affects NBN services connected through the Katanning (WA) point of interconnect. We will be moving services from older network connections to new ones. During this window, affected services may be disrupted for up to 3 hours.",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance is now under way on NBN services connected through the Katanning (WA) point of interconnect. We are moving services from older network connections to new ones. The maintenance window runs until 3:00 am AWST on Thursday 5 November 2026. Affected services may be disrupted for up to 3 hours during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-10-19T02:15:31.248Z",
 			"content": "We have scheduled planned maintenance on our network for NBN services connected through the Katanning (WA) point of interconnect. We will be moving services from older network connections to new ones. The maintenance window is from 12:00 am to 3:00 am AWST on Thursday 5 November 2026. Services in the affected area may be disrupted for up to 3 hours during this window. We will keep you updated if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T16:00:04.059Z",
+			"content": "Our planned maintenance on NBN services connected through the Katanning (WA) point of interconnect has started. Affected services may be disrupted until the window ends at 3:00 am AWST on Thursday 5 November 2026. We will confirm once the maintenance is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
