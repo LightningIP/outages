@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "A network provider will carry out a planned router software upgrade that may affect nbn services connected through the Bendigo POI in Victoria. The work is scheduled from 11:00pm AEDT on Wednesday 11 November to 6:00am AEDT on Thursday 12 November 2026. Services may be interrupted for up to 7 hours during this window.",
+	"status": "cancelled",
+	"current_summary": "The planned router software upgrade that was scheduled to affect nbn services connected through the Bendigo POI in Victoria, from 11:00pm AEDT on Wednesday 11 November to 6:00am AEDT on Thursday 12 November 2026, has been withdrawn and is no longer scheduled. No service interruption is expected from this work.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -48,6 +48,13 @@
 		{
 			"update_time": "2026-10-18T23:44:56.610Z",
 			"content": "We have been advised that a network provider will carry out a planned router software upgrade that may affect nbn services connected through the Bendigo POI in Victoria. The work is scheduled between 11:00pm AEDT on Wednesday 11 November and 6:00am AEDT on Thursday 12 November 2026. Affected services may be interrupted for up to 7 hours during this window. We will share further updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-04T03:01:36.662Z",
+			"content": "The planned router software upgrade for nbn services connected through the Bendigo POI, previously scheduled for the night of Wednesday 11 November 2026, has been withdrawn and is no longer going ahead as scheduled. No interruption is expected from this work. If the work is rescheduled, we will publish a new notice with the updated dates.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
