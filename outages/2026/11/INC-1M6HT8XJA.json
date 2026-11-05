@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "monitoring",
-	"current_summary": "Some nbn services connected through the Keysborough point of interconnect in Victoria were affected after a motor vehicle accident at about 12:50am on 4 November damaged some of the backhaul connections to the site. All remaining Enterprise Ethernet services have now been moved to the alternate connection, and the original damaged link has been restored, so services that were still on that link are active again. Customers whose service has not come back should power cycle their router to get a new session. We are monitoring the network to confirm services remain stable.",
+	"status": "resolved",
+	"current_summary": "This outage has been resolved. Some nbn services connected through the Keysborough point of interconnect in Victoria were affected after a motor vehicle accident at about 12:50am on 4 November damaged some of the backhaul connections to the site. All Enterprise Ethernet services have been moved to the alternate connection and the original damaged link has been restored. Customers whose service has not come back should power cycle their router to get a new session.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -31,7 +31,7 @@
 		"scheduled_end": null,
 		"estimated_restoration_at": "2026-11-04T20:00:00.000Z",
 		"actual_restoration_at": "2026-11-04T16:39:27.726Z",
-		"resolved_at": null,
+		"resolved_at": "2026-11-05T00:31:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -88,6 +88,20 @@
 		{
 			"update_time": "2026-11-04T16:39:27.726Z",
 			"content": "Service has been restored. All Enterprise Ethernet services have now been moved to the alternate connection at the Keysborough point of interconnect, and the original damaged link has also been restored, so services that remained on it are active again. If your service has not come back, please power cycle your router to get a new session. We will continue to monitor and confirm once this outage is fully resolved.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T00:31:00.000Z",
+			"content": "This outage has been resolved. All Enterprise Ethernet services are on the alternate connection at the Keysborough point of interconnect, the original damaged link has been restored, and the cabling works are complete. If your service has not come back, please power cycle your router to get a new session.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T00:31:00.000Z",
+			"content": "This outage has now been resolved. Services connected through the Keysborough point of interconnect are operating normally following the earlier restoration work. If your service is still not working, please power cycle your router to get a new session.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
