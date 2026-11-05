@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned fibre works between Adelaide and Melbourne are scheduled from 12:00 am to 6:00 am AEDT on Friday 6 November 2026. During this window, some internet traffic between Victoria and South Australia may experience increased latency. We do not expect any disruption to services, as traffic will take other paths.",
+	"status": "cancelled",
+	"current_summary": "The planned fibre works between Adelaide and Melbourne, previously scheduled for 12:00 am to 6:00 am AEDT on Friday 6 November 2026, have been cancelled. The increase in latency between Victoria and South Australia will not occur, and no disruption to services is expected.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -153,6 +153,20 @@
 		{
 			"update_time": "2026-10-26T05:18:25.208Z",
 			"content": "We have been advised of planned fibre works between Adelaide and Melbourne, scheduled from 12:00 am to 6:00 am AEDT on Friday 6 November 2026. While the works take place, you may notice slightly higher latency on traffic between Victoria and South Australia. We do not expect any disruption to your service, as traffic will automatically take other paths. We will update this notice if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T00:34:00.000Z",
+			"content": "The planned fibre works between Adelaide and Melbourne, scheduled for 12:00 am to 6:00 am AEDT on Friday 6 November 2026, have been cancelled. You will not see the increased latency between Victoria and South Australia that we previously advised, and no action is needed.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T00:34:00.000Z",
+			"content": "The planned fibre works between Adelaide and Melbourne, scheduled for 12:00 am to 6:00 am AEDT on Friday 6 November 2026, have been cancelled. You will not see any increase in latency between Victoria and South Australia, and no action is needed.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
