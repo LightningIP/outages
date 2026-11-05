@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "An upstream network provider will carry out a planned fibre cable migration that may affect nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland. The work is scheduled between 12:00 am and 6:00 am AEST on Friday 6 November 2026. Some customers may lose service for up to 6 hours during this window.",
+	"status": "work_underway",
+	"current_summary": "Planned fibre cable migration work by an upstream network provider has started. It may affect nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland. The work began at 12:00 am AEST on Friday 6 November 2026 and is scheduled to run until 6:00 am AEST. Some customers may lose service for up to 6 hours during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -49,6 +49,13 @@
 		{
 			"update_time": "2026-10-15T00:37:37.263Z",
 			"content": "Our upstream network provider has advised us of planned fibre cable migration work. It may affect nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland. The maintenance window is between 12:00 am and 6:00 am AEST on Friday 6 November 2026. During this window, affected services may be interrupted for up to 6 hours. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T14:00:02.661Z",
+			"content": "The planned fibre cable migration started at 12:00 am AEST on Friday 6 November 2026. Some nbn services connected through the Aspley, Caboolture and Petrie areas may be interrupted for up to 6 hours while the work is carried out. The window is scheduled to end at 6:00 am AEST, and we will share further updates as we receive them.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
