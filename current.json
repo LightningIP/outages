@@ -1,17 +1,1 @@
-[
-	{
-		"reference": "INC-1M6HT8XJA",
-		"title": "nbn outage affecting Keysborough POI (VIC)",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-03T21:01:25.144Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/11/INC-1M6HT8XJA.json"
-	}
-]
+[]
