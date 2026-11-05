@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Scheduled maintenance will affect NBN services at multiple VIC POIs due to a permanent cable repair by a network provider. Window: 22 Oct 2026 11:00pm to 23 Oct 2026 7:00am AEDT. Services at these POIs may be intermittently unavailable for up to 8 hours within the window: Werribee (3WER), Tullamarine (3TMN), Cheltenham (3CTA), Nunawading Depot (3MEA), Lilydale (3LIL), Horsham (3HRS), Wheelers Hill (3WHL), St Kilda (3STK), Keysborough (3KEY), Shepparton (3SHP), Kings Park (3KGP), Bendigo (3BEN), Ringwood (3RWO), Geelong (3GEE), South Morang (3SMR), North Balwyn (3NBA), Footscray (3FSR).",
+	"status": "resolved",
+	"current_summary": "This planned NBN maintenance for multiple VIC POIs, scheduled for 22 Oct 2026 11:00pm to 23 Oct 2026 7:00am AEDT, has been closed and its scheduled window has ended. No further action is required from customers.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -57,7 +57,7 @@
 		"scheduled_end": "2026-10-22T20:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-05T00:34:41.927Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -72,6 +72,20 @@
 		{
 			"update_time": "2026-10-05T00:18:38.550Z",
 			"content": "A network provider will perform a permanent cable repair affecting backhaul for multiple VIC NBN POIs. This maintenance is scheduled for 22 Oct 2026 11:00pm to 23 Oct 2026 7:00am AEDT. NBN services at the following POIs may be intermittently unavailable, with up to 8 hours of impact within the window: Werribee (3WER), Tullamarine (3TMN), Cheltenham (3CTA), Nunawading Depot (3MEA), Lilydale (3LIL), Horsham (3HRS), Wheelers Hill (3WHL), St Kilda (3STK), Keysborough (3KEY), Shepparton (3SHP), Kings Park (3KGP), Bendigo (3BEN), Ringwood (3RWO), Geelong (3GEE), South Morang (3SMR), North Balwyn (3NBA), Footscray (3FSR). No action is required from customers. We will monitor the work and post updates if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T00:34:41.927Z",
+			"content": "The scheduled NBN maintenance for multiple Victorian POIs (permanent cable repair) has now been closed. The planned window of 11:00pm on 22 Oct to 7:00am on 23 Oct 2026 AEDT has ended. We have not been advised of any ongoing impact from this work, so we are closing this notice. If you are still experiencing problems with your service, please contact our support team.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T00:34:41.927Z",
+			"content": "This maintenance has now been closed. The scheduled window (22 Oct 2026 11:00pm to 23 Oct 2026 7:00am AEDT) has ended and no further impact is expected from this planned work. No action is required from customers. If you still have an NBN service issue, please contact support.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
