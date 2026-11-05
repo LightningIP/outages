@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned fibre cable migration work by an upstream network provider has started. It may affect nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland. The work began at 12:00 am AEST on Friday 6 November 2026 and is scheduled to run until 6:00 am AEST. Some customers may lose service for up to 6 hours during this window.",
+	"status": "resolved",
+	"current_summary": "The planned fibre cable migration affecting nbn services connected through the Aspley, Caboolture and Petrie areas in Queensland is complete. The work finished at 6:00 am AEST on Friday 6 November 2026. Some services may have been interrupted for up to 6 hours during the maintenance window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -34,7 +34,7 @@
 		"scheduled_end": "2026-11-05T20:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-05T20:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -56,6 +56,13 @@
 		{
 			"update_time": "2026-11-05T14:00:02.661Z",
 			"content": "The planned fibre cable migration started at 12:00 am AEST on Friday 6 November 2026. Some nbn services connected through the Aspley, Caboolture and Petrie areas may be interrupted for up to 6 hours while the work is carried out. The window is scheduled to end at 6:00 am AEST, and we will share further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T20:00:00.000Z",
+			"content": "The planned fibre cable migration has been completed as of 6:00 am AEST on Friday 6 November 2026. nbn services connected through the Aspley, Caboolture and Petrie areas may have been interrupted for up to 6 hours during the maintenance window. No further work is scheduled for this maintenance.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
