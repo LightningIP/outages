@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Affects nbn services in the Maclean NSW area. The maintenance window runs from 11:00 pm Thursday 5 November to 5:00 am Friday 6 November 2026 (Sydney time), with a loss of connectivity of up to 5 hours from 11:00 pm.\n\nAnother provider is working on the network links that carry nbn traffic for your area. Your internet may drop out while the work is under way.\n\nA third-party network provider will be performing work on its' Managed Service Backhaul (MSB) infrastructure which will impact nbn services. Due to the network architecture, work conducted by a third-party is sometimes outside of nbn's control but is essential for the overall performance of the nbn network.\n\nAn external party is performing works that will affect the nbn® network in your area. This will cause a temporary loss of connectivity to your nbn service.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Maintenance in the Maclean NSW area was completed. The window ran from 11:00 pm Thursday 5 November to 5:00 am Friday 6 November 2026 (Sydney time).\n\nA third-party network provider will be performing work on its' Managed Service Backhaul (MSB) infrastructure which will impact nbn services. Due to the network architecture, work conducted by a third-party is sometimes outside of nbn's control but is essential for the overall performance of the nbn network.\n\nAn external party is performing works that will affect the nbn® network in your area. This will cause a temporary loss of connectivity to your nbn service.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements. \n\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -32,7 +32,7 @@
 		"scheduled_end": "2026-11-05T18:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-05T18:07:28.373Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -54,6 +54,13 @@
 		{
 			"update_time": "2026-11-05T17:09:30.784Z",
 			"content": "Maintenance work has started in the Maclean area. Your nbn service may be offline during the window, which is scheduled to finish at 5:00 am Friday 6 November 2026 (Sydney time).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-05T18:07:28.373Z",
+			"content": "The planned maintenance in the Maclean area has been completed. Your nbn service should now be back to normal.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
