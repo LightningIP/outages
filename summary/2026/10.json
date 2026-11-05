@@ -1408,5 +1408,20 @@
 			"end_date": "2026-11-05T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M5E9Y3TY.json"
+	},
+	{
+		"reference": "MNT-1M6N58TX6",
+		"title": "Planned nbn network upgrade – Bundamba QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-24T14:00:00.000Z",
+			"end_date": "2026-11-24T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6N58TX6.json"
 	}
 ]
