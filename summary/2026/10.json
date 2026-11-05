@@ -990,21 +990,6 @@
 		"record_path": "outages/2026/10/MNT-1M4YH7RRS.json"
 	},
 	{
-		"reference": "MNT-1M4YH8FSW",
-		"title": "Planned maintenance: nbn services connected via Aspley, Caboolture and Petrie (QLD)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-11-05T14:00:00.000Z",
-			"end_date": "2026-11-05T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4YH8FSW.json"
-	},
-	{
 		"reference": "MNT-1M4WKEAP7",
 		"title": "Planned nbn network upgrade – Woolloongabba QLD",
 		"planned": true,
@@ -1048,6 +1033,21 @@
 			"end_date": "2026-10-29T17:31:48.267Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4WEZPZE.json"
+	},
+	{
+		"reference": "MNT-1M4YH8FSW",
+		"title": "Planned maintenance: nbn services connected via Aspley, Caboolture and Petrie (QLD)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-05T14:00:00.000Z",
+			"end_date": "2026-11-05T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4YH8FSW.json"
 	},
 	{
 		"reference": "MNT-1M531CK2P",
