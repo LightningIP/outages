@@ -16,7 +16,7 @@
 	},
 	{
 		"reference": "MNT-1M6FNFJJG",
-		"title": "Planned maintenance: nbn services in Victoria and Miranda (NSW) – fibre cable migration",
+		"title": "Planned maintenance: nbn services in Victoria – fibre cable migration",
 		"planned": true,
 		"impact": {
 			"customer": true,
