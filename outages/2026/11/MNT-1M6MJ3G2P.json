@@ -5,7 +5,7 @@
 	"planned": true,
 	"category": "internet",
 	"status": "scheduled",
-	"current_summary": "We have planned maintenance on our network at the Maitland point of interconnect (POI) in NSW. It will take place between 12:00 am and 1:00 am AEDT on Thursday 19 November 2026. During this window, nbn services connected through the Maitland POI may be disrupted for up to 20 minutes while we upgrade a network port.",
+	"current_summary": "We have planned maintenance on our network at the Maitland point of interconnect (POI) in NSW. It has been rescheduled to between 12:00 am and 1:00 am AEDT on Friday 13 November 2026. During this window, nbn services connected through the Maitland POI may be disrupted for up to 20 minutes while we upgrade a network port.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -29,8 +29,8 @@
 	"lifecycle": {
 		"opened_at": "2026-11-05T00:33:50.878Z",
 		"detected_at": null,
-		"scheduled_start": "2026-11-18T13:00:00.000Z",
-		"scheduled_end": "2026-11-18T14:00:00.000Z",
+		"scheduled_start": "2026-11-12T13:00:00.000Z",
+		"scheduled_end": "2026-11-12T14:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
@@ -48,6 +48,13 @@
 		{
 			"update_time": "2026-11-05T00:33:50.916Z",
 			"content": "We have scheduled maintenance on our network at the Maitland point of interconnect (POI) in NSW. The work will take place between 12:00 am and 1:00 am AEDT on Thursday 19 November 2026. While we upgrade a network port at the POI, nbn services connected through Maitland may be disrupted for up to 20 minutes during this window. Services should return to normal once the upgrade is complete. We'll post an update here if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-06T04:16:36.986Z",
+			"content": "The Maitland POI maintenance has been rescheduled by nbn. It will now take place between 12:00 am and 1:00 am AEDT on Friday 13 November 2026, instead of Thursday 19 November. The expected impact is unchanged: nbn services connected through the Maitland POI may be disrupted for up to 20 minutes during the window. We'll post an update here if anything else changes.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
