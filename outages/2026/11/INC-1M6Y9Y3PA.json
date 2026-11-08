@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "investigating",
-	"current_summary": "We are aware of an issue affecting nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect. The issue was identified following routine changes and our team is investigating. We don't yet have an estimated restoration time. We will share more information as soon as it is available.",
+	"current_summary": "We are aware of an issue affecting nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect. The issue was identified following routine changes. It has been escalated within nbn, and we are waiting on an estimated restoration time. We will share more information as soon as it is available.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-11-08T19:24:23.219Z",
 			"content": "We are aware of an issue affecting nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect. The issue was first reported at around 6:24am AEDT on 9 November 2026, following routine changes. Our team is investigating. We don't yet know the full extent of the impact or when services will be restored, and we will provide another update as soon as we know more.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-08T22:39:13.136Z",
+			"content": "As of 9:39am AEDT on 9 November 2026, the issue affecting nbn Enterprise Ethernet Services through the Cheltenham (Victoria) point of interconnect has been escalated within nbn. We are waiting on an estimated restoration time and will update you once we have one.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
