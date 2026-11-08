@@ -1,0 +1,46 @@
+{
+	"reference": "INC-1M6Y9Y3PA",
+	"title": "nbn Enterprise Ethernet Services issue – Cheltenham (VIC) POI",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "We are aware of an issue affecting nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect. The issue was identified following routine changes and our team is investigating. We don't yet have an estimated restoration time. We will share more information as soon as it is available.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-08T19:24:23.175Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-08T19:24:23.219Z",
+			"content": "We are aware of an issue affecting nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect. The issue was first reported at around 6:24am AEDT on 9 November 2026, following routine changes. Our team is investigating. We don't yet know the full extent of the impact or when services will be restored, and we will provide another update as soon as we know more.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
