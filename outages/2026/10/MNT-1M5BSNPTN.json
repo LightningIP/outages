@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Affects an nbn service in NSW. The maintenance window is 12:00am to 6:00am on Monday 9 November 2026 (AEDT), with two service interruptions of about 10 minutes each, starting at 12:30am and 1:30am.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "work_underway",
+	"current_summary": "The maintenance is under way for an nbn Fixed Wireless service in Malua Bay, NSW. The window is 12:00am to 6:00am on Monday 9 November 2026 (AEDT), with two interruptions of about 10 minutes each, starting at 12:30am and 1:30am.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-10-11T22:35:41.000Z",
 			"content": "Affects an nbn service in NSW. The maintenance window is 12:00am to 6:00am on Monday 9 November 2026 (AEDT), with two service interruptions of about 10 minutes each, starting at 12:30am and 1:30am.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-08T13:01:20.000Z",
+			"content": "The planned maintenance has started. Your service may lose connection for about 10 minutes at 12:30am and again at 1:30am.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
