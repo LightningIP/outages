@@ -210,6 +210,21 @@
 		"record_path": "outages/2026/11/MNT-1M6N84QHD.json"
 	},
 	{
+		"reference": "INC-1M6Y9Y3PA",
+		"title": "nbn Enterprise Ethernet Services issue – Cheltenham (VIC) POI",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-08T19:24:23.175Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M6Y9Y3PA.json"
+	},
+	{
 		"reference": "MNT-1M4YH7RRS",
 		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
 		"planned": true,
