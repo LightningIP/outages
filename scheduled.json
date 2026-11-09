@@ -105,21 +105,6 @@
 		"record_path": "outages/2026/11/MNT-1M6N84QHD.json"
 	},
 	{
-		"reference": "MNT-1M4YH7RRS",
-		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-09T12:00:00.000Z",
-			"end_date": "2026-11-09T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4YH7RRS.json"
-	},
-	{
 		"reference": "MNT-1M59FCB4E",
 		"title": "Planned maintenance: NBN Werribee (VIC) network connection move",
 		"planned": true,
@@ -148,21 +133,6 @@
 			"end_date": "2026-11-10T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M5BD9J8G.json"
-	},
-	{
-		"reference": "MNT-1M5E2XJT6",
-		"title": "nbn network upgrade - VIC, TAS, NSW and ACT",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 5
-		},
-		"lifecycle": {
-			"start_date": "2026-11-09T13:00:00.000Z",
-			"end_date": "2026-11-09T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5E2XJT6.json"
 	},
 	{
 		"reference": "MNT-1M60HYMNF",
