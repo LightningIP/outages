@@ -13,5 +13,20 @@
 			"end_date": "2026-11-09T09:09:00.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M6Y9Y3PA.json"
+	},
+	{
+		"reference": "MNT-1M5E2XJT6",
+		"title": "nbn network upgrade - VIC, TAS, NSW and ACT",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-11-09T13:00:00.000Z",
+			"end_date": "2026-11-09T15:23:02.204Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5E2XJT6.json"
 	}
 ]
