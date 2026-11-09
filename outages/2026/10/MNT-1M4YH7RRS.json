@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance has started. A network provider is replacing fibre cable that supports the nbn connection points serving Nunawading, Horsham, St Kilda, Keysborough and Cheltenham in Victoria. The work is scheduled to finish at 7:00 AM on Tuesday 10 November 2026 (AEDT). Some nbn services connected through these locations may be interrupted for up to 8 hours during this window.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance is complete. The fibre cable replacement supporting the nbn connection points serving Nunawading, Horsham, St Kilda and Cheltenham in Victoria finished at 7:00 AM on Tuesday 10 November 2026 (AEDT). Any nbn services that were interrupted during the work should now be available again.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-11-09T12:00:00.000Z",
 		"scheduled_end": "2026-11-09T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-09T20:00:00.000Z",
+		"resolved_at": "2026-11-09T20:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-11-09T12:00:07.305Z",
 			"content": "The planned maintenance has now started. Some nbn services connected through the affected locations in Victoria may be interrupted while the fibre cable replacement is carried out. The work is scheduled to finish by 7:00 AM on Tuesday 10 November 2026 (AEDT), and we will update you when it is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-09T20:00:00.000Z",
+			"content": "The planned maintenance is now complete. The fibre cable replacement supporting the nbn connection points serving Nunawading, Horsham, St Kilda and Cheltenham in Victoria finished at 7:00 AM on Tuesday 10 November 2026 (AEDT). Affected nbn services should no longer be interrupted. If you are still experiencing problems, please restart your modem and contact our support team.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
