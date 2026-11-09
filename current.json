@@ -1,17 +1,1 @@
-[
-	{
-		"reference": "MNT-1M4YH7RRS",
-		"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-09T12:00:00.000Z",
-			"end_date": "2026-11-09T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4YH7RRS.json"
-	}
-]
+[]
