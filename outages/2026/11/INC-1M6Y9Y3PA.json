@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "identified",
-	"current_summary": "nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect are still affected. The issue has been identified as a software (API) fault inside nbn's network, and nbn is working to resolve it. nbn expects the issue to be resolved overnight, but this is not confirmed. We will share more information as soon as it is available.",
+	"status": "resolved",
+	"current_summary": "The issue affecting nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect has been resolved. All affected services were restored at around 8:09pm AEDT on 9 November 2026. The fault was caused by a software issue inside nbn's network, and work is continuing to help prevent it from happening again.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,13 +22,13 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-09T09:09:00.000Z",
+		"resolved_at": "2026-11-09T09:09:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
-		"detailed": null,
+		"reason": "Software fault in nbn's network",
+		"detailed": "A code fault between nbn's Enterprise Ethernet portal and its API stopped network adjustments from completing, which took services offline.",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
@@ -52,6 +52,13 @@
 		{
 			"update_time": "2026-11-09T05:22:54.793Z",
 			"content": "As of 4:22pm AEDT on 9 November 2026, nbn has identified the cause of the issue affecting Enterprise Ethernet Services through the Cheltenham (Victoria) point of interconnect as a software (API) fault inside its network. nbn is still working to resolve it and expects this to happen overnight, though no confirmed restoration time has been provided. We will update you as soon as we have more information.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-09T09:09:00.000Z",
+			"content": "As of 8:09pm AEDT on 9 November 2026, all nbn Enterprise Ethernet Services connected through the Cheltenham (Victoria) point of interconnect have been restored and the issue is resolved. The cause was a software fault between nbn's Enterprise Ethernet portal and its API, which stopped network adjustments from completing and took services offline. Work is continuing with nbn to help prevent this from happening again. If you are still experiencing problems with your service, please contact our support team.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
