@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Planned maintenance is scheduled on one of our network links between Sydney and Perth. The work runs from 12:00 am to 6:00 am AEDT on Wednesday 11 November 2026 (9:00 pm to 3:00 am AWST on Tuesday 10 November in WA). Some internet services in NSW and WA may be affected for up to 6 hours during this window. Our network normally has other paths available, so any impact is most likely to be slower performance rather than a full loss of service.",
+	"status": "work_underway",
+	"current_summary": "Planned maintenance on one of our network links between Sydney and Perth is now underway. The work started at 12:00 am AEDT on Wednesday 11 November 2026 (9:00 pm AWST on Tuesday 10 November in WA) and is scheduled to finish by 6:00 am AEDT (3:00 am AWST). Some internet services in NSW and WA may be affected during this window. Our network normally has other paths available, so any impact is most likely to be slower performance rather than a full loss of service.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -159,6 +159,13 @@
 		{
 			"update_time": "2026-10-19T23:22:16.015Z",
 			"content": "We have been advised of planned maintenance on one of our network links between Sydney and Perth. The work involves a fibre cable relocation and is scheduled for 12:00 am to 6:00 am AEDT on Wednesday 11 November 2026 (9:00 pm to 3:00 am AWST on Tuesday 10 November in WA). Some services in NSW and WA may be affected for up to 6 hours during this window. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-10T13:00:02.300Z",
+			"content": "The planned maintenance on our Sydney to Perth network link has now started. Some internet services in NSW and WA may be affected until the scheduled finish at 6:00 am AEDT (3:00 am AWST). We will confirm once the work is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
