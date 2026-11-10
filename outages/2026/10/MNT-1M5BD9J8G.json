@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance on one of our network links between Sydney and Perth is now underway. The work started at 12:00 am AEDT on Wednesday 11 November 2026 (9:00 pm AWST on Tuesday 10 November in WA) and is scheduled to finish by 6:00 am AEDT (3:00 am AWST). Some internet services in NSW and WA may be affected during this window. Our network normally has other paths available, so any impact is most likely to be slower performance rather than a full loss of service.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance on our Sydney to Perth network link has been completed. The work finished at 6:00 am AEDT on Wednesday 11 November 2026 (3:00 am AWST in WA). Internet services in NSW and WA that may have been affected during the maintenance window should now be operating normally.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -143,8 +143,8 @@
 		"scheduled_start": "2026-11-10T13:00:00.000Z",
 		"scheduled_end": "2026-11-10T19:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-10T19:00:00.000Z",
+		"resolved_at": "2026-11-10T19:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -166,6 +166,13 @@
 		{
 			"update_time": "2026-11-10T13:00:02.300Z",
 			"content": "The planned maintenance on our Sydney to Perth network link has now started. Some internet services in NSW and WA may be affected until the scheduled finish at 6:00 am AEDT (3:00 am AWST). We will confirm once the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-10T19:00:00.000Z",
+			"content": "The planned maintenance on our Sydney to Perth network link is now complete. The work finished at 6:00 am AEDT on Wednesday 11 November 2026 (3:00 am AWST in WA). No further maintenance work is scheduled for this activity.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
