@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "INC-1M6Y9Y3PA",
-		"title": "nbn Enterprise Ethernet Services issue – Cheltenham (VIC) POI",
-		"planned": false,
+		"reference": "MNT-1M5BD9J8G",
+		"title": "Planned maintenance: Sydney to Perth intercapital network link (NSW and WA)",
+		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
+			"impact_scope": "state",
+			"service_count": 501
 		},
 		"lifecycle": {
-			"start_date": "2026-11-08T19:24:23.175Z",
-			"end_date": "2026-11-09T09:09:00.000Z"
+			"start_date": "2026-11-10T13:00:00.000Z",
+			"end_date": "2026-11-10T19:00:00.000Z"
 		},
-		"record_path": "outages/2026/11/INC-1M6Y9Y3PA.json"
+		"record_path": "outages/2026/10/MNT-1M5BD9J8G.json"
 	}
 ]
