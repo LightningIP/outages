@@ -105,6 +105,21 @@
 		"record_path": "outages/2026/11/MNT-1M6N84QHD.json"
 	},
 	{
+		"reference": "MNT-1M71PCTKG",
+		"title": "Planned fibre works affecting a network link in Adelaide",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-12-03T13:30:00.000Z",
+			"end_date": "2026-12-03T19:30:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M71PCTKG.json"
+	},
+	{
 		"reference": "MNT-1M59FCB4E",
 		"title": "Planned maintenance: NBN Werribee (VIC) network connection move",
 		"planned": true,
