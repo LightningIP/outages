@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "MNT-1M72AZYV0",
+		"title": "Planned maintenance: NBN services in Aspley and Petrie (QLD) POI areas",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-19T13:00:00.000Z",
+			"end_date": "2026-11-19T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M72AZYV0.json"
+	},
+	{
 		"reference": "MNT-1M5VGBQDN",
 		"title": "Planned Works: Possible Increased Latency Between Victoria and South Australia",
 		"planned": true,
