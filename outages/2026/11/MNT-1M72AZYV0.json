@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M72AZYV0",
+	"title": "Planned maintenance: NBN services in Aspley and Petrie (QLD) POI areas",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "A network provider will carry out planned cable network cutover work that may affect NBN services connected through the Aspley and Petrie points of interconnect in Queensland. The maintenance window runs from 11:00 PM on 19 November 2026 to 6:00 AM on 20 November 2026 (Queensland time). During this window, affected NBN services may be interrupted for up to 6 hours.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 1,
+		"service_types": [
+			"NBN - HFC"
+		],
+		"states": [
+			"QLD"
+		],
+		"suburbs": [
+			"WAVELL HEIGHTS"
+		],
+		"postcodes": [
+			"4012"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-10T06:07:33.925Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-19T13:00:00.000Z",
+		"scheduled_end": "2026-11-19T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned cable network cutover by a network provider",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-10T06:07:33.944Z",
+			"content": "We have been advised that a network provider will be carrying out a cable network cutover that may affect NBN services connected through the Aspley and Petrie points of interconnect in Queensland. The work is scheduled between 11:00 PM on 19 November 2026 and 6:00 AM on 20 November 2026 (Queensland time). During this window, some NBN services may be interrupted for up to 6 hours. We will share more information if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
