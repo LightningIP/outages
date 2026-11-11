@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "INC-1M748QZ84",
-		"title": "Fault on Sydney to Perth network link",
-		"planned": false,
+		"reference": "MNT-1M5XYEM11",
+		"title": "Planned nbn network upgrade - Bundamba QLD",
+		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "state",
-			"service_count": 491
+			"impact_scope": "local",
+			"service_count": 3
 		},
 		"lifecycle": {
-			"start_date": "2026-11-11T02:58:18.549Z",
-			"end_date": null
+			"start_date": "2026-11-11T14:00:00.000Z",
+			"end_date": "2026-11-11T20:00:00.000Z"
 		},
-		"record_path": "outages/2026/11/INC-1M748QZ84.json"
+		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
 	}
 ]
