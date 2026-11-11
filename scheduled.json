@@ -75,21 +75,6 @@
 		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
-		"reference": "MNT-1M5XYEM11",
-		"title": "Planned nbn network upgrade - Bundamba QLD",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-11T14:00:00.000Z",
-			"end_date": "2026-11-11T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
-	},
-	{
 		"reference": "MNT-1M6MJ3G2P",
 		"title": "Planned maintenance: nbn services connected via the Maitland POI (NSW)",
 		"planned": true,
