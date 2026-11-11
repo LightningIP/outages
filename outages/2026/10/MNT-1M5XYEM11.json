@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Affects nbn services in Bundamba QLD. The maintenance window is from 12:00 am to 6:00 am AEST on 12 November 2026, with an expected service interruption of about 60 minutes starting at 12:30 am AEST.\n\nnbn is upgrading equipment that carries internet traffic for your area to keep up with growing demand. Your internet service will drop out for a period during the overnight window.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "work_underway",
+	"current_summary": "Affects nbn services in Bundamba QLD. The maintenance window runs from 12:00 am to 6:00 am AEST on 12 November 2026, with an expected interruption of about 60 minutes starting at 12:30 am AEST.\n\nnbn is upgrading shared equipment that connects your area to the wider network. Your internet will drop out for about an hour during the window, and orders or service changes may be slower to process around this time.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -48,6 +48,13 @@
 		{
 			"update_time": "2026-10-27T05:48:39.449Z",
 			"content": "Affects nbn services in Bundamba QLD. The maintenance window is from 12:00 am to 6:00 am AEST on 12 November 2026, with an expected service interruption of about 60 minutes starting at 12:30 am AEST.\n\nnbn is upgrading equipment that carries internet traffic for your area to keep up with growing demand. Your internet service will drop out for a period during the overnight window.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-11T14:14:47.465Z",
+			"content": "The planned nbn maintenance in Bundamba QLD is now under way. The expected interruption of about 60 minutes is still scheduled to start at 12:30 am AEST.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
