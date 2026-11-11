@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "We are aware of a fault on one of the network links between Sydney and Perth, which began at about 1:58 pm AEDT on 11 November 2026. Internet services are being rerouted over other network paths, so they should stay online. Some customers in NSW and WA may notice slower speeds or higher latency while the fault is being resolved. We do not yet have an estimated restoration time. We will share more information as soon as we have it.",
+	"status": "resolved",
+	"current_summary": "The fault on the network link between Sydney and Perth, which began at about 1:58 pm AEDT on 11 November 2026, was repaired at about 2:54 pm AEDT. Internet services stayed online throughout by rerouting over other network paths, though some customers may have noticed slower speeds or higher latency while the fault was active. Performance should now be back to normal. If you are still having problems, please contact our support team.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -143,13 +143,13 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-11T03:54:00.000Z",
+		"resolved_at": "2026-11-11T03:54:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
 		"reason": "A fault on a network link between Sydney and Perth.",
-		"detailed": null,
+		"detailed": "An issue with optical transmission equipment on the Sydney to Perth network link, which has now been repaired.",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
@@ -159,6 +159,13 @@
 		{
 			"update_time": "2026-11-11T02:58:18.571Z",
 			"content": "We are aware of a fault on one of the network links between Sydney and Perth. Internet services are being automatically rerouted over other network paths, so they should stay online. Some customers in NSW and WA may notice slower speeds or higher latency in the meantime. Our team is monitoring the situation and we will share another update as soon as we have more information.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-11T03:54:00.000Z",
+			"content": "The fault on the network link between Sydney and Perth has been repaired as of about 2:54 pm AEDT. Traffic can use the link again, and any slower speeds or higher latency caused by the fault should now be clearing. If you are still experiencing problems, please contact our support team.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
