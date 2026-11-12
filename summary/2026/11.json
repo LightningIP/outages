@@ -45,6 +45,21 @@
 		"record_path": "outages/2026/10/MNT-1M5VGBQDN.json"
 	},
 	{
+		"reference": "MNT-1M77EP4ZZ",
+		"title": "Planned maintenance: nbn services connected via the Blacktown (NSW) POI",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-25T13:00:00.000Z",
+			"end_date": "2026-11-25T16:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M77EP4ZZ.json"
+	},
+	{
 		"reference": "MNT-1M44DXDX9",
 		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
 		"planned": true,
