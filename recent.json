@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/11/INC-1M748QZ84.json"
 	},
 	{
-		"reference": "MNT-1M5XYEM11",
-		"title": "Planned nbn network upgrade - Bundamba QLD",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-11T14:00:00.000Z",
-			"end_date": "2026-11-11T17:01:09.476Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
-	},
-	{
 		"reference": "MNT-1M590KG36",
 		"title": "Planned maintenance: nbn services connected via the Bendigo (VIC) POI",
 		"planned": true,
