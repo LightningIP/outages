@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "The work affects an internet service in Wallan VIC. It is scheduled from 12:00 am to 6:00 am AEDT on Friday 13 November 2026, and the service is expected to be offline for the full window.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "The maintenance affected one internet service in Wallan VIC. It ran from 12:00 am to 6:00 am AEDT on Friday 13 November 2026 and nbn has marked it as completed.\n\nnbn technicians will be relocating and splicing fibre cables. The customer will experience a temporary outage while the cutover takes place.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-11-12T13:00:00.000Z",
 		"scheduled_end": "2026-11-12T19:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-12T19:14:32.265Z",
+		"resolved_at": "2026-11-12T19:14:32.265Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-11-12T13:25:00.597Z",
 			"content": "The scheduled maintenance has started. The service is expected to stay offline until the window ends at 6:00 am AEDT on Friday 13 November 2026.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-12T19:14:32.265Z",
+			"content": "The scheduled maintenance has been completed. nbn has marked the works as finished.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
