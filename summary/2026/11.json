@@ -75,6 +75,21 @@
 		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
+		"reference": "INC-1M792EMGW",
+		"title": "Fixed wireless service issue - Tocumwal, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-12T22:57:31.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M792EMGW.json"
+	},
+	{
 		"reference": "MNT-1M44SAN5J",
 		"title": "VIC: NBN maintenance (multiple POIs) – 22–23 Oct 2026",
 		"planned": true,
@@ -195,6 +210,21 @@
 		"record_path": "outages/2026/10/MNT-1M5XYEM11.json"
 	},
 	{
+		"reference": "MNT-1M6MJ3G2P",
+		"title": "Planned maintenance: nbn services connected via the Maitland POI (NSW)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-12T13:00:00.000Z",
+			"end_date": "2026-11-12T14:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6MJ3G2P.json"
+	},
+	{
 		"reference": "INC-1M44E8FAS",
 		"title": "International backhaul degradation: Perth–Singapore cable fault",
 		"planned": false,
@@ -223,21 +253,6 @@
 			"end_date": "2026-11-04T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M59FJ5MK.json"
-	},
-	{
-		"reference": "MNT-1M6MJ3G2P",
-		"title": "Planned maintenance: nbn services connected via the Maitland POI (NSW)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-12T13:00:00.000Z",
-			"end_date": "2026-11-12T14:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M6MJ3G2P.json"
 	},
 	{
 		"reference": "MNT-1M6N84QHD",
