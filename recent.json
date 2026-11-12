@@ -1,5 +1,20 @@
 [
 	{
+		"reference": "INC-1M792EMGW",
+		"title": "Fixed wireless service issue - Tocumwal, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-12T22:57:31.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M792EMGW.json"
+	},
+	{
 		"reference": "MNT-1M60HYMNF",
 		"title": "Planned maintenance affecting internet services in Wallan VIC",
 		"planned": true,
