@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M792EMGW",
+	"title": "Fixed wireless service issue - Tocumwal, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "resolved",
+	"current_summary": "A fixed wireless service in Tocumwal, NSW was affected from about 9:57 am to 10:42 am AEDT on 13 November 2026. Service has been restored.\n\nResolution: 3rd party network provider reconfigured network to restore wireless service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"TOCUMWAL"
+		],
+		"postcodes": [
+			"2714"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-12T22:57:31.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "An unexpected issue in the access network affecting fixed wireless services in the area.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-12T23:42:56.000Z",
+			"content": "A fixed wireless service in Tocumwal, NSW was affected from about 9:57 am to 10:42 am AEDT on 13 November 2026. Service has been restored.\n\nResolution: 3rd party network provider reconfigured network to restore wireless service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
