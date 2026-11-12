@@ -1230,21 +1230,6 @@
 		"record_path": "outages/2026/10/MNT-1M5BD9J8G.json"
 	},
 	{
-		"reference": "MNT-1M60HYMNF",
-		"title": "Planned maintenance affecting internet services in Wallan VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-12T13:00:00.000Z",
-			"end_date": "2026-11-12T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M60HYMNF.json"
-	},
-	{
 		"reference": "MNT-1M4ENP4BS",
 		"title": "Planned maintenance – brief interruption for some services",
 		"planned": true,
@@ -1258,6 +1243,21 @@
 			"end_date": "2026-10-22T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
+	},
+	{
+		"reference": "MNT-1M60HYMNF",
+		"title": "Planned maintenance affecting internet services in Wallan VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-12T13:00:00.000Z",
+			"end_date": "2026-11-12T19:14:32.265Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M60HYMNF.json"
 	},
 	{
 		"reference": "INC-1M5NRTMVH",
