@@ -315,6 +315,21 @@
 		"record_path": "outages/2026/11/MNT-1M71PCTKG.json"
 	},
 	{
+		"reference": "MNT-1M79MV52G",
+		"title": "Planned network upgrade – Korong Vale, Wangaratta and Table Top",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 10
+		},
+		"lifecycle": {
+			"start_date": "2026-11-30T13:00:00.000Z",
+			"end_date": "2026-11-30T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M79MV52G.json"
+	},
+	{
 		"reference": "MNT-1M4YH74GY",
 		"title": "Planned maintenance: NBN services in parts of Victoria (Nunawading, Horsham, St Kilda, Keysborough and Cheltenham areas)",
 		"planned": true,
