@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "One service in Rothbury, NSW is affected. The fault was logged at 7:58 am AEDT on 14 November 2026, and no restoration estimate is available yet.",
+	"status": "identified",
+	"current_summary": "One service in the Rothbury, NSW area is affected. The fault was logged at 7:58 am AEDT on 14 November 2026, and there is no restoration estimate yet.\n\nA power outage near the local network equipment has drained its backup battery, so service is down. A generator is to be installed to supply power until mains power returns.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -35,17 +35,24 @@
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
-		"detailed": null,
+		"reason": "Local power outage affecting the network",
+		"detailed": "An unplanned local power outage is affecting the network and the backup battery at the site has been depleted. Field services will attend to deploy a generator as an alternate power source.",
 		"root": null,
 		"weather_related": null,
 		"third_party_damage": null,
-		"power_related": null
+		"power_related": true
 	},
 	"updates": [
 		{
 			"update_time": "2026-11-13T20:58:18.000Z",
 			"content": "One service in Rothbury, NSW is affected. The fault was logged at 7:58 am AEDT on 14 November 2026, and no restoration estimate is available yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-13T22:02:19.000Z",
+			"content": "The cause has been identified as a local power outage, and the backup battery at the site has run out. A generator is to be deployed, and no restoration estimate is available yet.\n\nA power outage near the local network equipment has drained its backup battery, so service is down. A generator is to be installed to supply power until mains power returns.\n\nRemote troubleshooting indicates an unplanned local power outage is affecting the nbn network causing a loss of service to customers. The backup battery power at the site has been depleted. Field services will attend the site to deploy a generator as an alternate power source during the ongoing power outage. Further updates will be provided as more information, or an ETA, becomes available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
