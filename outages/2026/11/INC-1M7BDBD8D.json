@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M7BDBD8D",
+	"title": "Internet service disruption - Glen William North, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "This affects an internet service in Glen William North, NSW. The fault was logged at 8:16 am AEDT on 14 November 2026, and no restoration estimate has been provided yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "site",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BENDOLBA"
+		],
+		"postcodes": [
+			"2420"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-13T21:16:19.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-13T21:16:19.000Z",
+			"content": "This affects an internet service in Glen William North, NSW. The fault was logged at 8:16 am AEDT on 14 November 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
