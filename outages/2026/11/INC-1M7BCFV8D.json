@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M7BCFV8D",
+	"title": "Internet service issue - Rothbury, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "One service in Rothbury, NSW is affected. The fault was logged at 7:58 am AEDT on 14 November 2026, and no restoration estimate is available yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "site",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LOVEDALE"
+		],
+		"postcodes": [
+			"2325"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-13T20:58:18.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-13T20:58:18.000Z",
+			"content": "One service in Rothbury, NSW is affected. The fault was logged at 7:58 am AEDT on 14 November 2026, and no restoration estimate is available yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
