@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "investigating",
-	"current_summary": "This affects an internet service in Glen William North, NSW. The fault was logged at 8:16 am AEDT on 14 November 2026, and no restoration estimate has been provided yet.",
+	"current_summary": "This affects one nbn Fixed Wireless service in the Glen William North, NSW area. The fault was logged at 8:16 am AEDT on 14 November 2026, and no restoration estimate has been provided yet.\n\nSevere weather has cut mains power to nbn equipment. Service should return on its own once power is reconnected. If it stays offline after that, nbn will arrange a generator.\n\nSevere weather in Northeast NSW, including the Greater Sydney region has caused power outages at multiple sites, leading to service disruptions for customers. nbn expects services to automatically restore once mains power is reconnected. If power is restored and services remain offline, nbn will arrange for generator deployment. Please be aware that attendance may be delayed due to the occupational health and safety risks posed by the severe weather.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -35,17 +35,24 @@
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
+		"reason": "Power outage caused by severe weather",
 		"detailed": null,
 		"root": null,
-		"weather_related": null,
+		"weather_related": true,
 		"third_party_damage": null,
-		"power_related": null
+		"power_related": true
 	},
 	"updates": [
 		{
 			"update_time": "2026-11-13T21:16:19.000Z",
 			"content": "This affects an internet service in Glen William North, NSW. The fault was logged at 8:16 am AEDT on 14 November 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-13T22:17:21.000Z",
+			"content": "The vendor has identified that severe weather and power outages are the cause of this disruption. No restoration time has been provided yet.\n\nSevere weather has cut mains power to nbn equipment. Service should return on its own once power is reconnected. If it stays offline after that, nbn will arrange a generator.\n\nSevere weather in Northeast NSW, including the Greater Sydney region has caused power outages at multiple sites, leading to service disruptions for customers. nbn expects services to automatically restore once mains power is reconnected. If power is restored and services remain offline, nbn will arrange for generator deployment. Please be aware that attendance may be delayed due to the occupational health and safety risks posed by the severe weather.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
