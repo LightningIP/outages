@@ -600,6 +600,21 @@
 		"record_path": "outages/2026/11/MNT-1M6J99GBS.json"
 	},
 	{
+		"reference": "INC-1M7A8AQN7",
+		"title": "Internet service interruption - Glen William North, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T09:39:36.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M7A8AQN7.json"
+	},
+	{
 		"reference": "MNT-1M6CNJHMW",
 		"title": "Ashfield, NSW - Emergency nbn network maintenance",
 		"planned": true,
