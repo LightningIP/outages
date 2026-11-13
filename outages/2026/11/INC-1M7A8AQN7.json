@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M7A8AQN7",
+	"title": "Internet service interruption - Glen William North, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "resolved",
+	"current_summary": "Affected area: Glen William North, NSW. The issue began at about 8:39 pm on 13 November 2026 (AEDT) and services were restored at about 9:41 pm the same evening.\n\nResolution: Fault caused by approved 3rd party network provider planned works\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BENDOLBA"
+		],
+		"postcodes": [
+			"2420"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-13T09:39:36.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "An unexpected issue in the access network serving the area.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-13T10:41:20.000Z",
+			"content": "Affected area: Glen William North, NSW. The issue began at about 8:39 pm on 13 November 2026 (AEDT) and services were restored at about 9:41 pm the same evening.\n\nResolution: Fault caused by approved 3rd party network provider planned works\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
