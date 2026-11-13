@@ -135,6 +135,21 @@
 		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
 	},
 	{
+		"reference": "MNT-1M79JTFSJ",
+		"title": "Planned nbn network capacity upgrade – NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-29T13:00:00.000Z",
+			"end_date": "2026-11-29T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M79JTFSJ.json"
+	},
+	{
 		"reference": "MNT-1M4Q1K03G",
 		"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
 		"planned": true,
