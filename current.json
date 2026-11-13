@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "MNT-1M6MJ3G2P",
-		"title": "Planned maintenance: nbn services connected via the Maitland POI (NSW)",
-		"planned": true,
+		"reference": "INC-1M79Y4RD2",
+		"title": "nbn service fault - Lochinvar South, NSW",
+		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 3
+			"impact_scope": "local",
+			"service_count": 1
 		},
 		"lifecycle": {
-			"start_date": "2026-11-12T13:00:00.000Z",
-			"end_date": "2026-11-12T14:00:00.000Z"
+			"start_date": "2026-11-13T07:20:42.000Z",
+			"end_date": null
 		},
-		"record_path": "outages/2026/11/MNT-1M6MJ3G2P.json"
+		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
 	}
 ]
