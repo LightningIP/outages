@@ -180,6 +180,21 @@
 		"record_path": "outages/2026/10/MNT-1M59FCB4E.json"
 	},
 	{
+		"reference": "MNT-1M79RDW80",
+		"title": "Planned nbn maintenance - Upper Mt Gravatt QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-30T14:00:00.000Z",
+			"end_date": "2026-11-30T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M79RDW80.json"
+	},
+	{
 		"reference": "MNT-1M6FNEXD7",
 		"title": "Planned nbn network upgrade – Airlie Beach, QLD",
 		"planned": true,
