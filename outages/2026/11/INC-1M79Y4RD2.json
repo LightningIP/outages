@@ -4,8 +4,8 @@
 	"type": "incident",
 	"planned": false,
 	"category": "internet",
-	"status": "investigating",
-	"current_summary": "A fault on the nbn access network is affecting one Lightning IP service in Lochinvar South, NSW. It was reported at 6:20 pm AEDT on 13 November 2026, and no restoration estimate has been provided yet.",
+	"status": "resolved",
+	"current_summary": "The fault affected one Lightning IP Fixed Wireless service in the Lochinvar South, NSW area. Service was restored at 7:22 pm AEDT on 13 November 2026.\n\nResolution: 3rd party network provider reconfigured network to restore wireless service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,12 +30,12 @@
 		"scheduled_start": null,
 		"scheduled_end": null,
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-13T08:22:53.000Z",
+		"resolved_at": "2026-11-13T08:23:54.000Z",
 		"closed_at": null
 	},
 	"cause": {
-		"reason": null,
+		"reason": "Network reconfiguration by a third-party network provider to restore wireless service",
 		"detailed": null,
 		"root": null,
 		"weather_related": null,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-11-13T07:20:42.000Z",
 			"content": "A fault on the nbn access network is affecting one Lightning IP service in Lochinvar South, NSW. It was reported at 6:20 pm AEDT on 13 November 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-13T08:23:54.000Z",
+			"content": "The nbn access network fault affecting the service in Lochinvar South has been resolved, and service was restored at 7:22 pm AEDT on 13 November 2026.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
