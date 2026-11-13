@@ -150,6 +150,21 @@
 		"record_path": "outages/2026/11/MNT-1M79MV52G.json"
 	},
 	{
+		"reference": "MNT-1M79QD4JP",
+		"title": "Helensvale QLD - nbn network upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-30T14:00:00.000Z",
+			"end_date": "2026-11-30T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M79QD4JP.json"
+	},
+	{
 		"reference": "MNT-1M59FCB4E",
 		"title": "Planned maintenance: NBN Werribee (VIC) network connection move",
 		"planned": true,
