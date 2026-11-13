@@ -13,5 +13,20 @@
 			"end_date": null
 		},
 		"record_path": "outages/2026/11/INC-1M792EMGW.json"
+	},
+	{
+		"reference": "INC-1M79Y4RD2",
+		"title": "nbn service fault - Lochinvar South, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T07:20:42.000Z",
+			"end_date": "2026-11-13T08:23:54.000Z"
+		},
+		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
 	}
 ]
