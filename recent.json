@@ -28,5 +28,20 @@
 			"end_date": "2026-11-13T08:23:54.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
+	},
+	{
+		"reference": "INC-1M7A8AQN7",
+		"title": "Internet service interruption - Glen William North, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T09:39:36.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M7A8AQN7.json"
 	}
 ]
