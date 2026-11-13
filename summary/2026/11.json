@@ -555,21 +555,6 @@
 		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
 	},
 	{
-		"reference": "INC-1M7BCFV8D",
-		"title": "Internet service issue - Rothbury, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-13T20:58:18.000Z",
-			"end_date": null
-		},
-		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
-	},
-	{
 		"reference": "MNT-1M515MPFN",
 		"title": "nbn network capacity upgrade – NSW and VIC",
 		"planned": true,
@@ -658,6 +643,21 @@
 			"end_date": "2026-11-02T03:42:06.860Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M6CNJHMW.json"
+	},
+	{
+		"reference": "INC-1M7BCFV8D",
+		"title": "Internet service issue - Rothbury, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T20:58:18.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
 	},
 	{
 		"reference": "MNT-1M6D8EMDY",
