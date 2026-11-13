@@ -540,6 +540,21 @@
 		"record_path": "outages/2026/10/MNT-1M60HYMNF.json"
 	},
 	{
+		"reference": "INC-1M79Y4RD2",
+		"title": "nbn service fault - Lochinvar South, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T07:20:42.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
+	},
+	{
 		"reference": "MNT-1M515MPFN",
 		"title": "nbn network capacity upgrade – NSW and VIC",
 		"planned": true,
