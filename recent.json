@@ -150,8 +150,8 @@
 		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
 	},
 	{
-		"reference": "INC-1M7A8AQN7",
-		"title": "Internet service interruption - Glen William North, NSW",
+		"reference": "INC-1M79Y4RD2",
+		"title": "nbn service fault - Lochinvar South, NSW",
 		"planned": false,
 		"impact": {
 			"customer": true,
@@ -159,10 +159,10 @@
 			"service_count": 1
 		},
 		"lifecycle": {
-			"start_date": "2026-11-13T09:39:36.000Z",
-			"end_date": null
+			"start_date": "2026-11-13T07:20:42.000Z",
+			"end_date": "2026-11-13T08:23:54.000Z"
 		},
-		"record_path": "outages/2026/11/INC-1M7A8AQN7.json"
+		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
 	},
 	{
 		"reference": "MNT-1M44SAN5J",
