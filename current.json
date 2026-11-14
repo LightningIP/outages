@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "INC-1M7BCFV8D",
-		"title": "Internet service issue - Rothbury, NSW",
+		"reference": "INC-1M7DJBH89",
+		"title": "nbn service disruption - Wodonga, VIC",
 		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
+			"impact_scope": "local",
+			"service_count": 3
 		},
 		"lifecycle": {
-			"start_date": "2026-11-13T20:58:18.000Z",
+			"start_date": "2026-11-14T17:09:44.000Z",
 			"end_date": null
 		},
-		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
+		"record_path": "outages/2026/11/INC-1M7DJBH89.json"
 	}
 ]
