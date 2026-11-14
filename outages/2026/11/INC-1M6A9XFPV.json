@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-01T05:05:44.000Z",
 		"resolved_at": "2026-11-01T05:05:44.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T07:43:34.059Z"
 	},
 	"cause": {
 		"reason": "Local power outage affecting the nbn network",
