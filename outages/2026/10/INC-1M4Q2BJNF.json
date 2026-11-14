@@ -136,7 +136,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-10-12T07:38:00.000Z",
 		"resolved_at": "2026-10-12T07:38:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T07:43:34.059Z"
 	},
 	"cause": {
 		"reason": "A link in our Melbourne ring network was lost, so traffic is using alternate links and causing some congestion.",
