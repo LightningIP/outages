@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": null,
-		"closed_at": null
+		"closed_at": "2026-11-14T11:01:28.933Z"
 	},
 	"cause": {
 		"reason": "An unexpected issue in the access network serving the area.",
