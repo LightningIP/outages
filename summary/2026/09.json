@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/08/MNT-1M1BB35AV.json"
 	},
 	{
-		"reference": "MNT-1M44E6YZR",
-		"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-12T13:00:00.000Z",
-			"end_date": "2026-10-12T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E6YZR.json"
-	},
-	{
 		"reference": "MNT-1M0RPSP6K",
 		"title": "NBN POI 2TAM (Tamworth) - Permanent repair due to rodent damage",
 		"planned": true,
@@ -225,21 +210,6 @@
 		"record_path": "outages/2026/08/MNT-1M09CWKN5.json"
 	},
 	{
-		"reference": "MNT-1M2F030DV",
-		"title": "Lavington NSW - Maintain the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 7
-		},
-		"lifecycle": {
-			"start_date": "2026-10-14T13:00:00.000Z",
-			"end_date": "2026-10-14T14:07:20.785Z"
-		},
-		"record_path": "outages/2026/09/MNT-1M2F030DV.json"
-	},
-	{
 		"reference": "MNT-1M2PCYSD1",
 		"title": "QLD - Upgrade the Network",
 		"planned": true,
@@ -268,21 +238,6 @@
 			"end_date": "2026-10-05T17:00:30.676Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2S7RRXM.json"
-	},
-	{
-		"reference": "MNT-1M44DXDX9",
-		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 886
-		},
-		"lifecycle": {
-			"start_date": "2026-10-25T01:00:00.000Z",
-			"end_date": "2026-11-03T23:59:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
 		"reference": "MNT-1M09CY9HC",
@@ -330,6 +285,21 @@
 		"record_path": "outages/2026/09/INC-1M1WXF3G5.json"
 	},
 	{
+		"reference": "MNT-1M44DXDX9",
+		"title": "Perth–Singapore international backhaul maintenance (2–8 Oct)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 886
+		},
+		"lifecycle": {
+			"start_date": "2026-10-25T01:00:00.000Z",
+			"end_date": "2026-11-03T23:59:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
+	},
+	{
 		"reference": "MNT-1M44DYMES",
 		"title": "Planned NBN maintenance – VIC (multiple POIs)",
 		"planned": true,
@@ -343,21 +313,6 @@
 			"end_date": "2026-10-08T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44DYMES.json"
-	},
-	{
-		"reference": "MNT-1M44E3P3M",
-		"title": "Scheduled maintenance – NBN services in Penrith and Glebe (NSW)",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-20T13:00:00.000Z",
-			"end_date": "2026-10-20T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
 	},
 	{
 		"reference": "INC-1M33M2S74",
@@ -388,21 +343,6 @@
 			"end_date": "2026-10-08T06:00:00.000Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M33AX4WN.json"
-	},
-	{
-		"reference": "MNT-1M3TSZXYW",
-		"title": "NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 4
-		},
-		"lifecycle": {
-			"start_date": "2026-10-18T13:00:00.000Z",
-			"end_date": "2026-10-18T17:40:06.398Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M3TSZXYW.json"
 	},
 	{
 		"reference": "MNT-1M26ZN0EX",
@@ -448,51 +388,6 @@
 			"end_date": "2026-10-07T13:58:05.333Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M27HKWP8.json"
-	},
-	{
-		"reference": "MNT-1M3X5G4FA",
-		"title": "NSW - Upgrade the Network",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-20T13:00:00.000Z",
-			"end_date": "2026-10-20T21:01:28.237Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
-	},
-	{
-		"reference": "MNT-1M44E5707",
-		"title": "NBN services in Mosman (NSW) – planned maintenance",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-10-14T12:00:00.000Z",
-			"end_date": "2026-10-14T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M44E5707.json"
-	},
-	{
-		"reference": "MNT-1M4570YW0",
-		"title": "Scheduled maintenance – national broadband access",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-10-21T13:00:00.000Z",
-			"end_date": "2026-10-21T19:33:16.323Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4570YW0.json"
 	},
 	{
 		"reference": "MNT-1M44DZVJ4",
@@ -600,19 +495,19 @@
 		"record_path": "outages/2026/09/MNT-1M2PP0FX3.json"
 	},
 	{
-		"reference": "MNT-1M4FDYZ10",
-		"title": "NSW: Fixed Wireless network upgrade (planned maintenance)",
+		"reference": "MNT-1M2F030DV",
+		"title": "Lavington NSW - Maintain the Network",
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": null,
-			"service_count": 2
+			"impact_scope": "local",
+			"service_count": 7
 		},
 		"lifecycle": {
-			"start_date": "2026-10-26T13:00:00.000Z",
-			"end_date": "2026-10-26T19:01:23.583Z"
+			"start_date": "2026-10-14T13:00:00.000Z",
+			"end_date": "2026-10-14T14:07:20.785Z"
 		},
-		"record_path": "outages/2026/10/MNT-1M4FDYZ10.json"
+		"record_path": "outages/2026/09/MNT-1M2F030DV.json"
 	},
 	{
 		"reference": "MNT-1M44E9XQ7",
@@ -643,6 +538,126 @@
 			"end_date": "2026-10-07T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
+	},
+	{
+		"reference": "MNT-1M4ENP4BS",
+		"title": "Planned maintenance – brief interruption for some services",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-10-22T13:00:00.000Z",
+			"end_date": "2026-10-22T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
+	},
+	{
+		"reference": "MNT-1M44E3P3M",
+		"title": "Scheduled maintenance – NBN services in Penrith and Glebe (NSW)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-20T13:00:00.000Z",
+			"end_date": "2026-10-20T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E3P3M.json"
+	},
+	{
+		"reference": "MNT-1M44E6YZR",
+		"title": "NBN South Morang (3SMR) POI – Scheduled maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-12T13:00:00.000Z",
+			"end_date": "2026-10-12T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E6YZR.json"
+	},
+	{
+		"reference": "MNT-1M3TSZXYW",
+		"title": "NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 4
+		},
+		"lifecycle": {
+			"start_date": "2026-10-18T13:00:00.000Z",
+			"end_date": "2026-10-18T17:40:06.398Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M3TSZXYW.json"
+	},
+	{
+		"reference": "MNT-1M3X5G4FA",
+		"title": "NSW - Upgrade the Network",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-20T13:00:00.000Z",
+			"end_date": "2026-10-20T21:01:28.237Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M3X5G4FA.json"
+	},
+	{
+		"reference": "MNT-1M44E5707",
+		"title": "NBN services in Mosman (NSW) – planned maintenance",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-10-14T12:00:00.000Z",
+			"end_date": "2026-10-14T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M44E5707.json"
+	},
+	{
+		"reference": "MNT-1M4570YW0",
+		"title": "Scheduled maintenance – national broadband access",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "national",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-10-21T13:00:00.000Z",
+			"end_date": "2026-10-21T19:33:16.323Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4570YW0.json"
+	},
+	{
+		"reference": "MNT-1M4FDYZ10",
+		"title": "NSW: Fixed Wireless network upgrade (planned maintenance)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-10-26T13:00:00.000Z",
+			"end_date": "2026-10-26T19:01:23.583Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4FDYZ10.json"
 	},
 	{
 		"reference": "INC-1M44E8FAS",
@@ -808,20 +823,5 @@
 			"end_date": "2026-10-19T19:17:52.310Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M3TT3Y5E.json"
-	},
-	{
-		"reference": "MNT-1M4ENP4BS",
-		"title": "Planned maintenance – brief interruption for some services",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 5
-		},
-		"lifecycle": {
-			"start_date": "2026-10-22T13:00:00.000Z",
-			"end_date": "2026-10-22T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
 	}
 ]
