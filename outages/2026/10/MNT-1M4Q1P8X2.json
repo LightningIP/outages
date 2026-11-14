@@ -34,7 +34,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-10-22T16:00:00.000Z",
 		"resolved_at": "2026-10-22T16:00:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T07:43:34.059Z"
 	},
 	"cause": {
 		"reason": "Planned maintenance to move services from legacy network connections to new ones at the South Morang NBN point of interconnect.",
