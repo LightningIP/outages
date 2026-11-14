@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-12T19:14:32.265Z",
 		"resolved_at": "2026-11-12T19:14:32.265Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T07:43:34.059Z"
 	},
 	"cause": {
 		"reason": "Scheduled maintenance on the broadband access network",
