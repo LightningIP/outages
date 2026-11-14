@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-13T08:22:53.000Z",
 		"resolved_at": "2026-11-13T08:23:54.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T09:05:29.858Z"
 	},
 	"cause": {
 		"reason": "Network reconfiguration by a third-party network provider to restore wireless service",
