@@ -80,7 +80,7 @@
 		"estimated_restoration_at": "2026-10-19T19:00:00.000Z",
 		"actual_restoration_at": "2026-10-19T19:17:52.310Z",
 		"resolved_at": "2026-10-19T19:17:52.310Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T07:43:34.059Z"
 	},
 	"cause": {
 		"reason": "maintenance activity (software update)",
