@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": "2026-11-04T01:30:03.574Z",
-		"closed_at": null
+		"closed_at": "2026-11-14T07:43:34.059Z"
 	},
 	"cause": {
 		"reason": "Planned network upgrade carried out by nbn on the network serving Elsternwick.",
