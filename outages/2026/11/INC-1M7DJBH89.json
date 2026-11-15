@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "resolved",
-	"current_summary": "Affects some nbn services in Wodonga, VIC. Services were restored at 11:45 am AEDT on 15 November 2026.\n\nResolution: nbn reconfigured network to restore service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
+	"current_summary": "Some nbn services in Wodonga, VIC were affected. The issue was reported at 4:09 am AEDT on 15 November 2026, and services were restored at 11:45 am AEDT the same day.\n\nResolution: nbn reconfigured network to restore service\n\nServices in your area have been restored following an unexpected network issue. If your service has not reconnected automatically, try restarting your Wi-Fi router and nbn Connection Box (if you have one).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
