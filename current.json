@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "INC-1M7DJBH89",
-		"title": "nbn service disruption - Wodonga, VIC",
+		"reference": "INC-1M7ENHN74",
+		"title": "nbn service fault - Lochinvar South, NSW",
 		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
+			"impact_scope": "site",
+			"service_count": 1
 		},
 		"lifecycle": {
-			"start_date": "2026-11-14T17:09:44.000Z",
+			"start_date": "2026-11-15T03:41:12.000Z",
 			"end_date": null
 		},
-		"record_path": "outages/2026/11/INC-1M7DJBH89.json"
+		"record_path": "outages/2026/11/INC-1M7ENHN74.json"
 	}
 ]
