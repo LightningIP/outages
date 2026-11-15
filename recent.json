@@ -15,51 +15,6 @@
 		"record_path": "outages/2026/11/INC-1M7ENHN74.json"
 	},
 	{
-		"reference": "INC-1M5PYXW32",
-		"title": "Internet service disruption - Malua Bay, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-24T11:50:14.000Z",
-			"end_date": "2026-10-25T02:47:17.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M5PYXW32.json"
-	},
-	{
-		"reference": "INC-1M792EMGW",
-		"title": "Fixed wireless service issue - Tocumwal, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-12T22:57:31.000Z",
-			"end_date": "2026-11-14T07:43:34.059Z"
-		},
-		"record_path": "outages/2026/11/INC-1M792EMGW.json"
-	},
-	{
-		"reference": "INC-1M4Q2BJNF",
-		"title": "Network congestion in Melbourne due to a lost network link",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "state",
-			"service_count": 331
-		},
-		"lifecycle": {
-			"start_date": "2026-10-12T03:01:12.363Z",
-			"end_date": "2026-10-12T07:38:00.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M4Q2BJNF.json"
-	},
-	{
 		"reference": "INC-1M79Y4RD2",
 		"title": "nbn service fault - Lochinvar South, NSW",
 		"planned": false,
@@ -73,21 +28,6 @@
 			"end_date": "2026-11-13T08:23:54.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
-	},
-	{
-		"reference": "INC-1M4QTYTS3",
-		"title": "nbn service disruption - Albury, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-12T05:55:33.000Z",
-			"end_date": "2026-10-12T14:20:16.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M4QTYTS3.json"
 	},
 	{
 		"reference": "INC-1M7A8AQN7",
@@ -105,21 +45,6 @@
 		"record_path": "outages/2026/11/INC-1M7A8AQN7.json"
 	},
 	{
-		"reference": "INC-1M748QZ84",
-		"title": "Fault on Sydney to Perth network link",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "state",
-			"service_count": 491
-		},
-		"lifecycle": {
-			"start_date": "2026-11-11T02:58:18.549Z",
-			"end_date": "2026-11-11T03:54:00.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M748QZ84.json"
-	},
-	{
 		"reference": "INC-1M7BCFV8D",
 		"title": "Internet service issue - Rothbury, NSW",
 		"planned": false,
@@ -133,126 +58,6 @@
 			"end_date": "2026-11-14T01:30:08.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
-	},
-	{
-		"reference": "INC-1M6A9XFPV",
-		"title": "nbn service disruption - Howlong, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-11-01T00:43:50.000Z",
-			"end_date": "2026-11-01T05:05:44.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M6A9XFPV.json"
-	},
-	{
-		"reference": "INC-1M62GCAME",
-		"title": "nbn service fault affecting Lavington, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-29T00:11:20.000Z",
-			"end_date": "2026-10-29T05:25:18.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M62GCAME.json"
-	},
-	{
-		"reference": "INC-1M44E8FAS",
-		"title": "International backhaul degradation: Perth–Singapore cable fault",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "national",
-			"service_count": 886
-		},
-		"lifecycle": {
-			"start_date": "2026-08-08T08:05:44.211Z",
-			"end_date": "2026-11-04T00:57:00.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M44E8FAS.json"
-	},
-	{
-		"reference": "INC-1M4W3413M",
-		"title": "nbn service disruption - Springdale Heights, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-14T01:28:20.000Z",
-			"end_date": "2026-10-15T10:12:06.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M4W3413M.json"
-	},
-	{
-		"reference": "INC-1M6Y9Y3PA",
-		"title": "nbn Enterprise Ethernet Services issue – Cheltenham (VIC) POI",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-11-08T19:24:23.175Z",
-			"end_date": "2026-11-09T09:09:00.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M6Y9Y3PA.json"
-	},
-	{
-		"reference": "INC-1M4VD5KEN",
-		"title": "nbn connectivity issue - Albury, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-10-13T19:39:15.000Z",
-			"end_date": "2026-10-13T23:35:58.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M4VD5KEN.json"
-	},
-	{
-		"reference": "INC-1M5NRTMVH",
-		"title": "nbn service disruption - Ashfield, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-24T01:29:04.000Z",
-			"end_date": "2026-10-24T09:54:55.000Z"
-		},
-		"record_path": "outages/2026/10/INC-1M5NRTMVH.json"
-	},
-	{
-		"reference": "INC-1M6HT8XJA",
-		"title": "nbn outage affecting Keysborough POI (VIC)",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-03T21:01:25.144Z",
-			"end_date": "2026-11-05T00:31:00.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M6HT8XJA.json"
 	},
 	{
 		"reference": "INC-1M7BDBD8D",
