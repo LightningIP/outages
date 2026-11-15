@@ -5,7 +5,7 @@
 	"planned": false,
 	"category": "internet",
 	"status": "investigating",
-	"current_summary": "An nbn fault is affecting an internet service in Lochinvar South, NSW. It was logged at 2:41 pm AEDT on 15 November 2026, and no restoration estimate has been provided yet.",
+	"current_summary": "The fault affects an internet service in Lochinvar South, NSW, and was logged at 2:41 pm AEDT on 15 November 2026. No restoration estimate has been provided yet.\n\nnbn is investigating an alarm on a cell at a Fixed Wireless tower that has caused a loss of service. If the issue is unable to be corrected remotely, a field technician will be sent to the site to perform investigations. Updates will be provided as more information, or an ETA, becomes available.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-11-15T03:41:12.000Z",
 			"content": "An nbn fault is affecting an internet service in Lochinvar South, NSW. It was logged at 2:41 pm AEDT on 15 November 2026, and no restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-15T04:25:18.000Z",
+			"content": "nbn has now advised that the loss of service is linked to an alarm on a cell at a Fixed Wireless tower. There is still no restoration estimate.\n\nnbn is investigating an alarm on a cell at a Fixed Wireless tower that has caused a loss of service. If the issue is unable to be corrected remotely, a field technician will be sent to the site to perform investigations. Updates will be provided as more information, or an ETA, becomes available.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
