@@ -525,21 +525,6 @@
 		"record_path": "outages/2026/11/MNT-1M6DK21DC.json"
 	},
 	{
-		"reference": "INC-1M7BDBD8D",
-		"title": "Internet service disruption - Glen William North, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-13T21:16:19.000Z",
-			"end_date": "2026-11-13T23:31:17.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M7BDBD8D.json"
-	},
-	{
 		"reference": "INC-1M7BCFV8D",
 		"title": "Internet service issue - Rothbury, NSW",
 		"planned": false,
@@ -898,21 +883,6 @@
 			"end_date": "2026-10-27T19:30:34.921Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M5V9ZVBZ.json"
-	},
-	{
-		"reference": "INC-1M7DJBH89",
-		"title": "nbn service disruption - Wodonga, VIC",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-14T17:09:44.000Z",
-			"end_date": "2026-11-15T00:45:26.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M7DJBH89.json"
 	},
 	{
 		"reference": "MNT-1M3396FWR",
@@ -1438,5 +1408,35 @@
 			"end_date": "2026-11-05T18:07:28.373Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M58TDQC0.json"
+	},
+	{
+		"reference": "INC-1M7BDBD8D",
+		"title": "Internet service disruption - Glen William North, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T21:16:19.000Z",
+			"end_date": "2026-11-13T23:31:17.000Z"
+		},
+		"record_path": "outages/2026/11/INC-1M7BDBD8D.json"
+	},
+	{
+		"reference": "INC-1M7DJBH89",
+		"title": "nbn service disruption - Wodonga, VIC",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-14T17:09:44.000Z",
+			"end_date": "2026-11-15T00:45:26.000Z"
+		},
+		"record_path": "outages/2026/11/INC-1M7DJBH89.json"
 	}
 ]
