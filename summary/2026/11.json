@@ -525,21 +525,6 @@
 		"record_path": "outages/2026/11/MNT-1M6DK21DC.json"
 	},
 	{
-		"reference": "INC-1M7BCFV8D",
-		"title": "Internet service issue - Rothbury, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-13T20:58:18.000Z",
-			"end_date": "2026-11-14T01:30:08.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
-	},
-	{
 		"reference": "INC-1M748QZ84",
 		"title": "Fault on Sydney to Perth network link",
 		"planned": false,
@@ -568,6 +553,21 @@
 			"end_date": "2026-10-12T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E6YZR.json"
+	},
+	{
+		"reference": "INC-1M7BCFV8D",
+		"title": "Internet service issue - Rothbury, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-13T20:58:18.000Z",
+			"end_date": "2026-11-14T01:30:08.000Z"
+		},
+		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
 	},
 	{
 		"reference": "MNT-1M6FZPF0Q",
@@ -1003,6 +1003,21 @@
 			"end_date": "2026-11-09T09:09:00.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M6Y9Y3PA.json"
+	},
+	{
+		"reference": "INC-1M7ENHN74",
+		"title": "nbn service fault - Lochinvar South, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-15T03:41:12.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M7ENHN74.json"
 	},
 	{
 		"reference": "INC-1M4VD5KEN",
