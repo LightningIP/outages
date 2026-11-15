@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-14T01:29:06.000Z",
 		"resolved_at": "2026-11-14T01:30:08.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-15T03:01:25.744Z"
 	},
 	"cause": {
 		"reason": "Local power outage affecting the network",
