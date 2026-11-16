@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "We have planned upgrade works on our network at the Toowoomba nbn point of interconnect. The work is scheduled between 12:00 am and 1:00 am AEST on Tuesday 17 November 2026. nbn services connected through Toowoomba may be disrupted for up to 20 minutes during this window.",
+	"status": "resolved",
+	"current_summary": "The planned upgrade works at the Toowoomba nbn point of interconnect have been completed. The work was scheduled between 12:00 am and 1:00 am AEST on Tuesday 17 November 2026. nbn services connected through Toowoomba may have been disrupted for up to 20 minutes during this window. No further action is required.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -36,7 +36,7 @@
 		"scheduled_end": "2026-11-16T15:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-16T15:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -51,6 +51,13 @@
 		{
 			"update_time": "2026-11-05T06:26:27.407Z",
 			"content": "We have scheduled upgrade works at the Toowoomba nbn point of interconnect (POI). The work will take place between 12:00 am and 1:00 am AEST on Tuesday 17 November 2026. During this window, nbn services connected through the Toowoomba POI may be disrupted for up to 20 minutes while a network port is upgraded. We will keep this page updated if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-16T15:00:00.000Z",
+			"content": "The planned upgrade works at the Toowoomba nbn point of interconnect are now complete. Services connected through Toowoomba should be operating normally. If you are still experiencing issues, please contact our support team.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
