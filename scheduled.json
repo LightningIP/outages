@@ -105,21 +105,6 @@
 		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
-		"reference": "MNT-1M6N84QHD",
-		"title": "Planned upgrade works – nbn Toowoomba (QLD) POI",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-16T14:00:00.000Z",
-			"end_date": "2026-11-16T15:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M6N84QHD.json"
-	},
-	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
