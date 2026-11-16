@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-15T00:45:26.000Z",
 		"resolved_at": "2026-11-15T00:45:26.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-16T01:01:07.837Z"
 	},
 	"cause": {
 		"reason": "nbn reconfigured its network to restore service",
