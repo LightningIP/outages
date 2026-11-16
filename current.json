@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "INC-1M7ENHN74",
-		"title": "nbn service fault - Lochinvar South, NSW",
-		"planned": false,
+		"reference": "MNT-1M6N84QHD",
+		"title": "Planned upgrade works – nbn Toowoomba (QLD) POI",
+		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
+			"impact_scope": "regional",
+			"service_count": 3
 		},
 		"lifecycle": {
-			"start_date": "2026-11-15T03:41:12.000Z",
-			"end_date": null
+			"start_date": "2026-11-16T14:00:00.000Z",
+			"end_date": "2026-11-16T15:00:00.000Z"
 		},
-		"record_path": "outages/2026/11/INC-1M7ENHN74.json"
+		"record_path": "outages/2026/11/MNT-1M6N84QHD.json"
 	}
 ]
