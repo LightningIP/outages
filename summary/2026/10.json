@@ -240,6 +240,21 @@
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
 	},
 	{
+		"reference": "MNT-1M635P9DV",
+		"title": "Planned nbn maintenance - Wallan VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
+	},
+	{
 		"reference": "MNT-1M44E13HV",
 		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
 		"planned": true,
@@ -298,21 +313,6 @@
 			"end_date": "2026-10-07T19:48:24.948Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PNX52D.json"
-	},
-	{
-		"reference": "MNT-1M635P9DV",
-		"title": "Planned nbn maintenance - Wallan VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
 	},
 	{
 		"reference": "MNT-1M2PNRK0X",
@@ -495,21 +495,6 @@
 		"record_path": "outages/2026/11/MNT-1M79QD4JP.json"
 	},
 	{
-		"reference": "MNT-1M5ZV3W8E",
-		"title": "Emergency network maintenance - Stanbridge, NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-27T23:30:00.000Z",
-			"end_date": "2026-10-28T07:24:57.282Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5ZV3W8E.json"
-	},
-	{
 		"reference": "MNT-1M59FCB4E",
 		"title": "Planned maintenance: NBN Werribee (VIC) network connection move",
 		"planned": true,
@@ -523,6 +508,21 @@
 			"end_date": "2026-11-17T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M59FCB4E.json"
+	},
+	{
+		"reference": "MNT-1M5ZV3W8E",
+		"title": "Emergency network maintenance - Stanbridge, NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T23:30:00.000Z",
+			"end_date": "2026-10-28T07:24:57.282Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5ZV3W8E.json"
 	},
 	{
 		"reference": "MNT-1M79RDW80",
