@@ -30,6 +30,21 @@
 		"record_path": "outages/2026/11/INC-1M7ENHN74.json"
 	},
 	{
+		"reference": "MNT-1M62C3CTG",
+		"title": "Planned nbn network upgrade - Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T17:33:52.089Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
+	},
+	{
 		"reference": "MNT-1M44E2CY9",
 		"title": "Scheduled maintenance: NBN Karringal/Frankston (VIC)",
 		"planned": true,
@@ -148,21 +163,6 @@
 			"end_date": "2026-11-18T19:30:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M639FY4F.json"
-	},
-	{
-		"reference": "MNT-1M62C3CTG",
-		"title": "Planned nbn network upgrade - Victoria",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
 		"reference": "MNT-1M4Q1HN65",
