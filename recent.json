@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
+		"reference": "MNT-1M635P9DV",
+		"title": "Planned nbn maintenance - Wallan VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T17:54:51.544Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
+	},
+	{
 		"reference": "MNT-1M6N84QHD",
 		"title": "Planned upgrade works – nbn Toowoomba (QLD) POI",
 		"planned": true,
