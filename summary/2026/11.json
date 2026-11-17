@@ -300,21 +300,6 @@
 		"record_path": "outages/2026/11/MNT-1M79QD4JP.json"
 	},
 	{
-		"reference": "MNT-1M5ZV3W8E",
-		"title": "Emergency network maintenance - Stanbridge, NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-10-27T23:30:00.000Z",
-			"end_date": "2026-10-28T07:24:57.282Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M5ZV3W8E.json"
-	},
-	{
 		"reference": "MNT-1M59FCB4E",
 		"title": "Planned maintenance: NBN Werribee (VIC) network connection move",
 		"planned": true,
@@ -328,6 +313,21 @@
 			"end_date": "2026-11-17T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M59FCB4E.json"
+	},
+	{
+		"reference": "MNT-1M5ZV3W8E",
+		"title": "Emergency network maintenance - Stanbridge, NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-10-27T23:30:00.000Z",
+			"end_date": "2026-10-28T07:24:57.282Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M5ZV3W8E.json"
 	},
 	{
 		"reference": "MNT-1M79RDW80",
