@@ -15,6 +15,21 @@
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
+		"reference": "MNT-1M62C3CTG",
+		"title": "Planned nbn network upgrade - Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T17:33:52.089Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
+	},
+	{
 		"reference": "INC-1M4B85RSA",
 		"title": "Access network issue - Sawyers Gully, NSW",
 		"planned": false,
@@ -373,21 +388,6 @@
 			"end_date": "2026-10-09T01:54:56.286Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4EYZY5X.json"
-	},
-	{
-		"reference": "MNT-1M62C3CTG",
-		"title": "Planned nbn network upgrade - Victoria",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
 		"reference": "MNT-1M4Q1HN65",
