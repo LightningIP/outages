@@ -60,21 +60,6 @@
 		"record_path": "outages/2026/10/MNT-1M4Q1K03G.json"
 	},
 	{
-		"reference": "MNT-1M635P9DV",
-		"title": "Planned nbn maintenance - Wallan VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
-	},
-	{
 		"reference": "MNT-1M639FY4F",
 		"title": "Planned Maintenance: Sydney to Perth Network Link Fibre Work",
 		"planned": true,
@@ -88,21 +73,6 @@
 			"end_date": "2026-11-18T19:30:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M639FY4F.json"
-	},
-	{
-		"reference": "MNT-1M62C3CTG",
-		"title": "Planned nbn network upgrade - Victoria",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
 		"reference": "MNT-1M71PCTKG",
@@ -148,21 +118,6 @@
 			"end_date": "2026-11-30T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M79QD4JP.json"
-	},
-	{
-		"reference": "MNT-1M59FCB4E",
-		"title": "Planned maintenance: NBN Werribee (VIC) network connection move",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T16:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M59FCB4E.json"
 	},
 	{
 		"reference": "MNT-1M79RDW80",
