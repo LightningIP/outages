@@ -37,7 +37,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": "2026-11-16T15:00:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-17T15:01:17.092Z"
 	},
 	"cause": {
 		"reason": "Planned upgrade to a network port at the Toowoomba nbn point of interconnect.",
