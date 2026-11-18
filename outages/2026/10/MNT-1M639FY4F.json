@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned maintenance is now underway on one of our network links between Sydney and Perth. The work is optic fibre relocation and repair, and began at 12:30 AM AEDT on Thursday 19 November 2026. It is scheduled to finish by 6:30 AM AEDT. Some internet services in NSW and WA may be affected for up to 6 hours during this window. Traffic is normally rerouted over other paths, so you may notice slower speeds rather than a complete loss of service.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance on our network link between Sydney and Perth is complete. The optic fibre relocation and repair work finished at 6:30 AM AEDT on Thursday 19 November 2026.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -144,7 +144,7 @@
 		"scheduled_end": "2026-11-18T19:30:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-18T19:30:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -166,6 +166,13 @@
 		{
 			"update_time": "2026-11-18T13:30:02.123Z",
 			"content": "The planned maintenance on our Sydney to Perth network link started at 12:30 AM AEDT on Thursday 19 November 2026. The work is scheduled to finish by 6:30 AM AEDT. During this time some services in NSW and WA may see reduced performance, as traffic is rerouted over other paths. We will post another update when the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-18T19:30:00.000Z",
+			"content": "The planned maintenance on our Sydney to Perth network link was completed at 6:30 AM AEDT on Thursday 19 November 2026. No further work is scheduled for this maintenance.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
