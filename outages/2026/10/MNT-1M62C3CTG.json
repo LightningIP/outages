@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": "2026-11-17T17:33:52.089Z",
-		"closed_at": null
+		"closed_at": "2026-11-18T19:01:31.256Z"
 	},
 	"cause": {
 		"reason": "Planned upgrade works on the nbn network",
