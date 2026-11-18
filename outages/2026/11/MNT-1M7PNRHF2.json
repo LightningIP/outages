@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M7PNRHF2",
+	"title": "Planned nbn network upgrade – Port Melbourne, St Kilda, Penrith and surrounding areas (VIC and NSW)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in Port Melbourne, St Kilda, Penrith and other areas in Victoria and New South Wales. The work is scheduled between 12:00am and 6:00am AEDT on Thursday 10 December 2026, and the service may be offline for up to 6 hours.\n\nThis planned network outage may be performed either during the day for safety reasons or within the maintenance window to minimise impact. Please refer to the estimated scheduled start date for confirmation.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"SOUTHBANK"
+		],
+		"postcodes": [
+			"3006"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-04T02:30:13.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-09T13:00:00.000Z",
+		"scheduled_end": "2026-12-09T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Scheduled upgrade works on the nbn network.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-18T06:33:30.196Z",
+			"content": "Affects nbn services in Port Melbourne, St Kilda, Penrith and other areas in Victoria and New South Wales. The work is scheduled between 12:00am and 6:00am AEDT on Thursday 10 December 2026, and the service may be offline for up to 6 hours.\n\nThis planned network outage may be performed either during the day for safety reasons or within the maintenance window to minimise impact. Please refer to the estimated scheduled start date for confirmation.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
