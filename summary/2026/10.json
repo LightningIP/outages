@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/10/MNT-1M44ED3ND.json"
 	},
 	{
-		"reference": "MNT-1M62C3CTG",
-		"title": "Planned nbn network upgrade - Victoria",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T17:33:52.089Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
-	},
-	{
 		"reference": "INC-1M4B85RSA",
 		"title": "Access network issue - Sawyers Gully, NSW",
 		"planned": false,
@@ -58,6 +43,21 @@
 			"end_date": "2026-10-13T16:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44E2CY9.json"
+	},
+	{
+		"reference": "MNT-1M62C3CTG",
+		"title": "Planned nbn network upgrade - Victoria",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T17:33:52.089Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M62C3CTG.json"
 	},
 	{
 		"reference": "MNT-1M2PCYSD1",
@@ -255,21 +255,6 @@
 		"record_path": "outages/2026/09/MNT-1M2PR4ATB.json"
 	},
 	{
-		"reference": "MNT-1M635P9DV",
-		"title": "Planned nbn maintenance - Wallan VIC",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T17:54:51.544Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
-	},
-	{
 		"reference": "MNT-1M44E13HV",
 		"title": "Planned NBN maintenance – Thornbury POI (3TNB), VIC",
 		"planned": true,
@@ -328,6 +313,21 @@
 			"end_date": "2026-10-07T19:48:24.948Z"
 		},
 		"record_path": "outages/2026/09/MNT-1M2PNX52D.json"
+	},
+	{
+		"reference": "MNT-1M635P9DV",
+		"title": "Planned nbn maintenance - Wallan VIC",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-17T13:00:00.000Z",
+			"end_date": "2026-11-17T17:54:51.544Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
 	},
 	{
 		"reference": "MNT-1M2PNRK0X",
