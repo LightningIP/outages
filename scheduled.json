@@ -30,6 +30,21 @@
 		"record_path": "outages/2026/11/MNT-1M77EP4ZZ.json"
 	},
 	{
+		"reference": "MNT-1M7PNRHF2",
+		"title": "Planned nbn network upgrade – Port Melbourne, St Kilda, Penrith and surrounding areas (VIC and NSW)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-12-09T13:00:00.000Z",
+			"end_date": "2026-12-09T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M7PNRHF2.json"
+	},
+	{
 		"reference": "MNT-1M79JTFSJ",
 		"title": "Planned nbn network capacity upgrade – NSW",
 		"planned": true,
