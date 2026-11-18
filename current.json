@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "MNT-1M635P9DV",
-		"title": "Planned nbn maintenance - Wallan VIC",
+		"reference": "MNT-1M639FY4F",
+		"title": "Planned Maintenance: Sydney to Perth Network Link Fibre Work",
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "local",
-			"service_count": 1
+			"impact_scope": "state",
+			"service_count": 496
 		},
 		"lifecycle": {
-			"start_date": "2026-11-17T13:00:00.000Z",
-			"end_date": "2026-11-17T19:00:00.000Z"
+			"start_date": "2026-11-18T13:30:00.000Z",
+			"end_date": "2026-11-18T19:30:00.000Z"
 		},
-		"record_path": "outages/2026/10/MNT-1M635P9DV.json"
+		"record_path": "outages/2026/10/MNT-1M639FY4F.json"
 	}
 ]
