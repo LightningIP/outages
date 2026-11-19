@@ -120,6 +120,21 @@
 		"record_path": "outages/2026/11/MNT-1M7S2TTR1.json"
 	},
 	{
+		"reference": "MNT-1M6DK21DC",
+		"title": "Planned nbn network upgrade – Bundamba QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-19T14:00:00.000Z",
+			"end_date": "2026-11-19T17:18:46.508Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6DK21DC.json"
+	},
+	{
 		"reference": "INC-1M5PYXW32",
 		"title": "Internet service disruption - Malua Bay, NSW",
 		"planned": false,
@@ -538,21 +553,6 @@
 			"end_date": "2026-11-14T11:01:28.933Z"
 		},
 		"record_path": "outages/2026/11/INC-1M7A8AQN7.json"
-	},
-	{
-		"reference": "MNT-1M6DK21DC",
-		"title": "Planned nbn network upgrade – Bundamba QLD",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-19T14:00:00.000Z",
-			"end_date": "2026-11-19T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M6DK21DC.json"
 	},
 	{
 		"reference": "MNT-1M6DEZG4D",
