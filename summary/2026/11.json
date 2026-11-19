@@ -105,6 +105,21 @@
 		"record_path": "outages/2026/10/MNT-1M44DXDX9.json"
 	},
 	{
+		"reference": "MNT-1M7S2TTR1",
+		"title": "Planned maintenance: nbn services connected via the Lonsdale Depot POI (South Australia)",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-12-07T11:30:00.000Z",
+			"end_date": "2026-12-07T20:30:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M7S2TTR1.json"
+	},
+	{
 		"reference": "INC-1M5PYXW32",
 		"title": "Internet service disruption - Malua Bay, NSW",
 		"planned": false,
