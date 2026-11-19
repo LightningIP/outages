@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned cable network cutover work started at 11:00 PM on 19 November 2026 (Queensland time). It may affect NBN services connected through the Aspley and Petrie points of interconnect in Queensland. Affected services may be interrupted for up to 6 hours during the maintenance window, which is scheduled to end at 6:00 AM on 20 November 2026 (Queensland time).",
+	"status": "resolved",
+	"current_summary": "The planned cable network cutover affecting NBN services connected through the Aspley and Petrie points of interconnect in Queensland has been completed. The maintenance window ran from 11:00 PM on 19 November 2026 to 6:00 AM on 20 November 2026 (Queensland time). If you are still experiencing problems with your service, please restart your modem and contact our support team if the issue continues.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -30,8 +30,8 @@
 		"scheduled_start": "2026-11-19T13:00:00.000Z",
 		"scheduled_end": "2026-11-19T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-19T20:00:00.000Z",
+		"resolved_at": "2026-11-19T20:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -53,6 +53,13 @@
 		{
 			"update_time": "2026-11-19T13:00:02.450Z",
 			"content": "The planned cable network cutover work started at 11:00 PM (Queensland time) on 19 November 2026. Some NBN services connected through the Aspley and Petrie points of interconnect may be interrupted for up to 6 hours during the window, which is scheduled to end at 6:00 AM on 20 November 2026. We will update you if the timing changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-19T20:00:00.000Z",
+			"content": "The planned cable network cutover affecting NBN services connected through the Aspley and Petrie points of interconnect in Queensland is now complete. The maintenance window closed at 6:00 AM on 20 November 2026 (Queensland time). Services should be operating normally. If you still have problems, please restart your modem and contact our support team if the issue continues.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
