@@ -145,7 +145,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": "2026-11-18T19:30:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-19T21:01:11.226Z"
 	},
 	"cause": {
 		"reason": "Planned optic fibre relocation and repair work on the Sydney to Perth network link, carried out by an upstream network provider.",
