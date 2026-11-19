@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "A network provider will carry out planned cable network cutover work that may affect NBN services connected through the Aspley and Petrie points of interconnect in Queensland. The maintenance window runs from 11:00 PM on 19 November 2026 to 6:00 AM on 20 November 2026 (Queensland time). During this window, affected NBN services may be interrupted for up to 6 hours.",
+	"status": "work_underway",
+	"current_summary": "Planned cable network cutover work started at 11:00 PM on 19 November 2026 (Queensland time). It may affect NBN services connected through the Aspley and Petrie points of interconnect in Queensland. Affected services may be interrupted for up to 6 hours during the maintenance window, which is scheduled to end at 6:00 AM on 20 November 2026 (Queensland time).",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -46,6 +46,13 @@
 		{
 			"update_time": "2026-11-10T06:07:33.944Z",
 			"content": "We have been advised that a network provider will be carrying out a cable network cutover that may affect NBN services connected through the Aspley and Petrie points of interconnect in Queensland. The work is scheduled between 11:00 PM on 19 November 2026 and 6:00 AM on 20 November 2026 (Queensland time). During this window, some NBN services may be interrupted for up to 6 hours. We will share more information if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-19T13:00:02.450Z",
+			"content": "The planned cable network cutover work started at 11:00 PM (Queensland time) on 19 November 2026. Some NBN services connected through the Aspley and Petrie points of interconnect may be interrupted for up to 6 hours during the window, which is scheduled to end at 6:00 AM on 20 November 2026. We will update you if the timing changes.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
