@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M7S2TTR1",
+	"title": "Planned maintenance: nbn services connected via the Lonsdale Depot POI (South Australia)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled for nbn services connected through the Lonsdale Depot Point of Interconnect (POI) in South Australia. The maintenance window runs from 10:00pm Monday 7 December to 7:00am Tuesday 8 December (Adelaide time). Some nbn services connected through this POI may be affected for up to 8 hours during the window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-19T04:26:34.843Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-07T11:30:00.000Z",
+		"scheduled_end": "2026-12-07T20:30:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned fibre cable cutover activities carried out by a network provider.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-19T04:26:34.862Z",
+			"content": "A network provider will be carrying out fibre cable cutover activities that may affect nbn services connected through the Lonsdale Depot Point of Interconnect (POI) in South Australia. The maintenance window runs from 10:00pm Monday 7 December to 7:00am Tuesday 8 December (Adelaide time). Affected services may be interrupted for up to 8 hours during this window. We will share more information if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
