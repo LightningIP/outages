@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "MNT-1M72AZYV0",
-		"title": "Planned maintenance: NBN services in Aspley and Petrie (QLD) POI areas",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-19T13:00:00.000Z",
-			"end_date": "2026-11-19T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M72AZYV0.json"
-	},
-	{
 		"reference": "INC-1M7ENHN74",
 		"title": "nbn service fault - Lochinvar South, NSW",
 		"planned": false,
@@ -28,6 +13,21 @@
 			"end_date": "2026-11-15T04:55:04.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M7ENHN74.json"
+	},
+	{
+		"reference": "MNT-1M72AZYV0",
+		"title": "Planned maintenance: NBN services in Aspley and Petrie (QLD) POI areas",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-19T13:00:00.000Z",
+			"end_date": "2026-11-19T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M72AZYV0.json"
 	},
 	{
 		"reference": "MNT-1M44E2CY9",
