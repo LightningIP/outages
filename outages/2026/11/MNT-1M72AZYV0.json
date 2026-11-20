@@ -32,7 +32,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-19T20:00:00.000Z",
 		"resolved_at": "2026-11-19T20:00:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-20T21:01:27.173Z"
 	},
 	"cause": {
 		"reason": "Planned cable network cutover by a network provider",
