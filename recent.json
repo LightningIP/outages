@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "MNT-1M72AZYV0",
-		"title": "Planned maintenance: NBN services in Aspley and Petrie (QLD) POI areas",
-		"planned": true,
+		"reference": "INC-1M80FWAYB",
+		"title": "nbn service disruption - Ashfield, NSW",
+		"planned": false,
 		"impact": {
 			"customer": true,
-			"impact_scope": "regional",
+			"impact_scope": "site",
 			"service_count": 1
 		},
 		"lifecycle": {
-			"start_date": "2026-11-19T13:00:00.000Z",
-			"end_date": "2026-11-19T20:00:00.000Z"
+			"start_date": "2026-11-22T01:42:33.000Z",
+			"end_date": "2026-11-22T02:28:37.000Z"
 		},
-		"record_path": "outages/2026/11/MNT-1M72AZYV0.json"
+		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
 	}
 ]
