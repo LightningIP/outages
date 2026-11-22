@@ -165,6 +165,21 @@
 		"record_path": "outages/2026/11/MNT-1M79JTFSJ.json"
 	},
 	{
+		"reference": "INC-1M80FWAYB",
+		"title": "nbn service disruption - Ashfield, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-22T01:42:33.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
+	},
+	{
 		"reference": "MNT-1M4Q1K03G",
 		"title": "Planned NBN maintenance – Ryde, Campsie, Glebe and Miranda areas (NSW)",
 		"planned": true,
