@@ -405,6 +405,21 @@
 		"record_path": "outages/2026/11/MNT-1M79RDW80.json"
 	},
 	{
+		"reference": "MNT-1M6J99GBS",
+		"title": "NSW – Planned nbn network capacity upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 22
+		},
+		"lifecycle": {
+			"start_date": "2026-11-22T13:00:00.000Z",
+			"end_date": "2026-11-22T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6J99GBS.json"
+	},
+	{
 		"reference": "MNT-1M4ENP4BS",
 		"title": "Planned maintenance – brief interruption for some services",
 		"planned": true,
@@ -433,21 +448,6 @@
 			"end_date": "2026-11-23T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M6FNEXD7.json"
-	},
-	{
-		"reference": "MNT-1M6J99GBS",
-		"title": "NSW – Planned nbn network capacity upgrade",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 22
-		},
-		"lifecycle": {
-			"start_date": "2026-11-22T13:00:00.000Z",
-			"end_date": "2026-11-22T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M6J99GBS.json"
 	},
 	{
 		"reference": "INC-1M79Y4RD2",
