@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "We have scheduled an emergency router restart at our Eastern Creek (2SYB) site between 12:00 am and 1:00 am AEDT on Tuesday 24 November 2026. Some nbn Enterprise Ethernet services connected through the 2BLK and 2SYB POIs, and vNNI services in the Sydney Metro area, may be disrupted for up to 20 minutes during this window.",
+	"status": "work_underway",
+	"current_summary": "The emergency router restart at our Eastern Creek (2SYB) site began at 12:00 am AEDT on Tuesday 24 November 2026. The scheduled window runs until 1:00 am AEDT. Some nbn Enterprise Ethernet services connected through the 2BLK and 2SYB POIs, and vNNI services in the Sydney Metro area, may be disrupted for up to 20 minutes during this window. We will confirm when the work is complete.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-11-23T02:55:46.985Z",
 			"content": "We will carry out an emergency router restart at Eastern Creek (2SYB) between 12:00 am and 1:00 am AEDT on Tuesday 24 November 2026. During this time, some nbn Enterprise Ethernet services connected through the 2BLK and 2SYB POIs, as well as vNNI services in the Sydney Metro area, may be disrupted. Affected services may be offline for up to 20 minutes. We will update this notice if anything changes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-23T13:00:02.272Z",
+			"content": "The emergency router restart at Eastern Creek (2SYB) began at 12:00 am AEDT on Tuesday 24 November 2026. Affected nbn Enterprise Ethernet and vNNI services in the Sydney Metro area may be offline for up to 20 minutes within the window, which is scheduled to end at 1:00 am AEDT. We will confirm once the work is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
