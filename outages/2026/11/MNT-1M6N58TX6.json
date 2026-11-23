@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "Affects nbn services in Bundamba QLD. The maintenance window is 12:00am to 6:00am AEST on 25 November 2026, with a service interruption of about 60 minutes expected from 12:30am AEST.\n\nnbn is upgrading equipment that carries internet traffic from your area to the wider network, to keep up with growing demand. Your internet service will go offline for about an hour during the window, and new orders or changes to services may take longer to process.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "cancelled",
+	"current_summary": "The planned nbn network upgrade in Bundamba QLD, previously scheduled for 12:00am to 6:00am AEST on 25 November 2026, has been cancelled. No service interruption is expected from this work.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -33,7 +33,7 @@
 		"scheduled_end": "2026-11-24T20:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-23T21:45:31.900Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -48,6 +48,13 @@
 		{
 			"update_time": "2026-11-05T06:10:21.923Z",
 			"content": "Affects nbn services in Bundamba QLD. The maintenance window is 12:00am to 6:00am AEST on 25 November 2026, with a service interruption of about 60 minutes expected from 12:30am AEST.\n\nnbn is upgrading equipment that carries internet traffic from your area to the wider network, to keep up with growing demand. Your internet service will go offline for about an hour during the window, and new orders or changes to services may take longer to process.\n\nnbn is upgrading equipment in the Aggregation Network at the POI (Point of Interconnect) in anticipation of emerging capacity needs from network growth. nbn undertakes this work during the night-time to minimise impact to customers. During and post a change window there will be delays in the processing of Orders (AVC, CVC, NNI). RSPs may continue to successfully submit Orders via the nbn Service Portal and API.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-23T21:45:31.900Z",
+			"content": "nbn has cancelled this planned upgrade, which was due to take place from 12:00am to 6:00am AEST on 25 November 2026. The planned service interruption will no longer go ahead.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
