@@ -675,21 +675,6 @@
 		"record_path": "outages/2026/11/INC-1M7BCFV8D.json"
 	},
 	{
-		"reference": "MNT-1M6FZPF0Q",
-		"title": "Bundamba QLD - Planned nbn network upgrade",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 3
-		},
-		"lifecycle": {
-			"start_date": "2026-11-23T14:00:00.000Z",
-			"end_date": "2026-11-23T20:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M6FZPF0Q.json"
-	},
-	{
 		"reference": "MNT-1M44S8RD4",
 		"title": "Planned NBN maintenance – Merrimac and Southport (QLD)",
 		"planned": true,
@@ -703,6 +688,21 @@
 			"end_date": "2026-10-19T20:30:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M44S8RD4.json"
+	},
+	{
+		"reference": "MNT-1M6FZPF0Q",
+		"title": "Bundamba QLD - Planned nbn network upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-23T14:00:00.000Z",
+			"end_date": "2026-11-23T20:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6FZPF0Q.json"
 	},
 	{
 		"reference": "MNT-1M4Q1JA9Q",
