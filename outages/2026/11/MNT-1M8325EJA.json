@@ -1,0 +1,66 @@
+{
+	"reference": "MNT-1M8325EJA",
+	"title": "nbn network maintenance affecting some nbn services",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "The maintenance window is 1:00am to 7:00am AEDT on 9 December 2026. A loss of connectivity of around 3 hours is expected, starting at 1:00am AEDT. 18 of our nbn services are affected.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": null,
+		"service_count": 18,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW",
+			"VIC"
+		],
+		"suburbs": [
+			"ALLANS FLAT",
+			"CULCAIRN",
+			"LUCKNOW",
+			"STAGHORN FLAT",
+			"STOCKINBINGAL",
+			"WALLA WALLA",
+			"YACKANDANDAH"
+		],
+		"postcodes": [
+			"2659",
+			"2660",
+			"2725",
+			"2800",
+			"3691",
+			"3749"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-16T23:52:07.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-08T14:00:00.000Z",
+		"scheduled_end": "2026-12-08T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned network maintenance on the nbn access network",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-23T02:01:09.098Z",
+			"content": "The maintenance window is 1:00am to 7:00am AEDT on 9 December 2026. A loss of connectivity of around 3 hours is expected, starting at 1:00am AEDT. 18 of our nbn services are affected.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
