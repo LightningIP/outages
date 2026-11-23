@@ -165,21 +165,6 @@
 		"record_path": "outages/2026/11/MNT-1M79JTFSJ.json"
 	},
 	{
-		"reference": "INC-1M80FWAYB",
-		"title": "nbn service disruption - Ashfield, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-22T01:42:33.000Z",
-			"end_date": "2026-11-22T02:28:37.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
-	},
-	{
 		"reference": "MNT-1M8325EJA",
 		"title": "nbn network maintenance affecting some nbn services",
 		"planned": true,
@@ -208,6 +193,21 @@
 			"end_date": "2026-11-23T14:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
+	},
+	{
+		"reference": "INC-1M80FWAYB",
+		"title": "nbn service disruption - Ashfield, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-22T01:42:33.000Z",
+			"end_date": "2026-11-22T02:28:37.000Z"
+		},
+		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
 	},
 	{
 		"reference": "MNT-1M4Q1K03G",
