@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
 	},
 	{
-		"reference": "MNT-1M835J3FY",
-		"title": "Emergency router restart – Sydney Metro nbn Enterprise Ethernet and vNNI services",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-11-23T13:00:00.000Z",
-			"end_date": "2026-11-23T14:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
-	},
-	{
 		"reference": "MNT-1M6J99GBS",
 		"title": "NSW – Planned nbn network capacity upgrade",
 		"planned": true,
@@ -43,6 +28,21 @@
 			"end_date": "2026-11-22T15:56:35.444Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M6J99GBS.json"
+	},
+	{
+		"reference": "MNT-1M6FNEXD7",
+		"title": "Planned nbn network upgrade – Airlie Beach, QLD",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-11-23T14:00:00.000Z",
+			"end_date": "2026-11-23T20:05:30.991Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6FNEXD7.json"
 	},
 	{
 		"reference": "MNT-1M6FZPF0Q",
