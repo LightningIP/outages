@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Airlie Beach, QLD. The planned work started at 12:00 am AEST on Tuesday 24 November 2026, and affected services are expected to be offline until about 6:00 am AEST.\n\nThis planned outage is to upgrade the Multi-Port Terminal (MPT) to increase the amount of fibre connections at the port. As this upgrade work is being performed at the network level, customers may not experience a noticeable increase in performance for their individual service.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Airlie Beach, QLD. The planned work was scheduled from 12:00 am to 6:00 am AEST on Tuesday 24 November 2026 and is now complete.\n\nThis planned outage is to upgrade the Multi-Port Terminal (MPT) to increase the amount of fibre connections at the port. As this upgrade work is being performed at the network level, customers may not experience a noticeable increase in performance for their individual service.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -31,8 +31,8 @@
 		"scheduled_start": "2026-11-23T14:00:00.000Z",
 		"scheduled_end": "2026-11-23T20:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-23T20:05:30.991Z",
+		"resolved_at": "2026-11-23T20:05:30.991Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -47,6 +47,13 @@
 		{
 			"update_time": "2026-11-02T04:58:27.000Z",
 			"content": "Affects nbn services in Airlie Beach, QLD. Work is scheduled from 12:00 am to 6:00 am AEST on Tuesday 24 November 2026, and services are expected to be offline for the full six hours.\n\nnbn is upgrading a local fibre connection point in your area so it can support more connections. Your internet service will be offline while the work is carried out.\n\nThis planned outage is to upgrade the Multi-Port Terminal (MPT) to increase the amount of fibre connections at the port. As this upgrade work is being performed at the network level, customers may not experience a noticeable increase in performance for their individual service.\n\nnbn® is completing upgrades on the nbn network in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-23T20:05:30.991Z",
+			"content": "The planned nbn network upgrade in Airlie Beach is now complete. Affected services should be back online.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
