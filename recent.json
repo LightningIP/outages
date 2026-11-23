@@ -28,5 +28,35 @@
 			"end_date": "2026-11-23T14:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
+	},
+	{
+		"reference": "MNT-1M6J99GBS",
+		"title": "NSW – Planned nbn network capacity upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 22
+		},
+		"lifecycle": {
+			"start_date": "2026-11-22T13:00:00.000Z",
+			"end_date": "2026-11-22T15:56:35.444Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6J99GBS.json"
+	},
+	{
+		"reference": "MNT-1M6FZPF0Q",
+		"title": "Bundamba QLD - Planned nbn network upgrade",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 3
+		},
+		"lifecycle": {
+			"start_date": "2026-11-23T14:00:00.000Z",
+			"end_date": "2026-11-23T17:53:08.817Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M6FZPF0Q.json"
 	}
 ]
