@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "The emergency router restart at our Eastern Creek (2SYB) site began at 12:00 am AEDT on Tuesday 24 November 2026. The scheduled window runs until 1:00 am AEDT. Some nbn Enterprise Ethernet services connected through the 2BLK and 2SYB POIs, and vNNI services in the Sydney Metro area, may be disrupted for up to 20 minutes during this window. We will confirm when the work is complete.",
+	"status": "resolved",
+	"current_summary": "The emergency router restart at our Eastern Creek (2SYB) site is complete. It was carried out between 12:00 am and 1:00 am AEDT on Tuesday 24 November 2026. Some nbn Enterprise Ethernet services connected through the 2BLK and 2SYB POIs, and vNNI services in the Sydney Metro area, may have been disrupted for up to 20 minutes during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -23,7 +23,7 @@
 		"scheduled_end": "2026-11-23T14:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-23T14:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -35,6 +35,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-11-23T14:00:00.000Z",
+			"content": "The emergency router restart at Eastern Creek (2SYB) is complete, as of 1:00 am AEDT on Tuesday 24 November 2026. Affected nbn Enterprise Ethernet and vNNI services in the Sydney Metro area should be back to normal. If you still have an issue with your service, please contact our support team.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-11-23T02:55:46.985Z",
 			"content": "We will carry out an emergency router restart at Eastern Creek (2SYB) between 12:00 am and 1:00 am AEDT on Tuesday 24 November 2026. During this time, some nbn Enterprise Ethernet services connected through the 2BLK and 2SYB POIs, as well as vNNI services in the Sydney Metro area, may be disrupted. Affected services may be offline for up to 20 minutes. We will update this notice if anything changes.",
