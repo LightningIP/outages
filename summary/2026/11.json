@@ -180,21 +180,6 @@
 		"record_path": "outages/2026/11/MNT-1M8325EJA.json"
 	},
 	{
-		"reference": "MNT-1M835J3FY",
-		"title": "Emergency router restart – Sydney Metro nbn Enterprise Ethernet and vNNI services",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-11-23T13:00:00.000Z",
-			"end_date": "2026-11-23T14:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
-	},
-	{
 		"reference": "INC-1M80FWAYB",
 		"title": "nbn service disruption - Ashfield, NSW",
 		"planned": false,
@@ -208,6 +193,21 @@
 			"end_date": "2026-11-22T02:28:37.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
+	},
+	{
+		"reference": "MNT-1M835J3FY",
+		"title": "Emergency router restart – Sydney Metro nbn Enterprise Ethernet and vNNI services",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-23T13:00:00.000Z",
+			"end_date": "2026-11-23T14:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
 	},
 	{
 		"reference": "MNT-1M4Q1K03G",
@@ -465,21 +465,6 @@
 		"record_path": "outages/2026/11/MNT-1M6J99GBS.json"
 	},
 	{
-		"reference": "MNT-1M4ENP4BS",
-		"title": "Planned maintenance – brief interruption for some services",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 5
-		},
-		"lifecycle": {
-			"start_date": "2026-10-22T13:00:00.000Z",
-			"end_date": "2026-10-22T19:00:00.000Z"
-		},
-		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
-	},
-	{
 		"reference": "MNT-1M6FNEXD7",
 		"title": "Planned nbn network upgrade – Airlie Beach, QLD",
 		"planned": true,
@@ -493,6 +478,21 @@
 			"end_date": "2026-11-23T20:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M6FNEXD7.json"
+	},
+	{
+		"reference": "MNT-1M4ENP4BS",
+		"title": "Planned maintenance – brief interruption for some services",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 5
+		},
+		"lifecycle": {
+			"start_date": "2026-10-22T13:00:00.000Z",
+			"end_date": "2026-10-22T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
 	},
 	{
 		"reference": "INC-1M79Y4RD2",
