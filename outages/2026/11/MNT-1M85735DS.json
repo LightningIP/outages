@@ -1,0 +1,56 @@
+{
+	"reference": "MNT-1M85735DS",
+	"title": "Planned maintenance: NBN services connected via the Bendigo (3BEN) POI",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled for the nbn Point of Interconnect (POI) in Bendigo, Victoria (3BEN). It will take place between 11:00 pm on Thursday 10 December 2026 and 6:00 am on Friday 11 December 2026 (Melbourne time). During this window, nbn services connected through this POI may be affected for up to 7 hours while an upstream provider upgrades a network device.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 2,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BEVERIDGE",
+			"SEYMOUR"
+		],
+		"postcodes": [
+			"3660",
+			"3753"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-23T22:01:45.774Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-10T12:00:00.000Z",
+		"scheduled_end": "2026-12-10T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned device upgrade by an upstream network provider",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-23T22:01:45.796Z",
+			"content": "We have been advised that an upstream network provider will carry out a device upgrade at the Bendigo (3BEN) nbn Point of Interconnect. The work is scheduled between 11:00 pm on Thursday 10 December 2026 and 6:00 am on Friday 11 December 2026 (Melbourne time). Some nbn services connected through this POI may be affected for up to 7 hours during this window. We will share any further information as it becomes available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
