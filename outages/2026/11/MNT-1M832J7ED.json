@@ -1,0 +1,56 @@
+{
+	"reference": "MNT-1M832J7ED",
+	"title": "Planned nbn network upgrade – Woodenbong, Ushers Hill and Bethanga",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in Woodenbong, Ushers Hill and Bethanga. The maintenance window runs from 1:00 am to 6:00 am AEDT on Wednesday 9 December 2026, with a service interruption of about 30 minutes starting at 1:00 am.\n\nThe purpose of this change is to improve the performance of cells by changing network settings. This work is part of a program of work nbn is undertaking to support extra capacity for the nbn network. As this upgrade work is being performed at the network level, customers may not experience an immediate increase in performance for their individual service.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 4,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BETHANGA",
+			"EBDEN",
+			"TALGARNO"
+		],
+		"postcodes": [
+			"3691"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-17T00:46:17.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-08T14:00:00.000Z",
+		"scheduled_end": "2026-12-08T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Scheduled nbn network upgrade to improve the performance of cells by changing network settings, as part of a program to support extra capacity.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-17T00:46:17.000Z",
+			"content": "Affects nbn services in Woodenbong, Ushers Hill and Bethanga. The maintenance window runs from 1:00 am to 6:00 am AEDT on Wednesday 9 December 2026, with a service interruption of about 30 minutes starting at 1:00 am.\n\nThe purpose of this change is to improve the performance of cells by changing network settings. This work is part of a program of work nbn is undertaking to support extra capacity for the nbn network. As this upgrade work is being performed at the network level, customers may not experience an immediate increase in performance for their individual service.\n\nnbn® is completing scheduled works on the nbn network in your area. This will cause your nbn service to lose connection. \nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
