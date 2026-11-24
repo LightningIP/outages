@@ -15,21 +15,6 @@
 		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
 	},
 	{
-		"reference": "MNT-1M6FNEXD7",
-		"title": "Planned nbn network upgrade – Airlie Beach, QLD",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "local",
-			"service_count": 2
-		},
-		"lifecycle": {
-			"start_date": "2026-11-23T14:00:00.000Z",
-			"end_date": "2026-11-23T20:05:30.991Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M6FNEXD7.json"
-	},
-	{
 		"reference": "MNT-1M6N58TX6",
 		"title": "Planned nbn network upgrade – Bundamba QLD",
 		"planned": true,
