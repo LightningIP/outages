@@ -33,7 +33,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-23T20:05:30.991Z",
 		"resolved_at": "2026-11-23T20:05:30.991Z",
-		"closed_at": null
+		"closed_at": "2026-11-24T21:01:25.325Z"
 	},
 	"cause": {
 		"reason": "Planned network upgrade to increase the number of fibre connections at a local connection point.",
