@@ -150,6 +150,21 @@
 		"record_path": "outages/2026/11/MNT-1M85W26GW.json"
 	},
 	{
+		"reference": "MNT-1M85WBTQX",
+		"title": "nbn network software update - Victoria and other areas",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 2
+		},
+		"lifecycle": {
+			"start_date": "2026-12-14T13:00:00.000Z",
+			"end_date": "2026-12-14T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M85WBTQX.json"
+	},
+	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
