@@ -270,6 +270,21 @@
 		"record_path": "outages/2026/10/MNT-1M639FY4F.json"
 	},
 	{
+		"reference": "MNT-1M85MDMEY",
+		"title": "Planned nbn network capacity upgrade – NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-12-10T13:00:00.000Z",
+			"end_date": "2026-12-10T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M85MDMEY.json"
+	},
+	{
 		"reference": "MNT-1M832J7ED",
 		"title": "Planned nbn network upgrade – Woodenbong, Ushers Hill and Bethanga",
 		"planned": true,
