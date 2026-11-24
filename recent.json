@@ -1,20 +1,5 @@
 [
 	{
-		"reference": "INC-1M80FWAYB",
-		"title": "nbn service disruption - Ashfield, NSW",
-		"planned": false,
-		"impact": {
-			"customer": true,
-			"impact_scope": "site",
-			"service_count": 1
-		},
-		"lifecycle": {
-			"start_date": "2026-11-22T01:42:33.000Z",
-			"end_date": "2026-11-22T02:28:37.000Z"
-		},
-		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
-	},
-	{
 		"reference": "MNT-1M6N58TX6",
 		"title": "Planned nbn network upgrade – Bundamba QLD",
 		"planned": true,
