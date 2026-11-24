@@ -34,7 +34,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-23T17:53:08.817Z",
 		"resolved_at": "2026-11-23T17:53:08.817Z",
-		"closed_at": null
+		"closed_at": "2026-11-24T19:01:26.731Z"
 	},
 	"cause": {
 		"reason": "Planned upgrade of nbn network equipment at the Point of Interconnect to support network growth.",
