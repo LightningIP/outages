@@ -195,21 +195,6 @@
 		"record_path": "outages/2026/11/INC-1M80FWAYB.json"
 	},
 	{
-		"reference": "MNT-1M835J3FY",
-		"title": "Emergency router restart – Sydney Metro nbn Enterprise Ethernet and vNNI services",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
-		},
-		"lifecycle": {
-			"start_date": "2026-11-23T13:00:00.000Z",
-			"end_date": "2026-11-23T14:00:00.000Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
-	},
-	{
 		"reference": "MNT-1M85735DS",
 		"title": "Planned maintenance: NBN services connected via the Bendigo (3BEN) POI",
 		"planned": true,
@@ -223,6 +208,21 @@
 			"end_date": "2026-12-10T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/11/MNT-1M85735DS.json"
+	},
+	{
+		"reference": "MNT-1M835J3FY",
+		"title": "Emergency router restart – Sydney Metro nbn Enterprise Ethernet and vNNI services",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "regional",
+			"service_count": 0
+		},
+		"lifecycle": {
+			"start_date": "2026-11-23T13:00:00.000Z",
+			"end_date": "2026-11-23T14:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M835J3FY.json"
 	},
 	{
 		"reference": "MNT-1M4Q1K03G",
