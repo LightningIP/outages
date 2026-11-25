@@ -180,6 +180,21 @@
 		"record_path": "outages/2026/11/MNT-1M880BM1V.json"
 	},
 	{
+		"reference": "MNT-1M888WQXF",
+		"title": "Planned nbn network upgrade - Young West, Cowra",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 7
+		},
+		"lifecycle": {
+			"start_date": "2026-12-16T13:00:00.000Z",
+			"end_date": "2026-12-16T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M888WQXF.json"
+	},
+	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
