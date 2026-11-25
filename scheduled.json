@@ -165,6 +165,21 @@
 		"record_path": "outages/2026/11/MNT-1M85WBTQX.json"
 	},
 	{
+		"reference": "MNT-1M880BM1V",
+		"title": "West Wodonga VIC – Planned nbn network hardware replacement",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-12-15T22:00:00.000Z",
+			"end_date": "2026-12-16T06:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M880BM1V.json"
+	},
+	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
