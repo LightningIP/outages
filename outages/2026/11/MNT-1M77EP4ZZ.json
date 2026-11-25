@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Planned network migration and optimisation work by a network provider affecting the Blacktown (NSW) nbn Point of Interconnect began at 12:00am AEDT on Thursday 26 November 2026. The work is scheduled to run until 3:00am AEDT. nbn services connected through this location may be affected for up to 3 hours during this window.",
+	"status": "resolved",
+	"current_summary": "The planned maintenance affecting the Blacktown (NSW) nbn Point of Interconnect has been completed. The work ran from 12:00am to 3:00am AEDT on Thursday 26 November 2026. nbn services connected through this location may have been affected for up to 3 hours during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -22,8 +22,8 @@
 		"scheduled_start": "2026-11-25T13:00:00.000Z",
 		"scheduled_end": "2026-11-25T16:00:00.000Z",
 		"estimated_restoration_at": null,
-		"actual_restoration_at": null,
-		"resolved_at": null,
+		"actual_restoration_at": "2026-11-25T16:00:00.000Z",
+		"resolved_at": "2026-11-25T16:00:00.000Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -45,6 +45,13 @@
 		{
 			"update_time": "2026-11-25T13:00:02.852Z",
 			"content": "The planned maintenance affecting the Blacktown (NSW) nbn Point of Interconnect has started, as of 12:00am AEDT on Thursday 26 November 2026. The work is scheduled to finish by 3:00am AEDT, and nbn services connected through this location may be affected for up to 3 hours during that window. We will share a further update when the work is complete.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-25T16:00:00.000Z",
+			"content": "The planned maintenance affecting the Blacktown (NSW) nbn Point of Interconnect was completed at 3:00am AEDT on Thursday 26 November 2026. nbn services connected through this location may have been affected for up to 3 hours during the work window. No further action is required.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
