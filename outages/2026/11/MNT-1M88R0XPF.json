@@ -1,0 +1,46 @@
+{
+	"reference": "MNT-1M88R0XPF",
+	"title": "Planned maintenance: nbn services connected via Rockdale (NSW) POI",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled for the nbn Point of Interconnect (POI) in Rockdale, NSW, from 11:00 PM on Sunday 13 December to 7:00 AM on Monday 14 December 2026 (Sydney time). Some nbn services connected through this POI may be affected for up to 8 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "regional",
+		"service_count": 0,
+		"service_types": null,
+		"states": null,
+		"suburbs": null,
+		"postcodes": null
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-25T05:47:20.477Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-13T12:00:00.000Z",
+		"scheduled_end": "2026-12-13T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Temporary cable relocation by a network provider due to the ongoing M16 Tunnel development project.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-25T05:47:20.505Z",
+			"content": "We have been advised of planned maintenance at the nbn Point of Interconnect (POI) in Rockdale, NSW. A network provider will be temporarily relocating cabling because of the ongoing M16 Tunnel development project.\n\nThe work is scheduled between 11:00 PM on Sunday 13 December and 7:00 AM on Monday 14 December 2026 (Sydney time). nbn services connected through this POI may be affected for up to 8 hours during this window.\n\nWe will share any further information as it becomes available.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
