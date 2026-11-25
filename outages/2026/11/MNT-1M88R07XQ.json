@@ -1,0 +1,66 @@
+{
+	"reference": "MNT-1M88R07XQ",
+	"title": "Planned maintenance: nbn services in parts of Victoria (Nunawading, Lilydale, Horsham, Shepparton, Bendigo, Ringwood, Geelong, North Balwyn)",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Planned maintenance is scheduled for Sunday 13 December 2026, from 11:00 PM to 7:00 AM AEDT (Monday 14 December). An upstream provider will carry out a permanent cable repair. This may affect nbn services connected through the Nunawading, Lilydale, Horsham, Shepparton, Bendigo, Ringwood, Geelong and North Balwyn areas of Victoria. Services may be interrupted for up to 8 hours during this window.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "state",
+		"service_count": 7,
+		"service_types": [
+			"NBN - FTTP",
+			"NBN - Fixed Wireless",
+			"NBN - HFC"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"BAYSWATER",
+			"BEVERIDGE",
+			"KILSYTH",
+			"SEYMOUR",
+			"SHEPPARTON",
+			"STRATHMERTON"
+		],
+		"postcodes": [
+			"3137",
+			"3153",
+			"3630",
+			"3641",
+			"3660",
+			"3753"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-25T05:57:38.918Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-13T12:00:00.000Z",
+		"scheduled_end": "2026-12-13T20:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Permanent cable repair carried out by an upstream network provider",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-25T05:57:38.935Z",
+			"content": "We have been advised that an upstream provider will carry out a permanent cable repair on Sunday 13 December 2026. The maintenance window runs from 11:00 PM on Sunday 13 December to 7:00 AM on Monday 14 December (AEDT). This work may affect nbn services connected through the Nunawading, Lilydale, Horsham, Shepparton, Bendigo, Ringwood, Geelong and North Balwyn areas in Victoria. Customers in these areas may experience an interruption of up to 8 hours during the window. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
