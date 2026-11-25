@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M88GXT7F",
+	"title": "Planned nbn maintenance – West Belford and Rothbury, NSW",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in West Belford and Rothbury, NSW. The maintenance window runs from 9:00 am to 5:00 pm AEDT on Thursday 17 December 2026, and the service is expected to lose connection during this time.\n\nTechnicians will be attending the site to replace a faulty dish or antenna. Works will be performed during daylight hours to protect the safety of technicians climbing and working at height with heavy network equipment.\n\nnbn® is replacing nbn network hardware in your area. This will cause your nbn service to lose connection. \nThis work may be carried out during daylight hours due to local noise limits and safety requirements.\nUsing mobile data can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"LOVEDALE"
+		],
+		"postcodes": [
+			"2325"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-24T07:23:11.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-16T22:00:00.000Z",
+		"scheduled_end": "2026-12-17T06:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned replacement of nbn network hardware in the area.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-24T07:23:11.000Z",
+			"content": "Affects nbn services in West Belford and Rothbury, NSW. The maintenance window runs from 9:00 am to 5:00 pm AEDT on Thursday 17 December 2026, and the service is expected to lose connection during this time.\n\nTechnicians will be attending the site to replace a faulty dish or antenna. Works will be performed during daylight hours to protect the safety of technicians climbing and working at height with heavy network equipment.\n\nnbn® is replacing nbn network hardware in your area. This will cause your nbn service to lose connection. \nThis work may be carried out during daylight hours due to local noise limits and safety requirements.\nUsing mobile data can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
