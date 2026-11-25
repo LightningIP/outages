@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M880BM1V",
+	"title": "West Wodonga VIC – Planned nbn network hardware replacement",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects nbn services in West Wodonga VIC. The maintenance window is 9:00am to 5:00pm AEDT on Wednesday 16 December 2026, with an expected service interruption of about 3 hours from 9:00am AEDT.\n\nDuring proactive investigations, nbn has identified a network hardware issue which has the potential to cause future unplanned outages. During this planned outage, nbn is proactively replacing network elements. This activity will ensure a stable and reliable service for customers on the nbn network. For safety reasons, this work will need to be performed during daylight hours.\n\nnbn® is replacing nbn network hardware in your area. This will cause your nbn service to lose connection.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements.\n\nUsing mobile data can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"VIC"
+		],
+		"suburbs": [
+			"WEST WODONGA"
+		],
+		"postcodes": [
+			"3690"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-24T23:59:56.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-12-15T22:00:00.000Z",
+		"scheduled_end": "2026-12-16T06:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Planned replacement of nbn network hardware to prevent future unplanned outages.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-24T23:59:56.000Z",
+			"content": "Affects nbn services in West Wodonga VIC. The maintenance window is 9:00am to 5:00pm AEDT on Wednesday 16 December 2026, with an expected service interruption of about 3 hours from 9:00am AEDT.\n\nDuring proactive investigations, nbn has identified a network hardware issue which has the potential to cause future unplanned outages. During this planned outage, nbn is proactively replacing network elements. This activity will ensure a stable and reliable service for customers on the nbn network. For safety reasons, this work will need to be performed during daylight hours.\n\nnbn® is replacing nbn network hardware in your area. This will cause your nbn service to lose connection.\n\nThis work may be carried out during daylight hours due to local noise limits and safety requirements.\n\nUsing mobile data can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
