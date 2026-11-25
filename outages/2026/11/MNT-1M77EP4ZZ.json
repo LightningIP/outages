@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "scheduled",
-	"current_summary": "A network provider will carry out planned network migration and optimisation work affecting the Blacktown (NSW) nbn Point of Interconnect. The work is scheduled between 12:00am and 3:00am AEDT on Thursday 26 November 2026. nbn services connected through this location may be affected for up to 3 hours during that window.",
+	"status": "work_underway",
+	"current_summary": "Planned network migration and optimisation work by a network provider affecting the Blacktown (NSW) nbn Point of Interconnect began at 12:00am AEDT on Thursday 26 November 2026. The work is scheduled to run until 3:00am AEDT. nbn services connected through this location may be affected for up to 3 hours during this window.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -38,6 +38,13 @@
 		{
 			"update_time": "2026-11-12T07:34:12.832Z",
 			"content": "We have been advised of planned maintenance by a network provider. They will be carrying out network migration and optimisation work affecting the nbn Point of Interconnect in Blacktown, NSW. The work is scheduled between 12:00am and 3:00am AEDT on Thursday 26 November 2026. During this window, nbn services connected through this location may be affected for up to 3 hours. We will share any further updates as we receive them.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
+		{
+			"update_time": "2026-11-25T13:00:02.852Z",
+			"content": "The planned maintenance affecting the Blacktown (NSW) nbn Point of Interconnect has started, as of 12:00am AEDT on Thursday 26 November 2026. The work is scheduled to finish by 3:00am AEDT, and nbn services connected through this location may be affected for up to 3 hours during that window. We will share a further update when the work is complete.",
 			"material_change": true,
 			"author": null,
 			"source": "vendor"
