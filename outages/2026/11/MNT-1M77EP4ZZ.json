@@ -24,7 +24,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": "2026-11-25T16:00:00.000Z",
 		"resolved_at": "2026-11-25T16:00:00.000Z",
-		"closed_at": null
+		"closed_at": "2026-11-26T17:01:25.868Z"
 	},
 	"cause": {
 		"reason": "Planned network migration and optimisation work by a network provider.",
