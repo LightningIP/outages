@@ -1,17 +1,17 @@
 [
 	{
-		"reference": "MNT-1M77EP4ZZ",
-		"title": "Planned maintenance: nbn services connected via the Blacktown (NSW) POI",
+		"reference": "MNT-1M71YAVBQ",
+		"title": "Planned nbn network capacity upgrade – NSW",
 		"planned": true,
 		"impact": {
 			"customer": true,
-			"impact_scope": "regional",
-			"service_count": 0
+			"impact_scope": null,
+			"service_count": 28
 		},
 		"lifecycle": {
-			"start_date": "2026-11-25T13:00:00.000Z",
-			"end_date": "2026-11-25T16:00:00.000Z"
+			"start_date": "2026-11-26T13:00:00.000Z",
+			"end_date": "2026-11-26T19:00:00.000Z"
 		},
-		"record_path": "outages/2026/11/MNT-1M77EP4ZZ.json"
+		"record_path": "outages/2026/11/MNT-1M71YAVBQ.json"
 	}
 ]
