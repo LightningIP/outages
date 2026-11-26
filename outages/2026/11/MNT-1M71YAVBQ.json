@@ -4,8 +4,8 @@
 	"type": "maintenance",
 	"planned": true,
 	"category": "internet",
-	"status": "work_underway",
-	"current_summary": "Affects some nbn Fixed Wireless services in NSW and VIC. The maintenance window is 12:00 am to 6:00 am on Friday 27 November 2026 (AEDT), with two interruptions of about 10 minutes each, starting around 12:30 am and 1:30 am.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
+	"status": "resolved",
+	"current_summary": "Affects some nbn Fixed Wireless services in NSW and VIC. The maintenance window was 12:00 am to 6:00 am on Friday 27 November 2026 (AEDT), and the works were completed at about 4:52 am.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
 	"impact": {
 		"customer": true,
 		"operational_impact": false,
@@ -44,7 +44,7 @@
 		"scheduled_end": "2026-11-26T19:00:00.000Z",
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
-		"resolved_at": null,
+		"resolved_at": "2026-11-26T17:52:44.246Z",
 		"closed_at": null
 	},
 	"cause": {
@@ -56,6 +56,13 @@
 		"power_related": null
 	},
 	"updates": [
+		{
+			"update_time": "2026-11-26T17:52:44.246Z",
+			"content": "The planned maintenance has been completed, at about 4:52 am (AEDT) on Friday 27 November 2026, ahead of the 6:00 am scheduled end. No further interruptions are expected from this work.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		},
 		{
 			"update_time": "2026-11-10T05:19:15.627Z",
 			"content": "Affects some nbn services in NSW. The maintenance window is 12:00 am to 6:00 am on Friday 27 November 2026 (AEDT), with two short interruptions of about 10 minutes each, starting around 12:30 am and 1:30 am.\n\nThis deployment is part of a program to improve Fixed Wireless performance. It supports the shift from Long Term Evolution (LTE) to 5G to enable faster speed tiers as demand grows and boosts network resilience with better failover paths, helping reduce outages and avoid capacity issues.\n\nnbn® is completing works to improve the nbn network capacity in your area. This will cause your nbn service to lose connection.\nUsing mobile data where available can help you stay connected while your service is offline. Minimise disruption to your routine by downloading required files and switching to offline work modes.",
