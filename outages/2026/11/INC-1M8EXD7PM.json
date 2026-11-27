@@ -1,0 +1,54 @@
+{
+	"reference": "INC-1M8EXD7PM",
+	"title": "nbn service issue - Forest Reefs, NSW",
+	"type": "incident",
+	"planned": false,
+	"category": "internet",
+	"status": "investigating",
+	"current_summary": "The issue affects an internet service in Forest Reefs, NSW, and was reported at around 3:06 am AEDT on 28 November 2026. No restoration estimate has been provided yet.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "site",
+		"service_count": 1,
+		"service_types": [
+			"NBN - Fixed Wireless"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"SPRINGSIDE"
+		],
+		"postcodes": [
+			"2800"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-27T16:06:08.000Z",
+		"detected_at": null,
+		"scheduled_start": null,
+		"scheduled_end": null,
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": null,
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-27T16:28:36.225Z",
+			"content": "The issue affects an internet service in Forest Reefs, NSW, and was reported at around 3:06 am AEDT on 28 November 2026. No restoration estimate has been provided yet.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
