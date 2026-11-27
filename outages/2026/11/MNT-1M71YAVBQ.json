@@ -45,7 +45,7 @@
 		"estimated_restoration_at": null,
 		"actual_restoration_at": null,
 		"resolved_at": "2026-11-26T17:52:44.246Z",
-		"closed_at": null
+		"closed_at": "2026-11-27T19:01:14.187Z"
 	},
 	"cause": {
 		"reason": "Planned network upgrade to improve network capacity.",
