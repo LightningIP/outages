@@ -480,6 +480,21 @@
 		"record_path": "outages/2026/11/MNT-1M77EP4ZZ.json"
 	},
 	{
+		"reference": "INC-1M8EXD7PM",
+		"title": "nbn service issue - Forest Reefs, NSW",
+		"planned": false,
+		"impact": {
+			"customer": true,
+			"impact_scope": "site",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-27T16:06:08.000Z",
+			"end_date": null
+		},
+		"record_path": "outages/2026/11/INC-1M8EXD7PM.json"
+	},
+	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
