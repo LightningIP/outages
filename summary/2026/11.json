@@ -495,6 +495,21 @@
 		"record_path": "outages/2026/11/INC-1M8EXD7PM.json"
 	},
 	{
+		"reference": "MNT-1M71YAVBQ",
+		"title": "Planned nbn network capacity upgrade – NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 28
+		},
+		"lifecycle": {
+			"start_date": "2026-11-26T13:00:00.000Z",
+			"end_date": "2026-11-26T17:52:44.246Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M71YAVBQ.json"
+	},
+	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
@@ -658,21 +673,6 @@
 			"end_date": "2026-11-13T08:23:54.000Z"
 		},
 		"record_path": "outages/2026/11/INC-1M79Y4RD2.json"
-	},
-	{
-		"reference": "MNT-1M71YAVBQ",
-		"title": "Planned nbn network capacity upgrade – NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 28
-		},
-		"lifecycle": {
-			"start_date": "2026-11-26T13:00:00.000Z",
-			"end_date": "2026-11-26T17:52:44.246Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M71YAVBQ.json"
 	},
 	{
 		"reference": "MNT-1M44SAN5J",
