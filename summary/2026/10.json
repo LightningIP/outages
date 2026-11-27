@@ -480,6 +480,21 @@
 		"record_path": "outages/2026/10/MNT-1M44EBFSF.json"
 	},
 	{
+		"reference": "MNT-1M71YAVBQ",
+		"title": "Planned nbn network capacity upgrade – NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": null,
+			"service_count": 28
+		},
+		"lifecycle": {
+			"start_date": "2026-11-26T13:00:00.000Z",
+			"end_date": "2026-11-26T17:52:44.246Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M71YAVBQ.json"
+	},
+	{
 		"reference": "INC-1M4Q2BJNF",
 		"title": "Network congestion in Melbourne due to a lost network link",
 		"planned": false,
@@ -583,21 +598,6 @@
 			"end_date": "2026-10-22T19:00:00.000Z"
 		},
 		"record_path": "outages/2026/10/MNT-1M4ENP4BS.json"
-	},
-	{
-		"reference": "MNT-1M71YAVBQ",
-		"title": "Planned nbn network capacity upgrade – NSW",
-		"planned": true,
-		"impact": {
-			"customer": true,
-			"impact_scope": null,
-			"service_count": 28
-		},
-		"lifecycle": {
-			"start_date": "2026-11-26T13:00:00.000Z",
-			"end_date": "2026-11-26T17:52:44.246Z"
-		},
-		"record_path": "outages/2026/11/MNT-1M71YAVBQ.json"
 	},
 	{
 		"reference": "MNT-1M44SAN5J",
