@@ -1,0 +1,54 @@
+{
+	"reference": "MNT-1M8HMSM31",
+	"title": "Emergency network maintenance - Campbelltown NSW",
+	"type": "maintenance",
+	"planned": true,
+	"category": "internet",
+	"status": "scheduled",
+	"current_summary": "Affects an internet service in the Campbelltown NSW area. Emergency work is scheduled from 12:00 am to 6:00 am AEDT on Monday 30 November 2026, with connectivity expected to be lost for the full window.\n\nnbn is responding to an unexpected issue in your area that requires urgent work on the nbn network. This work may cause a temporary outage to your nbn service. While nbn is working to resolve the issue and restore your connection, use mobile data if you have it available to help you stay connected during this time.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+	"impact": {
+		"customer": true,
+		"operational_impact": false,
+		"impact_scope": "local",
+		"service_count": 1,
+		"service_types": [
+			"NBN - FTTP"
+		],
+		"states": [
+			"NSW"
+		],
+		"suburbs": [
+			"BUNDANOON"
+		],
+		"postcodes": [
+			"2578"
+		]
+	},
+	"lifecycle": {
+		"opened_at": "2026-11-28T17:47:43.000Z",
+		"detected_at": null,
+		"scheduled_start": "2026-11-29T13:00:00.000Z",
+		"scheduled_end": "2026-11-29T19:00:00.000Z",
+		"estimated_restoration_at": null,
+		"actual_restoration_at": null,
+		"resolved_at": null,
+		"closed_at": null
+	},
+	"cause": {
+		"reason": "Emergency work to remediate an issue on the broadband access network.",
+		"detailed": null,
+		"root": null,
+		"weather_related": null,
+		"third_party_damage": null,
+		"power_related": null
+	},
+	"updates": [
+		{
+			"update_time": "2026-11-28T17:47:43.000Z",
+			"content": "Affects an internet service in the Campbelltown NSW area. Emergency work is scheduled from 12:00 am to 6:00 am AEDT on Monday 30 November 2026, with connectivity expected to be lost for the full window.\n\nnbn is responding to an unexpected issue in your area that requires urgent work on the nbn network. This work may cause a temporary outage to your nbn service. While nbn is working to resolve the issue and restore your connection, use mobile data if you have it available to help you stay connected during this time.\n\nnbn® is working hard to resolve a network issue in your area. This emergency work will cause a temporary loss of connectivity to your nbn service.\nUsing mobile data where available can help you stay connected if needed. Check the nbn Network Outages website periodically for the latest updates.",
+			"material_change": true,
+			"author": null,
+			"source": "vendor"
+		}
+	]
+}
