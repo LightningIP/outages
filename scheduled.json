@@ -225,6 +225,21 @@
 		"record_path": "outages/2026/11/MNT-1M88R0XPF.json"
 	},
 	{
+		"reference": "MNT-1M8HMSM31",
+		"title": "Emergency network maintenance - Campbelltown NSW",
+		"planned": true,
+		"impact": {
+			"customer": true,
+			"impact_scope": "local",
+			"service_count": 1
+		},
+		"lifecycle": {
+			"start_date": "2026-11-29T13:00:00.000Z",
+			"end_date": "2026-11-29T19:00:00.000Z"
+		},
+		"record_path": "outages/2026/11/MNT-1M8HMSM31.json"
+	},
+	{
 		"reference": "MNT-1M71PCTKG",
 		"title": "Planned fibre works affecting a network link in Adelaide",
 		"planned": true,
